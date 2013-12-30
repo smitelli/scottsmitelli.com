@@ -1,0 +1,13 @@
+Greetings! My name is Scott, I reside in New York City, and I do a little bit of everything. I'm a web developer professionally, and a sound mixer/editor in my spare time. I also have a wide range of other hobbies -- from [writing]({$cfg->baseUrl}/articles) to [time-lapse]({$cfg->baseUrl}/time-lapse-photography) and [still photography](http://gallery.scottsmitelli.com/) to [drawing a webcomic](http://www.triggerandfreewheel.com/).
+
+My [r&eacute;sum&eacute;]({$cfg->baseUrl}/resume) is available online for your perusal, as well as a [list of credits]({$cfg->baseUrl}/credits) detailing the various film productions I have been involved in. The [projects]({$cfg->baseUrl}/projects) page has a lot of fun stuff on it as well.
+
+# Take a look around!
+
+* [Projects]({$cfg->baseUrl}/projects)
+* [Articles]({$cfg->baseUrl}/articles)
+* [Still Photography](http://gallery.scottsmitelli.com/)
+* [Time-Lapse Photography]({$cfg->baseUrl}/time-lapse-photography)
+* [R&eacute;sum&eacute;]({$cfg->baseUrl}/resume)
+* [Credits List]({$cfg->baseUrl}/credits)
+* [Contact]({$cfg->baseUrl}/contact)

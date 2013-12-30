@@ -1,0 +1,32 @@
+{
+  "docroute": {
+    "template": "projects/docroute.md",
+    "inMenu": true,
+    "title": "Docroute",
+    "summary": "A dynamic CMS for mostly-static content. This entire site is powered by Docroute."
+  },
+  "sort-of-face": {
+    "template": "projects/sort-of-face.md",
+    "inMenu": true,
+    "title": "The Sort of Face",
+    "summary": "Inspired by the wildly popular automated(?) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish."
+  },
+  "myautodump": {
+    "template": "projects/myautodump.md",
+    "inMenu": true,
+    "title": "MyAutoDump",
+    "summary": "A wrapper script for <code>mysqldump</code>. MyAutoDump discovers all the databases on a given MySQL server, dumps each one in a gzipped file, and sends status messages to the syslog."
+  },
+  "twanslationparty": {
+    "template": "projects/twanslationparty.tplmd",
+    "inMenu": true,
+    "title": "twanslationparty",
+    "summary": "Working in conjunction with <a href=\"/projects/twitstash\">twitstash</a>, twanslationparty corrupts the English in tweets and reposts each one to another Twitter account."
+  },
+  "twitstash": {
+    "template": "projects/twitstash.md",
+    "inMenu": true,
+    "title": "twitstash",
+    "summary": "twitstash is a cron script that downloads a Twitter user's timeline and stores new tweets in a MySQL table. It can be used for archival purposes, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots."
+  }
+}

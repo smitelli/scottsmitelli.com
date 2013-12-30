@@ -1,0 +1,342 @@
+<style type="text/css">
+.pass { background: #afa; }
+.fail { background: #faa; }
+</style>
+
+**Update 4/21/2010:** The YouTube account I used to upload my test videos, `retnirpregnif`, was removed due to a "terms of use violation" in late January or early February of 2010. YouTube never sent me any kind of notice or alert explaining their rationale for the termination of my account, so all I can do is guess. But I'm fairly certain that an actual human pulled the account, not an automated system. The remainder of this article remains unaltered from its original April 2009 state. Most of the techniques described here are antiquated and no longer work. I don't have any new information about which techniques may work today.
+
+---
+
+Anybody who hasn't been living under a rock knows about [YouTube](http://www.youtube.com/). It's a video site built entirely around user-submitted content. Anybody can film anything, upload it to the site, and anybody on the Internet can watch it if they so choose. Sounds great in theory, but over time it's succumbed to a very basic problem: The users can't be trusted.
+
+Copyrighted material -- TV shows, music videos, concerts, even entire feature films -- have popped up on YouTube in huge quantities. Obviously, the copyright owners and content providers don't like this, especially when such free distribution cuts into their bottom line. Back in the day, a copyright holder would have to stumble across an infringing video, contact YouTube, and ask them to take it down manually. It doesn't take a genius to realize that the content providers couldn't keep that up forever, especially as more and more new users kept pouring in.
+
+## Enter Fingerprinting
+
+YouTube narrowly avoided legal trouble by promising the big media companies that they'd [develop a system](http://googleblog.blogspot.com/2007/06/state-of-our-video-id-tools.html) that could detect and automatically remove any copyrighted material that was uploaded to the site. But in reality, they didn't actually develop the audio fingerprinting system; [they licensed it](http://www.revenews.com/search-engine-marketing/goog-to-outsource-youtube-filtering-to-audiblemagic/) from a company called [Audible Magic](http://www.audiblemagic.com/).
+
+Audible Magic originally wrote software for CD duplication companies. When you handed a master disc off to a duplication house, they'd check it with an Audible Magic system first. The goal was to positively identify every song on the disc, as well as the copyright/licensing status, *before* the company ran off 10,000 copies of your potentially pirated disc.
+
+YouTube jumped at this technology and worked to integrate it into their site. It scanned over all the uploads and generated a "fingerprint" for each video. It would then compare each fingerprint to a database containing practically every copyrighted work that the media companies wanted to keep off the site. If any videos matched, it was assumed that the user has posted copyrighted material without permission and the infringing video was removed.
+
+Some labels got the right idea, though. Instead of demanding that any infringing content be taken down, some chose to [promote their material](http://googleblog.blogspot.com/2008/08/making-money-on-youtube-with-content-id.html) or insert links to pay music sites where you could purchase the songs that were being played. That was an amazing idea: It permitted the users to basically do whatever they wanted copyright-wise, while still driving traffic and potential sales to legitimate music retailers.
+
+## Heating Up
+
+That worked well enough for a time, but the media companies weren't satiated yet. A slew of legal threats, negotiations, and all-around chicanery ensued. After all, YouTube was making money by running ads alongside videos which often contained material from these companies, and they all wanted a piece.
+
+Unfortunately, nothing seemed to please Warner Music Group, who [left the talks](http://www.theregister.co.uk/2008/12/22/warner_music_removes_youtube_videos/) without reaching an agreement. They then demanded that YouTube <del>[remove every single piece of WMG-owned media on the site](http://www.youtube.com/blog?entry=Gg-mX2mof8c)</del>. Videos disappeared all over the place.
+
+## This Is Where I Came In
+
+I don't consider myself to be much more than a casual YouTube user. I'll upload maybe one or two things a year, but nothing amazing or anything I put any real effort into.
+
+For example, one of my videos depicts three members of my high school's marching band dressed in pajamas at an overly girly sleepover. The song used in the background was "I Know What Boys Like" by The Waitresses. I thought it was hilarious when I was 17, but I had all but forgotten about it five years later.
+
+I was caught by surprise one day when I received an automated email from YouTube informing me that my video had a music rights issue and it was removed from the site. I didn't really care.
+
+Then a car commercial parody I made (arguably one of my better videos) was taken down because I used an unlicensed song. That pissed me off. I couldn't easily go back and re-edit the video to remove the song, as the source media had long since been archived in a shoebox somewhere. And I couldn't simply re-upload the video, as it got identified and taken down every time. I needed to find a way to outsmart the fingerprinter. I was angry and I had a lot of free time. Not a good combination.
+
+I racked my brain trying to think of every possible audio manipulation that might get by the fingerprinter. I came up with an almost-scientific method for testing each modification, and I got to work.
+
+## Methodology
+
+The song chosen for all the tests is "I Know What Boys Like," a 1982 song by the one-hit wonder group The Waitresses. This song was chosen for several reasons:
+
+* It was the first song I ever saw that was identified and removed by YouTube's fingerprinting system.
+* It has a very distinctive sound that I thought would be easily identifiable. It's also really repetitive, which probably makes it an easy target for an automated system to detect.
+* It's one of the few songs I actually have readily available in an uncompressed format. The majority of my music collection is stored with lossy data compression, which might have impacted the results.
+* In general, it's just a terrible song. I wanted to highlight the fact that somewhere out there, somebody thinks this 27-year-old heap is still valuable enough to be barred from YouTube.
+
+The song originally came from a 1990 CD pressing of "The Best of the Waitresses," which I came across during my freshman year of college. I was so surprised to see a copy of this album, I begged the owner to allow me to make a copy for posterity (and also for hilarity). I used Nero Burning ROM to make a bit-perfect copy of the full album onto a CD-R. I then listened to my copy, laughed at the majority of it, then stored it in a CD binder.
+
+Fast-forward to the present day, when I decided to run these tests. I ripped my copy of the album with Exact Audio Copy in "secure" mode. The result was a 16-bit stereo, 44,100 Hz PCM wave file. This was used as the master file for all the tests.
+
+For each test, a duplicate copy of the master file was manipulated. Practically every change to the audio was made in Adobe Audition 3 on Windows. The modified duplicates were saved as 44,100/16 stereo waves and moved over to a Mac.
+
+Each file was loaded into an empty Final Cut Pro sequence. The video settings, although theoretically irrelevant, were always set to 24 FPS, progressive, NTSC 720&times;480 @ 4:3, with 44.1/16 stereo downmix audio. The audio files were matched with a default Text generator which described the test being performed. The resulting video files were saved in DV NTSC QuickTime format.
+
+From there, the files were moved into Apple Compressor where they were batch converted into a format YouTube would accept. I chose the "H.264 for iPod video and iPhone 320&times;240 (QVGA)" setting, which encodes reasonably fast with excellent quality. The final output files were M4V containers with H.264 video and AAC stereo audio.
+
+Finally, the video files were uploaded to my YouTube test account. I chose the name <del>[retnirpregnif](http://www.youtube.com/retnirpregnif)</del>, which is the word "fingerprinter" backwards. The title of each uploaded video was always set to a description of that particular test. In all but one test, the description was set to 'The song is "I Know What Boys Like" by The Waitresses.' I chose that description to see if the presence or absence of a copyrighted song name in any of the metadata fields influenced the detection. The tags, category, and any other fields were left blank, and possibly auto-filled by the uploader.
+
+I considered a test passed if the status line on my account's "Uploaded Videos" page read "Live!" and the thumbnail had been generated. (Also, if the video actually played, that's a big plus.) If a video had a status of "Matched third party content" or I received an email about a particular video, I considered that test failed.
+
+**Please note** that these tests are only meant to test the **AUDIO** aspect of YouTube's fingerprinting system. They probably have a similar feature in place to scan for content in the image data, but I make no effort to test that in this document. The video fingerprinter might be susceptible to tweaks like those I describe below, or it might be an entirely different can of worms. I'll leave it to somebody else to figure that one out.
+
+## The Tests
+
+### No Description
+
+For the first test, I uploaded a completely unmodified copy of the entire song, but with a description field that read "No Description." The purpose of this test was to determine if YouTube could still identify the material if none of the user-submitted metadata gave any indication that it was there.
+
+### Reverse
+
+The entire song was reversed. The purpose of this test was to determine how discriminating the fingerprinter was. If the test passed, it would reveal the systems inability to identify a song which is playing backwards.
+
+### Pitch Alteration
+
+<img class="floatLeft" src="{$cfg->uploadUrl}/2009/fingerprint-pitch.gif" alt="Pitch Alteration">The entire song was modified with Audition's "Stretch" plugin. In all tests, the Precision was set to High, Constant Vowels was off, Preserve speech Characteristics was on, Formant Shift was 0, and Solo Instrument or Voice was on. (Admittedly, it should've been off, but that would've taken friggin' forever to process.)
+
+For these tests, the Stretching Mode was Pitch Shift. The Ratio was changed from test to test to create varying amounts of pitch change.
+
+These tests created an output file with exactly the same length and speed as the source, but with the pitch increased or decreased. These tests were designed to determine if the fingerprinter looks at the "notes" the song is made of.
+
+### Time Alteration
+
+<img class="floatLeft" src="{$cfg->uploadUrl}/2009/fingerprint-time.gif" alt="Time Alteration">The entire song was modified with Audition's "Stretch" plugin. In all tests, the Precision was set to High, Constant Vowels was off, Preserve speech Characteristics was on, Formant Shift was 0, and Solo Instrument or Voice was on.
+
+For these tests, the Stretching Mode was Time Stretch. The Ratio was changed from test to test to create varying amounts of tempo change.
+
+These tests created an output file with exactly the same notes as the source, but with the speed (tempo) increased or decreased. These tests were designed to determine if the fingerprinter looks at the "beats" and rhythm of the song.
+
+### Resampling
+
+<img class="floatLeft" src="{$cfg->uploadUrl}/2009/fingerprint-resample.gif" alt="Resampling">The entire song was modified with Audition's "Stretch" plugin. In all tests, the Precision was set to High, and Constant Vowels was off.
+
+For these tests, the Stretching Mode was Resample. The Ratio was changed from test to test to create varying amounts of tempo change.
+
+These tests created an output file with both altered pitch and altered speed relative to the original. Quite simply, the song was played back at a faster or slower rate than the original -- similar to a tape being played at the wrong speed. And now I suddenly feel old.
+
+### Noise
+
+The entire song was mixed with varying levels of background noise. In the first round of tests, the song was mixed with varying levels of pure white noise created with Audition's Noise generator <small>(Color=White, Style=Independent Channels, Intensity=40)</small>.
+
+For the second round of tests, the entire song was played on a set of M-Audio BX5a studio monitor speakers (chosen because of their flat frequency response &ge;100 Hz, and because they were the only ones I really had available), and recorded into a Canon ZR200 camcorder onto a MiniDV tape. The tape was captured into Final Cut Pro, the resulting 48,000 Hz 16-bit audio was split off to a wave file, and then it was converted back into 44,100 Hz in Audition. The camera was placed at different distances and different angles relative to the stereo field's central axis. No effort was made to keep the room quiet during the trials, and as a result things like heaters, refrigerators, TV flyback transformers, and running water can be heard throughout.
+
+### Amplification/Attenuation/DC Bias
+
+<img class="floatLeft" src="{$cfg->uploadUrl}/2009/fingerprint-amplification.gif" alt="Amplification/Attenuation/DC Bias">The entire song had its volume adjusted by varying amounts from test to test. For amplification tests, the song was allowed to clip hard at 0 dB, creating a great deal of distortion on the louder trials.
+
+In later tests, the amplification was unchanged, but a positive DC bias was added to the signal, resulting in a great deal of distortion and the type of audio I'm afraid to play on good speakers.
+
+These tests were designed to see if there was any absolute volume below which the fingerprinter couldn't detect the song. Likewise, it tested to see if any amount of digital clipping and distortion could disrupt the detection process.
+
+### Time Chunks
+
+<img class="floatLeft" src="{$cfg->uploadUrl}/2009/fingerprint-chunks.gif" alt="Time Chunks">The song was trimmed to (n * 3) seconds long, where n is a value that changes from test to test. The kept segment of audio comes from near (but not exactly) the center of the song. From 0 seconds to n seconds, the audio is muted. Likewise, from (n * 2) seconds to the end of the song, the audio is also muted. The resulting n seconds at the center of the song are allowed to play. If the song is shorter than (n * 3) seconds, the muted sections are shortened so the entire output file is the same length as the source.
+
+In later tests, the muted and unmuted portions were aligned to the head and tail ends of the song, for reasons that will be explained later.
+
+The goal of these tests was to determine how much of the song needed to be present to trigger a positive detection, and if the position of that section had any effect on the detection.
+
+### Stereo Imagery
+
+<img class="floatLeft" src="{$cfg->uploadUrl}/2009/fingerprint-stereo.gif" alt="Stereo Imagery">The entire song was subjected to a series of filters that modify the audio based on the similarities and differences between the two audio channels.
+
+For two of the tests, the vocals were removed or isolated using Audition's Center Channel Extractor plugin <small>(Extract Audio From=0&deg; phase / 0% pan / 0ms delay, Frequency Range=140-20,000Hz, Volume Boost Mode=off, Crossover=100%, Phase Discrimination=4.5&deg;, Amplitude Discrimination=6dB, Amplitude Bandwidth=9dB, Spectral Decay Rate=0%, FFT Size=32,768, Overlays=12, Window Width=100%)</small>.
+
+In the third test, both channels' waves were inverted. The phase relationship between left and right were preserved.
+
+In the fourth test, only the right channel's wave was inverted. The left remained untouched. The resulting audio file is completely out-of-phase.
+
+In the fifth test, the two channels were first averaged together, effectively making the file mono. It still had two channels, but they contained identical waveforms. The right channel was then taken out-of-phase in the same manner as the fourth test. The resulting audio file is completely out-of-phase, and when both channels are summed together, they will destroy one another and average out to zero, or total silence.
+
+These tests are designed to see how well the fingerprinter copes with audio with unexpected phase alterations. Also, the later tests attempt to reveal if the fingerprinter considers the files in stereo, or if it first converts them into mono for analysis.
+
+## The Results
+
+### No Description
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=FxRVPFT5BKM">FxRVPFT5BKM</a></del></td><td>Description field left empty</td><td class="fail">FAIL</td></tr>
+</table>
+
+### Reverse
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=dYQn6CW4-VI">dYQn6CW4-VI</a></del></td><td>Song was reversed</td><td class="pass">PASS</td></tr>
+</table>
+
+### Pitch Alteration
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=7AXCbscz5Ys">7AXCbscz5Ys</a></del></td><td>Pitch was lowered 25%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=sE27S6bDocw">sE27S6bDocw</a></del></td><td>Pitch was lowered 10%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=6EBUGz_k5ww">6EBUGz_k5ww</a></del></td><td>Pitch was lowered 7%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=9m5Z2p2P7YE">9m5Z2p2P7YE</a></del></td><td>Pitch was lowered 6%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=U9FlSevqiA0">U9FlSevqiA0</a></del></td><td>Pitch was lowered 5%</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=xMlx7rdpP0I">xMlx7rdpP0I</a></del></td><td>Pitch was raised 5%</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=rtL0DyACoz0">rtL0DyACoz0</a></del></td><td>Pitch was raised 6%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=7b_Zy2M9iWU">7b_Zy2M9iWU</a></del></td><td>Pitch was raised 7%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=mkm0fIuDOOA">mkm0fIuDOOA</a></del></td><td>Pitch was raised 10%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=RudFV8HlfAI">RudFV8HlfAI</a></del></td><td>Pitch was raised 25%</td><td class="pass">PASS</td></tr>
+</table>
+
+### Time Alteration
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=vIJhocJdCJg">vIJhocJdCJg</a></del></td><td>Time was expanded 25%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=WgYeFcSl-bs">WgYeFcSl-bs</a></del></td><td>Time was expanded 10%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=Z8IUZCceVXc">Z8IUZCceVXc</a></del></td><td>Time was expanded 7%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=yo8Kg0Ws6zk">yo8Kg0Ws6zk</a></del></td><td>Time was expanded 6%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=mfNYWnZ9P9M">mfNYWnZ9P9M</a></del></td><td>Time was expanded 5%</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=e2eg7JsVk2o">e2eg7JsVk2o</a></del></td><td>Time was compressed 5%</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=1KLRmCJgcwQ">1KLRmCJgcwQ</a></del></td><td>Time was compressed 6%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=HhgN2Y7ICgU">HhgN2Y7ICgU</a></del></td><td>Time was compressed 7%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=SDw7JvrfvIg">SDw7JvrfvIg</a></del></td><td>Time was compressed 10%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=S0C-0RxVe2Y">S0C-0RxVe2Y</a></del></td><td>Time was compressed 25%</td><td class="pass">PASS</td></tr>
+</table>
+
+### Resampling
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=HuM_gTA-Id8">HuM_gTA-Id8</a></del></td><td>Song was slowed down 25%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=T5StunpZUeo">T5StunpZUeo</a></del></td><td>Song was slowed down 5%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=6iFBNPpteog">6iFBNPpteog</a></del></td><td>Song was slowed down 4%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=lMxy9ZUXXT0">lMxy9ZUXXT0</a></del></td><td>Song was slowed down 3%</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=LSTj5LhWIwY">LSTj5LhWIwY</a></del></td><td>Song was sped up 3%</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=Lzt4wIWWTz8">Lzt4wIWWTz8</a></del></td><td>Song was sped up 4%</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=S-Q7uJ3ErTw">S-Q7uJ3ErTw</a></del></td><td>Song was sped up 5%</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=_v82g7p2Qio">_v82g7p2Qio</a></del></td><td>Song was sped up 25%</td><td class="pass">PASS</td></tr>
+</table>
+
+### Noise
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=nHAdiiFsSwI">nHAdiiFsSwI</a></del></td><td>0% white noise, 100% song</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=V-sOEWQyKyI">V-sOEWQyKyI</a></del></td><td>25% white noise, 75% song</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=R1tRH0vBaT4">R1tRH0vBaT4</a></del></td><td>40% white noise, 60% song</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=-XF2DYIku18">-XF2DYIku18</a></del></td><td>43% white noise, 57% song</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=yuHWKDmItLQ">yuHWKDmItLQ</a></del></td><td>44% white noise, 56% song</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=TCOq67P2-f0">TCOq67P2-f0</a></del></td><td>45% white noise, 55% song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=5jQqMd07yQk">5jQqMd07yQk</a></del></td><td>50% white noise, 50% song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=2wAHwKBIqPY">2wAHwKBIqPY</a></del></td><td>75% white noise, 25% song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=w4fXEoJ1Tyw">w4fXEoJ1Tyw</a></del></td><td>100% white noise, 0% song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=YnB82m8AA4U">YnB82m8AA4U</a></del></td><td>Camera 5' away, 0&deg; off-axis</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=DBEicY5e2xI">DBEicY5e2xI</a></del></td><td>Camera 12' away, approx. 45&deg; off-axis</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=y7duUWMSIUM">y7duUWMSIUM</a></del></td><td>Camera 31' away, 90&deg; off-axis</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=LiR0we4xugk">LiR0we4xugk</a></del></td><td>Camera in next room</td><td class="pass">PASS</td></tr>
+</table>
+
+### Amplification/Attenuation/DC Bias
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=dOzESZj75OM">dOzESZj75OM</a></del></td><td>Volume was reduced 48 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=TAZCzTj2ICc">TAZCzTj2ICc</a></del></td><td>Volume was reduced 24 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=PnOcheExAoA">PnOcheExAoA</a></del></td><td>Volume was reduced 18 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=FjbBPv-jwfo">FjbBPv-jwfo</a></del></td><td>Volume was reduced 12 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=7Zrp4FLEtV8">7Zrp4FLEtV8</a></del></td><td>Volume was reduced 6 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=0cA3Ngsp2Tc">0cA3Ngsp2Tc</a></del></td><td>Volume was increased 6 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=b06I160C1RE">b06I160C1RE</a></del></td><td>Volume was increased 12 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=l3ee8Mcemf4">l3ee8Mcemf4</a></del></td><td>Volume was increased 18 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=HnsPvUIs5Jc">HnsPvUIs5Jc</a></del></td><td>Volume was increased 24 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=M6eoLBjRaHE">M6eoLBjRaHE</a></del></td><td>Volume was increased 48 dB</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=uE3Tl5uEWI4">uE3Tl5uEWI4</a></del></td><td>50% positive DC bias was added</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=IQaDdBqTd2A">IQaDdBqTd2A</a></del></td><td>100% positive DC bias was added</td><td class="fail">FAIL</td></tr>
+</table>
+
+### Time Chunks
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=jHr3rSVAKMM">jHr3rSVAKMM</a></del></td><td>5 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=WLathwwq3BQ">WLathwwq3BQ</a></del></td><td>10 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=9hPyB0zVZs8">9hPyB0zVZs8</a></del></td><td>15 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=NzYoOzdHe5c">NzYoOzdHe5c</a></del></td><td>30 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=s7gMeI2CGnw">s7gMeI2CGnw</a></del></td><td>45 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=FjcspXseW7Q">FjcspXseW7Q</a></del></td><td>60 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=wcBA2ttDszg">wcBA2ttDszg</a></del></td><td>90 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=uOPmak49TZg">uOPmak49TZg</a></del></td><td>120 second chunk, from center of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=n5peCQjsdQo">n5peCQjsdQo</a></del></td><td>165 second chunk, from end of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=oJ11oWG8tRI">oJ11oWG8tRI</a></del></td><td>30 second chunk, from start of song</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=z-vROygcHbY">z-vROygcHbY</a></del></td><td>15 second chunk, from start of song</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=o3-HnuDI5Oo">o3-HnuDI5Oo</a></del></td><td>15 second chunk, from 0:15 to 0:30</td><td class="pass">PASS</td></tr>
+</table>
+
+### Stereo Imagery
+
+<table>
+<tr><th>Video</th><th>Modification Performed</th><th>Result</th></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=zzoR1h1oKzU">zzoR1h1oKzU</a></del></td><td>Vocals were isolated</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=ONOTGscMQSU">ONOTGscMQSU</a></del></td><td>Vocals were removed</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=HAd4ejov7sE">HAd4ejov7sE</a></del></td><td>Both channels were inverted</td><td class="fail">FAIL</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=sr9mCB4uTF0">sr9mCB4uTF0</a></del></td><td>Song was knocked out-of-phase</td><td class="pass">PASS</td></tr>
+<tr><td><del><a href="http://www.youtube.com/watch?v=iGYzDV-8eEg">iGYzDV-8eEg</a></del></td><td>Song converted to mono, then knocked out-of-phase</td><td class="pass">PASS</td></tr>
+</table>
+
+## What I Learned
+
+### ... About the Content ID System
+
+**It's everywhere:** It scans every single newly-uploaded video, no matter if it has a title/description that seems suspicious. It generally finds them mere minutes after the upload completes. And videos uploaded before the system was installed aren't immune either. It looks like it's going through every single video that has ever been uploaded to the site, looking for copyright problems. It sounds ludicrous, but remember that YouTube is backed by Google, and Google has plenty of hardware to throw around. I have no doubt that they'll eventually trudge through every single video, if they haven't already finished. I wonder how much CPU time (and electricity) they squandered on this?
+
+**It's surprisingly resilient:** I really thought it would fail some of the amplification tests. Especially the +/-48 dB tests. One was so inaudibly quiet, and the other was so distorted it was completely unlistenable. It found all of them. Likewise, it could detect the sound amidst constant background noise, until the noise level passed the 45% mark. With that much noise, it overpowers the song you're trying to hide. Likewise, it catches all subtle changes in pitch and tempo, requiring changes of up to 5% before it consistently fails to identify material.
+
+**It's rather finicky:** I can't explain why it was able to detect the camcorder-recorded audio at 5' and 31', but not at 12'. Similarly, the vocal removal/isolation tests should've had similar results. But then again, the effectiveness of the Stereo Imagery tests depends entirely on how the song itself was engineered -- Just because it turned out one way for this song, that doesn't mean it will react the same way to the other songs with that same modification.
+
+**It's downright dumb:** Wrap your heads around this. When I muted the beginning of the song up until 0:30 (leaving the rest to play) the fingerprinter missed it. When I kept the beginning up until 0:30 and muted everything from 0:30 to the end, the fingerprinter caught it. That indicates that the content database only knows about something in the first 30 seconds of the song. As long as you cut that part off, you can theoretically use the remainder of the song without being detected. I don't know if *all* samples in the content database suffer from similar weaknesses, but it's something that merits further research.
+
+**It seems to hear in mono:** When I uploaded the files with out-of-phase audio, the tests consistently passed. When the first out-of-phase test is played back in mono, the resulting audio sounds exactly like the Vocal Remove test (which also passed). When the mono-converted/out-of-phase test is played back in mono, both the channels cancel each other out and the result is (theoretically) silence. This is what the fingerprinter hears, and what it bases its conclusions on.
+
+### ... About YouTube
+
+**Apparently they don't really care about repeat infringers:** I uploaded a total of 82 test videos to them, and received 35 Content ID emails. There are people out there who live in constant fear of a Content ID match, thinking that one single slip-up will get their account pulled and every single one of their videos deleted. Not so. There was a point (when I was uploading "infringing" material en masse) when I received an impressive fifteen Content ID emails in the course of an hour. Nothing happened to the account. Now, if this article becomes popular, then they might pull my test account manually... But as of the release of this article, it hasn't happened yet.
+
+**At some point between 11/22/2008 and 1/19/2009, they changed the way they handle Content ID matches:** Initially, when a video was found to be infringing a copyright, they'd immediately block access to it. You'd get an email that says "We regret to inform you that your video has been blocked from playback due to a music rights issue" and if you didn't click the link in the email and either mute your own video or use AudioSwap on it, nobody would ever see that video again. But now things have changed... They automatically mute your videos now instead of blocking them outright. You still have the option to AudioSwap it, but the emails claim that "No action is required on your part." They conveniently leave out the fact that they silenced the audio. And for what it's worth, AudioSwap is fucking useless. Somebody needed to say it.
+
+**It's very evident why they choose to mute the entire audio track of a positively ID'd video instead of just the part with the problem audio:** The fingerprinter can only reliably say "yes, [one particular song] is in here, somewhere," but it doesn't know exactly where in the video the infringing content starts or for how long it plays. It's far easier to just nuke the entire audio track than try to figure out precisely how to cut into it.
+
+### ... About the Community
+
+**They really enjoy recordings of <del>[pure white noise](http://www.youtube.com/watch?v=w4fXEoJ1Tyw)</del>:** I can't explain why people are turning to YouTube to hear this, and why it seems like my test account is the hip place to hear a flat power spectrum. But hey, three comments (almost one and a half of them intelligent) can't be wrong.
+
+## Conclusion
+
+It is quite possible to thwart the YouTube Content ID system, but some methods mangle the song too much to be used in anything useful.
+
+In general, the majority of these workarounds are simply kludges which create noticeable (and often irreversible) changes in the sound of the audio. It's likely that some of these workarounds will never be totally fixed, as the amount of computational complexity required to address some of the time/pitch changes would likely create a tremendous strain on a system that's probably already working as hard as it can.
+
+Reversed audio consistently gets through the fingerprinter, but that's not very useful to human listeners. Any pitch or time alterations will also work, provided you apply a 6% or greater change to the parameter you're adjusting.
+
+Pure noise generators will not thwart the fingerprinter until the amount of noise overpowers the original song. Real-world noise is somewhat hit-and-miss, but the amount of effort required to introduce such noise makes the process less than worthwhile.
+
+Stereo Imagery seems to work well, especially those modifications that make the audio play out-of-phase. Unfortunately, such audio is extremely uncomfortable to listen to in stereo mode, and it suffers from phase cancellation in mono mode, resulting in either missing vocals or total silence.
+
+The most subtle approach is to use a resampling function, which simply increases or decreases the speed of playback. For these modifications, a speed increase of 5% or greater will work, as well as a speed reduction of 4% or greater.
+
+## A 5% Speed Increase? Are You Nuts?
+
+You might think so. But let's take a step back and think about what it truly means.
+
+We base our Western ideas about music around the fact that the A note above middle C is defined as 440 Hz. Now, if we increase the speed of the song by 5%, all the pitches will shift up 5% as well. That same note becomes 462 Hz. (For reference, the A# above A440 is 466.164 Hz.) In the end, 462 Hz translates to roughly 84 cents above the A. Not quite an A#, but kinda close.
+
+Whether or not you can hear that depends on your level of familiarity with the song. If it's your favorite song, and you've committed every single note of it to memory, then yes, you'll probably be able to tell that it seems slightly higher. But if it's a song you're not very familiar with, or one you haven't heard in years, you might not be able to tell without referring to the original.
+
+To give you a bit more perspective, consider the fact that people have been doing it for years. American films are shot at 24 frames per second. And American television runs at 30 frames per second (yes, I'm oversimplifying the hell out of this). To play film on our TVs, we simply play every 4th film frame twice and they sync up perfectly (again, gross oversimplification).
+
+But in Europe, and the other PAL territories, the TVs run at 25 frames per second. It's a lot harder to fit 24 film frames into 25 television frames without making an unacceptable "judder" every second. So how do they do it, then? Quite simply, they speed the 24 FPS film (and the audio) up to 25 FPS. This translates into a 4.16667% increase in speed and pitch. And I've never heard any Europeans complain about it. (Actually I have, but they do so in a whiny way that just makes me ignore them.)
+
+## More Forbidden Uploads
+
+The following are 5 songs that I uploaded, knowing full well that the fingerprinter would catch them. (I've personally witnessed videos with these songs either muted or removed entirely.) The left column contains videos with unaltered audio tracks, all of which were detected. The videos in the right column were all resampled up by 5%.
+
+<table>
+<tr><th>Song</th><th>Unmodified</th><th>Resampled Up 5%</th></tr>
+<tr><td>Bob James - Angela</td><td class="fail"><del><a href="http://www.youtube.com/watch?v=pjWenBsdj8o">pjWenBsdj8o</a></del> (FAIL)</td><td class="pass"><del><a href="http://www.youtube.com/watch?v=VZTkq1Vpnyk">VZTkq1Vpnyk</a></del> (PASS)</td></tr>
+<tr><td>Led Zeppelin - The Lemon Song</td><td class="fail"><del><a href="http://www.youtube.com/watch?v=u21PJ34J_hg">u21PJ34J_hg</a></del> (FAIL)</td><td class="pass"><del><a href="http://www.youtube.com/watch?v=QM4YiIjNZLI">QM4YiIjNZLI</a></del> (PASS)</td></tr>
+<tr><td>Atreyu - Falling Down</td><td class="fail"><del><a href="http://www.youtube.com/watch?v=edYOcRPqdIk">edYOcRPqdIk</a></del> (FAIL)</td><td class="pass"><del><a href="http://www.youtube.com/watch?v=jj_eK6v5Vpw">jj_eK6v5Vpw</a></del> (PASS)</td></tr>
+<tr><td>James Taylor - Mexico</td><td class="fail"><del><a href="http://www.youtube.com/watch?v=MxTlNQKqmFM">MxTlNQKqmFM</a></del> (FAIL)</td><td class="pass"><del><a href="http://www.youtube.com/watch?v=E1tzzyV8UmU">E1tzzyV8UmU</a></del> (PASS)</td></tr>
+<tr><td>Yes - Tempus Fugit</td><td class="fail"><del><a href="http://www.youtube.com/watch?v=WXvNbs7hmI4">WXvNbs7hmI4</a></del> (FAIL)</td><td class="pass"><del><a href="http://www.youtube.com/watch?v=-t6S_BbybeA">-t6S_BbybeA</a></del> (PASS)</td></tr>
+</table>
+
+## Further Reading
+
+* [Audible Magic - Patents](http://www.audiblemagic.com/company/patents.asp): Five patents, available in PDF form, which give a bit of insight into Audible Magic's core technologies. *(Also, I particularly enjoy the fact that the page's title reads "Careers." Somebody on the web team was asleep at the wheel... **EDIT:** As of 4/22/2009, the page title has been corrected.)*
+* [Wikipedia article on Acoustic Fingerprinting](http://en.wikipedia.org/wiki/Acoustic_fingerprint): Gives some links to similar technologies.
+* [Mono Compatibility and Phase Cancellation](http://www.audiocourses.com/2012/02/10/mono-compatibility-and-phase-cancellation/): A brief description of phase, and why two out-of-phase signals summed together will destroy each other.
+* [PAL's 4% SpeedUp](http://www.michaeldvd.com.au/articles/PALSpeedUp/PALSpeedUp.asp): A guy who explains (then complains about) the PAL 4% speedup.
+* <del>[M-AUDIO - Studiophile BX5a - 70 Watt Bi-Amplified Studio Reference Monitors](http://www.m-audio.com/products/en_us/StudiophileBX5a.html)</del>: The speakers used in the second round of Noise tests.
+* [Canon ZR200](http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&fcategoryid=174&modelid=11004): The camcorder used in the second round of Noise tests. <del>(**Warning:** Annoying-ass Flash applet with undesired sound.)</del>
+* [Wikipedia article on Telecine](http://en.wikipedia.org/wiki/Telecine): Surprisingly, the best explanation I've been able to find regarding how film frame rates are converted to video.
+
+## Disclaimer
+
+What you do with this information is your own responsibility. I'm not here to condone or condemn the copyright laws in this country. I simply wanted to point out the flaws and idiosyncrasies in a very complex system that has become part of our modern-day culture. Always use your best judgment when deciding what types of things to upload to YouTube or any other website which uses similar technology. Don't be an idiot, and have a nice day.

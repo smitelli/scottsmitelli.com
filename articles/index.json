@@ -1,0 +1,65 @@
+{
+  "apple-id-security-questions": {
+    "template": "articles/2012/apple-id-security-questions.md",
+    "inMenu": true,
+    "title": "To Apple ID or not to Apple ID, that is the security question.",
+    "date": "2012-12-19",
+    "summary": "An absurd tale of my experience trying to reset the security questions on an Apple ID account."
+  },
+  "76482-tiles-long": {
+    "template": "articles/2009/76482-tiles-long.md",
+    "inMenu": true,
+    "title": "(This Song's Just) 76,482 Tiles Long",
+    "date": "2009-07-21",
+    "summary": "I assembled and uploaded a <a href=\"http://www.youtube.com/watch?v=b2d-VAAyB9c\">video showing a timelapse road trip</a> from Pittsburgh, PA to San Mateo, CA. Here I share the tricks and pitfalls I discovered in my work."
+  },
+  "youtube-audio-content-id": {
+    "template": "articles/2009/youtube-audio-content-id.tplmd",
+    "inMenu": true,
+    "title": "Fun with YouTube's Audio Content ID System",
+    "date": "2009-04-19",
+    "summary": "A series of tests designed to try to thwart the audio portion of YouTube's Content ID digital fingerprinting system."
+  },
+  "gave-without-taking": {
+    "template": "articles/2008/gave-without-taking.tplmd",
+    "inMenu": true,
+    "title": "You came and you gave without taking. Like a BitTorrent seed.",
+    "date": "2008-07-24",
+    "summary": "Determining the speed and tempo variations in the Barry Manilow's 1974 hit \"Mandy.\""
+  },
+  "everybody-imitates-hypnotoad": {
+    "template": "articles/2008/everybody-imitates-hypnotoad.tplmd",
+    "inMenu": true,
+    "title": "Everybody Imitates Hypnotoad",
+    "date": "2008-06-05",
+    "summary": "Synthesizing Futurama's \"Angry Machine\" sound effect from scratch using a noise generator and a few filters."
+  },
+  "block-party": {
+    "template": "articles/2008/block-party.tplmd",
+    "inMenu": true,
+    "title": "Block Party",
+    "date": "2008-02-23",
+    "summary": "A self-made block diagram for the Behringer SL2442FX-PRO mixer."
+  },
+  "quicktime-7.4": {
+    "template": "articles/2008/quicktime-7.4.md",
+    "inMenu": true,
+    "title": "Hey Hey, Ho Ho, QuickTime 7.4 Has Got To Go",
+    "date": "2008-01-24",
+    "summary": "In January 2008, Apple released version 7.4 of QuickTime which had the unfortunate side-effect of breaking video rendering in After Effects. This article explored a method to revert the installed version of QuickTime back to 7.3."
+  },
+  "0dbfs-for-vendetta": {
+    "template": "articles/2007/0dbfs-for-vendetta.md",
+    "inMenu": true,
+    "title": "0 dBFS for Vendetta",
+    "date": "2007-08-19",
+    "summary": "A list of some of the loudest-sounding songs in my music collection, and a plea to bring back dynamic range."
+  },
+  "armchair-audio-engineer": {
+    "template": "articles/2007/armchair-audio-engineer.tplmd",
+    "inMenu": true,
+    "title": "The Armchair Audio Engineer",
+    "date": "2007-03-05",
+    "summary": "An analysis of strange digital compression artifacting present on certain tracks of \"Chef Aid: The South Park Album.\""
+  }
+}
