@@ -9,30 +9,30 @@
   "76482-tiles-long": {
     "template": "articles/2009/76482-tiles-long.md",
     "inMenu": true,
-    "title": "(This Song's Just) 76,482 Tiles Long",
+    "title": "(This Song&rsquo;s Just) 76,482 Tiles Long",
     "date": "2009-07-21",
     "summary": "I assembled and uploaded a <a href=\"http://www.youtube.com/watch?v=b2d-VAAyB9c\">video showing a timelapse road trip</a> from Pittsburgh, PA to San Mateo, CA. Here I share the tricks and pitfalls I discovered in my work."
   },
   "youtube-audio-content-id": {
     "template": "articles/2009/youtube-audio-content-id.tplmd",
     "inMenu": true,
-    "title": "Fun with YouTube's Audio Content ID System",
+    "title": "Fun with YouTube&rsquo;s Audio Content ID System",
     "date": "2009-04-19",
-    "summary": "A series of tests designed to try to thwart the audio portion of YouTube's Content ID digital fingerprinting system."
+    "summary": "A series of tests designed to try to thwart the audio portion of YouTube&rsquo;s Content ID digital fingerprinting system."
   },
   "gave-without-taking": {
     "template": "articles/2008/gave-without-taking.tplmd",
     "inMenu": true,
     "title": "You came and you gave without taking. Like a BitTorrent seed.",
     "date": "2008-07-24",
-    "summary": "Determining the speed and tempo variations in the Barry Manilow's 1974 hit \"Mandy.\""
+    "summary": "Determining the speed and tempo variations in the Barry Manilow&rsquo;s 1974 hit &ldquo;Mandy.&rdquo;"
   },
   "everybody-imitates-hypnotoad": {
     "template": "articles/2008/everybody-imitates-hypnotoad.tplmd",
     "inMenu": true,
     "title": "Everybody Imitates Hypnotoad",
     "date": "2008-06-05",
-    "summary": "Synthesizing Futurama's \"Angry Machine\" sound effect from scratch using a noise generator and a few filters."
+    "summary": "Synthesizing Futurama&rsquo;s &ldquo;Angry Machine&rdquo; sound effect from scratch using a noise generator and a few filters."
   },
   "block-party": {
     "template": "articles/2008/block-party.tplmd",
@@ -60,6 +60,6 @@
     "inMenu": true,
     "title": "The Armchair Audio Engineer",
     "date": "2007-03-05",
-    "summary": "An analysis of strange digital compression artifacting present on certain tracks of \"Chef Aid: The South Park Album.\""
+    "summary": "An analysis of strange digital compression artifacting present on certain tracks of &ldquo;Chef Aid: The South Park Album.&rdquo;"
   }
 }

@@ -2,5 +2,5 @@ In the fall of 2011, a Twitter account called [@horse_ebooks](https://twitter.co
 
 * **Source Code:** <https://github.com/smitelli/sort_of_face>
 
-* **Live Example:** [@sort\_of\_face on Twitter](http://twitter.com/sort_of_face)
+* **Try It Out:** [@sort\_of\_face on Twitter](http://twitter.com/sort_of_face)
 

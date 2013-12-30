@@ -1,4 +1,10 @@
 {
+  "isthatcompanyreal": {
+    "template": "projects/isthatcompanyreal.md",
+    "inMenu": true,
+    "title": "Is That Company Real?",
+    "summary": "A web service that determines whether or not a given company is &ldquo;real.&rdquo;"
+  },
   "docroute": {
     "template": "projects/docroute.md",
     "inMenu": true,
@@ -9,7 +15,7 @@
     "template": "projects/sort-of-face.md",
     "inMenu": true,
     "title": "The Sort of Face",
-    "summary": "Inspired by the wildly popular automated(?) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish."
+    "summary": "Inspired by the wildly popular (and eventually <a href=\"http://www.newyorker.com/online/blogs/elements/2013/09/horse-ebooks-and-pronunciation-book-revealed.html\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish."
   },
   "myautodump": {
     "template": "projects/myautodump.md",
@@ -27,6 +33,6 @@
     "template": "projects/twitstash.md",
     "inMenu": true,
     "title": "twitstash",
-    "summary": "twitstash is a cron script that downloads a Twitter user's timeline and stores new tweets in a MySQL table. It can be used for archival purposes, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots."
+    "summary": "twitstash is a cron script that downloads a Twitter user&rsquo;s timeline and stores new tweets in a MySQL table. It can be used for archival purposes, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots."
   }
 }
