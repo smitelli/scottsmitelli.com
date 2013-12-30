@@ -1,4 +1,10 @@
 {
+  "internetstapler": {
+    "template": "projects/internetstapler.md",
+    "inMenu": true,
+    "title": "Internet Stapler",
+    "summary": "It is a stapler for our internet age."
+  },
   "isthatcompanyreal": {
     "template": "projects/isthatcompanyreal.md",
     "inMenu": true,
