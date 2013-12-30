@@ -2,7 +2,9 @@
 
 ## Employment History
 
-### Web Developer at Thomson Reuters <span class="details">New York, NY -- January 2013, current position</span>
+### Software Engineer at Maker Studios (formerly Blip Networks) <span class="details">New York, NY -- September 2013, current position</span>
+
+### Web Developer at Thomson Reuters <span class="details">New York, NY -- January 2013 to September 2013</span>
 * Contributed to the Reuters Next project, a complete re-imagining of the Reuters.com platform using cutting-edge UX interactions.
 * Developed the public-facing site as well as the internal CMS used by the editorial staff, both of which accessed content via a JSON-based RESTful API.
 * Worked with modern frontend libraries and tools such as SCSS, JSHint, Backbone, Underscore, mustache.js, and Nose/Jasmine for unit testing.
