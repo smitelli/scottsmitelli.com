@@ -40,5 +40,11 @@
     "inMenu": true,
     "title": "twitstash",
     "summary": "twitstash is a cron script that downloads a Twitter user&rsquo;s timeline and stores new tweets in a MySQL table. It can be used for archival purposes, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots."
+  },
+  "trigger-and-freewheel": {
+    "template": "projects/trigger-and-freewheel.md",
+    "inMenu": true,
+    "title": "Trigger and Freewheel (CMS)",
+    "summary": "<a href=\"http://www.triggerandfreewheel.com/\">Trigger and Freewheel</a> is a webcomic that I started in 2008 and have been sporadically updating. Feeling ComicPress and its brethren to be too much overkill, I built this custom CMS from scratch to host the site."
   }
 }
