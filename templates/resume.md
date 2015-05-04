@@ -3,14 +3,15 @@
 ## Skills
 
 ### Languages, Platforms, and Tools
-* Python -- pip, Flask, Tornado, Twisted, Fabric, Jinja2, Mako, the Standard Library, nose, uWSGI.
+* Python -- pip, Flask, Tornado, Twisted, Fabric, Jinja2, Mako, the Standard Library, nose, flake8, uWSGI.
 * Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore.js/lodash, Mocha, Istanbul, JSHint, Grunt.
 * Client-Side JavaScript -- Backbone.js, RequireJS, jQuery, Modernizr, Mustache, Jasmine, Firebug/Chrome Developer Tools.
 * PHP -- Smarty, PHP Data Objects, WordPress Core/Plugin/Theme Development.
 * Audio/Video/Graphics -- FFmpeg/Libav, ImageMagick, Adobe Media Encoder/Photoshop/Fireworks/Premiere/Audition, Pro Tools, Final Cut Studio.
-* Presentation and Interchange -- HTML5, CSS3/SCSS, JSON/JSONP, XML, Media RSS, RESTful APIs.
+* Presentation and Interchange -- HTML5, CSS3/SCSS, SVG, JSON/JSONP, XML, Media RSS, RESTful APIs.
 * Storage and Messaging -- MySQL, MongoDB, Redis, Elasticsearch, RabbitMQ, MogileFS, Amazon S3/Kinesis/RDS/ElastiCache, Memcached.
 * Source Control and Continuous Integration -- Git (GitHub/GitLab), Team Foundation Server, Jenkins, Travis CI, Coveralls.
+* Documentation -- Markdown, reStructuredText, Jira Markup, MediaWiki Markup, Docblocks/Docstrings.
 
 ### System Administration and DevOps
 * Operating Systems -- Red Hat/CentOS, Debian/Ubuntu, Windows Server (begrudgingly).
