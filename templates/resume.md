@@ -2,35 +2,35 @@
 
 ## Skills
 
-### Languages and Platforms
-* Primary languages include PHP, Python, HTML5, CSS3, and raw JavaScript (browser and Node.js environments). Can pick up the syntax of new languages relatively quickly while adhering to any in-house code formatting guidelines.
-* Basic familiarity with Ruby, Bash-style shell scripting, Windows batch files, PowerShell scripts, and a small amount of Java/C. Well-versed in PCRE-style regular expression syntax.
-* Wide range of documentation and templating languages, including Markdown, reStructuredText, Smarty, Mustache (Handlebars), Jinja2, Mako, as well as old-style HTML/PHP hybrid files.
-* Good with common SQL dialects and relational database concepts (specifically MySQL), as well as key-value stores and document-based databases like Redis and MongoDB. Familiarity with ORM libraries like PHP Data Objects and SQLAlchemy.
-* Experienced with many frameworks and libraries spanning different language environments, including CakePHP, Flask, Tornado, jQuery, RequireJS, Modernizr, Underscore, Backbone, Socket.IO, Moment.js, and others.
-* Deep knowledge of WordPress core and plugin/theme development. Often had to grep through the source code to find undocumented methods and event hooks.
-* Proficient with Adobe Creative Suite applications, with emphasis on Photoshop, Fireworks, and Adobe Media Encoder. Also excellent with media production software such as Final Cut Studio and Pro Tools.
+### Languages, Platforms, and Tools
+* Python -- pip, Flask, Tornado, Twisted, Jinja2, Mako, the Standard Library, nose, uWSGI.
+* Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore.js/lodash, Mocha, Istanbul, Grunt.
+* Client-Side JavaScript -- Backbone.js, RequireJS, jQuery, Modernizr, Mustache, Jasmine, Firebug/Chrome Developer Tools.
+* PHP -- Smarty, PHP Data Objects, WordPress Core/Plugin/Theme Development.
+* Audio/Video/Graphics -- FFmpeg/Libav, ImageMagick, Adobe Media Encoder/Photoshop/Fireworks/Premiere/Audition, Pro Tools, Final Cut Studio.
+* Presentation and Interchange -- HTML5, CSS3/SCSS, JSON/JSONP, XML, Media RSS, RESTful APIs.
+* Storage and Messaging -- MySQL, MongoDB, Redis, Elasticsearch, RabbitMQ, MogileFS, Amazon S3/Kinesis/RDS/ElastiCache, Memcached.
+* Source Control and Continuous Integration -- Git (GitHub/GitLab), Team Foundation Server, Jenkins, Travis CI, Coveralls.
 
-### System Administration
-* Quite familiar with the LAMP stack, with the majority of experience on Ubuntu/Debian and CentOS/Red Hat distributions. Occasionally worked with Windows and OS X-based servers.
-* Performed quite a lot of Apache and Nginx configuration, including complicated subdomain/redirect/virtual host setups.
-* Knowledge of MySQL tuning ("`EXPLAIN SELECT`", optimizing indexes, tweaking configuration variables, etc.)
-* Set up a content delivery network with Akamai to serve static content, which required implementing many URL rewrite rules and precaching scripts.
-* Installed Nagios, as well as a suite of scripts to record and graph site traffic and the overall usage of an Apache worker pool.
-* Very comfortable on the command line, even under high-stress situations.
+### System Administration and DevOps
+* Operating Systems -- Red Hat/CentOS, Debian/Ubuntu, Windows Server (begrudgingly).
+* HTTP Servers and Caching Proxies -- Apache (Virtual Hosts, mod\_rewrite, mod\_dav), nginx/OpenResty, Varnish, Akamai CDN.
+* Virtualization and Emulation -- Amazon EC2, KVM, Oracle VM VirtualBox, VMware Workstation, Cygwin, XAMPP.
+* Process Control -- init.d, Upstart, Supervisor, Monit.
+* Provisioning -- Puppet, Packer, Vagrant, Parallels Plesk.
+* Monitoring -- Nagios, Logstash (Forwarder)/Kibana, StatsD, Logwatch, logrotate.
+* Tools of the Trade -- GNU Bash, Vim, Coreutils, Regular Expressions (PCRE), and a touch of Perl.
 
 ### Office IT and Support
-* Responsible for researching technology options, finding ideal vendors to supply equipment and services, and summarizing technology expenditures for executives.
-* Gained a large amount of experience with two open-source FreeBSD-based projects: the pfSense routing/firewall platform and the FreeNAS network storage solution.
-* Installed a VPN to allow external "road warrior" users to access private network resources. Tuned 802.11g and n wireless access points in an area with extreme external radio interference.
-* Rectified hardware and software problems on staff computers, many of which were personal laptops.
-* Ran cables, mounted equipment to walls and ceilings, can crimp a pretty mean Ethernet cable.
+* Network Operations -- pfSense, FreeNAS, OpenVPN, DD-WRT, Samba, AFP, Print Servers, Wi-Fi Tuning.
+* Low-Voltage Infrastructure -- Twisted-Pair/Coaxial Cable Routing, Punch-Down Blocks, Patch Panels, can crimp a pretty mean Ethernet cable.
+* Diagnostics -- Wireshark, Charles Proxy, Fiddler.
+* Administration and Reporting -- Google Apps for Work, Google Analytics, AWStats, Chartbeat, Quantcast.
 
 ### Miscellaneous Interests
 * Audio Production -- Freelance sound recording, editing, and mixing for independent films and shorts.
-* Photography -- Long-exposure night scenes and naturalistic images, shot digitally.
-* Technical Writing -- Brief articles with insights into the audio field and the peculiarities of the Internet.
-* Drawing -- A small online comic series which has branched off to a dedicated website.
+* Photography -- Long-exposure night shots and time-lapse video sequences, shot digitally.
+* Technical Writing -- Articles with insights on audio topics and the peculiarities of the Internet.
 
 ## Professional Experience
 
@@ -39,7 +39,7 @@
 * Designed and implemented Python/Node.js APIs, microservices, caching layers, and associated monitoring configurations.
 * Built services to read real-time video events from external systems and synchronize the metadata to advertising providers.
 * Refactored sections of a monolithic Perl application into independent loosely-coupled services.
-* "Puppetized" legacy applications and services, moving some to virtualized Linux-KVM guests and others to Amazon EC2 instances.
+* Puppetized legacy applications and services, moving some to virtualized Linux-KVM guests and others to Amazon EC2 instances.
 
 ### Web Developer at Thomson Reuters <span class="details">New York, NY -- January 2013 to September 2013</span>
 * Contributed to the Reuters Next project, a complete rewrite of the Reuters.com news platform with re-imagined UX interactions.
