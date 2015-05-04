@@ -3,7 +3,7 @@
 ## Skills
 
 ### Languages, Platforms, and Tools
-* Python -- pip, Flask, Tornado, Twisted, Jinja2, Mako, the Standard Library, nose, uWSGI.
+* Python -- pip, Flask, Tornado, Twisted, Fabric, Jinja2, Mako, the Standard Library, nose, uWSGI.
 * Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore.js/lodash, Mocha, Istanbul, JSHint, Grunt.
 * Client-Side JavaScript -- Backbone.js, RequireJS, jQuery, Modernizr, Mustache, Jasmine, Firebug/Chrome Developer Tools.
 * PHP -- Smarty, PHP Data Objects, WordPress Core/Plugin/Theme Development.
@@ -30,7 +30,7 @@
 ### Miscellaneous Interests
 * Audio Production -- Freelance sound recording, editing, and mixing for independent films and shorts.
 * Photography -- Long-exposure night shots and time-lapse video sequences, shot digitally.
-* Technical Writing -- Articles with insights on audio topics and the peculiarities of the Internet.
+* Technical Writing and Drawing -- Articles and sketches with insights on audio topics and the peculiarities of the Internet.
 
 ## Professional Experience
 
@@ -58,7 +58,7 @@
 ### Lead Developer at Abrams Media <span class="details">New York, NY -- January 2010 to November 2011</span>
 * First engineering hire at a fast-paced startup, eventually managed a team of three developers.
 * Maintained and customized six WordPress sites which averaged 35-40 million total pageviews per month. Paid special attention to SEO.
-* Served as the primary contact for system administration tasks, as well as providing technical assistance for staff.
+* Served as the primary contact for system administration tasks, as well as providing technical assistance for the staff.
 * Planned and installed the corporate network when the business relocated to larger office space.
 * Developed ancillary applications, including a job search board, photo gallery, bulk email daemon, analytics reporter, and management scripts.
 
