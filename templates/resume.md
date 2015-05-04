@@ -4,7 +4,7 @@
 
 ### Languages, Platforms, and Tools
 * Python -- pip, Flask, Tornado, Twisted, Jinja2, Mako, the Standard Library, nose, uWSGI.
-* Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore.js/lodash, Mocha, Istanbul, Grunt.
+* Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore.js/lodash, Mocha, Istanbul, JSHint, Grunt.
 * Client-Side JavaScript -- Backbone.js, RequireJS, jQuery, Modernizr, Mustache, Jasmine, Firebug/Chrome Developer Tools.
 * PHP -- Smarty, PHP Data Objects, WordPress Core/Plugin/Theme Development.
 * Audio/Video/Graphics -- FFmpeg/Libav, ImageMagick, Adobe Media Encoder/Photoshop/Fireworks/Premiere/Audition, Pro Tools, Final Cut Studio.
@@ -64,7 +64,7 @@
 
 ### Freelance Streaming Media Encoder at Wall Street Webcasting <span class="details">New York, NY -- September 2009 to January 2010</span>
 * Responsible for streaming audio feeds from investment conferences across the country.
-* Maintained proper audio levels on live events, and ensured that any operational issues were dealt with promptly.
+* Maintained proper audio levels on live events and ensured that any operational issues were dealt with promptly.
 * Captured events to disk, then edited the recordings for permanent archive and on-demand streaming.
 * Often required to multitask by handling several conferences simultaneously, or editing pre-recorded audio while also streaming live events.
 
@@ -86,6 +86,6 @@
 * Member of Computer Science House -- Worked on projects spanning a multitude of disciplines.
 
 ## Professional Associations
-* 2009 Open Video Conference -- Presentation on YouTube's Audio Fingerprinting System with Follow-Up Discussion
-* Audio Engineering Society (AES) -- Associate Member
-* Society of Motion Picture and Television Engineers (SMPTE) -- Former Member
+* 2009 Open Video Conference -- Presentation on YouTube's Audio Fingerprinting System with Follow-Up Discussion.
+* Audio Engineering Society (AES) -- Associate Member.
+* Society of Motion Picture and Television Engineers (SMPTE) -- Former Member.
