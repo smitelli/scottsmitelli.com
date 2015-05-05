@@ -3,23 +3,23 @@
 ## Skills
 
 ### Languages, Platforms, and Tools
-* Python -- pip, Flask, Tornado, Twisted, Fabric, Jinja2, Mako, the Standard Library, nose, flake8, uWSGI.
-* Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore.js/lodash, Mocha, Istanbul, JSHint, Grunt.
-* Client-Side JavaScript -- Backbone.js, RequireJS, jQuery, Modernizr, Mustache, Jasmine, Firebug/Chrome Developer Tools.
+* Python -- pip, Flask, Tornado, Twisted, Fabric, Pystache, Jinja2, Mako, the Standard Library, nose, flake8, uWSGI.
+* Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore/lodash, Mocha, Istanbul, JSHint, Grunt.
+* Client-Side JavaScript -- Backbone, RequireJS, jQuery, Modernizr, Mustache, Jasmine, Firebug/Chrome Developer Tools.
 * PHP -- Smarty, PHP Data Objects, WordPress Core/Plugin/Theme Development.
 * Audio/Video/Graphics -- FFmpeg/Libav, ImageMagick, Adobe Media Encoder/Photoshop/Fireworks/Premiere/Audition, Pro Tools, Final Cut Studio.
 * Presentation and Interchange -- HTML5, CSS3/SCSS, SVG, JSON/JSONP, XML, Media RSS, RESTful APIs.
 * Storage and Messaging -- MySQL, MongoDB, Redis, Elasticsearch, RabbitMQ, MogileFS, Amazon S3/Kinesis/RDS/ElastiCache, Memcached.
-* Source Control and Continuous Integration -- Git (GitHub/GitLab), Team Foundation Server, Jenkins, Travis CI, Coveralls.
+* Revision Control and Continuous Integration -- Git (GitHub/GitLab), Team Foundation Server, Jenkins, Travis CI, Coveralls.
 * Documentation -- Markdown, reStructuredText, Jira Markup, MediaWiki Markup, Docblocks/Docstrings.
 
 ### System Administration and DevOps
-* Operating Systems -- Red Hat/CentOS, Debian/Ubuntu, Windows Server (begrudgingly).
+* Operating Systems -- Red Hat Enterprise Linux/CentOS, Debian/Ubuntu, Windows Server (begrudgingly).
 * HTTP Servers and Caching Proxies -- Apache (Virtual Hosts, mod\_rewrite, mod\_dav), nginx/OpenResty, Varnish, Akamai CDN.
 * Virtualization and Emulation -- Amazon EC2, KVM, Oracle VM VirtualBox, VMware Workstation, Cygwin, XAMPP.
-* Process Control -- init.d, Upstart, Supervisor, Monit.
-* Provisioning -- Puppet, Packer, Vagrant, Parallels Plesk.
-* Monitoring -- Nagios, Logstash (Forwarder)/Kibana, StatsD, Logwatch, logrotate.
+* Process Control -- init.d, Upstart, Supervisor, Monit, cron.
+* Provisioning -- Puppet, Packer, Vagrant, Plesk.
+* Monitoring -- Nagios, logstash/Kibana, StatsD, logwatch, logrotate.
 * Tools of the Trade -- GNU Bash, Vim, Coreutils, Regular Expressions (PCRE), and a touch of Perl.
 
 ### Office IT and Support
@@ -45,8 +45,8 @@
 ### Web Developer at Thomson Reuters <span class="details">New York, NY -- January 2013 to September 2013</span>
 * Contributed to the Reuters Next project, a complete rewrite of the Reuters.com news platform with re-imagined UX interactions.
 * Developed the public-facing site as well as the editorial CMS, both of which communicated through a JSON-based RESTful API.
-* Assisted with backend Python development using the Tornado web application framework, the standard library, and other external modules.
-* Worked with modern frontend libraries and tools such as Backbone.js, Underscore.js, SCSS, Mustache, JSHint, and Jasmine for unit testing.
+* Assisted with backend Python development using the Tornado web framework, the standard library, and other external modules.
+* Worked with modern frontend libraries and tools such as Backbone, Underscore, SCSS, Mustache, JSHint, and Jasmine for unit testing.
 * Served on an agile team that practiced test-driven development and continuous integration using Git and Jenkins.
 
 ### Senior Interactive Development Manager at Worldnow <span class="details">Long Island City, NY -- November 2011 to January 2013</span>
@@ -57,11 +57,11 @@
 * Performed quality assurance testing with a wide range of browsers, at times going back as far as Internet Explorer 7.
 
 ### Lead Developer at Abrams Media <span class="details">New York, NY -- January 2010 to November 2011</span>
-* First engineering hire at a fast-paced startup, eventually managed a team of three developers.
+* First engineering hire at a growing startup, eventually managed a team of three developers.
 * Maintained and customized six WordPress sites which averaged 35-40 million total pageviews per month. Paid special attention to SEO.
 * Served as the primary contact for system administration tasks, as well as providing technical assistance for the staff.
 * Planned and installed the corporate network when the business relocated to larger office space.
-* Developed ancillary applications, including a job search board, photo gallery, bulk email daemon, analytics reporter, and management scripts.
+* Developed ancillary applications, including a job search board, photo gallery, bulk email daemon, traffic analyzer, and management scripts.
 
 ### Freelance Streaming Media Encoder at Wall Street Webcasting <span class="details">New York, NY -- September 2009 to January 2010</span>
 * Responsible for streaming audio feeds from investment conferences across the country.
