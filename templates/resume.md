@@ -2,7 +2,7 @@
 
 ## Skills
 
-### Languages, Platforms, and Tools
+### Languages, Libraries, and Tools
 * Python -- pip, Flask, Tornado, Twisted, Fabric, Pystache, Jinja2, Mako, the Standard Library, nose, flake8, uWSGI.
 * Server-Side JavaScript -- Node.js, npm, Express/Koa, Bluebird, Underscore/lodash, Mocha, Istanbul, JSHint, Grunt.
 * Client-Side JavaScript -- Backbone, RequireJS, jQuery, Modernizr, Mustache, Jasmine, Firebug/Chrome Developer Tools.
@@ -37,7 +37,7 @@
 
 ### Senior Engineer at Maker Studios (formerly Blip Networks) <span class="details">New York, NY -- September 2013 to Present</span>
 * Developed and maintained backend software for ingesting, transcoding, and serving web video.
-* Designed and implemented Python/Node.js APIs, microservices, caching layers, and associated monitoring configurations.
+* Designed and implemented Python/Node.js APIs (some handling 1,800 requests/second at peak), microservices, caching layers, and monitoring.
 * Built services to read real-time video events from external systems and synchronize the metadata to advertising providers.
 * Refactored sections of a monolithic Perl application into independent loosely-coupled services.
 * Puppetized legacy applications and services, moving some to virtualized Linux-KVM guests and others to Amazon EC2 instances.
