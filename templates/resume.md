@@ -35,7 +35,7 @@
 
 ## Professional Experience
 
-### Senior Engineer at Maker Studios (formerly Blip Networks) <span class="details">New York, NY -- September 2013 to Present</span>
+### Senior Engineer at Maker Studios (formerly Blip Networks) <span class="details">New York, NY -- September 2013 to June 2015</span>
 * Developed and maintained backend software for ingesting, transcoding, and serving web video.
 * Designed and implemented Python/Node.js APIs, microservices, caching layers, and associated monitoring configurations.
 * Built services to read real-time video events from external systems and synchronize the metadata to advertising providers.
