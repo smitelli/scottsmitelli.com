@@ -35,6 +35,8 @@
 
 ## Professional Experience
 
+### Senior Software Engineer at Amper Music <span class="details">New York, NY (remote) -- May 2015 to present</span>
+
 ### Senior Engineer at Maker Studios (formerly Blip Networks) <span class="details">New York, NY -- September 2013 to June 2015</span>
 * Developed and maintained backend software for ingesting, transcoding, and serving web video.
 * Designed and implemented Python/Node.js APIs (some handling 1,800 requests/second at peak), microservices, caching layers, and monitoring.
