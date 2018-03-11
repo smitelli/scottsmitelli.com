@@ -5,8 +5,8 @@
       <ul class="navLevel2">
         <li><a href="{$cfg->baseUrl}/projects">Projects</a></li>
         <li><a href="{$cfg->baseUrl}/articles">Articles</a></li>
-        <li><a href="http://pics.scottsmitelli.com/">Mobile Photography</a></li>
-        <li><a href="http://gallery.scottsmitelli.com/">Still Photography</a></li>
+        <li><a href="https://pics.scottsmitelli.com/">Mobile Photography</a></li>
+        <li><a href="https://gallery.scottsmitelli.com/">Still Photography</a></li>
         <li><a href="{$cfg->baseUrl}/time-lapse-photography">Time-Lapse Photography</a></li>
         <li><a href="{$cfg->baseUrl}/resume">R&eacute;sum&eacute;</a></li>
         <li><a href="{$cfg->baseUrl}/credits">Credits List</a></li>

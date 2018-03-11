@@ -1,7 +1,7 @@
 {
   "template": "templates/root.tpl",
-  "baseUrl": "http://www.scottsmitelli.com",
-  "staticUrl": "http://www.scottsmitelli.com/static",
+  "baseUrl": "https://www.scottsmitelli.com",
+  "staticUrl": "https://www.scottsmitelli.com/static",
   "siteTitle": "Scott Smitelli",
   "headers": [
     "X-Mr-Creosote: Better get a bucket. I'm gonna throw up."
@@ -50,7 +50,7 @@
     "articles": {
       "template": "templates/articles.tpl",
       "title": "Articles",
-      "uploadUrl": "http://www.scottsmitelli.com/static-articles",
+      "uploadUrl": "https://www.scottsmitelli.com/static-articles",
       "author": "Scott Smitelli",
       "children" : {
         "default": {

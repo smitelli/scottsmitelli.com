@@ -14,8 +14,8 @@ I also maintain accounts on the following sites. Note that most of these are *pe
 
 * [GitHub](https://github.com/smitelli)
 
-* [Stack Overflow](http://stackoverflow.com/users/1713313/smitelli) ([Careers 2.0 profile](http://careers.stackoverflow.com/smitelli))
+* [Stack Overflow](https://stackoverflow.com/users/1713313/smitelli) ([Careers 2.0 profile](https://careers.stackoverflow.com/smitelli))
 
-* [Twitter](http://twitter.com/smitelli)
+* [Twitter](https://twitter.com/smitelli)
 
-* [LinkedIn](http://www.linkedin.com/in/smitelli)
+* [LinkedIn](https://www.linkedin.com/in/smitelli)

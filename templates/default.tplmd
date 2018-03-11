@@ -1,4 +1,4 @@
-Greetings! My name is Scott, I reside in the Raleigh-Durham, North Carolina area, and I do a little bit of everything. I'm a web developer professionally, and a sound mixer/editor in my spare time. I also have a wide range of other hobbies -- from [writing]({$cfg->baseUrl}/articles) to [time-lapse]({$cfg->baseUrl}/time-lapse-photography) and [mobile](http://pics.scottsmitelli.com/)/[still photography](http://gallery.scottsmitelli.com/) to [drawing a webcomic](http://www.triggerandfreewheel.com/).
+Greetings! My name is Scott, I reside in the Raleigh-Durham, North Carolina area, and I do a little bit of everything. I'm a web developer professionally, and a sound mixer/editor in my spare time. I also have a wide range of other hobbies -- from [writing]({$cfg->baseUrl}/articles) to [time-lapse]({$cfg->baseUrl}/time-lapse-photography) and [mobile](https://pics.scottsmitelli.com/)/[still photography](https://gallery.scottsmitelli.com/) to [drawing a webcomic](https://www.triggerandfreewheel.com/).
 
 My [r&eacute;sum&eacute;]({$cfg->baseUrl}/resume) is available online for your perusal, as well as a [list of credits]({$cfg->baseUrl}/credits) detailing the various film and media productions I have been involved in. The [projects]({$cfg->baseUrl}/projects) page has a lot of fun stuff on it as well.
 
@@ -6,8 +6,8 @@ My [r&eacute;sum&eacute;]({$cfg->baseUrl}/resume) is available online for your p
 
 * [Projects]({$cfg->baseUrl}/projects)
 * [Articles]({$cfg->baseUrl}/articles)
-* [Mobile Photography](http://pics.scottsmitelli.com/)
-* [Still Photography](http://gallery.scottsmitelli.com/)
+* [Mobile Photography](https://pics.scottsmitelli.com/)
+* [Still Photography](https://gallery.scottsmitelli.com/)
 * [Time-Lapse Photography]({$cfg->baseUrl}/time-lapse-photography)
 * [R&eacute;sum&eacute;]({$cfg->baseUrl}/resume)
 * [Credits List]({$cfg->baseUrl}/credits)
