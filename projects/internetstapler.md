@@ -2,4 +2,4 @@
 
 * **Source Code:** <https://github.com/smitelli/internetstapler.com>
 
-* **Try It Out:** [Internet Stapler.com](http://internetstapler.com/)
+* **Try It Out:** [Internet Stapler.com](https://internetstapler.com/)

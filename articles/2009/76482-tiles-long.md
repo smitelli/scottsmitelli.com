@@ -1,8 +1,8 @@
-Last month, I assembled and uploaded a [video showing a timelapse road trip](http://www.youtube.com/watch?v=b2d-VAAyB9c) from Pittsburgh, PA to San Mateo, CA. I've had a lot of requests from people (two, actually) who wanted to know how I managed to put the video together. So I'll share the tricks and pitfalls I discovered in my work.
+Last month, I assembled and uploaded a [video showing a timelapse road trip](https://www.youtube.com/watch?v=b2d-VAAyB9c) from Pittsburgh, PA to San Mateo, CA. I've had a lot of requests from people (two, actually) who wanted to know how I managed to put the video together. So I'll share the tricks and pitfalls I discovered in my work.
 
-<iframe width="650" height="366" src="http://www.youtube.com/embed/b2d-VAAyB9c"></iframe>
+<iframe width="650" height="366" src="https://www.youtube.com/embed/b2d-VAAyB9c"></iframe>
 
-The data came entirely from my friend [Angelo](http://angelo.dinardi.name/). He ran the <del>[InstaMapper](http://www.instamapper.com/iphone)</del> app on his iPhone for the majority of the trip. It ran sporadically during the first day, and it occasionally needed to be turned off throughout the journey so he could use the phone functions. But for a large part of the trip, it sampled the date/time, latitude, longitude, altitude, speed, and heading every 30 seconds. Each point was uploaded to InstaMapper's servers, where friends and family could go online and track our progress in real-time.
+The data came entirely from my friend [Angelo](https://angelo.dinardi.name/). He ran the <del>[InstaMapper](http://www.instamapper.com/iphone)</del> app on his iPhone for the majority of the trip. It ran sporadically during the first day, and it occasionally needed to be turned off throughout the journey so he could use the phone functions. But for a large part of the trip, it sampled the date/time, latitude, longitude, altitude, speed, and heading every 30 seconds. Each point was uploaded to InstaMapper's servers, where friends and family could go online and track our progress in real-time.
 
 Angelo put together a few map overlays and some graphs of our speed over time, but I thought I could do one better. So I asked him to export all the trip's points in a CSV file, and set to work trying to pull something out of it. The data file looked like this:
 
@@ -16,7 +16,7 @@ Angelo put together a few map overlays and some graphs of our speed over time, b
 
 And it continued in that fashion for 3,645 lines. As I was writing a PHP skeleton to read and loop over the data, it hit me: I should pass the points to Google's Street View service, scrape the images, and put them all together into a timelapse video. At the time, I hadn't planned any further than that. I didn't know how the Street View site worked, I didn't know if it was even technically possible to scrape the images in this way, and I wasn't even sure if the data points were frequent or consistent enough to even make an intelligible video that didn't just look like a mash of crap. In fact, I didn't even know if Google *had* Street View tiles for a lot of these stretches of road. I mean, seriously, who needs to see what Route 40 in Kansas looks like?
 
-Not knowing where else to start, I took a shot in the dark. I put one of the latitude/longitude pairs into Google Maps' search box, opened [Wireshark](http://www.wireshark.org), and turned on Street View.
+Not knowing where else to start, I took a shot in the dark. I put one of the latitude/longitude pairs into Google Maps' search box, opened [Wireshark](https://www.wireshark.org/), and turned on Street View.
 
 Right off the bat, I started to understand how it worked. The first request was for `http://maps.google.com/cbk?output=xml&ll=latitude,longitude`. After that, a bunch of requests went out for `http://maps.google.com/cbk?output=tile&panoid=messOfHex&zoom=3&x=something&y=something` as I panned the applet around and images loaded.
 

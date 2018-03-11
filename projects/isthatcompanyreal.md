@@ -2,5 +2,5 @@ After noticing a troubling lack of web services that could objectively determine
 
 * **Source Code:** <https://github.com/smitelli/isthatcompanyreal.com>
 
-* **Try It Out:** [Is That Company Real.com](http://www.isthatcompanyreal.com/)
+* **Try It Out:** [Is That Company Real.com](https://www.isthatcompanyreal.com/)
 

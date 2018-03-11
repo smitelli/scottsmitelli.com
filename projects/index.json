@@ -21,7 +21,7 @@
     "template": "projects/sort-of-face.md",
     "inMenu": true,
     "title": "The Sort of Face",
-    "summary": "Inspired by the wildly popular (and eventually <a href=\"http://www.newyorker.com/online/blogs/elements/2013/09/horse-ebooks-and-pronunciation-book-revealed.html\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish."
+    "summary": "Inspired by the wildly popular (and eventually <a href=\"https://www.newyorker.com/tech/elements/horse_ebooks-is-human-after-all\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish."
   },
   "myautodump": {
     "template": "projects/myautodump.md",
@@ -45,6 +45,6 @@
     "template": "projects/trigger-and-freewheel.md",
     "inMenu": true,
     "title": "Trigger and Freewheel (CMS)",
-    "summary": "<a href=\"http://www.triggerandfreewheel.com/\">Trigger and Freewheel</a> is a webcomic that I started in 2008 and have been sporadically updating. Feeling ComicPress and its brethren to be too much overkill, I built this custom CMS from scratch to host the site."
+    "summary": "<a href=\"https://www.triggerandfreewheel.com/\">Trigger and Freewheel</a> is a webcomic that I started in 2008 and have been sporadically updating. Feeling ComicPress and its brethren to be too much overkill, I built this custom CMS from scratch to host the site."
   }
 }

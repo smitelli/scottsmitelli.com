@@ -42,7 +42,7 @@
         "template": "templates/not-found.tpl",
         "title": "Project Not Found",
         "headers": [
-          "HTTP/1.0 404 Not Found"
+          "HTTP/1.1 404 Not Found"
         ]
       }
     },
@@ -62,7 +62,7 @@
         "template": "templates/not-found.tpl",
         "title": "Article Not Found",
         "headers": [
-          "HTTP/1.0 404 Not Found"
+          "HTTP/1.1 404 Not Found"
         ]
       }
     },
@@ -77,7 +77,7 @@
     "template": "templates/not-found.tpl",
     "title": "Not Found",
     "headers": [
-      "HTTP/1.0 404 Not Found"
+      "HTTP/1.1 404 Not Found"
     ]
   }
 }

@@ -1,4 +1,4 @@
-<img class="floatRight" src="{$cfg->uploadUrl}/2008/hypnotoad.gif" alt="All glory to the Hypnotoad!">Anybody who follows [Futurama](http://www.gotfuturama.com/) with any degree of loyalty has undoubtedly seen the Hypnotoad at least once. With a cold stare and an ominous hum, this creature can hypnotize almost any living thing to do its bidding. But you don't need me to explain any of this. Read the [Wikipedia article](http://en.wikipedia.org/wiki/List_of_recurring_Futurama_characters#Hypnotoad) yourself.
+<img class="floatRight" src="{$cfg->uploadUrl}/2008/hypnotoad.gif" alt="All glory to the Hypnotoad!">Anybody who follows [Futurama](http://www.gotfuturama.com/) with any degree of loyalty has undoubtedly seen the Hypnotoad at least once. With a cold stare and an ominous hum, this creature can hypnotize almost any living thing to do its bidding. But you don't need me to explain any of this. Read the [Wikipedia article](https://en.wikipedia.org/wiki/List_of_recurring_Futurama_characters#Hypnotoad) yourself.
 
 My real interest has always been in the sound effect:
 
@@ -7,13 +7,13 @@ My real interest has always been in the sound effect:
   <source src="{$cfg->uploadUrl}/2008/hypno-angrymachine.ogg" type="audio/ogg">
 </audio>
 
-There's not a lot of information about it available on the Internet. In fact, most of what you'll find is pure conjecture. But there are a few things I accept as fact based on the commentaries on the DVD sets (specifically, from "[The Day the Earth Stood Stupid](http://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Stupid)" and "[Bender Should Not Be Allowed on TV](http://en.wikipedia.org/wiki/Bender_Should_Not_Be_Allowed_on_TV)"):
+There's not a lot of information about it available on the Internet. In fact, most of what you'll find is pure conjecture. But there are a few things I accept as fact based on the commentaries on the DVD sets (specifically, from "[The Day the Earth Stood Stupid](https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Stupid)" and "[Bender Should Not Be Allowed on TV](https://en.wikipedia.org/wiki/Bender_Should_Not_Be_Allowed_on_TV)"):
 
 * The sound is called "Angry Machine"
 * The effect was temporary, added in a very early stage of animation as a placeholder. They intended to replace it with a "better" sound once the episode was more finalized, but everybody seemed to enjoy the temp sound. So they kept it.
 * They claim that the sound was part of their editing system. Perhaps it was an error sound.
 
-There has also been a great deal of [fan speculation](http://www.peelified.com/cgi-bin/Futurama/1-000670-1/) about the origin of the sound. Some claim it's the sound of the Millennium Falcon's engines, slowed down and played in a loop. Others claim it came from an ancient video game called "Yar's Revenge." I personally disagree with the Millennium Falcon comparison, and I've never run across Yar's Revenge, so I can't comment on that one.
+There has also been a great deal of [fan speculation](http://www.peelified.com/Futurama-Forum-1/Topic-750-0-Hypnotoads_sound_effect.html) about the origin of the sound. Some claim it's the sound of the Millennium Falcon's engines, slowed down and played in a loop. Others claim it came from an ancient video game called "Yar's Revenge." I personally disagree with the Millennium Falcon comparison, and I've never run across Yar's Revenge, so I can't comment on that one.
 
 In fact, I'm not even sure it's something that would've shipped with an editing package. It's actually a pretty obnoxious sound. If you were working on a deadline and slipped up on your editing workstation, I'm sure the last thing you'd want to hear is that sound blaring through your monitor speakers. Although it's entirely possible that they're mis-remembering the sound the editing machine made... It could very well have been playing **Utopia Error.wav**:
 
@@ -42,7 +42,7 @@ Audition knows how to make three types of noise: White, Pink, and Brown. I made 
 
 <img class="floatNone" src="{$cfg->uploadUrl}/2008/hypno-noisefreq.jpg" alt="Noise types">
 
-White noise is represented by the green line, Pink noise by the red line, and Brown noise by the yellow line. You heard me. After comparing the three, it seemed that Brown noise was the closest to the frequency response of Angry Machine. To clear up misconceptions, Brown noise is **not** a mythical sound that causes people to soil their pants... In fact, it's not even named for the color at all. It's named after Robert Brown, and the mathematical pattern ([Brownian motion](http://en.wikipedia.org/wiki/Brownian_motion)) the noise is made from.
+White noise is represented by the green line, Pink noise by the red line, and Brown noise by the yellow line. You heard me. After comparing the three, it seemed that Brown noise was the closest to the frequency response of Angry Machine. To clear up misconceptions, Brown noise is **not** a mythical sound that causes people to soil their pants... In fact, it's not even named for the color at all. It's named after Robert Brown, and the mathematical pattern ([Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion)) the noise is made from.
 
 <img class="floatNone" src="{$cfg->uploadUrl}/2008/hypno-generatenoise.png" alt="Generate Noise">
 
