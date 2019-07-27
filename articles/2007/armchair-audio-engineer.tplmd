@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 .meatLoafNoArtifact { color: #080 }
 .chefArtifact       { color: #c00 }
 .bothNoArtifact     { color: #008 }

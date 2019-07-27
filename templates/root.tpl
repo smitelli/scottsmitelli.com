@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=670">
     <title>
       {if $cfg->title}
@@ -47,7 +46,7 @@
       {$subtemplate}
     </section>
 
-    <script type="text/javascript">
+    <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-7884449-1'], ['_trackPageview']);
       (function() {
