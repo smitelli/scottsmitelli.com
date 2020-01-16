@@ -131,8 +131,11 @@ html, body {
 #branding #logo,
 #branding #logo img {
   display: block;
-  margin: 10px auto;
+  margin: 10px 0;
   border: 0;
+}
+#branding #logo.bigLogo img {
+  margin: 10px auto;
 }
 #branding .guy {
   overflow: hidden;

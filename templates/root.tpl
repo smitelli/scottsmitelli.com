@@ -26,7 +26,7 @@
     <header id="branding">
       {if $cfg->bigBranding}
         <div class="wrap">
-          <a id="logo" href="{$cfg->baseUrl}/">
+          <a id="logo" class="bigLogo" href="{$cfg->baseUrl}/">
             <img src="{$cfg->staticUrl}/images/header-scott.png" alt="{$cfg->siteTitle}">
           </a>
           <div class="web guy">Web Guy</div>
