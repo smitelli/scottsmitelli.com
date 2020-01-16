@@ -242,6 +242,10 @@ html, body {
 }
 
 /* ===== RESUME PAGE, CREDITS PAGE ===== */
+.resume,
+.credits {
+  margin-bottom: 1.5em;
+}
 .resume header h1,
 .credits header h1 {
   display: none;
@@ -252,19 +256,14 @@ html, body {
   color: #fff;
   text-align: center;
 }
-.resume h3 {
-  margin: 0.5em 0;
-}
-.resume p {
-  margin: 0.5em 0;
-}
 .resume ul > li,
 .credits ul > li {
-  background-position: 0 7px;
+  background-position: 0 9px;
   margin: 0.5em 2em;
 }
-.credits ul > li {
-  line-height: 1.2em;
+.resume h3,
+.resume p {
+  margin: 0.5em 0;
 }
 
 /* ===== FANCYBOX SUPPORT ===== */
