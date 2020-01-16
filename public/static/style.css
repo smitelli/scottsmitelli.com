@@ -252,15 +252,19 @@ html, body {
   color: #fff;
   text-align: center;
 }
+.resume h3 {
+  margin: 0.5em 0;
+}
+.resume p {
+  margin: 0.5em 0;
+}
 .resume ul > li,
 .credits ul > li {
-  background-position: 0 6px;
-  line-height: 1.2em;
+  background-position: 0 7px;
+  margin: 0.5em 2em;
 }
-.resume .details {
-  display: block;
-  color: #888;
-  font-size: 80%;
+.credits ul > li {
+  line-height: 1.2em;
 }
 
 /* ===== FANCYBOX SUPPORT ===== */
