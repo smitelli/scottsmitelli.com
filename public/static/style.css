@@ -199,7 +199,7 @@ html, body {
 img.defaultScott {
   display: block;
   float: right;
-  margin: 1.5em 0 1.5em 1.5em;
+  margin: 0 0 1.5em 1.5em;
   width: 250px;
   height: 250px;
 }
