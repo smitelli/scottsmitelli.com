@@ -195,6 +195,15 @@ html, body {
   background: #888;
 }
 
+/* ===== DEFAULT PAGE ===== */
+img.defaultScott {
+  display: block;
+  float: right;
+  margin: 1.5em 0 1.5em 1.5em;
+  width: 250px;
+  height: 250px;
+}
+
 /* ===== ARTICLE/PROJECT PAGES ===== */
 .articles .byline {
   margin-top: -1em;
