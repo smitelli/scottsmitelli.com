@@ -1,4 +1,34 @@
 {
+  "untitled": {
+    "template": "projects/untitled.md",
+    "inMenu": true,
+    "title": "Untitled Reverse Engineering Project",
+    "summary": "An attempt to reverse-engineer, understand, document, and then reimplement an early 90s DOS game using the original C compiler from 1988."
+  },
+  "salt": {
+    "template": "projects/salt.md",
+    "inMenu": true,
+    "title": "Salt",
+    "summary": "The configuration management code that launched this web server and everything on it."
+  },
+  "windowbox": {
+    "template": "projects/windowbox.md",
+    "inMenu": true,
+    "title": "Windowbox",
+    "summary": "<a href=\"https://pics.scottsmitelli.com/\">Windowbox</a> is a photo-hosting website where I post pictures directly from my phone. They used to call it \"moblogging\" back in the day; now everybody does it all the time."
+  },
+  "scottfiles": {
+    "template": "projects/scottfiles.md",
+    "inMenu": true,
+    "title": "Scottfiles",
+    "summary": "Scott's dotfiles."
+  },
+  "leroux-cache": {
+    "template": "projects/leroux-cache.md",
+    "inMenu": true,
+    "title": "leroux-cache",
+    "summary": "A cache object that <em>actually</em> deletes the least-recently-used items."
+  },
   "internetstapler": {
     "template": "projects/internetstapler.md",
     "inMenu": true,
