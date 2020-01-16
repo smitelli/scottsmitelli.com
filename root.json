@@ -67,8 +67,6 @@
       }
     },
 
-    "music": { "title": "Music Temporarily Unavailable. Sorry!", "TODO": true },
-    "reel": { "title": "Reel Temporarily Unavailable. Sorry!", "TODO": true },
     "webdesign": { "headers": ["Location: /projects"] },
     "photography": { "headers": ["Location: /time-lapse-photography"] }
   },
