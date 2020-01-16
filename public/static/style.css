@@ -131,13 +131,14 @@ html, body {
 #branding #logo,
 #branding #logo img {
   display: block;
-  margin: 10px 0;
+  margin: 10px auto;
   border: 0;
 }
 #branding .guy {
   overflow: hidden;
   width: 199px;
   height: 39px;
+  margin: 0 50px;
   background: transparent url('images/header-guys.png') no-repeat 0 0;
   text-indent: -9999px;
 }
