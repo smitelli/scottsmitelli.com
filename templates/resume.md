@@ -8,7 +8,7 @@ Senior backend and DevOps engineer with ten years of experience. Enjoys interpre
 
 _Web Systems Architect, May 2015 to Present_
 
-As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
+As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability, and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
 
 * _Languages/Frameworks:_ Python, Flask, Salt, AWS CloudFormation, Bash
 * _Technologies:_ AWS (EC2, S3, CloudFront, RDS, ElastiCache), Debian, nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, FFmpeg, Hugo, Jenkins, Git, FFmpeg, JSON:API, Jira, Cloudflare, G Suite

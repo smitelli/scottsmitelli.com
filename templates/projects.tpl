@@ -2,6 +2,12 @@
   <header>
     <h1>{$cfg->title}</h1>
   </header>
+
+  <p>
+    Here are some things I've worked on over the years. Most are still running
+    on the web somewhere.
+  </p>
+
   {foreach from=$cfg->children key=permalink item=postData}
     {if $postData->inMenu}
       <article class="summary">
