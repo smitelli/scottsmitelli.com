@@ -263,6 +263,10 @@ img.defaultScott {
 .credits header h1 {
   display: none;
 }
+.resume h1
+.credits h1 {
+  text-align: center;
+}
 .resume h2,
 .credits h2 {
   background: #333;
