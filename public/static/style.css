@@ -85,7 +85,7 @@ html, body {
   list-style: none;
   margin: 1em 2em;
   padding-left: 15px;
-  background: transparent url('images/li-bullet.png') no-repeat 0 10px;
+  background: transparent url('images/li-bullet.png') no-repeat 0 0.55em;
 }
 .content audio {
   display: block;
@@ -271,8 +271,8 @@ img.defaultScott {
 }
 .resume ul > li,
 .credits ul > li {
-  background-position: 0 9px;
-  margin: 0.5em 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .resume h3,
 .resume p {
