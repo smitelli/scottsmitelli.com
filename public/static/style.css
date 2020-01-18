@@ -263,7 +263,7 @@ img.defaultScott {
 .credits header h1 {
   display: none;
 }
-.resume h1
+.resume h1,
 .credits h1 {
   text-align: center;
 }
