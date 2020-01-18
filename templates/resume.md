@@ -17,7 +17,7 @@ As the first full-time employee, built out all of the infrastructure and web-fac
 
 _Senior Engineer, September 2013 to June 2015_
 
-Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers (some handling 1,800 requests/second at peak), reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical datacenters to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
+Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers (some handling 1,800 requests/second at peak), reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical data centers to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
 
 * _Languages/Frameworks:_ Python, JavaScript/Node.js, Express, Puppet, Bash
 * _Technologies:_ AWS EC2, CentOS, nginx, Varnish, MySQL, MongoDB, Elasticsearch, MogileFS, Git, FFmpeg, Nagios, Logstash, StatsD
