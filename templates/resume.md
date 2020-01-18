@@ -1,6 +1,6 @@
 # Scott Smitelli | <scott@smitelli.com>
 
-Senior backend and DevOps engineer with ten years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Enjoys tinkering with the interesting aspects of technology and automating the tedious bits.
+Senior backend and DevOps engineer with ten years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Likes tinkering with the interesting aspects of technology while automating the more tedious bits.
 
 ## Experience
 
@@ -8,10 +8,10 @@ Senior backend and DevOps engineer with ten years of experience. Enjoys interpre
 
 _Web Systems Architect, May 2015 to Present_
 
-As the first full-time employee, built out all of the infrastructure and web-facing software to launch the alpha (and later beta) version of an AI music generation platform which has created millions of minutes of music. Created APIs for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's applications and services. Responsible for the deployment and I/O performance of an instrument library of almost one terabyte.
+As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
 
-* _Languages/Frameworks:_ Python, Flask, Salt, Bash
-* _Technologies:_ AWS (EC2, S3, CloudFront, RDS, ElastiCache, CloudFormation), Debian, nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, FFmpeg, Hugo, Jenkins, Git, Jira, G Suite
+* _Languages/Frameworks:_ Python, Flask, Salt, AWS CloudFormation, Bash
+* _Technologies:_ AWS (EC2, S3, CloudFront, RDS, ElastiCache), Debian, nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, FFmpeg, Hugo, Jenkins, Git, FFmpeg, JSON:API, Jira, Cloudflare, G Suite
 
 ### Maker Studios (formerly Blip Networks) -- New York, NY
 
@@ -19,8 +19,8 @@ _Senior Engineer, September 2013 to June 2015_
 
 Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers (some handling 1,800 requests/second at peak), reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical datacenters to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
 
-* _Languages/Frameworks:_ Python, JavaScript/Node.js, Express, Puppet
-* _Technologies:_ AWS EC2, CentOS, nginx, Varnish, MySQL, Elasticsearch, MogileFS, Git, Nagios, StatsD
+* _Languages/Frameworks:_ Python, JavaScript/Node.js, Express, Puppet, Bash
+* _Technologies:_ AWS EC2, CentOS, nginx, Varnish, MySQL, MongoDB, Elasticsearch, MogileFS, Git, FFmpeg, Nagios, Logstash, StatsD
 
 ### Thomson Reuters -- New York, NY
 
@@ -28,8 +28,8 @@ _Web Developer, January 2013 to September 2013_
 
 Received control of a prototype of Reuters Next, a complete rewrite of the Reuters.com news platform with re-imagined UX interactions and backend services. Implemented additional features, practiced test-driven development, and productionized the site for deployment on AWS. Navigated the knowledge transfer period between the outside agency that built the prototype and an offshore engineering and QA team.
 
-* _Languages/Frameworks:_ Python, JavaScript, HTML, SCSS, Tornado, Backbone
-* _Technologies:_ AWS EC2, nginx, MongoDB, REST APIs, Git, Adobe Photoshop, Jira
+* _Languages/Frameworks:_ Python, JavaScript, HTML, SCSS, Tornado, Backbone.js
+* _Technologies:_ AWS EC2, nginx, MongoDB, Redis, Git, Adobe Photoshop, Jira
 
 ### Worldnow -- Long Island City, NY
 
@@ -38,7 +38,7 @@ _Senior Interactive Development Manager, November 2011 to January 2013_
 Built customized frontend features for a content management platform used by dozens of television news stations across North America. Advised client services managers about the feasibility and scheduling of such requests. Assisted with a global conversion of all site templates to responsive web design. Created libraries to simplify the implementation of common customizations.
 
 * _Languages/Frameworks:_ (X)HTML, XML/XSLT, CSS, JavaScript, jQuery
-* _Technologies:_ Windows Server, IIS Web Server, Adobe Photoshop/Illustrator, Team Foundation Server, SalesLogix
+* _Technologies:_ Windows Server, IIS Web Server, Adobe Photoshop/Fireworks, Team Foundation Server, Cygwin, SalesLogix
 
 ### Abrams Media -- New York, NY
 
@@ -46,7 +46,7 @@ _Lead Developer, January 2010 to November 2011_
 
 As the first full-time engineering hire at a rapidly-growing media company, managed a fleet of WordPress servers which handled 35-40 million pageviews per month and maintained all office IT. Developed ancillary applications, including a job search board, photo gallery, bulk email daemon, traffic analyzer, and management scripts. Supervised a team of three engineers.
 
-* _Languages/Frameworks:_ PHP, HTML, CSS, JavaScript/Node.js, WordPress, jQuery
+* _Languages/Frameworks:_ PHP, HTML, CSS, JavaScript/Node.js, WordPress, Express, jQuery
 * _Technologies:_ CentOS, pfSense, Apache, nginx, MySQL, MongoDB, Akamai CDN, Google Apps for Work, Google Analytics, Chartbeat, Quantcast
 
 ### Wall Street Webcasting -- New York, NY

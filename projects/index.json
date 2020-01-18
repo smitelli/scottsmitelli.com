@@ -3,7 +3,7 @@
     "template": "projects/untitled.md",
     "inMenu": true,
     "title": "Untitled Reverse Engineering Project",
-    "summary": "An attempt to reverse-engineer, understand, document, and then reimplement an early 90s DOS game using the original C compiler from 1988."
+    "summary": "An attempt to disassemble, understand, reimplement, and document an early 1990s DOS game using the original C compiler and x86 assembler from 1988."
   },
   "salt": {
     "template": "projects/salt.md",
