@@ -158,6 +158,11 @@ html, body {
   right: 10px;
   top: -5px;
 }
+@media print {
+  #brandingNav {
+    display: none;
+  }
+}
 #brandingNav .navLevel1 > li {
   position: relative;
   float: left;
