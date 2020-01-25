@@ -242,6 +242,7 @@ img.defaultScott {
 .projects .summary {
   margin: 1.5em 0;
   padding: 0 1em;
+  clear: both;
   border: 1px solid #ccc;
   background: #eee;
 }
@@ -249,8 +250,8 @@ img.defaultScott {
 .projects img.thumb {
   display: block;
   float: right;
-  margin: 0 0 1.5em 1.5em;
-  width: 250px;
+  margin: 1.5em;
+  width: 150px;
   height: auto;
 }
 .articles .feature > p:last-child:after,
