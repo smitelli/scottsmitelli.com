@@ -257,6 +257,7 @@ img.defaultScott {
 }
 .articles .feature img.thumb,
 .projects .feature img.thumb {
+  margin-top: 0;
   width: 250px;
 }
 .articles .feature > p:last-child:after,
