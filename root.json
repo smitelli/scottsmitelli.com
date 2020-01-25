@@ -32,6 +32,7 @@
     "projects": {
       "template": "templates/projects.tpl",
       "title": "Projects",
+      "uploadUrl": "https://www.scottsmitelli.com/static-projects",
       "children" : {
         "default": {
           "indexPage": true

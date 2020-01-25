@@ -206,7 +206,7 @@ img.defaultScott {
   float: right;
   margin: 0 0 1.5em 1.5em;
   width: 250px;
-  height: 250px;
+  height: auto;
 }
 
 /* ===== ARTICLE/PROJECT PAGES ===== */
@@ -244,6 +244,14 @@ img.defaultScott {
   padding: 0 1em;
   border: 1px solid #ccc;
   background: #eee;
+}
+.articles img.thumb,
+.projects img.thumb {
+  display: block;
+  float: right;
+  margin: 0 0 1.5em 1.5em;
+  width: 250px;
+  height: auto;
 }
 .articles .feature > p:last-child:after,
 .projects .feature > p:last-child:after {

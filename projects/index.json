@@ -3,72 +3,84 @@
     "template": "projects/untitled.md",
     "inMenu": true,
     "title": "Untitled Reverse Engineering Project",
-    "summary": "An attempt to disassemble, understand, reimplement, and document an early 1990s DOS game using the original C compiler and x86 assembler from 1988."
+    "summary": "An attempt to disassemble, understand, reimplement, and document an early 1990s DOS game using the original C compiler and x86 assembler from 1988.",
+    "thumb": "untitled.png"
   },
   "salt": {
     "template": "projects/salt.md",
     "inMenu": true,
     "title": "Salt",
-    "summary": "The configuration management code that launched this web server and everything on it."
+    "summary": "The configuration management code that launched this web server and everything on it.",
+    "thumb": "salt.jpg"
   },
   "windowbox": {
     "template": "projects/windowbox.md",
     "inMenu": true,
     "title": "Windowbox",
-    "summary": "<a href=\"https://pics.scottsmitelli.com/\">Windowbox</a> is a photo-hosting website where I post pictures directly from my phone. They used to call it \"moblogging\" back in the day; now everybody does it all the time."
+    "summary": "<a href=\"https://pics.scottsmitelli.com/\">Windowbox</a> is a photo-hosting website where I post pictures directly from my phone. They used to call it \"moblogging\" back in the day; now everybody does it all the time.",
+    "thumb": "windowbox.jpg"
   },
   "scottfiles": {
     "template": "projects/scottfiles.md",
     "inMenu": true,
     "title": "Scottfiles",
-    "summary": "Scott's dotfiles."
+    "summary": "Scott's dotfiles.",
+    "thumb": "scottfiles.jpg"
   },
   "leroux-cache": {
     "template": "projects/leroux-cache.md",
     "inMenu": true,
     "title": "leroux-cache",
-    "summary": "A cache object that <em>actually</em> deletes the least-recently-used items."
+    "summary": "A cache object that <em>actually</em> deletes the least-recently-used items.",
+    "thumb": "leroux-cache.jpg"
   },
   "internetstapler": {
     "template": "projects/internetstapler.md",
     "inMenu": true,
     "title": "Internet Stapler",
-    "summary": "It is a stapler for our internet age."
+    "summary": "It is a stapler for our internet age.",
+    "thumb": "internetstapler.jpg"
   },
   "isthatcompanyreal": {
     "template": "projects/isthatcompanyreal.md",
     "inMenu": true,
     "title": "Is That Company Real?",
-    "summary": "A web service that determines whether or not a given company is &ldquo;real.&rdquo;"
+    "summary": "A web service that determines whether or not a given company is &ldquo;real.&rdquo;",
+    "thumb": "isthatcompanyreal.jpg"
   },
   "docroute": {
     "template": "projects/docroute.md",
     "inMenu": true,
     "title": "Docroute",
-    "summary": "A dynamic CMS for mostly-static content. This entire site is powered by Docroute."
+    "summary": "A dynamic CMS for mostly-static content. This entire site is powered by Docroute.",
+    "thumb": "docroute.jpg"
   },
   "sort-of-face": {
     "template": "projects/sort-of-face.md",
     "inMenu": true,
     "title": "The Sort of Face",
-    "summary": "Inspired by the wildly popular (and eventually <a href=\"https://www.newyorker.com/tech/elements/horse_ebooks-is-human-after-all\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish."
+    "summary": "Inspired by the wildly popular (and eventually <a href=\"https://www.newyorker.com/tech/elements/horse_ebooks-is-human-after-all\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish.",
+    "thumb": "sort-of-face.jpg"
   },
   "twanslationparty": {
     "template": "projects/twanslationparty.tplmd",
     "inMenu": true,
     "title": "twanslationparty",
-    "summary": "Working in conjunction with <a href=\"/projects/twitstash\">twitstash</a>, twanslationparty corrupts the English in tweets and reposts each one to another Twitter account."
+    "summary": "Working in conjunction with <a href=\"/projects/twitstash\">twitstash</a>, twanslationparty corrupts the English in tweets and reposts each one to another Twitter account.",
+    "thumb": "twanslationparty.jpg"
   },
   "twitstash": {
     "template": "projects/twitstash.md",
     "inMenu": true,
     "title": "twitstash",
-    "summary": "twitstash is a cron script that downloads a Twitter user&rsquo;s timeline and stores new tweets in a MySQL table. It can be used for archival purposes, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots."
+    "summary": "twitstash is a cron script that downloads a Twitter user&rsquo;s timeline and stores new tweets in a MySQL table. It can be used for archival purposes, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots.",
+    "thumb": "twitstash.jpg"
   },
   "trigger-and-freewheel": {
     "template": "projects/trigger-and-freewheel.md",
     "inMenu": true,
     "title": "Trigger and Freewheel (CMS)",
-    "summary": "<a href=\"https://www.triggerandfreewheel.com/\">Trigger and Freewheel</a> is a webcomic that I started in 2008 and have been sporadically updating. Feeling ComicPress and its brethren to be too much overkill, I built this custom CMS from scratch to host the site."
+    "summary": "<a href=\"https://www.triggerandfreewheel.com/\">Trigger and Freewheel</a> is a webcomic that I started in 2008 and have been sporadically updating. Feeling ComicPress and its brethren to be too much overkill, I built this custom CMS from scratch to host the site.",
+    "thumb": "trigger-and-freewheel.jpg"
   }
 }

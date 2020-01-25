@@ -11,6 +11,10 @@
   {foreach from=$cfg->children key=permalink item=postData}
     {if $postData->inMenu}
       <article class="summary">
+        {if $postData->thumb}
+          <img src="{$cfg->uploadUrl}/{$postData->thumb}" alt="{$postData->title}" class="thumb">
+        {/if}
+
         <h2>
           <a href="{$cfg->baseUrl}/projects/{$permalink}">{$postData->title}</a>
         </h2>
@@ -23,6 +27,10 @@
 
 {else if $cfg->summary}
   <article class="feature">
+    {if $postData->thumb}
+      <img src="{$cfg->uploadUrl}/{$postData->thumb}" alt="{$postData->title}" class="thumb">
+    {/if}
+
     <header>
       <h1>{$cfg->title}</h1>
     </header>
