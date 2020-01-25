@@ -27,8 +27,8 @@
 
 {else if $cfg->summary}
   <article class="feature">
-    {if $postData->thumb}
-      <img src="{$cfg->uploadUrl}/{$postData->thumb}" alt="{$postData->title}" class="thumb">
+    {if $cfg->thumb}
+      <img src="{$cfg->uploadUrl}/{$cfg->thumb}" alt="{$cfg->title}" class="thumb">
     {/if}
 
     <header>
