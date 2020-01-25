@@ -252,8 +252,12 @@ img.defaultScott {
   display: block;
   float: right;
   margin: 1.5em 0 1.5em 1.5em;
-  width: 200px;
+  width: 150px;
   height: auto;
+}
+.articles .feature img.thumb,
+.projects .feature img.thumb {
+  width: 250px;
 }
 .articles .feature > p:last-child:after,
 .projects .feature > p:last-child:after {

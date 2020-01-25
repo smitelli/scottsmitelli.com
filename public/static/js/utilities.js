@@ -11,6 +11,9 @@ UTILS.fancyBoxWrap = function(target) {
     var $image = $(this);
     var testImg = new Image();
 
+    // Don't mess around with the thumbnails; they have their own CSS
+    if ($image.attr('class') == 'thumb') { return; }
+
     // Callback function, fired when the test image loads
     $(testImg).load(function() {
       // Bail out if the image was not shrunk to fit on the page
