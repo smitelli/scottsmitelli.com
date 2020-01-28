@@ -4,6 +4,8 @@ Originally designed to solve high memory usage in an application that had admitt
 
 MIT license.
 
+* **Original Release:** April 2015
+
 * **Source Code:** <https://github.com/smitelli/leroux-cache>
 
 * **Travis CI Builds:** <https://travis-ci.org/smitelli/leroux-cache>

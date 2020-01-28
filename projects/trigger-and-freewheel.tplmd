@@ -8,6 +8,8 @@ This CMS was my first attempt at building a serious MVC application with URL rou
 
 There was always a wish-list of features to add (image replacement, auto-resizing comic images to the page width...) but none of them were interfered with my workflow enough to warrant development. Today the site still runs, and still hosts all the content I've ever posted. I haven't officially retired from posting new comics, but they are now rare indeed.
 
+* **Original Release:** May 2011
+
 * **Source Code:** <https://github.com/smitelli/triggerandfreewheel.com>
 
 * **Try It Out:** [Trigger and Freewheel.com](https://www.triggerandfreewheel.com/)

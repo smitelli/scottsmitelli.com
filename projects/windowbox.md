@@ -4,6 +4,8 @@ From a day-to-day perspective, Windowbox works by periodically checking an (unpu
 
 Windowbox is also my first attempt at reaching 100% test coverage in a complete web app. It's not something I think I would generally recommend anybody try, but it's not too difficult to live with since the project's development is relatively dormant.
 
+* **Original Release:** July 2014; re-released November 2019 using Python 3
+
 * **Source Code:** <https://github.com/smitelli/windowbox>
 
 * **Try It Out:** [Windowbox](https://pics.scottsmitelli.com/)

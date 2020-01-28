@@ -2,4 +2,6 @@
 
 These dotfiles are designed to utilize [GNU Stow](https://www.gnu.org/software/stow/) to allow files to be installed under some environments but not others. This, paired with generous use of `*.d/` directories, allows for something approximating a dotfile plugin architecture.
 
+* **Original Release:** August 2015
+
 * **Source Code:** <https://github.com/smitelli/scottfiles>

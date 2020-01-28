@@ -4,4 +4,6 @@ The states for this website, for example, are in [this file](https://github.com/
 
 The entire server is comprised of well over 300 states.
 
+* **Original Release:** March 2018
+
 * **Source Code:** <https://github.com/smitelli/salt>
