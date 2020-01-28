@@ -145,19 +145,19 @@ html, body {
 }
 #branding .guy {
   overflow: hidden;
-  width: 199px;
+  width: 200px;
   height: 39px;
   margin: 0 50px;
-  background: transparent url('images/header-guys.png') no-repeat 0 0;
+  background: transparent no-repeat 0 0;
   text-indent: -9999px;
 }
 #branding .guy.web {
   float: left;
-  background-position: 0 0;
+  background-image: url('images/header-web.guy.png');
 }
 #branding .guy.sound {
   float: right;
-  background-position: 0 -50px;
+  background-image: url('images/header-sound.guy.png');
 }
 #brandingNav {
   position: absolute;
