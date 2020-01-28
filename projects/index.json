@@ -77,10 +77,10 @@
     "thumb": "twitstash.jpg"
   },
   "trigger-and-freewheel": {
-    "template": "projects/trigger-and-freewheel.md",
+    "template": "projects/trigger-and-freewheel.tplmd",
     "inMenu": true,
-    "title": "Trigger and Freewheel (CMS)",
-    "summary": "<a href=\"https://www.triggerandfreewheel.com/\">Trigger and Freewheel</a> is a webcomic that I started in 2008 and have been sporadically updating. Feeling ComicPress and its brethren to be too much overkill, I built this custom CMS from scratch to host the site.",
+    "title": "Trigger and Freewheel CMS",
+    "summary": "The Trigger and Freewheel CMS powers a <a href=\"https://www.triggerandfreewheel.com/\">webcomic of the same name</a> that I started drawing in 2008 and have been sporadically updating since.",
     "thumb": "trigger-and-freewheel.jpg"
   }
 }
