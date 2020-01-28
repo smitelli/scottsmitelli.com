@@ -133,6 +133,7 @@ html, body {
   margin: 10px 0;
 }
 #branding #logo img {
+  display: block;
   width: 250px;
   height: auto;
   border: 0;
@@ -215,7 +216,7 @@ img.defaultScott {
 }
 
 /* ===== 404 PAGE ===== */
-section.notfound img {
+.notfound img {
   width: 750px;
   height: auto;
 }
