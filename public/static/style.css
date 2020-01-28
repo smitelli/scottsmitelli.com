@@ -128,14 +128,19 @@ html, body {
 #branding .wrap {
   position: relative;
 }
-#branding #logo,
-#branding #logo img {
+#branding #logo {
   display: block;
   margin: 10px 0;
+}
+#branding #logo img {
+  width: 250px;
+  height: auto;
   border: 0;
 }
 #branding #logo.bigLogo img {
-  margin: 10px auto;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #branding .guy {
   overflow: hidden;
@@ -206,6 +211,12 @@ img.defaultScott {
   float: right;
   margin: 0 0 1.5em 1.5em;
   width: 250px;
+  height: auto;
+}
+
+/* ===== 404 PAGE ===== */
+section.notfound img {
+  width: 750px;
   height: auto;
 }
 
