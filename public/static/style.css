@@ -82,10 +82,8 @@ html, body {
   margin: 1.5em 0;
 }
 .content ul > li {
-  list-style: none;
-  margin: 1em 2em;
-  padding-left: 15px;
-  background: transparent url('images/li-bullet.png') no-repeat 0 0.55em;
+  list-style: disclosure-closed;
+  margin: 1em 0 1em 3em;
 }
 .content audio {
   display: block;
@@ -149,6 +147,7 @@ html, body {
   height: 39px;
   margin: 0 50px;
   background: transparent none no-repeat 0 0;
+  background-size: 200px auto;
   text-indent: -9999px;
 }
 #branding .guy.web {
