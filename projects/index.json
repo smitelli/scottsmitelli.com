@@ -70,10 +70,10 @@
     "thumb": "twanslationparty.jpg"
   },
   "twitstash": {
-    "template": "projects/twitstash.md",
+    "template": "projects/twitstash.tplmd",
     "inMenu": true,
     "title": "twitstash",
-    "summary": "twitstash is a cron script that downloads a Twitter user&rsquo;s timeline and stores new tweets in a MySQL table. It can be used for archival purposes, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots.",
+    "summary": "twitstash is a cron script that archives a Twitter user&rsquo;s timeline into a MySQL databases for search, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots.",
     "thumb": "twitstash.jpg"
   },
   "trigger-and-freewheel": {
