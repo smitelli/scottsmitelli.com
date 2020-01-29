@@ -59,7 +59,7 @@
     "template": "projects/sort-of-face.md",
     "inMenu": true,
     "title": "The Sort of Face",
-    "summary": "Inspired by the wildly popular (and eventually <a href=\"https://www.newyorker.com/tech/elements/horse_ebooks-is-human-after-all\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that posts funny gibberish.",
+    "summary": "Inspired by the popular (and eventually <a href=\"https://www.newyorker.com/tech/annals-of-technology/horse-ebooks-is-human-after-all\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that generates funny gibberish.",
     "thumb": "sort-of-face.jpg"
   },
   "twanslationparty": {
