@@ -1,6 +1,6 @@
 One of the most lamented aspects of the Twitter API is the fact that [there is no way to programmatically retrieve tweets sent more than 3,200 updates ago](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline). For heavy Twitter users, that means that tweets sent as recently as a few months ago cannot be retrieved unless the ID number is known. Because I enjoy archiving things, and because I realized that I might someday want to access some of my earliest updates, I wrote **twitstash** to archive tweets as they were posted. I started running this script back when I only had a few hundred tweets, and after near-continuous use I can now access (and search) every single tweet I've ever posted -- even though there are now tens of thousands of them.
 
-At its core, twitstash is a PHP script that is run several times an hour via the system cron. During each invocation, my timeline is fetched from the Twitter API and all new tweets (relative to the last run) are inserted into the database. A reverse comparison is also done, verifying that all recent tweets in the database still exist in the fetched timeline. If any orphans are found, twitstash marks those rows with a `deleted` flag.
+At its core, twitstash is a PHP script that is run several times an hour via the system cron. During each invocation, my timeline is fetched from the Twitter API and all new tweets and retweets (relative to the last run) are inserted into the database. A reverse comparison is also done, verifying that all recent tweets in the database still exist in the fetched timeline. If any orphans are found, twitstash marks those rows with a `deleted` flag.
 
 Along with tweet text and metadata, twitstash also stores geolocation data (when available) and the expanded values of all shortened URLs. This allows for reconstructing <http://t.co/o5DFjS0SDq> back into <http://scottsmitelli.com> without performing any HTTP requests.
 
@@ -9,4 +9,3 @@ The twitstash database is used heavily by a sibling project, [twanslationparty](
 * **Original Release:** April 2009
 
 * **Source Code:** <https://github.com/smitelli/twitstash>
-

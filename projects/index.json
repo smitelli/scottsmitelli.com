@@ -66,14 +66,14 @@
     "template": "projects/twanslationparty.tplmd",
     "inMenu": true,
     "title": "twanslationparty",
-    "summary": "Working in conjunction with <a href=\"/projects/twitstash\">twitstash</a>, twanslationparty corrupts the English in tweets and reposts each one to another Twitter account.",
+    "summary": "Working in conjunction with <a href=\"/projects/twitstash\">twitstash</a>, twanslationparty corrupts the English text in one Twitter account's timeline and posts the result to another account.",
     "thumb": "twanslationparty.jpg"
   },
   "twitstash": {
     "template": "projects/twitstash.tplmd",
     "inMenu": true,
     "title": "twitstash",
-    "summary": "twitstash is a cron script that archives a Twitter user&rsquo;s timeline into a MySQL databases for search, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots.",
+    "summary": "twitstash is a cron script that archives a Twitter user&rsquo;s timeline into a MySQL database for search, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots.",
     "thumb": "twitstash.jpg"
   },
   "trigger-and-freewheel": {
