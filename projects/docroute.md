@@ -6,4 +6,4 @@
 
 * **Site Source Code:** <https://github.com/smitelli/scottsmitelli.com>
 
-* **Try It Out:** [Scott Smitelli.com](https://www.scottsmitelli.com/) -- The site you're currently exploring!
+* **Try It Out:** [ScottSmitelli.com](https://www.scottsmitelli.com/) -- The site you're currently exploring!
