@@ -53,6 +53,7 @@ html, body {
   min-height: 120px;
   border-left: 5px solid #888;
   background: rgba(0, 0, 0, 0.1) url('images/bg-quote.png') no-repeat right bottom;
+  background-size: 125px auto;
 }
 .content a {
   border-bottom: 1px dotted #800;
