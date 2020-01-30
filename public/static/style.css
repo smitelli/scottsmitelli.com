@@ -52,7 +52,7 @@ html, body {
   padding: 0 1em;
   min-height: 120px;
   border-left: 5px solid #888;
-  background: rgba(0, 0, 0, 0.1) url('images/bg-quote.png') no-repeat right bottom;
+  background: rgba(0, 0, 0, 0.1) url('images/bg-quote.png') no-repeat right 1em bottom 1em;
   background-size: 125px auto;
 }
 .content a {
