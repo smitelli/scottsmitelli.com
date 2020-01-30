@@ -6,19 +6,19 @@
     "summary": "An attempt to disassemble, understand, reimplement, and document an early 1990s DOS game using the original C compiler and x86 assembler from 1988.",
     "thumb": "untitled.png"
   },
+  "windowbox": {
+    "template": "projects/windowbox.md",
+    "inMenu": true,
+    "title": "Windowbox",
+    "summary": "<a href=\"https://pics.scottsmitelli.com/\">Windowbox</a> is a photo-hosting website where I post pictures directly from my phone camera.",
+    "thumb": "windowbox.jpg"
+  },
   "salt": {
     "template": "projects/salt.md",
     "inMenu": true,
     "title": "Salt",
     "summary": "The configuration management code that launched this web server and everything on it.",
     "thumb": "salt.jpg"
-  },
-  "windowbox": {
-    "template": "projects/windowbox.md",
-    "inMenu": true,
-    "title": "Windowbox",
-    "summary": "<a href=\"https://pics.scottsmitelli.com/\">Windowbox</a> is a photo-hosting website where I post pictures directly from my phone. They used to call it \"moblogging\" back in the day; now everybody does it all the time.",
-    "thumb": "windowbox.jpg"
   },
   "scottfiles": {
     "template": "projects/scottfiles.md",
@@ -34,20 +34,6 @@
     "summary": "A cache object that <em>actually</em> deletes the least-recently-used items.",
     "thumb": "leroux-cache.jpg"
   },
-  "internetstapler": {
-    "template": "projects/internetstapler.md",
-    "inMenu": true,
-    "title": "Internet Stapler",
-    "summary": "It is a stapler for our internet age.",
-    "thumb": "internetstapler.jpg"
-  },
-  "isthatcompanyreal": {
-    "template": "projects/isthatcompanyreal.md",
-    "inMenu": true,
-    "title": "Is That Company Real?",
-    "summary": "A web service that determines whether or not a given company is &ldquo;real.&rdquo;",
-    "thumb": "isthatcompanyreal.jpg"
-  },
   "docroute": {
     "template": "projects/docroute.md",
     "inMenu": true,
@@ -55,12 +41,33 @@
     "summary": "A dynamic CMS for mostly-static content. This entire site is powered by Docroute.",
     "thumb": "docroute.jpg"
   },
+    "isthatcompanyreal": {
+    "template": "projects/isthatcompanyreal.md",
+    "inMenu": true,
+    "title": "Is That Company Real?",
+    "summary": "A web service that uses a proprietary and jealously-guarded algorithm to determine if a given company is &ldquo;real.&rdquo;",
+    "thumb": "isthatcompanyreal.jpg"
+  },
+  "internetstapler": {
+    "template": "projects/internetstapler.md",
+    "inMenu": true,
+    "title": "Internet Stapler",
+    "summary": "It will soon be stapling time.",
+    "thumb": "internetstapler.jpg"
+  },
   "sort-of-face": {
     "template": "projects/sort-of-face.md",
     "inMenu": true,
     "title": "The Sort of Face",
     "summary": "Inspired by the popular (and eventually <a href=\"https://www.newyorker.com/tech/annals-of-technology/horse-ebooks-is-human-after-all\">debunked</a>) Twitter account <a href=\"https://twitter.com/horse_ebooks\">@horse_ebooks</a>, The Sort of Face is my attempt at creating a Twitter bot that generates funny gibberish.",
     "thumb": "sort-of-face.jpg"
+  },
+  "trigger-and-freewheel": {
+    "template": "projects/trigger-and-freewheel.tplmd",
+    "inMenu": true,
+    "title": "Trigger and Freewheel CMS",
+    "summary": "The Trigger and Freewheel CMS powers a <a href=\"https://www.triggerandfreewheel.com/\">webcomic of the same name</a> that I started drawing in 2008 and have been sporadically updating since.",
+    "thumb": "trigger-and-freewheel.jpg"
   },
   "twanslationparty": {
     "template": "projects/twanslationparty.tplmd",
@@ -75,12 +82,5 @@
     "title": "twitstash",
     "summary": "twitstash is a cron script that archives a Twitter user&rsquo;s timeline into a MySQL database for search, data mining, or as a foundation for <a href=\"/projects/twanslationparty\">twanslationparty</a> bots.",
     "thumb": "twitstash.jpg"
-  },
-  "trigger-and-freewheel": {
-    "template": "projects/trigger-and-freewheel.tplmd",
-    "inMenu": true,
-    "title": "Trigger and Freewheel CMS",
-    "summary": "The Trigger and Freewheel CMS powers a <a href=\"https://www.triggerandfreewheel.com/\">webcomic of the same name</a> that I started drawing in 2008 and have been sporadically updating since.",
-    "thumb": "trigger-and-freewheel.jpg"
   }
 }
