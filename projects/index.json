@@ -17,7 +17,7 @@
     "template": "projects/salt.md",
     "inMenu": true,
     "title": "Salt",
-    "summary": "The configuration management code that launched this web server and everything on it.",
+    "summary": "The configuration management code that automatically built this web server and everything running on it.",
     "thumb": "salt.jpg"
   },
   "scottfiles": {
