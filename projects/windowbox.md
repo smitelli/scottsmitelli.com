@@ -10,7 +10,7 @@ Requests to the site reach an nginx server, which directly serves static files a
 
 The development environment runs in Vagrant, so things work more or less the same no matter what host operating system is running. Windowbox is also my first attempt at reaching 100% test coverage in a complete web app. It's not something I think I would generally recommend anybody try in their daily work, but it's not too difficult to live with since the project's development is relatively dormant today.
 
-One of the things I take pride in is the fact that I was able to migrate all of my old EasyMoblog/CoMoblog posts -- the earliest going back to June 2004 -- into Windowbox. It's an interesting nostalgia trip to click back and see what I was doing and seeing almost half a lifetime ago. Sure, some photos are embarrassing and others are so grainy and low-resolution that it's unclear what the subject of the picture actually was, but each picture is a reminder of some small step I took on the journey from the person I was to the one I now am.
+One of the things I take pride in is the fact that I was able to migrate all of my old EasyMoblog/CoMoblog posts -- the earliest going back to June 2004 -- into Windowbox. It's an interesting nostalgia trip to click back and see what I was doing and seeing almost half a lifetime ago. Sure, some photos are embarrassing and others are so grainy and low-resolution that it's unclear what the subject of the picture actually was, but each post is a reminder of some small step I took on the journey from the person I was to the one I now am.
 
 * **Original Release:** July 2014; re-released November 2019 using Python 3
 
