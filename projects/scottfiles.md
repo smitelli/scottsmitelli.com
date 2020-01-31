@@ -1,6 +1,12 @@
-**Scottfiles** are Scott's dotfiles. I try not to go crazy with the visual customizations or aliases, mainly because I often have to jump onto strange servers or VMs where these files may not be installed and I don't want my muscles to forget how to use a vanilla Linux machine.
+**Scottfiles** are Scott's dotfiles. I generally try not to go crazy with the visual tweaks, aliases, or keyboard mappings, mainly because I often have to jump onto unfamiliar servers or freshly-created VMs where these customizations may not be installed. I don't want my muscles to forget how to use a vanilla Linux installation.
 
-These dotfiles are designed to utilize [GNU Stow](https://www.gnu.org/software/stow/) to allow files to be installed under some environments but not others. This, paired with generous use of `*.d/` directories, allows for something approximating a dotfile plugin architecture.
+I jump around a veritable smorgasbord of Linux, OS X, and Cygwin environments, which leads to some interesting cross-platform inconsistencies that these files attempt to paper over. My dotfiles are designed around the [GNU Stow](https://www.gnu.org/software/stow/) installation scheme which allows files to be selectively installed on some systems but not others. This, paired with generous use of `*.d/` directories, allows for something approximating a dotfile plugin architecture.
+
+The main entrypoint, if you will, is the custom `.bashrc` file. This sources everything in the `${HOME}/.bashrc.d` directory, which is where most of the other packages register their own entrypoints. Other files (`.gitconfig`, for example) are symlinked straight into the location where the corresponding tool expects the file to be.
+
+Storing dotfiles in a Git repo, regardless of the way they get installed, has been one of the better organizational decisions I've made. I no longer have disparities between different environments because I forgot to carry a config file tweak from one machine to another.
+
+And above all: I feel the more people I can share Stow with, the better. Seriously, go give it a try. See if there's someplace in your life where it can fit.
 
 * **Original Release:** August 2015
 
