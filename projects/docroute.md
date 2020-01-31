@@ -1,4 +1,4 @@
-**Docroute** is an experimental PHP-based content management system with a focus on serving "mostly static" pages. It's designed to fit a niche use case where a full database-driven CMS is overkill, but where a statically-built site would be inconvenient to update. Its original use case was basically "FTP a new content file to this $5/month shared web host" and see the site update itself automatically.
+**Docroute** is an experimental content management system with a focus on serving "mostly static" pages. It's designed for situations where a full database-driven CMS is overkill, but where a statically-built site would be inconvenient to update. Its original use case was basically "FTP a new content file to this $5/month shared web host" and see the site update itself automatically.
 
 The overall philosophy of Docroute is that the page content should be separate from the presentation templates, without HTML markup leaking into the content. To achieve this separation, the content is written in Markdown (or a hybrid of Markdown with Smarty templating syntax enabled for more complex pages) which gets translated to HTML dynamically.
 
@@ -6,7 +6,7 @@ URL routing works similarly to a filesystem, with each "level" of the path hiera
 
 Since the pages are served dynamically, the main page template is capable of rendering with slight differences depending on the route. This also allows changes to the template files to immediately propagate to all pages on the site without needing to rebuild anything.
 
-Overall, Docroute is quite fast at serving content, and isn't terribly complicated to manage and maintain. Developing and maintaining this project taught me that it's actually much harder to _design_ a CMS than it is to _build_ one.
+As a relatively small PHP application, Docroute is quite fast at serving content, and isn't terribly complicated to manage. Developing and maintaining this project taught me that it's actually much harder to _design_ a CMS than it is to _build_ one.
 
 If I had to do it all over again, however, I would choose [Hugo](https://gohugo.io/) for this task. Many of the ideas I was aiming for in Docroute were achieved more cleanly in Hugo, and the overall opinions and sensibilities of the two projects are really quite close.
 
