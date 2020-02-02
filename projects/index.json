@@ -24,7 +24,7 @@
     "template": "projects/scottfiles.md",
     "inMenu": true,
     "title": "Scottfiles",
-    "summary": "Scott's dotfiles.",
+    "summary": "Scott&rsquo;s dotfiles.",
     "thumb": "scottfiles.jpg"
   },
   "leroux-cache": {
@@ -73,7 +73,7 @@
     "template": "projects/twanslationparty.tplmd",
     "inMenu": true,
     "title": "twanslationparty",
-    "summary": "Working in conjunction with <a href=\"/projects/twitstash\">twitstash</a>, twanslationparty corrupts the English text in one Twitter account's timeline and posts the result to another account.",
+    "summary": "Working in conjunction with <a href=\"/projects/twitstash\">twitstash</a>, twanslationparty corrupts the English text in one Twitter account&rsquo;s timeline and posts the result to another account.",
     "thumb": "twanslationparty.jpg"
   },
   "twitstash": {
