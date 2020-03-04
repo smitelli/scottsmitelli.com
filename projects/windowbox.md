@@ -4,7 +4,7 @@ Windowbox started as a PHP app that I soon abandoned in favor of Python 2/Flask/
 
 From a day-to-day perspective, Windowbox works by periodically checking a dedicated IMAP mailbox for new emails. Whenever it finds a new message and verifies it came from me, it posts the image attachment(s) to the site and sends an update to Twitter on my behalf. On my phone, all I have to do is compose an email to Windowbox's contact, attach my picture, and send. The Windowbox app takes care of thumbnail generation, RSS/Atom feeds, and syndication to Twitter.
 
-Windowbox also exposes a read-only API for anybody who cares to build a client to interact with it. (Note to anybody who does this: Share whatever you come up with; I'm curious!)
+Windowbox also exposes a read-only JSON API for anybody who cares to build a client to interact with it. (Note to anybody who does this: Share whatever you come up with; I'm curious!)
 
 Requests to the site reach an nginx server, which directly serves static files and previously-built derivative files via the `X-Accel-Redirect` mechanism. Dynamic pages are proxied to uWSGI, which runs the Windowbox code. Database storage uses MySQL (actually MariaDB these days) and the resized/cropped image files are stored on disk. ExifTool is used to extract metadata from the source images.
 
