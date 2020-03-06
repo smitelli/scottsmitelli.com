@@ -41,19 +41,19 @@
     "summary": "A dynamic CMS for mostly-static content. This entire site is powered by Docroute.",
     "thumb": "docroute.jpg"
   },
-    "isthatcompanyreal": {
-    "template": "projects/isthatcompanyreal.md",
+    "is-that-company-real": {
+    "template": "projects/is-that-company-real.md",
     "inMenu": true,
     "title": "Is That Company Real?",
     "summary": "A web service that uses a proprietary and jealously-guarded algorithm to determine if a given company is &ldquo;real.&rdquo;",
-    "thumb": "isthatcompanyreal.jpg"
+    "thumb": "is-that-company-real.jpg"
   },
-  "internetstapler": {
-    "template": "projects/internetstapler.md",
+  "internet-stapler": {
+    "template": "projects/internet-stapler.md",
     "inMenu": true,
     "title": "Internet Stapler",
     "summary": "It will soon be stapling time.",
-    "thumb": "internetstapler.jpg"
+    "thumb": "internet-stapler.jpg"
   },
   "sort-of-face": {
     "template": "projects/sort-of-face.md",

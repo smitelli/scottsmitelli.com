@@ -12,9 +12,9 @@ Published on npm under the MIT license.
 
 * **Original Release:** April 2015
 
-* **Source Code:** <https://github.com/smitelli/leroux-cache>
-
 * **npm:** <https://www.npmjs.com/package/leroux-cache>
+
+* **Source Code:** <https://github.com/smitelli/leroux-cache>
 
 * **Travis CI Builds:** <https://travis-ci.org/smitelli/leroux-cache>
 

@@ -2,7 +2,7 @@
 
 I move through a veritable smorgasbord of Linux, OS X, and Cygwin environments, and this tends to provoke some interesting cross-platform inconsistencies that I need to paper over. My dotfiles are designed around the [GNU Stow](https://www.gnu.org/software/stow/) installation scheme which allows files to be selectively installed on some systems but not others. This, paired with generous use of `*.d/` directories, allows for something approximating a dotfile plugin architecture.
 
-The main entrypoint, if you will, is the custom `.bashrc` file. This sources everything in the `${HOME}/.bashrc.d` directory, which is where most of the other packages register their own entrypoints. Other files (`.gitconfig`, for example) are symlinked straight into the location where the corresponding tool expects the file to be.
+The main entrypoint, if you will, is the custom `.bashrc` file. This sources everything in the `${HOME}/.bashrc.d` directory, which is where most of the other packages register their own entrypoints. Other files (`.gitconfig`, for example) are symlinked straight into the location where the corresponding tool expects each file to be.
 
 Storing dotfiles in a Git repo, regardless of the way they ultimately get installed, has been one of the better organizational decisions I've made. I no longer have disparities between different environments because I forgot to carry a config file tweak from one machine to another.
 
