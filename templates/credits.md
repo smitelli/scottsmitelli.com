@@ -2,7 +2,7 @@
 
 ## 2013
 
-* **August 2011 to July 2013:** "Cut to Black", ProRes 422 Format Digital Video (1080p). 89 minutes. Position: Production Sound Mixer, Boom Operator. Bill Ivers is an ex-cop in a rough patch of life. Produced for Insurgent Pictures, New York, NY.
+* **August 2011 to July 2013:** "Cut to Black", ProRes 422 Format Digital Video (1080p). 89 minutes. Position: Production Sound Mixer, Boom Operator. A disgraced cop is hired by a wealthy former friend to rid his estranged daughter of a petty stalker. Produced for Insurgent Pictures, New York, NY.
 
 ## 2012
 
