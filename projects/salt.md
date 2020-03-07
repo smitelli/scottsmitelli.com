@@ -4,7 +4,7 @@ The entire server is comprised of well over 300 states. These states do everythi
 
 If somebody were to clone this repo, fill in their own secret keys and tweak the configuration to their liking, they could launch a clone of this server and all the sites and applications that run on it. And hey, you know what? More power to 'em.
 
-I started playing with Salt around 2015. At that time, my server was cobbled together by hand and I really had no idea how to recreate its configuration if I needed to. It ran an unsupported non-LTS Ubuntu release and was no longer receiving updates. I pledged that the next time I rebuilt it, I would do so in a repeatable way. It took almost five years and a few false starts, but I finally got the server to a point where it could build itself using Salt alone. I moved to Debian Stretch, then Debian Buster, each time reinstalling from scratch with no intervention outside of Salt.
+I started playing with Salt around 2015. At that time, my server was cobbled together by hand and I really had no idea how to recreate its configuration if I needed to. It ran an unsupported non-LTS Ubuntu release and was no longer receiving updates. I pledged that the next time I rebuilt it, I would do so in a repeatable way. It took almost three years and a few false starts, but I finally got the server to a point where it could build itself using Salt alone. I moved to Debian Stretch, then Debian Buster, each time reinstalling from scratch with no intervention outside of Salt.
 
 The states are not written as generically as they could be, so switching (for example) from Debian to RHEL/CentOS or another yum-based distribution would be a pretty significant undertaking, but that's not something I plan to do anytime soon.
 
