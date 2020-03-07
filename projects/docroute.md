@@ -2,7 +2,7 @@
 
 The overall philosophy of Docroute is that the page content should be separate from the presentation templates, without HTML markup leaking into the content. To achieve this separation, the content is written in Markdown (or a hybrid of Markdown with Smarty templating syntax enabled for more complex pages) which gets translated to HTML dynamically.
 
-URL routing works similarly to a filesystem, with each "level" of the path hierarchy containing a `root.json` file. This file contains configuration for that part of the site, as well as the list of child pages and sub-pages that exist within. This routing scheme can be applied recursively, allowing for arbitrarily deep levels of nesting.
+URL routing works similarly to a filesystem, with each "level" of the path hierarchy containing a `root.json` file. This file contains configuration for that part of the site, as well as the list of child pages and sub-levels that exist within. This routing scheme can be applied recursively, allowing for arbitrarily deep levels of nesting.
 
 Since the pages are served dynamically, the outer page template is capable of rendering conditional content and styling depending on the route. The dynamic construction of pages also allows changes to the template files to immediately propagate to all pages on the site without needing to rebuild anything or clear caches.
 
