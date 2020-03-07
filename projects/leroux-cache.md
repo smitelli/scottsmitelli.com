@@ -19,3 +19,5 @@ Published on npm under the MIT license.
 * **Travis CI Builds:** <https://travis-ci.org/smitelli/leroux-cache>
 
 * **Coveralls Tests:** <https://coveralls.io/github/smitelli/leroux-cache>
+
+* **Pronunciation:** Rhymes with "Peru smash."

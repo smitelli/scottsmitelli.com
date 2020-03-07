@@ -17,3 +17,5 @@ If I had to do it all over again, however, I would choose [Hugo](https://gohugo.
 * **Site Source Code:** <https://github.com/smitelli/scottsmitelli.com>
 
 * **Try It Out:** [ScottSmitelli.com](https://www.scottsmitelli.com/) -- The site you're currently exploring!
+
+* **Pronunciation:** Rhymes with "hawk shout."
