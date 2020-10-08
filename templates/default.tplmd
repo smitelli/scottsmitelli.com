@@ -9,6 +9,6 @@ My [r&eacute;sum&eacute;]({$cfg->baseUrl}/resume) is available online for your p
 * [Mobile Photography](https://pics.scottsmitelli.com/)
 * [Still Photography](https://gallery.scottsmitelli.com/)
 * [Time-Lapse Photography]({$cfg->baseUrl}/time-lapse-photography)
-* [R&eacute;sum&eacute;]({$cfg->baseUrl}/resume)
+* [R&eacute;sum&eacute;]({$cfg->baseUrl}/resume) ([PDF]({$cfg->staticUrl}/resume.pdf))
 * [Credits List]({$cfg->baseUrl}/credits)
 * [Contact]({$cfg->baseUrl}/contact)
