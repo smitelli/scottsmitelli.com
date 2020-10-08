@@ -29,6 +29,12 @@ html, body {
   color: #333;
   font: normal 18px/1.6em 'Gentium Basic', Palatino, Georgia, serif;
 }
+@media print {
+  html, body {
+    font-size: 14px;
+    line-height: 1.4em;
+  }
+}
 .visibleOverflow {
   overflow: visible !important;
 }
@@ -304,6 +310,12 @@ img.defaultScott {
   background: #333;
   color: #fff;
   text-align: center;
+}
+@media print {
+  .resume h2,
+  .credits h2 {
+    padding: 0.1em;
+  }
 }
 .resume ul > li,
 .credits ul > li {
