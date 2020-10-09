@@ -6,6 +6,13 @@
     "summary": "An attempt to disassemble, understand, reimplement, and document an early 1990s DOS game using the original C compiler and x86 assembler from 1988.",
     "thumb": "untitled.png"
   },
+  "langolier": {
+    "template": "projects/langolier.md",
+    "inMenu": true,
+    "title": "Langolier",
+    "summary": "A utility that removes tweets from Twitter after they reach a specified age. Because nothing good ever came from a ten-year-old tweet.",
+    "thumb": "langolier.png"
+  },
   "windowbox": {
     "template": "projects/windowbox.md",
     "inMenu": true,
