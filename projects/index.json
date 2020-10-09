@@ -7,11 +7,11 @@
     "thumb": "untitled.png"
   },
   "langolier": {
-    "template": "projects/langolier.md",
+    "template": "projects/langolier.tplmd",
     "inMenu": true,
     "title": "Langolier",
     "summary": "A utility that removes tweets from Twitter after they reach a specified age. Because nothing good ever came from a ten-year-old tweet.",
-    "thumb": "langolier.png"
+    "thumb": "langolier.jpg"
   },
   "windowbox": {
     "template": "projects/windowbox.md",
