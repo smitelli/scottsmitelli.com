@@ -1,11 +1,12 @@
 {
-  "untitled": {
-    "template": "projects/untitled.md",
+  "cosmore": {
+    "template": "projects/cosmore.md",
     "inMenu": true,
-    "title": "Untitled Reverse Engineering Project",
-    "summary": "An attempt to disassemble, understand, reimplement, and document an early 1990s DOS game using the original C compiler and x86 assembler from 1988.",
-    "thumb": "untitled.png"
+    "title": "Cosmore",
+    "summary": "A reconstruction of the source code of <em>Cosmo's Cosmic Adventure</em> (1992), using the original C compiler and x86 assembler from 1988.",
+    "thumb": "cosmore.jpg"
   },
+  "untitled": { "headers": ["Location: /projects/cosmore"] },
   "langolier": {
     "template": "projects/langolier.tplmd",
     "inMenu": true,
