@@ -1,12 +1,16 @@
 # Scott Smitelli &bull; <scott@smitelli.com>
 
-Senior backend and DevOps engineer with ten years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Likes tinkering with the interesting aspects of technology while automating the more tedious bits.
+Senior backend and DevOps engineer with over ten years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Likes tinkering with the interesting aspects of technology while automating the more tedious bits.
 
 ## Experience
 
-### Amper Music -- New York, NY (remote)
+### Shutterstock -- Remote
 
-_Web Systems Architect, May 2015 to Present_
+_Senior Cloud Engineer, November 2020 to Present_
+
+### Amper Music -- New York, NY / Remote
+
+_Web Systems Architect, May 2015 to November 2020_
 
 As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability, and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
 
