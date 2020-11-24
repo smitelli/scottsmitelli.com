@@ -19,7 +19,7 @@
           <a href="{$cfg->baseUrl}/projects/{$permalink}">{$postData->title}</a>
         </h2>
         <p>
-          {$postData->summary} <a href="{$cfg->baseUrl}/projects/{$permalink}">More &raquo;</a>
+          {$postData->summary} <a href="{$cfg->baseUrl}/projects/{$permalink}">More&nbsp;&raquo;</a>
         </p>
       </article>
     {/if}

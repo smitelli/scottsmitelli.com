@@ -12,7 +12,7 @@
           <time datetime="{$postData->date}">{$postData->date|strtotime|date_format:"F j, Y"}</time>
         </p>
         <p>
-          {$postData->summary} <a href="{$cfg->baseUrl}/articles/{$permalink}">More &raquo;</a>
+          {$postData->summary} <a href="{$cfg->baseUrl}/articles/{$permalink}">More&nbsp;&raquo;</a>
         </p>
       </article>
     {/if}
