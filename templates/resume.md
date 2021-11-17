@@ -6,13 +6,18 @@ Senior backend and DevOps engineer with over ten years of experience. Enjoys int
 
 ### Shutterstock -- Remote
 
-_Senior Cloud Engineer, November 2020 to Present_
+_DevOps Engineer III, November 2020 to Present_
+
+Migrated the Amper Music infrastructure into Shutterstock's network after Amper was acquired, including relocating live resources between AWS regions, converting legacy CloudFormation templates into Terraform, moving source control, and recreating CI/CD workflows to match Shutterstock conventions. Facilitated the integration of Amper API endpoints into Shutterstock products and contributed to the user-facing API documentation. Supported the Data Engineering team by maintaining services and data stores used by AI/ML model training processes.
+
+* _Languages/Frameworks:_ Terraform, Python, Bash, Ansible, SQL, Kafka Connect
+* _Technologies:_ AWS (EC2, S3, CloudWatch, EFS, DynamoDB), Linux (Debian), nginx, Prometheus, Grafana, Milvus, MySQL, Redis, Metaflow, Databricks, Atlantis, Packer, Jenkins, Git
 
 ### Amper Music -- New York, NY / Remote
 
 _Web Systems Architect, May 2015 to November 2020_
 
-As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability, and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
+As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created tens of millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability, and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
 
 * _Languages/Frameworks:_ Python, Flask, Salt, AWS CloudFormation, Bash
 * _Technologies:_ AWS (EC2, S3, CloudFront, RDS, ElastiCache), Linux (Debian), nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, Hugo, Jenkins, Git, FFmpeg, JSON:API, Jira, Cloudflare, G Suite
@@ -50,24 +55,17 @@ _Lead Developer, January 2010 to November 2011_
 
 As the first full-time engineering hire at a rapidly-growing media company, managed a fleet of WordPress servers which handled 35-40 million pageviews per month and maintained all office IT. Developed ancillary applications, including a job search board, photo gallery, bulk emailer, traffic analyzer, and management scripts. Supervised a team of three engineers.
 
-* _Languages/Frameworks:_ PHP, HTML, CSS, JavaScript/Node.js, WordPress, Express, jQuery
-* _Technologies:_ Linux (CentOS), pfSense, Apache, nginx, MySQL, MongoDB, Akamai CDN, Google Apps for Work, Google Analytics, Chartbeat, Quantcast
-
 ### Wall Street Webcasting -- New York, NY
 
 _Streaming Media Encoder, September 2009 to January 2010_
 
 Captured and transcoded audio from earnings conference calls for live streaming over the Internet. Logged and archived audio onto network-attached storage for on-demand playback.
 
-* _Technologies:_ Adobe Media Encoder, Windows Media Encoder, Microsoft Excel
-
 ### Freelance -- New York, NY
 
 _Audio Engineer, July 2007 to July 2013_
 
 Recorded, edited, and/or mixed audio on six independent feature films and over 40 short films. Managed audio operations for music production, live theater, and art installations.
-
-* _Technologies:_ Pro Tools, Final Cut Studio, Adobe Creative Suite
 
 ## Interests
 
