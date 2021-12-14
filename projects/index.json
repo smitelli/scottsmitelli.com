@@ -1,6 +1,13 @@
 {
+  "cosmodoc": {
+    "template": "projects/cosmodoc.md",
+    "inMenu": true,
+    "title": "Cosmodoc",
+    "summary": "The semi-complete teardown of <em>Cosmo's Cosmic Adventure</em> (1992).",
+    "thumb": "cosmodoc.jpg"
+  },
   "cosmore": {
-    "template": "projects/cosmore.md",
+    "template": "projects/cosmore.tplmd",
     "inMenu": true,
     "title": "Cosmore",
     "summary": "A reconstruction of the source code of <em>Cosmo's Cosmic Adventure</em> (1992), using the original C compiler and x86 assembler from 1988.",

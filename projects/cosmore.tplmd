@@ -18,7 +18,7 @@ Starting in December 2019, and for about eleven months after, I compared every i
 
 On October 26, 2020, I located the last translation error, a misread keyboard scancode in a debug feature that I don't think anybody else knows about. The games were now identical. I spent some time cleaning up a few more variable names and comment blocks, squashed my miserable Git history, and switched the repository to public on November 7, 2020.
 
-I'm not done with it just yet. The goal is to eventually write a complete technical manuscript about all aspects of the game's workings, similar to Fabien Sanglard's **[Wolfenstein 3D](https://fabiensanglard.net/gebbwolf3d/)** and **[Doom](https://fabiensanglard.net/gebbdoom/) Game Engine Black Book**s. As with so many things, it's something I've never done before but I'd like to try.
+I'm not done with it just yet. The goal is to eventually write a complete technical manuscript about all aspects of the game's workings, similar to Fabien Sanglard's **[Wolfenstein 3D](https://fabiensanglard.net/gebbwolf3d/)** and **[Doom](https://fabiensanglard.net/gebbdoom/) Game Engine Black Book**s. This ongoing effort is called **[Cosmodoc]({$cfg->baseUrl}/projects/cosmodoc)**.
 
 * **Original Release:** November 2020
 
