@@ -6,7 +6,7 @@ Senior backend and DevOps engineer with over ten years of experience. Enjoys int
 
 ### Shutterstock -- Remote
 
-_DevOps Engineer III, November 2020 to Present_
+_DevOps Engineer III, November 2020 to January 2022_
 
 Migrated the Amper Music infrastructure into Shutterstock's network after Amper was acquired, including relocating live resources between AWS regions, converting legacy CloudFormation templates into Terraform, moving source control, and recreating CI/CD workflows to match Shutterstock conventions. Facilitated the integration of Amper API endpoints into Shutterstock products and contributed to the user-facing API documentation. Supported the Data Engineering team by maintaining services and data stores used by AI/ML model training processes.
 
