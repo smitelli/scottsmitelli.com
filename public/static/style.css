@@ -89,6 +89,9 @@ html, body {
 .content p {
   margin: 1.5em 0;
 }
+.content ol > li {
+  margin: 1em 0 1em 3em;
+}
 .content ul > li {
   list-style: disclosure-closed;
   margin: 1em 0 1em 3em;
