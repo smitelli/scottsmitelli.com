@@ -1,4 +1,7 @@
-# The Hidden Worlds of the Klein Tools TI250 Thermal Imager
+<style>
+.half-width  { max-width:  50%; }
+.half-height { max-height: 50%; }
+</style>
 
 There comes a time in every hobbyist's life when they find themselves in need of a good thermal imaging camera. Most of us would probably follow the same workflow to pick one out: Visit any online retailer, search for "thermal camera" and sort by lowest price. If you do that on certain websites, you'll find pages of results that look like kits somebody assembled at their kitchen table, followed by more results produced by companies with names that contain the wrong number of vowels. If you keep scrolling, you'll eventually find the same first viable candidate that I did, the **Klein Tools TI250** Rechargeable Thermal Imager.
 
@@ -38,9 +41,9 @@ Except all the images that come out of this thing are 225 KiB.
 
 With computer memory measured in gigabytes and storage measured in terabytes, a 75 kibibyte difference is less than a rounding error's rounding error. But here, it accounts for one third of the file. There's something in here beyond the bitmap pixels that show on the screen. To the hex viewer mobile!
 
-{literal}```
+{literal}<pre>
 00000000: 424d 3658 0200 0000 0000 3600 0000       BM6X......6...
-```{/literal}
+</pre>{/literal}
 
 Every [bitmap file](https://docs.fileformat.com/image/bmp/) starts with a rigidly defined 14-byte header structure. Like most things designed around descendants of the original IBM PC, all the values are [little-endian](https://en.wikipedia.org/wiki/Endianness). The bytes from this particular image have the following interpretation:
 
@@ -54,12 +57,12 @@ Every [bitmap file](https://docs.fileformat.com/image/bmp/) starts with a rigidl
 
 Okay, that's 14 bytes read, but the pixel data doesn't start for another 40 bytes. There's another header in between:
 
-{literal}```
+{literal}<pre>
 0000000e:                                    2800                (.
 00000010: 0000 4001 0000 f000 0000 0100 1000 0000  ..@.............
 00000020: 0000 0000 0000 0000 0000 0000 0000 0000  ................
 00000030: 0000 0000 0000                           ......
-```{/literal}
+</pre>{/literal}
 
 <table>
 <tr><td>0x0E</td><td>4 bytes</td><td>The size of this header, in bytes. Here the value is 0x28 (40 bytes), which is what we expected based on the values interpreted so far. Additionally, the value 40 implicitly declares this header is using the Windows `BITMAPINFOHEADER` format, which affects the interpretation of some of the subsequent fields.</td></tr>
@@ -81,7 +84,7 @@ We've now parsed the entire header structure of the bitmap image, finding nothin
 
 Let's jump to the 153,654th byte in the file, which should be the first byte outside of the known universe according to the bitmap header. In hex, this is around offset 0x25836:
 
-{literal}```
+{literal}<pre>
 00025810: 2408 2408 2408 2408 2408 2408 2408 2408  $.$.$.$.$.$.$.$.
 00025820: 2408 2408 2308 2308 2308 2308 2308 2308  $.$.#.#.#.#.#.#.
 00025830: 2308 2308 2308                           #.#.#.
@@ -90,7 +93,7 @@ Let's jump to the 153,654th byte in the file, which should be the first byte out
 00025840: 0909 0909 0a0b 0a0a 0a0a 0a0a 0909 0909  ................
 00025850: 090a 0a0a 0b0b 0b0c 0c0c 0d0d 0d0d 0d0e  ................
 00025860: 0f10 1113 181d 2227 2c31 3233 3537 393c  ......"',123579<
-```{/literal}
+</pre>{/literal}
 
 Oookay. The upper chunk of the hex view is the last 19 pixels of the image data. Each of these is either 0x824 or 0x823, which is sensible for our image. It's essentially a horizontal span of pixels where everything is more or less the same color.
 
@@ -98,7 +101,7 @@ Oookay. The upper chunk of the hex view is the last 19 pixels of the image data.
 
 Unfortunately, once we fall off the end of the bitmap data, intuition is really all we have to go on. Let's scroll.
 
-{literal}```
+{literal}<pre>
 00026920: 0c0c 0d0d 0d0e 0e0e 0f0f 0f0f 0f0f 0f0f  ................
 00026930: 0f0f 0f0f 0f0f 0f0f 0f0f 1014 181d 2227  .............."'
 00026940: 2d31 3539 3a3c 3e3f 4041 4243 4546 4748  -159:<>?@ABCEFGH
@@ -129,23 +132,23 @@ Unfortunately, once we fall off the end of the bitmap data, intuition is really 
 00026ad0: 3231 3130 3030 3030 3030 3031 3131 3131  2110000000011111
 00026ae0: 3131 302f 2f2e 2e2e 2d2d 2d2c 2c2c 2c2d  110//...---,,,,-
 00026af0: 2e2e 2e2e 2e2e 2f2f 300c 0c0c 0c0c 0c0d  ......//0.......
-```{/literal}
+</pre>{/literal}
 
 It's hard to show the full picture without boring everybody, but there's a pattern in the ASCII view that repeats just about every 240 bytes. It's obviously not an identical repetition of bytes each time, but it definitely has a repeating "shape" to it. This pattern continues for almost the entire remainder of the file. Thinking briefly, a 240-byte pattern fits into 75 KiB just about 320 times... I bet there's another image here.
 
 Obviously, this has to be an 8-bit image if it's encoding 320x240 pixels in only 75 KiB of data. Typically 8-bit images are grayscale, with the byte value being applied uniformly to the red/green/blue channels. In this configuration, 0 would be black, 255 would be white, and anything in between would be a shade of gray. So let's see what it looks like:
 
-<img class="floatNone" src="{$cfg->uploadUrl}/2022/extraction-attempt-1.png" alt="Extraction attempt #1">
+<img class="floatNone half-width" src="{$cfg->uploadUrl}/2022/extraction-attempt-1.png" alt="Extraction attempt #1">
 
 Hmm. Maybe it's not a 320x240 image. Is it a _240x320_ image?
 
-<img class="floatNone" src="{$cfg->uploadUrl}/2022/extraction-attempt-2.png" alt="Extraction attempt #2">
+<img class="floatNone half-height" src="{$cfg->uploadUrl}/2022/extraction-attempt-2.png" alt="Extraction attempt #2">
 
 Indeed it is. Apparently the image data is stored in column-major order (compared to the row-major order that would typically be expected in raster images). What's even more interesting is, this data does not have any of the overlays that are present in the bitmap image. This looks like the raw thermal data that came from the sensor without any of the coloring or overlay information added by the TI250's firmware.
 
 This image isn't actually 100% correct -- by looking closely, one might be able to tell that the left edge of the picture contains a discontinuity that's three pixels wide. It looks like this data doesn't actually start immediately after the end of the BMP image data. There are three null bytes separating the end of the bitmap from the start of the thermal data. By skipping over them, and rotating the image back to its correct orientation, the image looks good!
 
-<img class="floatNone" src="{$cfg->uploadUrl}/2022/extraction-attempt-3.png" alt="Extraction attempt #3">
+<img class="floatNone half-width" src="{$cfg->uploadUrl}/2022/extraction-attempt-3.png" alt="Extraction attempt #3">
 
 There are a few properties about the thermal data that seem to always hold true:
 
@@ -157,7 +160,7 @@ There are a few properties about the thermal data that seem to always hold true:
 
 So that explains 230,457 bytes of our 230,995 byte file. There are still 538 mystery bytes to investigate. We begin here:
 
-{literal}```
+{literal}<pre>
 00038439:                       63 1063 1063 1063           c.c.c.c
 00038440: 1063 1064 1064 1064 1064 1065 1065 1065  .c.d.d.d.d.e.e.e
 00038450: 1066 1066 1066 1066 1067 1067 1067 1067  .f.f.f.f.g.g.g.g
@@ -167,25 +170,25 @@ So that explains 230,457 bytes of our 230,995 byte file. There are still 538 mys
 00038490: 10ae 10ce 10ee 10ee 100e 112e 114e 116d  .............N.m
 000384a0: 118d 118d 11ad 11cd 11ed 110d 120d 122d  ...............-
 000384b0: 124d 126c 128c 12ac 12ac 12cc 12ec 120c  .M.l............
-```{/literal}
+</pre>{/literal}
 
 Once again, this looks like a pattern. The data seems to be arranged in two-byte pairs that are "gently" increasing. How high does it go?
 
-{literal}```
+{literal}<pre>
 00038610: f579 f599 f5b9 f5da f5fa f51a f63a f65b  .y...........:.[
 00038620: f67b f69b f6bc f6dc f6fc f61c f73d f75d  .{...........=.]
 00038630: f77d f79e f7be f7de f701 2301 8600 fe00  .}........#.....
-```{/literal}
+</pre>{/literal}
 
 It gets to 0xDE 0xF7 before snapping back down to 0x01. This happens exactly 0x200 bytes from where the pattern started. That implies there are 256 samples of 16-bit values here.
 
 Could it be a palette? What happens if we decode each value to a color using the 5 red/6 green/5 blue bit packing used by the BMP format itself?
 
-<img class="floatNone" src="{$cfg->uploadUrl}/2022/palette-rainbow.png" alt="Rainbow palette">
+<img class="floatNone half-width" src="{$cfg->uploadUrl}/2022/palette-rainbow.png" alt="Rainbow palette">
 
 It's our palette! This means that, if we wanted to, we could map the palette values onto the thermal data to reconstruct the colorized version of the image without the overlays.
 
-<img class="floatNone" src="{$cfg->uploadUrl}/2022/reconstructed.png" alt="Reconstructed color image from thermal data">
+<img class="floatNone half-width" src="{$cfg->uploadUrl}/2022/reconstructed.png" alt="Reconstructed color image from thermal data">
 
 This is the default "rainbow" palette. There are also user-selectable "Ironbow" and "Gray" (sometimes referred to as "white-hot") palettes that can be extracted from other images...
 
@@ -195,7 +198,7 @@ This is the default "rainbow" palette. There are also user-selectable "Ironbow" 
 
 ...and those can be mapped onto the thermal data the same way:
 
-<img class="floatNone" src="{$cfg->uploadUrl}/2022/reconstructed-other.png" alt="Reconstructed color image using different palettes">
+<img class="floatNone half-width" src="{$cfg->uploadUrl}/2022/reconstructed-other.png" alt="Reconstructed color image using different palettes">
 
 Very nice indeed. But if you've learned anything from reading this far, you know that there's always more.
 
@@ -203,11 +206,11 @@ Very nice indeed. But if you've learned anything from reading this far, you know
 
 After all that, we still have 26 bytes at the end of the file that are unaccounted for:
 
-{literal}```
+{literal}<pre>
 00038639:                       01 2301 8600 fe00           .#.....
 00038640: ee00 5f03 0000 0012 00a8 0087 008a 0000  .._.............
 00038650: 0000 00                                  ...
-```{/literal}
+</pre>{/literal}
 
 I won't go into a long account of how I determined the purpose of these values. Suffice it to say it took dozens of images, and flipping pretty much every setting in the UI to determine what changed each time.
 
@@ -262,7 +265,7 @@ I put together a relatively small Python program that parses a TI250 image file,
 
 In its most basic form, the tool will read the file, print the embedded metadata, and sanity-check the data for internal consistency:
 
-{literal}```
+{literal}<pre>
 $ python3 ti250tool.py /path/to/some/ti250/image.bmp
 Input filename:         /path/to/some/ti250/image.bmp
 Date from filename:     2022-04-09 11:58:00
@@ -276,7 +279,7 @@ Emissivity:             0.95
 Min temperature point:  (81, 231)
 Max temperature point:  (126, 63)
 Sanity check passed!
-```{/literal}
+</pre>{/literal}
 
 Use `-s` / `--skip-sanity` to skip the sanity checks if they fail. (Please send me a copy of any image that fails a sanity check so I can figure out what I missed!)
 
