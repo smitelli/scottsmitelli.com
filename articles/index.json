@@ -1,4 +1,11 @@
 {
+  "klein-tools-ti250-hidden-worlds": {
+    "template": "articles/2022/klein-tools-ti250-hidden-worlds.tplmd",
+    "inMenu": true,
+    "title": "The Hidden Worlds of the Klein Tools TI250 Thermal Imager",
+    "date": "2022-05-31",
+    "summary": "A deep dive into hidden data encoded in the BMP files saved by the Klein Tools TI250 thermal imager."
+  },
   "apple-id-security-questions": {
     "template": "articles/2012/apple-id-security-questions.md",
     "inMenu": true,
