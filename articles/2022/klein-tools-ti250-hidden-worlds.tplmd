@@ -1,8 +1,8 @@
 <style>
-.half-width  { max-width:  50% !important; }
-.half-height { max-height: 50% !important; }
+.half-width { max-width:  50% !important; }
+.half-height { max-height: 375px !important; }
 .content table { font-size: 100% !important; }
-.content pre   { background-color: #ddd !important; padding: 1em !important; }
+.content pre { background-color: #ddd !important; padding: 1em !important; }
 </style>
 
 There comes a time in every hobbyist's life when they find themselves in need of a good thermal imaging camera. Most of us would probably follow the same workflow to pick one out: Visit any online retailer, search for "thermal camera" and sort by lowest price. If you do that on certain websites, you'll find pages of results that look like kits somebody assembled at their kitchen table, followed by more results produced by companies with names that contain the wrong number of vowels. If you keep scrolling, you'll eventually find the same first viable candidate that I did, the **Klein Tools TI250** Rechargeable Thermal Imager.

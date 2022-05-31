@@ -17,7 +17,7 @@ UTILS.fancyBoxWrap = function(target) {
     // Callback function, fired when the test image loads
     $(testImg).load(function() {
       // Bail out if the image was not shrunk to fit on the page
-      if (this.width <= $image.width()) { return; }
+      if (this.width <= $image.width() && this.height <= $image.height()) return;
 
       // Wrapper markup
       var $el = $('<span class="fbox-wrap"><span class="overlay"></span></span>');
