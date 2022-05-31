@@ -26,7 +26,7 @@ I was all set to write a scathing article about _that_, before I realized that I
 
 <img class="floatRight" src="{$cfg->uploadUrl}/2022/debug-mode.png" alt="Image taken in debug/diagnostic mode">
 
-While fighting with the aforementioned write issue, I stumbled on an interesting startup mode: By holding the **left arrow** button while powering up, the TI250 starts in a debug/diagnostic mode where it shows **fps:** (frames per second) on the display. (It's usually 7 or 8.) Also, in the **Local Info** settings menu, the firmware version reports as **\*\*\*V2.09** (instead of the usual `V2.05`) along with a unique 17 digit identifier of some sort. Those are the only obvious differences that I noticed.
+While fighting with the aforementioned write issue, I stumbled on an interesting startup mode: By holding the **left arrow** button while powering up, the TI250 starts in a debug/diagnostic mode where it shows **fps:** (frames per second) on the display. (It's usually 7 or 8.) Also, in the **Local Info** settings menu, the firmware version reports as **\*\*\*V2.09** (instead of the usual **V2.05**) along with a unique 17 digit identifier of some sort. Those are the only obvious differences that I noticed.
 
 ## Collecting images
 
@@ -50,7 +50,7 @@ Every [bitmap file](https://docs.fileformat.com/image/bmp/) starts with a rigidl
 
 <table>
 <tr><td>Offset</td><td>Size</td><td>Description</td></tr>
-<tr><td>0x00</td><td>2 bytes</td><td>The bitmap identifier. Here it is the ASCII string `BM`, indicating a Windows 3.x/95/NT-style bitmap.</td></tr>
+<tr><td>0x00</td><td>2 bytes</td><td>The bitmap identifier. Here it is the ASCII string "BM", indicating a Windows 3.x/95/NT-style bitmap.</td></tr>
 <tr><td>0x02</td><td>4 bytes</td><td>The combined size of all headers and the pixel data, in bytes. Here the value decodes to 0x25836, or 153,654 decimal.</td></tr>
 <tr><td>0x06</td><td>2 bytes</td><td>Reserved, contains the value zero which has no defined meaning.</td></tr>
 <tr><td>0x08</td><td>2 bytes</td><td>Reserved, contains the value zero which has no defined meaning.</td></tr>
@@ -68,7 +68,7 @@ Okay, that's 14 bytes read, but the pixel data doesn't start for another 40 byte
 
 <table>
 <tr><td>Offset</td><td>Size</td><td>Description</td></tr>
-<tr><td>0x0E</td><td>4 bytes</td><td>The size of this header, in bytes. Here the value is 0x28 (40 bytes), which is what we expected based on the values interpreted so far. Additionally, the value 40 implicitly declares this header is using the Windows `BITMAPINFOHEADER` format, which affects the interpretation of some of the subsequent fields.</td></tr>
+<tr><td>0x0E</td><td>4 bytes</td><td>The size of this header, in bytes. Here the value is 0x28 (40 bytes), which is what we expected based on the values interpreted so far. Additionally, the value 40 implicitly declares this header is using the Windows BITMAPINFOHEADER format, which affects the interpretation of some of the subsequent fields.</td></tr>
 <tr><td>0x12</td><td>4 bytes</td><td>The pixel width of the image. Here 0x140, or 320 decimal.</td></tr>
 <tr><td>0x16</td><td>4 bytes</td><td>The pixel height of the image. Here 0xF0, or 240 decimal.</td></tr>
 <tr><td>0x1A</td><td>2 bytes</td><td>The number of color planes. Should always be 1 (and it is).</td></tr>
@@ -233,11 +233,13 @@ I won't go into a long account of how I determined the purpose of these values. 
 <tr><td>0x16</td><td>4 bytes</td><td>Padding; always zero</td></tr>
 </table>
 
+(All offsets in this table are relative to the start of the data area.)
+
 This data encodes, in a machine readable format, all of the information that is normally shown in text/icon overlays on the screen. Like the rest of the BMP format, all multibyte values are stored in little-endian order with the least significant bytes written first.
 
 Temperatures are interesting, in that they are always stored in degrees Celsius (regardless of the user's settings) scaled by a factor of 10 to keep tenths of degrees. A temperature of 70.5 &deg;F would be encoded as 213 (21.3 &deg;C with the decimal shifted one place to the right). Temperatures may be negative, expressed as two's compliment values (so 0xFFB9 for -71, indicating -7.1 &deg;C or 19.2 &deg;F). The emissivity setting has a somewhat similar encoding, where a setting of 0.9 would be encoded as 90 (the decimal shifts _two_ places to the right as this field has hundredths precision). This allows for storing numbers with a fixed fractional part while still keeping everything in integer form.
 
-The scale high/low temperatures are the endpoints of the color scale, not necessarily the coldest and hottest temperatures sampled in the picture. As a concrete example, if the scale low/high temperatures are 60 &deg;F and 80 &deg;F respectively, but the highest value seen in the thermal data is only 128 (half of the overall scale available) the true temperature of the hottest point is around 70 F. Visually, this would present itself as an image containing none of the "hot" colors from the upper half of the palette.
+The scale high/low temperatures are the endpoints of the color scale, not necessarily the coldest and hottest temperatures sampled in the picture. As a concrete example, if the scale low/high temperatures are 60 &deg;F and 80 &deg;F respectively, but the highest value seen in the thermal data is only 128 (half of the overall scale available) the true temperature of the hottest point is around 70 &deg;F. Visually, this would present itself as an image containing none of the "hot" colors from the upper half of the palette.
 
 The minimum/maximum temperature points are encoded as a set of X,Y pairs interpreted in the coordinate space of the device's sensor with 0,0 in its top-left corner. This essentially means that while the origin of the _sensor_ is in the expected top-left position, the rotated _screen_ space moves that origin to the top-right. To correctly interpret this data:
 
@@ -254,7 +256,7 @@ The TL;DR of this is, there's more to the TI250's bitmap files than simply a bit
 <table>
 <tr><td>Offset</td><td>Size</td><td>Description</td></tr>
 <tr><td>0x00000</td><td>14 bytes</td><td>BMP file header</td></tr>
-<tr><td>0x0000E</td><td>40 bytes</td><td>Extended `BITMAPINFOHEADER` header</td></tr>
+<tr><td>0x0000E</td><td>40 bytes</td><td>Extended BITMAPINFOHEADER header</td></tr>
 <tr><td>0x00036</td><td>153,600 bytes</td><td>320x240 16bpp uncompressed bitmap image data</td></tr>
 <tr><td>0x25836</td><td>3 bytes</td><td>Null padding; start of data beyond what a standard BMP loader will read</td></tr>
 <tr><td>0x25839</td><td>76,800 bytes</td><td>240x320 8bpp thermal image data</td></tr>
