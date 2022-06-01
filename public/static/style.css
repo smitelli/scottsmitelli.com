@@ -49,6 +49,9 @@ html, body {
 .content pre {
   font: normal 16px/1.3em 'Consolas', 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
 }
+.content pre {
+  overflow-x: auto;
+}
 .content hr {
   height: 1px;
   border: 0;
