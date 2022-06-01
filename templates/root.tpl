@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=770">
+    <meta name="viewport" content="width=device-width,initial-scale=0.85">
     <title>
       {if $cfg->title}
         {$cfg->title} &bull; {$cfg->siteTitle}
