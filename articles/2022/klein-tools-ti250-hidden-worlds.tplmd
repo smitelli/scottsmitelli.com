@@ -8,6 +8,8 @@ There comes a time in every hobbyist's life when they find themselves in need of
 
 Klein Tools is a manufacturer of hand tools for professional electricians, and they've been in that business for over a century and a half. Are they the best at it? Ehh, depends who you ask. Are they a real brand with a reputation to uphold? They sure are, especially compared to competitors like "Happlignly" (which was an honest-to-God result at the time of this writing). Klein isn't _really_ known for software engineering or hardware design, but I decided to give them a chance and see what it was all about.
 
+**Update:** After this article was initially published, the user [mfincham](https://news.ycombinator.com/user?id=mfincham) posted a [comment](https://news.ycombinator.com/item?id=31601578) on Hacker News stating that the camera looks like a rebranded version of a product made by **Uni-Trend (Uni-T)**. After looking a bit myself, I am convinced that the Klein Tools TI250 is essentially a Uni-T UTi120P in a different case. [Uni-T's website](https://thermal.uni-trend.com/product/uti120p/) offers "PC Software" for this camera which reads the exact metadata I was trying to reverse-engineer here, and explains why this data is embedded in the file to begin with.
+
 The TI250 can be had for $299, and boasts a few features I was specifically looking for. It's a true thermal imager, which means it presents a two-dimensional picture of the temperature at every point in its field of view. Compare it to an image taken by a regular photographic camera:
 
 <img class="floatNone" src="{$cfg->uploadUrl}/2022/thermal-vs-photographic.jpg" alt="Thermal imaging vs. photographic imaging">
@@ -234,6 +236,8 @@ I won't go into a long account of how I determined the purpose of these values. 
 </table>
 
 (All offsets in this table are relative to the start of the data area.)
+
+**Update:** The Uni-Trend "PC Software" (described earlier) displays a field that identifies the model of camera that captured the image. I suspect the unknown constant "3" is used for this purpose.
 
 This data encodes, in a machine readable format, all of the information that is normally shown in text/icon overlays on the screen. Like the rest of the BMP format, all multibyte values are stored in little-endian order with the least significant bytes written first.
 
