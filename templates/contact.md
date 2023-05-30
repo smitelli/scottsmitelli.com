@@ -14,8 +14,6 @@ I also maintain accounts on the following sites. Note that most of these are *pe
 
 * [Stack Overflow](https://stackoverflow.com/users/1713313/smitelli) ([Careers 2.0 profile](https://careers.stackoverflow.com/smitelli))
 
-* [Twitter](https://twitter.com/smitelli)
-
 * [LinkedIn](https://www.linkedin.com/in/smitelli)
 
 If you come across somebody named "smitelli" on some other website or social network, there's a pretty good chance it's me.

@@ -2,7 +2,9 @@
 
 Windowbox started as a PHP app that I soon abandoned in favor of Python 2/Flask/SQLAlchemy. I had never used Flask or SQLAlchemy for anything prior to this, but I rapidly started to appreciate everything the frameworks did for me. It was rewritten once more using Python 3, and that's the version that runs today.
 
-From a day-to-day perspective, Windowbox works by periodically checking a dedicated IMAP mailbox for new emails. Whenever it finds a new message and verifies it came from me, it posts the image attachment(s) to the site and sends an update to Twitter on my behalf. On my phone, all I have to do is compose an email to Windowbox's contact, attach the picture, and send. The Windowbox app takes care of thumbnail generation, RSS/Atom feeds, and syndication to Twitter.
+From a day-to-day perspective, Windowbox works by periodically checking a dedicated IMAP mailbox for new emails. Whenever it finds a new message and verifies it came from me, it posts the image attachment(s) to the site. On my phone, all I have to do is compose an email to Windowbox's contact, attach the picture, and send. The Windowbox app takes care of thumbnail generation, RSS/Atom feeds, and (in principle) syndication to Twitter.
+
+_(Side note: In May of 2023, Twitter revoked the OAuth credentials I had been using for all of my projects without notice or explanation. I ultimately decided to leave Twitter, and now the tweet-posting code in Windowbox lies dormant. It should still work within their free API tier offering, but I am not interested in verifying that fact now.)__
 
 Windowbox also exposes a read-only JSON API for anybody who cares to build a client to interact with it. (Note to anybody who does this: Share whatever you come up with; I'm curious!)
 
