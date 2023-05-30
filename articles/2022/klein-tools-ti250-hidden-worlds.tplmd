@@ -237,8 +237,6 @@ I won't go into a long account of how I determined the purpose of these values. 
 
 (All offsets in this table are relative to the start of the data area.)
 
-**Update:** The Uni-Trend "PC Software" (described earlier) displays a field that identifies the model of camera that captured the image. I suspect the unknown constant "3" is used for this purpose.
-
 This data encodes, in a machine readable format, all of the information that is normally shown in text/icon overlays on the screen. Like the rest of the BMP format, all multibyte values are stored in little-endian order with the least significant bytes written first.
 
 Temperatures are interesting, in that they are always stored in degrees Celsius (regardless of the user's settings) scaled by a factor of 10 to keep tenths of degrees. A temperature of 70.5 &deg;F would be encoded as 213 (21.3 &deg;C with the decimal shifted one place to the right). Temperatures may be negative, expressed as two's compliment values (so 0xFFB9 for -71, indicating -7.1 &deg;C or 19.2 &deg;F). The emissivity setting has a somewhat similar encoding, where a setting of 0.9 would be encoded as 90 (the decimal shifts _two_ places to the right as this field has hundredths precision). This allows for storing numbers with a fixed fractional part while still keeping everything in integer form.
@@ -269,6 +267,8 @@ The TL;DR of this is, there's more to the TI250's bitmap files than simply a bit
 </table>
 
 This is probably meant for some sort of analysis software, possibly to provide the necessary reference information to rescale and normalize images once they have been taken. I'm not aware of any official or unofficial software that supports doing this for the TI250, but hopefully this information will be of use to anybody who wants to explore that space.
+
+**Update:** The Uni-Trend "PC Software" (described earlier) displays a field that identifies the model of camera that captured the image. I suspect the unknown constant "3" is used for this purpose.
 
 ## Borrow my tools
 
