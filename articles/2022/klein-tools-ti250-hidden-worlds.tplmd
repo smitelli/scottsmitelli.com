@@ -270,6 +270,8 @@ The TL;DR of this is, there's more to the TI250's bitmap files than simply a bit
 
 This is probably meant for some sort of analysis software, possibly to provide the necessary reference information to rescale and normalize images once they have been taken. I'm not aware of any official or unofficial software that supports doing this for the TI250, but hopefully this information will be of use to anybody who wants to explore that space.
 
+**Update:** There _is_ software that reads this metadata: It's called the "PC Software" from [Uni-T's website](https://thermal.uni-trend.com/product/uti120p/). This software is capable of reading this metadata and using it to perform analysis on images captured by the UTi120P as well as the TI250.
+
 ## Borrow my tools
 
 I put together a relatively small Python program that parses a TI250 image file, prints a summary, and optionally regenerates a new variant of the image from the thermal data and a palette. The source is in this [GitHub gist](https://gist.github.com/smitelli/8b5602cea0be3830c6f80802b3c4ff5c). For those who are mainly interested in a reference implementation of a TI250 data parser, almost all of that is in the `load()` method.
