@@ -8,12 +8,12 @@ The first iteration of the project used naive text-breaking algorithms on Projec
 
 After rolling ideas around in my head, I remembered an image I had seen a few years earlier: A screenshot of a YouTube video, showing an angry dog barking with a closed-captioning overlay reading "Or Or Or Or Or." I then remembered that YouTube performs automatic speech recognition (ASR) on some videos and its accuracy is, shall we say, imperfect. The plan then crystallized: Fetch the list of trending topics from Twitter, search for one of them on YouTube, filter the results to videos that have an ASR closed-captioning track, and pluck the output from there. The result was vastly improved -- Often vaguely topical, using informal prose, and error-filled due to machine transcription.
 
-Since then, The Sort of Face has been extended to randomly tweet using Unicode fullwidth characters for emphasis, to write its text upside-down by misusing the Cyrillic alphabet, and to embellish its output with emoji. It can also switch to a mode where it chooses random dictionary words for its source material, producing templated "Mad Libs" output like "lobsters gonna lobst" and "The opposite of productivity is conductivity."
+Since then, The Sort of Face had been extended to randomly tweet using Unicode fullwidth characters for emphasis, to write its text upside-down by misusing the Cyrillic alphabet, and to embellish its output with emoji. It could also switch to a mode where it chooses random dictionary words for its source material, producing templated "Mad Libs" output like "lobsters gonna lobst" and "The opposite of productivity is conductivity."
 
-To date, over 125,000 tweets have been sent and there is no sign of stopping or slowing down -- at least not until its IP address is banned for scraping or spamming.
+In June of 2023, Twitter revoked the OAuth credentials I had been using for almost twelve years without notice or explanation. This revocation broke The Sort of Face, with no provision to regain the necessary API access without paying an unconscionable fee. It was a fun ride, producing over 276,500 tweets that Twitter must now preserve in their data stores (at least until the entire account gets purged).
 
 * **Original Release:** September 2011
 
 * **Source Code:** <https://github.com/smitelli/sort_of_face>
 
-* **Try It Out:** [@sort\_of\_face on Twitter](https://twitter.com/sort_of_face)
+* **Was Once Active At:** [@sort\_of\_face on Twitter](https://twitter.com/sort_of_face)
