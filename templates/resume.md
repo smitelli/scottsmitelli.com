@@ -1,6 +1,3 @@
-<style media="print">#branding{display:none}</style>
-<style>.resume .date-range{float:right}</style>
-
 # Scott Smitelli &bull; <scott@smitelli.com>
 
 Senior backend and DevOps engineer with over ten years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Likes tinkering with the interesting aspects of technology while automating the more tedious bits.
@@ -25,7 +22,7 @@ As the first full-time employee, built out all of the infrastructure and web-fac
 
 * _Technologies:_ Python, Flask, Salt, AWS CloudFormation, AWS (EC2, S3, CloudFront, RDS, ElastiCache), Linux (Debian), nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, Hugo, Jenkins, Git, Bash, FFmpeg, JSON:API, Jira, Cloudflare, G Suite
 
-### Maker Studios _formerly Blip Networks_ &bull; Senior Engineer <span class="date-range">Sep 2013&ndash;Jun 2015</span>
+### Maker Studios _(formerly Blip Networks)_ &bull; Senior Engineer <span class="date-range">Sep 2013&ndash;Jun 2015</span>
 
 Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers&mdash;some handling 1,800 requests/second at peak, reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical data centers to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
 

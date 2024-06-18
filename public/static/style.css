@@ -319,6 +319,9 @@ img.defaultScott {
   text-align: center;
 }
 @media print {
+  #branding{
+    display :none;
+  }
   .resume h2,
   .credits h2 {
     padding: 0.1em;
@@ -332,6 +335,12 @@ img.defaultScott {
 .resume h3,
 .resume p {
   margin: 0.5em 0;
+}
+.resume h3 {
+  border-bottom: 1px solid #333;
+}
+.resume .date-range {
+  float: right;
 }
 
 /* ===== FANCYBOX SUPPORT ===== */
