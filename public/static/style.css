@@ -32,7 +32,7 @@ html, body {
 @media print {
   html, body {
     color: #000;
-    font-size: 14px;
+    font-size: 14.4px;
     line-height: 1.4em;
   }
 }
@@ -337,7 +337,7 @@ img.defaultScott {
   margin: 0.5em 0;
 }
 .resume h3 {
-  border-bottom: 1px solid #333;
+  border-bottom: 2px solid #333;
 }
 .resume .date-range {
   float: right;
