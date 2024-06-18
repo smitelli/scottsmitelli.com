@@ -4,14 +4,21 @@ Senior backend and DevOps engineer with over ten years of experience. Enjoys int
 
 ## Experience
 
+### Nextdoor -- Remote
+
+_Software Engineer<!-- 4 --> (Cloud), January 2022 to August 2023_
+
+Prepared the Nextdoor.com web application for migration from AWS ECS to Kubernetes by developing Helm charts, Istio configurations, and Argo Rollouts deployment specifications. Migrated a number of associated microservices (some unmaintained) to Kubernetes in tandem. Supported the operation of ten separate EKS clusters comprised of thousands of EC2 instances, collectively hosting tens of thousands of pods during typical daily traffic peaks. Led other engineering teams in their adoption of the new environments by conducting architectural reviews, writing documentation and hosting twice-weekly office hours.
+
+* _Technologies:_ Kubernetes, Helm, Argo Project (Argo CD, Rollouts), AWS (CDK/CloudFormation, EKS, ECS, EC2, Lambda, CloudFront), Python, Bash, Go, Lua, Istio/Envoy, Prometheus, Grafana, Linux (Amazon Bottlerocket), nginx, NetApp Spot, Git/GitHub Actions, CircleCI
+
 ### Shutterstock -- Remote
 
-_DevOps Engineer III, November 2020 to January 2022_
+_DevOps Engineer<!-- III -->, November 2020 to January 2022_
 
 Migrated the Amper Music infrastructure into Shutterstock's network after Amper was acquired, including relocating live resources between AWS regions, converting legacy CloudFormation templates into Terraform, moving source control, and recreating CI/CD workflows to match Shutterstock conventions. Facilitated the integration of Amper API endpoints into Shutterstock products and contributed to the user-facing API documentation. Supported the Data Engineering team by maintaining services and data stores used by AI/ML model training processes.
 
-* _Languages/Frameworks:_ Terraform, Python, Bash, Ansible, SQL, Kafka Connect
-* _Technologies:_ AWS (EC2, S3, CloudWatch, EFS, DynamoDB), Linux (Debian), nginx, Prometheus, Grafana, Milvus, MySQL, Redis, Metaflow, Databricks, Atlantis, Packer, Jenkins, Git
+* _Technologies:_ Terraform, Python, Bash, AWS (EC2, S3, CloudWatch, EFS, DynamoDB), Linux (Debian), nginx, Prometheus, Grafana, Ansible, Milvus, MySQL, Redis, Metaflow, Kafka Connect, Databricks, Atlantis, Packer, Jenkins, Git
 
 ### Amper Music -- New York, NY / Remote
 
@@ -19,8 +26,7 @@ _Web Systems Architect, May 2015 to November 2020_
 
 As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created tens of millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability, and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
 
-* _Languages/Frameworks:_ Python, Flask, Salt, AWS CloudFormation, Bash
-* _Technologies:_ AWS (EC2, S3, CloudFront, RDS, ElastiCache), Linux (Debian), nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, Hugo, Jenkins, Git, FFmpeg, JSON:API, Jira, Cloudflare, G Suite
+* _Technologies:_ Python, Flask, Salt, AWS CloudFormation, AWS (EC2, S3, CloudFront, RDS, ElastiCache), Linux (Debian), nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, Hugo, Jenkins, Git, Bash, FFmpeg, JSON:API, Jira, Cloudflare, G Suite
 
 ### Maker Studios (formerly Blip Networks) -- New York, NY
 
@@ -28,8 +34,7 @@ _Senior Engineer, September 2013 to June 2015_
 
 Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers (some handling 1,800 requests/second at peak), reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical data centers to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
 
-* _Languages/Frameworks:_ Python, JavaScript/Node.js, Express, Puppet, Bash
-* _Technologies:_ AWS EC2, Linux (CentOS/Ubuntu), Apache, nginx, Varnish, MySQL, MongoDB, Elasticsearch, MogileFS, Git, FFmpeg, Nagios, Logstash, StatsD
+* _Technologies:_ Python, JavaScript/Node.js, Express, Puppet, AWS EC2, Linux (CentOS/Ubuntu), Apache, nginx, Varnish, MySQL, MongoDB, Elasticsearch, MogileFS, Git, Bash, FFmpeg, Nagios, Logstash, StatsD
 
 ### Thomson Reuters -- New York, NY
 
@@ -37,8 +42,7 @@ _Web Developer, January 2013 to September 2013_
 
 Received control of a prototype of Reuters Next, a complete rewrite of the Reuters.com news platform with re-imagined UX interactions and backend services. Implemented additional features, practiced test-driven development, and productionized the site for deployment on AWS. Navigated the knowledge transfer period between the outside agency that built the prototype and an offshore engineering and QA team.
 
-* _Languages/Frameworks:_ Python, JavaScript, HTML, SASS/SCSS, Tornado, Backbone.js, jQuery
-* _Technologies:_ AWS EC2, nginx, MongoDB, Redis, Git, Adobe Photoshop, Jira
+* _Technologies:_ Python, JavaScript, HTML, SASS/SCSS, Tornado, Backbone.js, jQuery, AWS EC2, nginx, MongoDB, Redis, Git, Adobe Photoshop, Jira
 
 ### Worldnow -- Long Island City, NY
 
@@ -46,8 +50,7 @@ _Senior Interactive Development Manager, November 2011 to January 2013_
 
 Built customized frontend features for a content management platform used by dozens of television news stations across North America. Advised client services managers about the feasibility and scheduling of such requests. Assisted with a global conversion of all site templates to responsive web design. Created libraries to simplify the implementation of common customizations.
 
-* _Languages/Frameworks:_ (X)HTML, XML/XSLT, CSS, JavaScript, jQuery
-* _Technologies:_ Windows Server, IIS Web Server, Adobe Photoshop/Fireworks, Team Foundation Server, Cygwin, SalesLogix
+* _Technologies:_ (X)HTML, XML/XSLT, CSS, JavaScript, jQuery, Windows Server, IIS Web Server, Adobe Photoshop/Fireworks, Team Foundation Server, Cygwin, SalesLogix
 
 ### Abrams Media -- New York, NY
 
