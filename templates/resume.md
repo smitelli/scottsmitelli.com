@@ -1,3 +1,5 @@
+<style media="print">#branding{display:none}</style>
+
 # Scott Smitelli &bull; <scott@smitelli.com>
 
 Senior backend and DevOps engineer with over ten years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Likes tinkering with the interesting aspects of technology while automating the more tedious bits.
