@@ -26,7 +26,7 @@ As the first full-time employee, built out all of the infrastructure and web-fac
 
 ### Maker Studios _formerly Blip Networks_ &bull; Senior Engineer (Sep 2013 -- Jun 2015)
 
-Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers---some handling 1,800 requests/second at peak, reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical data centers to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
+Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers&mdash;some handling 1,800 requests/second at peak, reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical data centers to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
 
 * _Technologies:_ Python, JavaScript/Node.js, Express, Puppet, AWS EC2, Linux (CentOS/Ubuntu), Apache, nginx, Varnish, MySQL, MongoDB, Elasticsearch, MogileFS, Git, Bash, FFmpeg, Nagios, Logstash, StatsD
 
