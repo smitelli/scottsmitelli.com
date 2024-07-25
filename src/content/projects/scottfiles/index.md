@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link scottfiles-source %}}HREF{{% /link %}}'
+value = '{{% link scottfiles-source true /%}}'
 +++
 
 **Scottfiles** are Scott's dotfiles. I generally try not to go crazy with the visual tweaks, aliases, or keyboard mappings, mainly because I often have to jump onto unfamiliar servers or freshly-created VMs where these customizations may not be installed. I don't want my muscles to forget how to use a vanilla Linux installation.

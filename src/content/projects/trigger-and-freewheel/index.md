@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link triggerandfreewheel-source %}}HREF{{% /link %}}'
+value = '{{% link triggerandfreewheel-source true /%}}'
 
 [[infoBox]]
 key = 'Try It Out'

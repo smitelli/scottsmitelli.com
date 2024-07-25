@@ -18,7 +18,7 @@ On Tuesday November 20th, I bought a new iPhone. It was my Thanksgiving present 
 
 So began my week of hell.
 
-The website you're supposed to visit to manage your Apple ID is {{% link apple-id %}}HREF{{% /link %}}. I went there, logged in without any issue, and looked for something resembling a change password page. Ah, "Passwords and Security," perfect. I followed the link, and was then prompted to "Please answer [my] security questions." **Who was my favorite teacher**, and **what was my least favorite car?**
+The website you're supposed to visit to manage your Apple ID is {{% link apple-id true /%}}. I went there, logged in without any issue, and looked for something resembling a change password page. Ah, "Passwords and Security," perfect. I followed the link, and was then prompted to "Please answer [my] security questions." **Who was my favorite teacher**, and **what was my least favorite car?**
 
 Who was my favorite teacher? Honestly, I'd forgotten the names of most of the teachers I've had. Of the ones I did remember, none of them really stood out as being worthy of a "favorite" label. My least favorite car? I didn't even remember answering that question. The car whose design offended me the most? _(Was the Pontiac Aztek popular when I originally answered these?)_ The least favorite car of all the cars I've owned? I've never actually owned a single car!
 
@@ -44,7 +44,7 @@ I set the issue aside during the Thanksgiving break, and returned to the support
 
 I received the call at 10:35, and a friendly human named Autumn actually did manage to solve my issue over the course of about five minutes. All my security questions were cleared, and I was prompted to recreate them the next time I logged into the Apple ID site. After the amount of trouble I went through, I made sure to create an entry in my password manager's database to hold the answers to my security questions. I also set up a rescue email address, which I'll hopefully never have to use.
 
-In the days that followed, I learned that I could've visited {{% link apple-id-recovery %}}HREF{{% /link %}} to quickly change my account password (but not my security questions). It would've been a good stopgap if my situation had been a legitimate emergency instead of a mild annoyance.
+In the days that followed, I learned that I could've visited {{% link apple-id-recovery true /%}} to quickly change my account password (but not my security questions). It would've been a good stopgap if my situation had been a legitimate emergency instead of a mild annoyance.
 
 This whole experience left me with a really sour feeling towards Apple and the way they run their web services. First, they have the only site I've ever seen that requires you to answer security questions to perform an action _after_ successfully logging in. Most of the _banks_ I deal with don't even require that---they mainly pull out the security questions if you request a lost username/password email, or if you try to register an unfamiliar mobile device or the like.
 

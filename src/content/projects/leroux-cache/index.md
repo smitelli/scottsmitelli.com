@@ -10,7 +10,7 @@ value = '{{% link leroux-cache-npm /%}}'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link leroux-cache-source %}}HREF{{% /link %}}'
+value = '{{% link leroux-cache-source true /%}}'
 
 [[infoBox]]
 key = 'Coveralls Tests'

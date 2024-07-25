@@ -13,22 +13,23 @@
     `text` value set in the data file. If there is no text from either source,
     the `href` is used as the display text.
 
-    To further complicate things, if the text that would've been shown is
-    literally HREF, the `href` value will be used even if there is a `text` that
-    would've been otherwise used -- this is for cases where you really, really
-    want to show the URL.
-
     Positional parameters:
         0: The name of the key to read from the `links.toml` data.
+        1 (optional): If true, ignores any text defined in the link data or
+            shortcode call and instead use the link's `href` as the output text.
 */}}
 
 {{- $id := .Get 0 }}
+{{- $raw := .Get 1 | default false }}
 
 {{- with index site.Data.links $id }}
     {{- $trimmedHref := .href | strings.TrimRight "/" }}
-    {{- $text := ($.Inner | default .text | markdownify) | default $trimmedHref }}
-    {{- if eq $text "HREF" }}{{ $text = $trimmedHref }}{{ end }}
-    {{- "" }}<a href="{{ .href }}" rel="external" {{ if .dead }}class="dead"{{ end }} data-link-id="{{ $id }}">{{ $text }}</a>
+    {{- if $raw }}
+        {{- $trimmedHref }}
+    {{- else }}
+        {{- $text := ($.Inner | default .text | markdownify) | default $trimmedHref }}
+        {{- "" }}<a href="{{ .href }}" rel="external" {{ if .dead }}class="dead"{{ end }} data-link-id="{{ $id }}">{{ $text }}</a>
+    {{- end }}
 {{- else }}
     {{- errorf "Link %s not defined: %s" $id .Position }}
 {{- end -}}

@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link langolier-source %}}HREF{{% /link %}}'
+value = '{{% link langolier-source true /%}}'
 
 [[infoBox]]
 key = 'Has Been Used On'

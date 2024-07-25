@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link internetstapler-source %}}HREF{{% /link %}}'
+value = '{{% link internetstapler-source true /%}}'
 
 [[infoBox]]
 key = 'Try It Out'

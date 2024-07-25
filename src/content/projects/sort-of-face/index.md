@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link sort-of-face-source %}}HREF{{% /link %}}'
+value = '{{% link sort-of-face-source true /%}}'
 
 [[infoBox]]
 key = 'Was Once Active At'

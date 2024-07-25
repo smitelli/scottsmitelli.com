@@ -205,7 +205,7 @@ Why did I give this a whole heading?
 
 ## Test Zone {#demo-test-zone}
 
-This is simply a place where I dump specimens of things I know the Goldmark renderer ought to be able to do, partially to test that everything works and partially to remind myself what the syntax looks like. And there's always the {{% link commonmark-spec /%}}. (That is a link to {{% link commonmark-spec %}}HREF{{% /link %}} if it wasn't clear---there shouldn't be a trailing slash on that URL!)
+This is simply a place where I dump specimens of things I know the Goldmark renderer ought to be able to do, partially to test that everything works and partially to remind myself what the syntax looks like. And there's always the {{% link commonmark-spec /%}}. (That is a link to {{% link commonmark-spec true /%}} if it wasn't clear---there shouldn't be a trailing slash on that URL!)
 
 This Markdown processor supports emoji shortcodes? :bulb:!
 

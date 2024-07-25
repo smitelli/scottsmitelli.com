@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link twanslationparty-source %}}HREF{{% /link %}}'
+value = '{{% link twanslationparty-source true /%}}'
 
 [[infoBox]]
 key = 'Was Once Active At'

@@ -5,7 +5,7 @@ date = 2020-11-07
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link cosmore-source %}}HREF{{% /link %}}'
+value = '{{% link cosmore-source true /%}}'
 +++
 
 **Cosmore** is a reconstruction of the source code of _Cosmo's Cosmic Adventure_, a DOS game originally released in 1992, using the original C compiler and x86 assembler from 1988. The project involved disassembling the original game files, analyzing their structure, and producing new C and assembly code that best approximates what was written by the original authors almost three decades prior. In addition to making the game run and play accurately in its native environment, particular focus was placed on truly understanding the purpose of each function and variable, naming and commenting each one as appropriately as possible.

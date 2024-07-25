@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link twitstash-source %}}HREF{{% /link %}}'
+value = '{{% link twitstash-source true /%}}'
 +++
 
 One of the more lamented aspects of the Twitter API is the fact that {{% link twitter-api-get-statuses-user-timeline %}}there is no way to programmatically retrieve tweets sent more than 3,200 updates ago{{% /link %}}. For heavy Twitter users, that means that tweets sent as recently as a few months ago cannot be retrieved unless the ID number is already known. Because I enjoy archiving things, and because I realized that I might someday want to access some of my earliest tweets, I wrote **twitstash** to archive tweets as they are posted. I started running this script back when I only had a few hundred tweets, and after near-continuous use I can now access and search every single tweet I've ever composed---even though there have been tens of thousands of them posted since.

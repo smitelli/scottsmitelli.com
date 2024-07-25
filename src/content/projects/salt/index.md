@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link salt-source %}}HREF{{% /link %}}'
+value = '{{% link salt-source true /%}}'
 +++
 
 **{{% link salt-user-guide %}}Salt{{% /link %}}** is a configuration management tool designed to automate the setup and management of computer systems. Every single bit of software installation and configuration on this server is done via Salt **states**, and every piece of my Salt configuration (with the exception of passwords and other sensitive key material) is completely open on GitHub. The states for ScottSmitelli.com, for example, can be found in {{% link salt-source-scottsmitelli-com %}}this file{{% /link %}}.

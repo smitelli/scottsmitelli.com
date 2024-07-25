@@ -5,7 +5,7 @@ date = 2021-12-13
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link cosmodoc-source %}}HREF{{% /link %}}'
+value = '{{% link cosmodoc-source true /%}}'
 
 [[infoBox]]
 key = 'Read It Here'

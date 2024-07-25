@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link docroute-source %}}HREF{{% /link %}}'
+value = '{{% link docroute-source true /%}}'
 
 [[infoBox]]
 key = 'Pronunciation'

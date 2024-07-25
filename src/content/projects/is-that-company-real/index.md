@@ -6,7 +6,7 @@ fuzzyDates = 'ym'
 
 [[infoBox]]
 key = 'Source Code'
-value = '{{% link isthatcompanyreal-source %}}HREF{{% /link %}}'
+value = '{{% link isthatcompanyreal-source true /%}}'
 
 [[infoBox]]
 key = 'Try It Out'
