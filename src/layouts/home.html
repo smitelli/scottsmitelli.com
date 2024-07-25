@@ -1,0 +1,14 @@
+{{ define "pageContent" }}
+    <header>
+        <h1 id="site-title"><a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.Title }}">{{ site.Title | markdownify }}</a></h1>
+        {{ partial "site-logo.svg" . }}
+    </header>
+
+    {{ with .Content }}<section>{{ . }}</section>{{ end }}
+
+    <section>
+        {{ range site.Menus.main.ByWeight }}
+            <h2><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name | markdownify }}</a></h2>
+        {{ end }}
+    </section>
+{{ end }}

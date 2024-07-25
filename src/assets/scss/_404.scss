@@ -1,0 +1,43 @@
+/*
+I genuinely had fun doing this.
+*/
+body.kind-404 {
+    --left-body-pad: var(--right-body-pad);
+
+    section {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 32rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+        h1 {
+            font-size: 3rem;
+            color: red;
+
+            img {
+                height: 3rem;
+                width: auto;
+
+                &:last-of-type {
+                    transform: scaleX(-1);
+                }
+            }
+        }
+
+        img.divider {
+            width: 100%;
+            height: auto;
+        }
+
+        p img {
+            height: 5rem;
+            width: auto;
+            vertical-align: middle;
+        }
+
+        a img {
+            border: 0.1rem solid blue;
+        }
+    }
+}

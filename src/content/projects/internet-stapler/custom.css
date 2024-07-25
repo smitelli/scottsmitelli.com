@@ -1,0 +1,3 @@
+.mn-sn-content img:hover {
+    transform: scaleX(-1);
+}

@@ -1,0 +1,123 @@
+/*
+MARGIN NOTES / SIDENOTES / FEATURES
+
+- Margin notes appear unnumbered in the margin on large screens. They collapse
+  to "*" on small screens and can be expanded.
+- Sidenotes are identical to margin notes, except they are marked with an
+  incrementing number that is shown on all screen sizes.
+- Features have no marks (no asterisks, no numbers) and do not collapse on any
+  screen size.
+
+Also covers the info box feature which contains page dates/TOC/metadata.
+*/
+@mixin _mn-sn-super {
+    display: inline;
+    position: relative;
+    top: -0.5em;
+    font-size: 0.75em;
+}
+
+label.mn-sn-indicator {
+    @media (max-width: $sm-breakpoint) {
+        cursor: pointer;
+        @include underline;
+    }
+
+    &.margin::after {
+        @media (max-width: $sm-breakpoint) {
+            content: '*';
+            @include _mn-sn-super;
+        }
+    }
+
+    &.side::after {
+        counter-increment: sidenote-index;
+        content: counter(sidenote-index);
+        @include _mn-sn-super;
+    }
+}
+
+:is(div, mark).mn-sn-content {
+    // Both are relative to main content width
+    --mn-width: 60%;
+    --mn-gutter: 10%;
+
+    float: right;
+    clear: right;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    margin-right: calc(-1 * (var(--mn-width) + var(--mn-gutter)));
+    width: var(--mn-width);
+    color: inherit;
+    background-color: inherit;
+    font-size: 0.825em;
+    line-height: 1.3;
+
+    @media (max-width: $sm-breakpoint) {
+        margin: 1rem 0 1rem var(--left-indent);
+        width: calc(var(--content-width) - var(--left-indent));
+
+        &.feature {
+            margin-left: 0;
+            width: var(--content-width);
+        }
+
+        input.mn-sn-switch:not(:checked) + &:is(.margin, .side) {
+            display: none;
+        }
+
+        @media print {
+            display: block !important;
+        }
+    }
+
+    #info-box & {
+        margin-top: 0;
+    }
+
+    &.margin::before {
+        @media (max-width: $sm-breakpoint) {
+            content: '* ';
+            @include _mn-sn-super;
+        }
+    }
+
+    &.side::before {
+        content: counter(sidenote-index) ' ';
+        @include _mn-sn-super;
+    }
+
+    dl {
+        margin-top: 0.33em;
+
+        dt {
+            color: var(--mid-fg-color);
+            font-weight: normal;
+            @include small-caps;
+        }
+
+        dd {
+            margin-left: 0;
+            margin-top: 0.25rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    img {
+        margin-bottom: 0.5rem;
+    }
+
+    nav#TableOfContents ul {  // Hugo-controlled name :(
+        list-style-type: none;
+        margin-top: 0;
+        padding-left: 1rem;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        li {
+            margin-top: 0.25em;
+        }
+    }
+}

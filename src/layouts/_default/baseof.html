@@ -1,0 +1,116 @@
+{{ $css_opts := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {{ with site.Home.OutputFormats.Get "rss" }}
+            <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}" title="{{ site.Title }}">
+        {{ end }}
+        {{ if not .IsHome }}
+            {{ with .OutputFormats.Get "rss" }}
+                <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}" title="{{ site.Title }}: {{ page.Title }}">
+            {{ end }}
+        {{ end }}
+
+        <link rel="canonical" href="{{ .Permalink }}">
+
+        {{ range $size := slice 180 32 16 }}
+            {{ with resources.Get (printf "img/favicon-%d.png" $size) }}
+                {{ if eq $size 180 }}
+                    <link rel="apple-touch-icon" sizes="{{ .Width }}x{{ .Height }}" href="{{ .RelPermalink }}">
+                {{ else }}
+                    <link rel="icon" type="{{ .MediaType.Type }}" sizes="{{ .Width }}x{{ .Height }}" href="{{ .RelPermalink }}">
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ with resources.Get "img/favicon.ico" }}
+            <link rel="shortcut icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}">
+        {{ end }}
+        <link rel="sitemap" type="application/xml" href="{{ relURL .Sitemap.Filename }}">
+
+        {{ with resources.Get "scss/main.scss" }}
+            <link rel="stylesheet" href="{{ (. | toCSS $css_opts | fingerprint).RelPermalink }}">
+        {{ end }}
+
+        {{ hugo.Generator }}
+        {{ template "_internal/schema.html" . }}
+        {{ template "_internal/opengraph.html" . }}
+        {{ template "_internal/twitter_cards.html" . }}
+
+        {{/* If a page bundle includes CSS/JS files, inject them into the head */}}
+        {{ range page.Resources.Match "*.css" }}
+            <link rel="stylesheet" href="{{ (. | minify | fingerprint).RelPermalink }}">
+        {{ end }}
+        {{ range page.Resources.Match "*.js" }}
+            <script src="{{ (. | minify | fingerprint).RelPermalink }}" defer></script>
+        {{ end }}
+
+        {{/* Ensure the Store object discovers all shortcodes used in the content */}}
+        {{ $_ := .Content }}
+
+        {{ if page.Store.Get "uses-math" }}
+            <script>
+                window.MathJax = {
+                    tex: {
+                        displayMath: [['$$', '$$']],
+                        inlineMath:  [['$', '$']]
+                    }
+                };
+            </script>
+            <script
+                src="{{ site.Params.mathjax.url }}" integrity="{{ site.Params.mathjax.integrity }}"
+                crossorigin="anonymous" id="MathJax-script" async>
+            </script>
+        {{ end }}
+
+        <title>
+            {{ block "pageTitle" . }}
+                {{ with page.Title }}{{ . | markdownify | plainify | htmlUnescape }} &sect; {{ end }}
+                {{- site.Title | markdownify | plainify | htmlUnescape }}
+            {{ end }}
+        </title>
+    </head>
+
+    <body class="{{ with .Kind }}kind-{{ . }}{{ end }} {{ with .Section }}section-{{ . }}{{ end }}">
+        {{ if not .Params.skipPageHeader }}
+            <header>
+                <div id="site-title"><a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.Title }}">{{ site.Title | markdownify }}</a></div>
+                <a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.Title }}">{{ partial "site-logo.svg" . }}</a>
+                <nav>
+                    {{ range site.Menus.main.ByWeight }}
+                        {{- "" }}<span><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name | markdownify }}</a></span>{{ "" -}}
+                    {{ end }}
+                </nav>
+                <label for="secondary-menu-switch">{{ partial "menu-icon.svg" . }}</label>
+            </header>
+
+            <input id="secondary-menu-switch" type="checkbox" hidden>
+            <nav id="secondary-menu">
+                {{ range site.Menus.main.ByWeight }}
+                    {{- "" }}<span><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name | markdownify }}</a></span>{{ "" -}}
+                {{ end }}
+            </nav>
+        {{ end }}
+
+        <main>
+            {{ block "pageContent" . }}{{ end }}
+        </main>
+
+        {{ if not .Params.skipPageFooter }}
+            <footer>
+                <p>
+                    &copy; 2007&ndash;{{ time.Now.Year }} <a href='{{ relref . "about" }}' rel="author">{{ site.Title | markdownify }}</a>
+                    <br><a href='{{ relref . "projects/scottsmitelli.com/index" }}'>About this site</a>
+                    {{- with .File }}
+                        {{- $git_url := urls.JoinPath site.Params.gitContentUrl (path.Clean .Path) }}
+                        {{- " / " }}<a href="{{ $git_url }}">Page source code</a>
+                    {{ end }}
+                </p>
+            </footer>
+        {{ end }}
+    </body>
+</html>

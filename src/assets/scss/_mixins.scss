@@ -1,0 +1,14 @@
+/*
+COMMON MIXINS
+*/
+@mixin small-caps {
+    font-variant-caps: small-caps;
+    letter-spacing: 0.05em;
+}
+
+@mixin underline {
+    text-decoration-line: underline;
+    text-decoration-skip-ink: all;
+    text-decoration-thickness: 5%;
+    text-underline-offset: 0.125em;
+}

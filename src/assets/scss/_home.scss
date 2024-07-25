@@ -1,0 +1,25 @@
+body.kind-home {
+    --left-body-pad: var(--right-body-pad);
+
+    header {
+        margin-top: 4.6rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: var(--content-width);
+    }
+
+    section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+
+        > * {
+            flex: 1 0 17rem;
+            font-family: var(--sans-font);
+            font-size: 200%;
+            font-style: normal;
+            text-align: center;
+        }
+    }
+}

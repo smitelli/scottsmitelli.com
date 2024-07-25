@@ -1,0 +1,526 @@
+[-demo]
+href = '#'
+text = 'demo link that is intentionally marked as `dead`'
+dead = true
+
+[about-github]
+href = 'https://github.com/smitelli'
+text = 'smitelli on GitHub'
+
+[about-linkedin]
+href = 'https://www.linkedin.com/in/smitelli'
+text = 'Scott Smitelli on LinkedIn'
+
+[about-npm]
+href = 'https://www.npmjs.com/~smitelli'
+text = 'smitelli on npm'
+
+[about-stackoverflow]
+href = 'https://stackoverflow.com/users/1713313/smitelli'
+text = 'smitelli on Stack Overflow'
+
+[adobe-audition]
+href = 'https://www.adobe.com/products/audition.html'
+text = 'Adobe Audition'
+
+[angelo-dinardi]
+href = 'https://angelo.dinardi.name/'
+text = 'Angelo DiNardi'
+
+[apple-faq-itunes-store-movie-rental]
+href = 'https://web.archive.org/web/20080406121746/https://docs.info.apple.com/article.html?artnum=307257'
+text = 'iTunes Store Movie Rental FAQ'
+
+[apple-id]
+href = 'https://appleid.apple.com/'
+text = 'Apple ID'
+
+[apple-id-recovery]
+href = 'https://iforgot.apple.com/'
+text = 'Recover Your Apple ID'
+
+[apple-quicktime-731-tiger]
+href = 'https://www.apple.com/support/downloads/quicktime731fortiger.html'
+dead = true
+
+[apple-quicktime-731-leopard]
+href = 'https://www.apple.com/support/downloads/quicktime731forleopard.html'
+dead = true
+
+[apple-quicktime-731-panther]
+href = 'https://www.apple.com/support/downloads/quicktime731forpanther.html'
+dead = true
+
+[apple-support]
+href = 'https://getsupport.apple.com/'
+text = 'Apple Support'
+
+[audiblemagic]
+href = 'https://www.audiblemagic.com/'
+text = 'Audible Magic'
+
+[audiblemagic-patents]
+href = 'https://www.audiblemagic.com/patents/'
+text = 'Patents - Audible Magic'
+
+[audiocourses-mono-compatibility-and-phase-cancellation]
+href = 'https://web.archive.org/web/20170817034120/http://www.audiocourses.com/2012/02/10/mono-compatibility-and-phase-cancellation/'
+text = 'Mono Compatibility and Phase Cancellation'
+
+[ca-street-view-timelapse]
+href = 'https://www.youtube.com/watch?v=b2d-VAAyB9c'
+text = 'Google Street View Time Lapse - 360 Degree Panorama - Pittsburgh, PA to San Mateo, CA'
+
+[canon-zr200]
+href = 'https://web.archive.org/web/20090926084845/http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&fcategoryid=174&modelid=11004'
+text = 'Canon ZR200'
+
+[commonmark-spec]
+href = 'https://spec.commonmark.org/current/'
+text = 'CommonMark Spec'
+
+[comoblog]
+href = 'https://sourceforge.net/projects/comoblog/'
+text = 'CoMoblog'
+
+[cosmodoc]
+href = 'https://cosmodoc.org/'
+text = 'Cosmodoc'
+
+[cosmodoc-adlib-functions]
+href = 'https://cosmodoc.org/topics/adlib-functions/'
+text = 'AdLib Functions'
+
+[cosmodoc-ega-functions]
+href = 'https://cosmodoc.org/topics/ega-functions/'
+text = 'EGA Functions'
+
+[cosmodoc-joystick-functions]
+href = 'https://cosmodoc.org/topics/joystick-functions/'
+text = 'Joystick Functions'
+
+[cosmodoc-keyboard-functions]
+href = 'https://cosmodoc.org/topics/keyboard-functions/'
+text = 'Keyboard Functions'
+
+[cosmodoc-keyboard-functions-ps2]
+href = 'https://cosmodoc.org/topics/keyboard-functions/#youre-gonna-ps2-it'
+text = "Keyboard Functions - You're Gonna PS/2 It!"
+
+[cosmodoc-pc-speaker-and-timing-functions]
+href = 'https://cosmodoc.org/topics/pc-speaker-and-timing-functions/'
+text = 'PC Speaker and Timing Functions'
+
+[cosmodoc-processor-detection]
+href = 'https://cosmodoc.org/topics/processor-detection/'
+text = 'Processor Detection'
+
+[cosmodoc-source]
+href = 'https://github.com/smitelli/cosmodoc'
+text = 'smitelli/cosmodoc'
+
+[cosmore-source]
+href = 'https://github.com/smitelli/cosmore'
+text = 'smitelli/cosmore'
+
+[darrell-stark]
+href = 'http://darrellmstark.squarespace.com/'
+text = 'Darrell M. Stark'
+
+[debian]
+href = 'https://www.debian.org/'
+text = 'Debian'
+
+[discogs-chef-aid]
+href = 'https://www.discogs.com/release/713545-Various-Chef-Aid-The-South-Park-Album'
+text = 'Various --- Chef Aid: The South Park Album'
+
+[docroute-source]
+href = 'https://github.com/smitelli/docroute'
+text = 'smitelli/docroute'
+
+[easymoblog]
+href = 'https://web.archive.org/web/20060512045931/http://www.easymoblog.org/'
+text = 'EasyMoblog'
+
+[engadget-quicktime-7-4-update-a-nono]
+href = 'https://www.engadget.com/2008-01-23-after-effects-7-users-quicktime-7-4-update-a-nono.html'
+text = 'After Effects 7 users: QuickTime 7.4 update a nono'
+
+[fileformat-bmp]
+href = 'https://docs.fileformat.com/image/bmp/'
+text = 'BMP - Image File Format'
+
+[fira-mono-font]
+href = 'https://fonts.google.com/specimen/Fira+Mono'
+text = 'Fira Mono'
+
+[gebb-doom]
+href = 'https://fabiensanglard.net/gebbdoom/'
+text = 'Game Engine Black Book: Doom'
+
+[gebb-wolf3d]
+href = 'https://fabiensanglard.net/gebbwolf3d/'
+text = 'Game Engine Black Book: Wolfenstein 3D'
+
+[gist-ti250tool]
+href = 'https://gist.github.com/smitelli/8b5602cea0be3830c6f80802b3c4ff5c'
+text = 'ti250tool.py'
+
+[googleblog-making-money-on-youtube-with-content-id]
+href = 'https://googleblog.blogspot.com/2008/08/making-money-on-youtube-with-content-id.html'
+text = 'Making money on YouTube with Content ID'
+
+[googleblog-state-of-our-video-id-tools]
+href = 'https://googleblog.blogspot.com/2007/06/state-of-our-video-id-tools.html'
+text = 'The state of our video ID tools'
+
+[hn-comment-uni-trend]
+href = 'https://news.ycombinator.com/item?id=31601578'
+text = '"I believe this Klein Tools camera is a re-brand..."'
+
+[hn-user-mfincham]
+href = 'https://news.ycombinator.com/user?id=mfincham'
+text = 'mfincham'
+
+[hugo]
+href = 'https://gohugo.io/'
+text = 'Hugo'
+
+[hugo-figure-shortcode]
+href = 'https://gohugo.io/content-management/shortcodes/#figure'
+text = 'Hugo Shortcodes - figure'
+
+[imdb-scott-smitelli]
+href = 'https://www.imdb.com/name/nm2736773/'
+text = 'Scott Smitelli - IMDb'
+
+[instamapper]
+href = 'https://web.archive.org/web/20090611111803/http://www.instamapper.com/iphone'
+text= 'InstaMapper'
+
+[internetstapler]
+href = 'https://internetstapler.com/'
+text = 'Internet Stapler'
+
+[internetstapler-source]
+href = 'https://github.com/smitelli/internetstapler.com'
+text = 'smitelli/internetstapler.com'
+
+[isthatcompanyreal]
+href = 'https://www.isthatcompanyreal.com/'
+text = 'Is That Company Real?'
+
+[isthatcompanyreal-source]
+href = 'https://github.com/smitelli/isthatcompanyreal.com'
+text = 'smitelli/isthatcompanyreal.com'
+
+[jim-young]
+href = 'https://web.archive.org/web/20170319212321/http://www.youngandablemusic.com/jyh.html'
+text = 'Jim Young'
+
+[keepass]
+href = 'https://keepass.info/'
+text = 'KeePass Password Safe'
+
+[lalal-ai]
+href = 'https://www.lalal.ai/'
+text = 'LALAL.AI'
+
+[langolier-source]
+href = 'https://github.com/smitelli/langolier'
+text = 'smitelli/langolier'
+
+[leroux-cache-coveralls]
+href = 'https://coveralls.io/github/smitelli/leroux-cache'
+
+[leroux-cache-npm]
+href = 'https://www.npmjs.com/package/leroux-cache'
+
+[leroux-cache-source]
+href = 'https://github.com/smitelli/leroux-cache'
+text = 'smitelli/leroux-cache'
+
+[letsencrypt]
+href = 'https://letsencrypt.org/'
+text = "Let's Encrypt"
+
+[linode]
+href = 'https://www.linode.com/'
+text = 'Linode'
+
+[lora-font]
+href = 'https://fonts.google.com/specimen/Lora'
+text = 'Lora'
+
+[m-audio-bx5a]
+href = 'https://web.archive.org/web/20090220060456/http://www.m-audio.com/products/en_us/StudiophileBX5a.html'
+text = 'M-Audio Studiophile BX5a - 70 Watt Bi-Amplified Studio Reference Monitors'
+
+[markdown-extended-syntax]
+href = 'https://www.markdownguide.org/extended-syntax/'
+text = 'Markdown Extended Syntax'
+
+[mathjax]
+href = 'https://www.mathjax.org/'
+text = 'MathJax'
+
+[ms-translator-api]
+href = 'https://www.microsoft.com/en-us/translator/business/translator-api/'
+text = 'Microsoft Translator Text API'
+
+[newyorker-horse-ebooks-is-human-after-all]
+href = 'https://www.newyorker.com/tech/annals-of-technology/horse-ebooks-is-human-after-all'
+text = 'Horse_ebooks Is Human After All'
+
+[nginx]
+href = 'https://nginx.org/en/'
+text = 'nginx'
+
+[node-lru-cache-source]
+href = 'https://github.com/isaacs/node-lru-cache'
+text = 'isaacs/lru-cache'
+
+[pacifist]
+href = 'https://www.charlessoft.com/'
+text = 'Pacifist'
+
+[pal-4-percent-speedup]
+href = 'https://web.archive.org/web/20240525134227/http://www.michaeldvd.com.au/articles/PALSpeedUp/PALSpeedUp.asp'
+text = "PAL's 4% Speedup"
+
+[pcworld-2012-linkedin-breach]
+href = 'https://www.pcworld.com/article/465088/6-5m-linkedin-passwords-posted-online-after-apparent-hack.html'
+text = 'LinkedIn Confirms Account Passwords Hacked'
+
+[peelified-hypnotoads-sound-effect]
+href = 'https://www.peelified.com/Futurama-Forum-1/Topic-750-0-Hypnotoads_sound_effect.html'
+text = "Hypnotoad's sound effect?"
+
+[project-gutenberg]
+href = 'https://www.gutenberg.org/'
+text = 'Project Gutenberg'
+
+[revenews-youtube-audiblemagic]
+href = 'https://web.archive.org/web/20170825000156/http://revenews.com/search-engine-marketing/goog-to-outsource-youtube-filtering-to-audiblemagic/'
+text = 'GOOG to Outsource YouTube Filtering to AudibleMagic'
+
+[ruda-font]
+href = 'https://fonts.google.com/specimen/Ruda'
+text = 'Ruda'
+
+[salt-source]
+href = 'https://github.com/smitelli/salt'
+text = 'smitelli/salt'
+
+[salt-source-scottsmitelli-com]
+href = 'https://github.com/smitelli/salt/blob/master/states/website/scottsmitelli-com.sls'
+text = 'smitelli/salt - states/website/scottsmitelli-com.sls'
+
+[salt-user-guide]
+href = 'https://docs.saltproject.io/salt/user-guide/en/latest/index.html'
+text = 'Salt User Guide'
+
+[scottfiles-source]
+href = 'https://github.com/smitelli/scottfiles'
+text = 'smitelli/scottfiles'
+
+[scottsmitelli-com]
+href = 'https://www.scottsmitelli.com/'
+text = 'ScottSmitelli.com'
+
+[scottsmitelli-com-links-toml]
+href = 'https://github.com/smitelli/scottsmitelli.com/blob/main/src/data/links.toml'
+text = 'links.toml'
+
+[scottsmitelli-com-source]
+href = 'https://github.com/smitelli/scottsmitelli.com'
+text = 'smitelli/scottsmitelli.com'
+
+[sd-speed-class]
+href = 'https://www.sdcard.org/developers/sd-standard-overview/speed-class/'
+text = 'Speed Class'
+
+[sort-of-face-source]
+href = 'https://github.com/smitelli/sort_of_face'
+text = 'smitelli/sort_of_face'
+
+[stow]
+href = 'https://www.gnu.org/software/stow/'
+text = 'GNU Stow'
+
+[tco-before]
+href = 'https://t.co/o5DFjS0SDq'
+
+[tco-after]
+href = 'https://scottsmitelli.com/'
+
+[theregister-warner-music-removes-youtube-videos]
+href = 'https://www.theregister.com/2008/12/22/warner_music_removes_youtube_videos/'
+text = 'Warner Music pulls plug on YouTube deal'
+
+[translationparty]
+href = 'https://www.translationparty.com/'
+text = 'TranslationParty'
+
+[triggerandfreewheel]
+href = 'https://www.triggerandfreewheel.com/'
+text = 'Trigger and Freewheel'
+
+[triggerandfreewheel-security-questions]
+href = 'https://www.triggerandfreewheel.com/comic/security-questions'
+text = 'Security Questions - Trigger and Freewheel'
+
+[triggerandfreewheel-source]
+href = 'https://github.com/smitelli/triggerandfreewheel.com'
+text = 'smitelli/triggerandfreewheel.com'
+
+[tufte-css]
+href = 'https://edwardtufte.github.io/tufte-css/'
+text = 'Tufte CSS'
+
+[twanslationparty-source]
+href = 'https://github.com/smitelli/twanslationparty'
+text = 'smitelli/twanslationparty'
+
+[twitstash-source]
+href = 'https://github.com/smitelli/twitstash'
+text = 'smitelli/twitstash'
+
+[twitter-api-get-statuses-user-timeline]
+href = 'https://developer.twitter.com/en/docs/twitter-api/v1/tweets/timelines/api-reference/get-statuses-user_timeline'
+text = 'GET statuses/user_timeline'
+
+# It will be a cold day in Hell when I change these to "ex" or whatever it's called now.
+[twitter-engrishsmitelli]
+href = 'https://twitter.com/engrishsmitelli'
+text = '@engrishsmitelli'
+
+[twitter-horse-ebooks]
+href = 'https://twitter.com/horse_ebooks'
+text = '@horse_ebooks'
+
+[twitter-sort-of-face]
+href = 'https://twitter.com/sort_of_face'
+text = '@sort_of_face'
+
+[twitter-smitelli]
+href = 'https://twitter.com/smitelli'
+text = '@smitelli'
+
+[uni-trend-uti120p]
+href = 'https://thermal.uni-trend.com/product/uti120p/'
+text = 'UTi120P - UNI-T Thermal Imaging'
+
+[wayback-machine]
+href = 'https://web.archive.org/'
+text = 'Wayback Machine'
+
+[wiki-acoustic-fingerprint]
+href = 'https://en.wikipedia.org/wiki/Acoustic_fingerprint'
+text = 'Acoustic fingerprint'
+
+[wiki-bender-should-not-be-allowed-on-tv]
+href = 'https://en.wikipedia.org/wiki/Bender_Should_Not_Be_Allowed_on_TV'
+text = 'Bender Should Not Be Allowed on TV'
+
+[wiki-blame-canada]
+href = 'https://en.wikipedia.org/wiki/Blame_Canada'
+text = 'Blame Canada'
+
+[wiki-brownian-motion]
+href = 'https://en.wikipedia.org/wiki/Brownian_motion'
+text = 'Brownian motion'
+
+[wiki-chef-aid]
+href = 'https://en.wikipedia.org/wiki/Chef_Aid'
+text = 'Chef Aid'
+
+[wiki-chef-aid-the-south-park-album]
+href = 'https://en.wikipedia.org/wiki/Chef_Aid:_The_South_Park_Album'
+text = 'Chef Aid: The South Park Album'
+
+[wiki-chef-south-park]
+href = 'https://en.wikipedia.org/wiki/Chef_%28South_Park%29'
+text = 'Chef (South Park)'
+
+[wiki-compact-disc-digital-audio]
+href = 'https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio'
+text = 'Compact Disc Digital Audio'
+
+[wiki-day-the-earth-stood-stupid]
+href = 'https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Stupid'
+text = 'The Day the Earth Stood Stupid'
+
+[wiki-digital-millennium-copyright-act]
+href = 'https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act'
+text = 'Digital Millennium Copyright Act'
+
+[wiki-elephant-makes-love-to-a-pig]
+href = 'https://en.wikipedia.org/wiki/An_Elephant_Makes_Love_to_a_Pig'
+text = 'An Elephant Makes Love to a Pig'
+
+[wiki-endianness]
+href = 'https://en.wikipedia.org/wiki/Endianness'
+text = 'Endianness'
+
+[wiki-engrish]
+href = 'https://en.wikipedia.org/wiki/Engrish'
+text = 'Engrish'
+
+[wiki-futurama]
+href = 'https://en.wikipedia.org/wiki/Futurama'
+text = 'Futurama'
+
+[wiki-hypnotoad]
+href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
+text = 'Hypnotoad'
+
+[wiki-south-park]
+href = 'https://en.wikipedia.org/wiki/South_Park'
+text = 'South Park'
+
+[wiki-south-park-characters-ned-gerblanski]
+href = 'https://en.wikipedia.org/wiki/List_of_South_Park_characters#Ned_Gerblanski'
+text = 'Ned Gerblanski'
+
+[wiki-team-america-world-police]
+href = 'https://en.wikipedia.org/wiki/Team_America:_World_Police'
+text = 'Team America: World Police'
+
+[wiki-telecine]
+href = 'https://en.wikipedia.org/wiki/Telecine'
+text = 'Telecine'
+
+[wikipedia]
+href = 'https://www.wikipedia.org/'
+text = 'Wikipedia'
+
+[windowbox]
+href = 'https://pics.scottsmitelli.com/'
+text = 'Windowbox'
+
+[windowbox-source]
+href = 'https://github.com/smitelli/windowbox'
+text = 'smitelli/windowbox'
+
+[wireshark]
+href = 'https://www.wireshark.org/'
+text= 'Wireshark'
+
+[wordpress]
+href = 'https://wordpress.org/'
+text = 'WordPress'
+
+[youtube]
+href = 'https://www.youtube.com/'
+text = 'YouTube'
+
+[youtube-user-retnirpregnif]
+href = 'https://www.youtube.com/@retnirpregnif'
+text = 'retnirpregnif'
+dead = true
+
+[ytblog-Gg-mX2mof8c]
+href = 'https://web.archive.org/web/20090307095832/https://www.youtube.com/blog?entry=Gg-mX2mof8c'
+text = 'The Ups and Downs of Music Licensing for YouTube'

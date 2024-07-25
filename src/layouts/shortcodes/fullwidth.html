@@ -1,0 +1,7 @@
+{{/*
+    Wraps the inner content with a "fullwidth" div. This is /slightly/ easier
+    than preserving the necessary number of newlines around the inner content in
+    the markdown syntax.
+*/}}
+
+{{- "" }}<div class="fullwidth">{{ .Inner | markdownify }}</div>{{ "" -}}

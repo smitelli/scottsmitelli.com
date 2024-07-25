@@ -1,0 +1,83 @@
+@import 'reset';
+@import 'fonts';
+@import 'mixins';
+@import 'syntax';
+
+$sm-breakpoint: 760px;
+
+:root {
+    --bg-color: color-mix(in oklab, yellow 5%, white);
+    --mid-bg-color: color-mix(in oklab, white 92.5%, black);
+    --mid-fg-color: color-mix(in oklab, white 60%, black);
+    --mid-color: color-mix(in srgb, var(--mid-fg-color) 25%, var(--mid-bg-color));
+    --fg-color: color-mix(in oklab, white 20%, black);
+    --silcrow-color: var(--bg-color);
+    --warning-bg-color: hsl(0 100% 95%);
+    --warning-border-color: hsl(0 100% 70%);
+
+    @media (prefers-color-scheme: dark) {
+        --bg-color: color-mix(in oklab, steelblue 20%, black);
+        --mid-bg-color: color-mix(in oklab, black 77.5%, white);
+        --mid-fg-color: color-mix(in oklab, black 50%, white);
+        --fg-color: color-mix(in oklab, black 10%, white);
+        --silcrow-color: var(--fg-color);
+        --warning-bg-color: hsl(0 75% 5%);
+        --warning-border-color: hsl(0 75% 30%);
+    }
+
+    --left-body-pad: 12.5vw;
+    --right-body-pad: 2.5vw;
+    --body-max-width: 70rem;
+    --left-indent: 2rem;
+    --content-width: 55%;
+
+    @media (max-width: $sm-breakpoint) {
+        --left-body-pad: var(--right-body-pad);
+        --body-max-width: none;
+        --left-indent: 1.5rem;
+        --content-width: 100%;
+    }
+
+    --square-color: hsl(0.6turn 85% 50%);
+    --serif-font: Lora, Georgia, serif;
+    --sans-font: Ruda, Helvetica, sans-serif;
+    --mono-font: 'Fira Mono', Courier, monospace;
+
+    counter-reset: sidenote-index;
+}
+
+html {
+    font-size: 125%;  // 20px
+    line-height: 1.45;
+}
+
+body {
+    box-sizing: content-box;  // fluid padding, fixed content max-width!
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--left-body-pad);
+    padding-right: var(--right-body-pad);
+    max-width: var(--body-max-width);
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+svg.site-logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    fill: var(--fg-color);
+
+    .silcrow { fill: var(--silcrow-color); }
+    .square  { fill: var(--square-color);  }
+}
+
+#site-title {
+    display: none;
+}
+
+@import '404';
+@import 'article';
+@import 'head-foot';
+@import 'home';
+@import 'mn-sn';

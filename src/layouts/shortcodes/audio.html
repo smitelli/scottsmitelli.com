@@ -1,0 +1,41 @@
+{{/*
+    Renders an HTML audio element containing one source for every file in the
+    page bundle matching the passed stem name.
+
+    If the stem is "FOO", the sources would be "FOO.flac", "FOO.mp3", and
+    "FOO.wav" -- assuming all three of these files existed in the page's content
+    directory.
+
+    The $prefer variable influences the order of the matches in the output HTML.
+    Any existing preferred types will appear first, in the order given to
+    `slice`, followed by all non-preferred matches in whichever order Hugo finds
+    them.
+
+    Positional parameters:
+        0: The stem of the audio file(s) to include in the source list.
+*/}}
+
+{{- $stem := .Get 0 }}
+{{- $matches := printf "%s.*" $stem | .Page.Resources.Match }}
+{{- $prefer := slice "audio/mpeg" "audio/flac" }}
+
+{{- "" }}<p>
+    {{- "" }}<audio preload="none" controls>
+        {{- range $prefer }}
+            {{- range where $matches "MediaType.Type" "eq" . }}
+                {{- "" }}<source src="{{ .RelPermalink }}" type="{{ .MediaType.Type }}">
+            {{- end }}
+        {{- end }}
+        {{- range where $matches "MediaType.Type" "not in" $prefer }}
+            {{- "" }}<source src="{{ .RelPermalink }}" type="{{ .MediaType.Type }}">
+        {{- end }}
+    {{- "" }}</audio>
+    {{- "" }}<small>
+        {{- "" }}(Download:
+        {{- range $matches }}
+            {{- $extension := .Name | path.Ext | strings.TrimPrefix "." }}
+            {{- " " }}<a href="{{ .RelPermalink }}" download>{{ $extension }}</a>
+        {{- end }}
+        {{- "" }})
+    {{- "" }}</small>
+{{- "" }}</p>{{ "" -}}

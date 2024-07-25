@@ -1,0 +1,55 @@
+{{ define "pageContent" }}
+    {{ $cols := .Params.articleColumns | default "two" }}
+    {{ if ne $cols "two" }}{{- .Page.Store.Set "prohibit-sidebar" true }}{{ end }}
+
+    <article class='{{ $cols }}-column {{ .Params.articleForm | default "long" }}-form'>
+        {{ partial "page-content-header.html" . }}
+
+        {{ if not .Params.skipInfoBox }}
+            {{ if .Store.Get "prohibit-sidebar" }}
+                {{ errorf "Info box is prohibited without second column: %s" .File }}
+            {{ end }}
+            <aside id="info-box">
+                <div class="mn-sn-content feature">
+                    <dl>
+                        {{ if gt .Date.Year 1970 }}
+                            <dt>Published</dt>
+                            <dd>{{ partial "date.html" (dict "context" . "dateVal" .Date) }}</dd>
+                        {{ else }}
+                            {{ errorf "Missing required `date` in front matter: %s" .File }}
+                        {{ end }}
+
+                        {{ if ge (sub time.Now.Year .Date.Year) 10 }}
+                            <dt>Written When I Was</dt>
+                            {{ $ageHours := (.Date.Sub (time "1986-03-01")).Hours }}
+                            <dd>{{ math.Floor (div $ageHours 8766) }} years old</dd>
+                        {{ end }}
+
+                        {{ if gt .Lastmod .Date }}
+                            <dt>Last Updated</dt>
+                            <dd>{{ partial "date.html" (dict "context" . "dateVal" .Lastmod) }}</dd>
+                        {{ end }}
+
+                        {{ range .Params.infoBox }}
+                            <dt>{{ .key | markdownify }}</dt>
+                            <dd>{{ .value | markdownify }}</dd>
+                        {{ end }}
+
+                        {{ if .Fragments.Identifiers }}
+                            <dt class="toc-container">On This Page</dt>
+                            <dd class="toc-container">{{ .TableOfContents }}</dd>
+                        {{ end }}
+                    </dl>
+                </div>
+            </aside>
+        {{ end }}
+        
+        {{ .Content }}
+
+        {{ with .Parent }}
+            {{ if ne .Section "top-level" }}
+                <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="back-link">&laquo;&nbsp;Back to {{ .Title | markdownify }}</a>
+            {{ end }}
+        {{ end }}
+    </article>
+{{ end }}

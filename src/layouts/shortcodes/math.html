@@ -1,0 +1,9 @@
+{{/*
+    Renders the inner content with no modification, but sets a global flag that
+    informs the page template that the MathJax script and configuration needs to
+    be included in the HTML output.
+*/}}
+
+{{- .Page.Store.Set "uses-math" true }}
+
+{{- .Inner -}}

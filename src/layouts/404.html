@@ -1,0 +1,25 @@
+{{ define "pageTitle" }}404!! Call the webmaster!{{ end }}
+
+{{ define "pageContent" }}
+    <section>
+        <h1>
+            <img src="/404/smile.gif" alt="Smile" title="Smile">
+            {{- " " }}404 Not Found
+            {{- " " }}<img src="/404/smile.gif" alt="Smile" title="Smile">
+        </h1>
+
+        <img src="/404/snakeUnder.gif" class="divider" alt="Too Scary For Me" title="Too Scary For Me">
+
+        <p>
+            <img src="/404/atwork.gif" alt="Me at work!" title="Me at work!">
+            {{- " " }}The page you are looking for is not here!
+            {{- " " }}<img src="/404/undercon.gif" alt="Me after work!" title="Me after work!">
+        </p>
+
+        <p>
+            <a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.Title }}">
+                <img src="/404/anihome.gif" alt="HOME" title="Click Here!">
+            </a>
+        </p>
+    </section>
+{{ end }}

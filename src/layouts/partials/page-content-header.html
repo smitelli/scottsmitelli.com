@@ -1,0 +1,7 @@
+{{- if not .Params.skipTitle }}
+    {{- "" }}<h1>{{ .Title | markdownify }}</h1>
+{{- end }}
+
+{{- with .Params.subheading }}
+    {{- "" }}<p class="subheading">{{ . | markdownify }}</p>
+{{- end -}}

@@ -1,0 +1,22 @@
+{{ define "pageContent" }}
+    {{ $keys := slice }}
+    {{ range $k, $_ := site.Data.links }}
+        {{ $keys = $keys | append $k }}
+    {{ end }}
+
+    <section>
+        {{ partial "page-content-header.html" . }}
+
+        {{ .Content }}
+
+        <ul>
+            {{ range $k := (sort $keys) }}
+                {{ with (index site.Data.links $k) }}
+                    {{ $trimmedHref := .href | strings.TrimRight "/" }}
+                    {{ $text := (.text | markdownify) | default $trimmedHref }}
+                    <li><a href="{{ .href }}" id="{{ $k }}" {{ if .dead }}class="dead"{{ end }} rel="external">{{ $text }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </section>
+{{ end }}

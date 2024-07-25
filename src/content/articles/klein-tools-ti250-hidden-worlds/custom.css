@@ -1,0 +1,8 @@
+figure.portrait-compensate {
+    /*
+    Constrain the width of figures containing portrait-oriented images so they
+    don't cause excessive scroll compared to the landscape images.
+    */
+    padding-left: 12%;
+    padding-right: 12%
+}

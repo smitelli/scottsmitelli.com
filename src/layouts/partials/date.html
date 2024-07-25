@@ -1,0 +1,32 @@
+{{/*
+    This partial is fussy and must be called like:
+
+        {{ partial "date.html" (dict "context" . "dateVal" .Date) }}
+
+    In the content front matter, set `fuzzyDates = 'y'` to reduce the precision
+    of the rendered date to year only, or `fuzzyDates = 'ym'` for month plus
+    year. By default, renders in 'ymd' (year-month-day) format.
+
+    If the optional `skipYear` flag is passed, the human-readable output will
+    not have the year. This is appropriate for lists (e.g. the Archives page)
+    where the year is displayed externally.
+*/}}
+
+{{- $fuzzyDates := .context.Params.fuzzyDates | default "ymd" }}
+{{- $shortFmt := "" }}
+{{- $longFmt := "" }}
+
+{{- if eq $fuzzyDates "ymd" }}
+    {{- $shortFmt = "2006-01-02" }}
+    {{- if .skipYear }}{{ $longFmt = "January 2" }}{{ else }}{{ $longFmt = "January 2, 2006" }}{{ end }}
+{{- else if eq $fuzzyDates "ym" }}
+    {{- $shortFmt = "2006-01" }}
+    {{- if .skipYear }}{{ $longFmt = "January" }}{{ else }}{{ $longFmt = "January 2006" }}{{ end }}
+{{- else if eq $fuzzyDates "y"}}
+    {{- $shortFmt = "2006" }}
+    {{- if .skipYear }}{{ $longFmt = "-" }}{{ else }}{{ $longFmt = "2006" }}{{ end }}
+{{- else }}
+    {{- errorf "Invalid `fuzzyDates = %s` in front matter: %s" $fuzzyDates .context.File }}
+{{- end }}
+
+{{- "" }}<time datetime='{{ .dateVal | time.Format $shortFmt }}'>{{ .dateVal | time.Format $longFmt }}</time>{{ "" -}}

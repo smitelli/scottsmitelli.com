@@ -1,0 +1,280 @@
+/*
+MAIN ARTICLES AND INDEX PAGES
+*/
+article, section {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    font-family: var(--serif-font);
+    overflow-wrap: break-word;
+
+    a {
+        @include underline;
+
+        &.dead {
+            text-decoration: line-through;
+        }
+    }
+
+    audio {
+        display: block;
+        width: 100%;
+    }
+
+    code {
+        font-family: var(--mono-font);
+    }
+
+    :not(pre) > code {
+        padding: 0.15em 0.3em;
+        border-radius: 0.3em;
+        background-color: var(--mid-bg-color);
+        font-size: 0.825em;
+    }
+
+    pre {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+
+        > code {
+            font-size: 0.7em;
+        }
+    }
+
+    :is(h1, h2, h3, h4, h5, h6) {
+        margin-top: 1.25em;
+        margin-bottom: 1em;
+        line-height: 1.05;
+        font-style: italic;
+
+        a.heading-link {
+            visibility: hidden;
+
+            @media (pointer: coarse), (any-hover: none) {
+                visibility: visible;
+            }
+        }
+
+        svg.link-icon {
+            margin-left: 0.25em;
+            height: 0.75em;
+            width: auto;
+            fill: var(--mid-fg-color);
+        }
+
+        &:is(:focus, :hover) a.heading-link {
+            visibility: visible;
+        }
+    }
+
+    h1 {
+        margin-bottom: 0.5em;
+        font-size: 2.4em;
+        font-style: normal;
+    }
+
+    h2 { font-size: 1.65em; }
+    h3 { font-size: 1.3em;  }
+    h4 { font-size: 1.1em;  }
+    h5 { font-size: 0.9em;  }
+    h6 { font-size: 0.75em; }
+
+    hr {
+        border-style: none;
+        border-top: 0.05rem solid var(--mid-color);
+    }
+
+    p.subheading {
+        margin-bottom: 1.8rem;
+        font-size: 1.35em;
+        line-height: 1.1;
+        font-style: italic;
+    }
+
+    .back-link, .more-link, .pagination, .toc-container {
+        @media print { display: none !important; }
+    }
+}
+
+/*
+MAIN ARTICLES ONLY
+
+Hugo's markdown renderer does not emit either <article> or <section> tags on
+its own, so this site takes the convention that <article> is a single post page.
+*/
+article {
+    &.two-column > * {
+        width: var(--content-width);
+    }
+
+    &.two-column > :is(blockquote, div.box, div.epigraph) {
+        margin-left: var(--left-indent);
+        width: calc(var(--content-width) - var(--left-indent));
+    }
+
+    @media (max-width: $sm-breakpoint) {
+        #info-box + * {
+            // HACK: "#info-box + .box" borders are tangling up on mobile
+            clear: both;
+        }
+    }
+
+    &.long-form > p:last-of-type::after {
+        padding-left: 0.35em;
+        content: ' \3a9';
+    }
+
+    canvas, img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+
+        @media print {
+            max-height: 12rem;
+            width: auto;
+            break-inside: avoid;
+        }
+    }
+
+    figure {
+        margin-bottom: 2.25rem;
+
+        @media (max-width: $sm-breakpoint) {
+            // Stretch beyond bounds of <body> to touch screen edges
+            margin-left: calc(-1 * var(--left-body-pad));
+            width: 100vw !important;
+        }
+
+        figcaption p {
+            margin-top: 0.5rem;
+            margin-left: var(--left-indent);
+            margin-right: var(--left-indent);
+            font-size: 0.8em;
+        }
+    }
+
+    footer {
+        font-size: 0.825em;
+        text-align: right;
+    }
+
+    small {
+        font-size: 0.8em;
+    }
+
+    table {
+
+        th, td {
+            padding: 0 0.5em;
+            font-size: 0.85em;
+            line-height: 2;
+        }
+
+        td {
+            border-top: solid 0.05rem var(--mid-color);
+        }
+    }
+
+    div.box {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border: 0.05rem solid var(--mid-color);
+
+        &.warning {
+            background-color: var(--warning-bg-color);
+            border-color: var(--warning-border-color);
+        }
+    }
+
+    div.epigraph {
+        margin-top: 3.15rem;
+        margin-bottom: 3.15rem;
+
+        p {
+            font-size: 1.1em;
+            font-style: italic;
+        }
+    }
+
+    div.goat svg {
+        font-size: 0.7em;
+        font-family: var(--mono-font);
+    }
+
+    .fullwidth {
+        clear: both;
+        overflow-x: auto;
+        width: 100%;
+
+        > :first-child {
+            margin-top: 0;
+        }
+
+        > :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .small-caps {
+        font-size: 1.25em;
+        line-height: 1.19;
+        @include small-caps;
+    }
+}
+
+/*
+INDEX PAGES ONLY
+Hugo's markdown renderer does not emit either <article> or <section> tags on
+its own, so this site takes the convention that <section> is a list/index page.
+*/
+section {
+    width: var(--content-width);
+
+    time {
+        color: var(--mid-fg-color);
+
+        &::after {
+            content: '  \2014  ';
+        }
+    }
+
+    p:not(:last-of-type) {
+        margin-bottom: 4.5rem;
+    }
+
+    hr {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    ul.pagination {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            font-family: var(--sans-font);
+            line-height: 2rem;
+
+            a {
+                display: block;
+                min-width: 2rem;
+                text-align: center;
+            }
+
+            &.active a {
+                background: var(--square-color);
+                color: var(--silcrow-color);
+                text-decoration: none;
+            }
+
+            &.disabled a {
+                color: var(--mid-color);
+                text-decoration: none;
+            }
+        }
+    }
+}

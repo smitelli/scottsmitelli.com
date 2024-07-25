@@ -1,0 +1,54 @@
+{{/*
+    This is a fork of the embedded `figure` shortcode that ships with Hugo. All
+    of the attributes match what is described in the documentation
+    (https://gohugo.io/content-management/shortcodes/#figure) with the following
+    changes to make it nicer to use on this site:
+
+    First and foremost, this shortcode now requires inner content, which should
+    be either a Markdown image or an HTML <img> and/or <picture>. This shortcode
+    merely wraps the inner content in <figure>...</figure>.
+
+    The `src`, `alt`, `height`, `width`, and `loading` attributes have been
+    removed from this shortcode. The inner content should be responsible for
+    dealing with these. Additionally the `title` attribute was removed  because
+    the markup it puts in the <figcaption> is gross.
+
+    Named parameters:
+        class (optional): See Hugo docs
+        link (optional): " " "
+        target (optional): " " "
+        rel (optional): " " "
+        caption (optional): " " "
+        attr (optional): " " "
+        attrlink (optional): " " "
+*/}}
+
+{{- $class := .Get "class" }}
+{{- $link := .Get "link" }}
+{{- $target := .Get "target" }}
+{{- $rel := .Get "rel" }}
+{{- $caption := .Get "caption" }}
+{{- $attr := .Get "attr" }}
+{{- $attrlink := .Get "attrlink" }}
+
+{{- "" }}<figure {{ with $class }}class="{{ . }}"{{ end }}>
+    {{- if $link }}
+        {{- "" }}<a href="{{ $link }}"
+            {{- with $target }}target="{{ . }}"{{ end }}
+            {{- with $rel }}rel="{{ . }}"{{ end }}
+        {{- "" }}>
+    {{- end }}
+    {{- .Inner }}
+    {{- if $link }}</a>{{ end }}
+
+    {{- if or $caption $attr }}
+        {{- "" }}<figcaption>
+            {{- "" }}<p>
+                {{- $caption | markdownify }}
+                {{- with $attrlink }}<a href="{{ . }}">{{ end }}
+                {{- $attr | markdownify }}
+                {{- if $attrlink }}</a>{{ end }}
+            {{- "" }}</p>
+        {{- "" }}</figcaption>
+    {{- end }}
+{{- "" }}</figure>{{ "" -}}

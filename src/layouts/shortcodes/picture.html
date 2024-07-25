@@ -1,0 +1,40 @@
+{{/*
+    Renders an HTML picture element containing one source for every file in the
+    page bundle matching the passed stem name.
+
+    If the stem is "FOO", the sources would be "FOO.avif", "FOO.webp", and
+    "FOO.jpg" -- assuming all three of these files existed in the page's content
+    directory.
+
+    The $fallback variable controls which media types are used for browsers that
+    don't understand the picture element and/or the newer file formats it
+    brings. The first fallback value that matches a file will be placed in an
+    img tag at the end of the shortcode's output.
+
+    Named parameters:
+        stem: The stem of the audio file(s) to include in the source list.
+        alt (optional): If non-empty, added as an alt="..." attribute. If this
+            shortcode instance is nested within something that has a `caption`
+            parameter (e.g. %figure%) that is non-empty, that value is used as a
+            default when this is empty.
+*/}}
+
+{{- $stem := .Get "stem" }}
+{{- $alt := .Get "alt" }}
+{{- $matches := printf "%s.*" $stem | .Page.Resources.Match }}
+{{- $fallback := slice "image/jpeg" "image/png" "image/gif" }}
+
+{{- with .Parent }}
+    {{- with .Get "caption" }}
+        {{- $alt = $alt | default . }}
+    {{- end }}
+{{- end }}
+
+{{- "" }}<picture>
+    {{- range $matches }}
+        {{- "" }}<source srcset="{{ .RelPermalink }}" type="{{ .MediaType.Type }}">
+    {{- end }}
+    {{- with index (where $matches "MediaType.Type" "in" $fallback) 0 }}
+        {{- "" }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" {{ with $alt }}alt="{{ . }}"{{ end }}>
+    {{- end }}
+{{- "" }}</picture>{{ "" -}}

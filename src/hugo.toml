@@ -1,0 +1,24 @@
+disableKinds = ['taxonomy', 'term']
+enableEmoji = true
+enableRobotsTXT = true
+paginate = 10
+publishDir = '../public'
+title = 'Scott Smitelli'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[minify]
+  minifyOutput = true
+
+[params]
+  gitContentUrl = 'https://github.com/smitelli/scottsmitelli.com/tree/main/src/content'
+
+  [params.mathjax]
+    url = 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js'
+
+    # curl https://...js | sha384sum -b | awk '{ print $1 }' | xxd -r -p | base64
+    integrity = 'sha384-NuejywWq7I0qomITfCQmoQ6vhoRC4keD8iNHdUWSqnBoPoQIAccbA/d6uU7oZaic'

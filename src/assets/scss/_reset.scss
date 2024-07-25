@@ -1,0 +1,39 @@
+/*
+VERY LIGHT CSS RESET
+*/
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    // Prevent weird font size changes in <pre> on iOS
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:is(:link, :visited, :hover, :active) {
+    color: inherit;
+}
+
+blockquote, canvas, dl, figure, hr, p, pre, ol, table, ul {
+    margin: 1rem 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd :last-child {
+    // Covers edge case where <p> appears inside <dd>
+    margin-bottom: 0;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}

@@ -1,0 +1,61 @@
+:is(h1, h2, h3, h4, h5, h6) a.heading-link {
+    display: none;
+}
+
+/* 70-75% of the main article heading font size looks about right */
+
+article h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+article h2 {
+    color: var(--bg-color);
+    background-color: var(--mid-fg-color);
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+article h3 {
+    padding-bottom: 0.2em;
+    border-bottom: 0.1rem solid var(--mid-color);
+    font-size: 0.95em;
+}
+
+article .date-range {
+    float: right;
+}
+
+@media screen and (max-width: 820px) {
+    article .date-range {
+        display: block;
+        float: none;
+    }
+}
+
+@media print {
+    body {
+        background-color: initial;
+    }
+
+    body > header, div.box {
+        display: none;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    article {
+        font-size: 0.6rem;
+    }
+
+    article, article h1 {
+        margin-top: 0;
+    }
+
+    article ul {
+        padding-left: 0.8rem;
+    }
+}

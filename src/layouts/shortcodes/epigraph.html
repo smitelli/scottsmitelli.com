@@ -1,0 +1,7 @@
+{{/*
+    Wraps the inner content with an "epigraph" div. This is /slightly/ easier
+    than preserving the necessary number of newlines around a blockquote in the
+    markdown syntax.
+*/}}
+
+{{- "" }}<div class="epigraph">{{ .Inner | markdownify }}</div>{{ "" -}}

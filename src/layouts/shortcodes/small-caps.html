@@ -1,0 +1,6 @@
+{{/*
+    Wraps the inner content with a "small-caps" span. Mainly intended to reduce
+    the amount of HTML that needs to be maintained in the markdown files.
+*/}}
+
+{{- "" }}<span class="small-caps">{{ .Inner | markdownify }}</span>{{ "" -}}

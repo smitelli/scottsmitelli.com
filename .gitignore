@@ -1,0 +1,8 @@
+bin/
+public/
+src/resources/
+
+*.bak
+*.pk
+.DS_Store
+.hugo_build.lock

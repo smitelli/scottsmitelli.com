@@ -1,0 +1,26 @@
+{{/*
+    Wraps the inner content with the HTML tags necessary to render a margin note
+    in the right-hand column of the site (if the screen is wide enough) or
+    collapse it inline with the paragraph on a small screen.
+
+    Note: The space immediately before the inner content is important to allow
+    the indicator to "hug" the main text without the margin content fusing
+    itself to that text.
+
+    Positional parameters:
+        0 (optional): If non-empty, switches from a margin note (unnumbered,
+            but marked with an asterisk when collapsed) into either:
+            "side" - sequentially numbered with the number always in view
+            "feature" - no marks at any time; always expanded
+*/}}
+
+{{- $class := .Get 0 | default "margin" }}
+{{- $id := printf "_%s:%d" .Name .Ordinal }}
+
+{{- if .Page.Store.Get "prohibit-sidebar" }}
+    {{- errorf "Margin note is prohibited without second column: %s" .Position }}
+{{- end }}
+
+{{- "" }}<label for="{{ $id }}" class="mn-sn-indicator {{ $class }}"></label>
+{{- "" }}<input id="{{ $id }}" type="checkbox" class="mn-sn-switch" hidden>
+{{- "" }}<mark class="mn-sn-content {{ $class }}"> {{ .Inner | markdownify }}</mark>{{ "" -}}

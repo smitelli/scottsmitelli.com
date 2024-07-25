@@ -1,0 +1,26 @@
+{{ define "pageContent" }}
+    {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+    {{ $isMulti := gt $paginator.TotalPages 1 }}
+
+    <section>
+        {{ partial "page-content-header.html" . }}
+
+        {{ .Content }}
+
+        {{ range $paginator.Pages }}
+            <h2><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .LinkTitle | markdownify }}</a></h2>
+
+            <p>
+                {{ partial "date.html" (dict "context" . "dateVal" .Date) }}
+                {{- .Description | markdownify }}
+                {{- " " }}<a href="{{ .RelPermalink }}" class="more-link">More&nbsp;&raquo;</a>
+            </p>
+        {{ end }}
+
+        {{ if $isMulti }}
+            <hr>
+
+            {{ template "_internal/pagination.html" . }}
+        {{ end }}
+    </section>
+{{ end }}

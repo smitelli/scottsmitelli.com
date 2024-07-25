@@ -1,0 +1,92 @@
+/*
+GLOBAL HEADER AND FOOTER
+*/
+body > header {
+    display: flex;
+    margin-top: 0.5rem;
+
+    > a {
+        flex: 0 0 15.5rem;
+    }
+
+    > label {
+        flex: 0 0 1.2rem;
+
+        svg.menu-icon {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-top: 0.7rem;
+            fill: var(--fg-color);
+            cursor: pointer;
+        }
+
+        @media print { display: none; }
+    }
+
+    > nav {
+        flex: 1 1 auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        height: 2.75rem;
+        overflow-y: hidden;
+
+        @media (max-width: $sm-breakpoint) {
+            visibility: hidden;
+        }
+
+        > span {
+            flex: 1 0 8rem;
+            padding-top: 0.55rem;
+            height: 100%;
+            text-align: center;
+
+            a {
+                font-family: var(--sans-font);
+                font-size: 0.9rem;
+                font-weight: 500;
+            }
+        }
+
+        @media print { display: none; }
+    }
+}
+
+#secondary-menu-switch {
+    display: none;
+
+    &:not(:checked) + #secondary-menu {
+        display: none;
+    }
+}
+
+#secondary-menu {
+    display: flex;
+    flex-wrap: wrap;
+
+    float: left;
+    margin-bottom: 1rem;
+    width: 100%;
+    background: var(--mid-bg-color);
+
+    > span {
+        flex: 0 1 7.7rem;
+
+        margin: 1rem 1.5rem;
+
+        a {
+            font-family: var(--sans-font);
+            font-weight: 500;
+        }
+    }
+}
+
+body > footer {
+    clear: both;
+    color: var(--mid-fg-color);
+    font-family: var(--serif-font);
+    text-align: center;
+
+    @media print { display: none; }
+}

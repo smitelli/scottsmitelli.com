@@ -1,0 +1,185 @@
++++
+title = 'The Armchair Audio Engineer'
+description = 'An analysis of strange digital compression artifacting present on certain tracks of _Chef Aid: The South Park Album_.'
+date = 2007-03-05
+lastmod = 2024-07-16
++++
+
+The sense of hearing is a funny thing. Humans can learn to tune certain sounds out, determine the source of a sound based on the slight difference in arrival time between the two ears, and some blind people possess a dolphin-like ability to locate obstacles in their path by listening for sounds echoing around them. While the average person might not see a "jump" while watching a video with a single frame dropped, many people would be able to discern a sliver of time that has been removed from a song. While they might not be able to explain what's wrong with the sound they're hearing, they'd be able to sense that something wasn't quite right with it. In a way, audio is a thankless field. When everything's right and the finished product sounds clear and believable, nobody says anything about it. But when sound turns out to be bad, everybody complains about it. It's both an art and a science, and yet the majority of people never give it the thought it deserves.
+
+I was raised by a radio. And a television, and a computer. I've dabbled in electronics, experimenting with the various ways audio can be destroyed by mismatching impedances. I've studied music theory, along with the many scales and modes that don't fit with modern mainstream music. I've written computer programs that parse the raw data out of WAVE files and perform manipulations. I've built internet radio stations with text-to-speech DJs and song requests. I've had boom operators storm away from film sets in anger because "my sound was nerdy." And I listen to a huge and varied assortment of music from most genres and periods. But if there's one thing that exposed me to the subtle intricacies of sound, it was my curiosity and natural tendency to take things apart. I'm not talking about things like tape decks and other circuits---although I've disassembled my share over the years. I'm talking about analyzing every piece of sound I can get my hands on.
+
+Sometime during high school, when I acquired both the computer hardware and software necessary to record and really observe sound, things really got started. I would capture every sound I could find, from dialogue on TV to the sound of a soda can opening. I'd spend hours making "ooh" and "aah" sounds into a microphone and staring at a spectral analyzer to see what frequencies my voice was made of. I ripped the audio tracks from DVDs to try to figure out how the audio phasing in the action scenes worked. I played almost every song I had at the time and watched the waveform scroll by as it would on an oscilloscope. I discovered how high and low frequencies mix, and how subtle changes in a wave's shape can completely change what kind of sound it produces. I even went as far as to play with filters and effects to try to reproduce the aural tricks I've heard in songs.
+
+Every once in a while---after playing a song with the center channel removed or isolated, or muting certain frequency bands, or just through dumb luck---I'll discover something in a song that I've never noticed before. Either the microphones picked up something they weren't intended to, or the mixers and engineers accidentally allowed something to slip through, or the artists themselves intentionally added something hidden. Most of the time, these kinds of discoveries are inconsequential and worth nothing more than the intellectual pursuit of finding them. But sometimes, sometimes they add up to a story or a mystery, as if the song is trying to tell you something about its life. Most songs and albums don't have much information that's ever shared with the public. What happens in the studio often stays there, and nobody ever stops to wonder what events transpired to bring the album to fruition.
+
+The first mystery I can ever recall finding was part of _{{% link wiki-chef-aid-the-south-park-album /%}}_. This album was released in 1998 during the second season of the animated TV series _{{% link wiki-south-park /%}}_, after episode 2-14 (entitled "{{% link wiki-chef-aid /%}}") aired. Both the album and the _South Park_ episode feature musical performances from popular artists including Ozzy Osbourne, Elton John, Rick James, and Meat Loaf. And of course, Isaac Hayes provided the voice for {{% link wiki-chef-south-park %}}Chef{{% /link %}}, who delivered an intro/outro on every track and even sang (lead and background) in several of them.
+
+Now, some might wonder why I chose to pick apart what is essentially a novelty album, instead of a "real" album put out by respected artists. Say what you want, but I rather enjoy the musical work of Trey Parker. Most of the original music you hear in a _South Park_ episode or a Parker/Stone movie probably came (at least in part) from Trey Parker. Anybody who had the song "America, F---k Yeah" stuck in their heads for days after seeing _{{% link wiki-team-america-world-police /%}}_ has Trey Parker to thank for it. He has this bizarre ability to come up with songs that are not only funny, but surprisingly catchy as well. He really should've won the Oscar for "{{% link wiki-blame-canada /%}}" instead of Phil Collins. But I digress.
+
+The _Chef Aid_ album is a respectable 21 tracks, and its 78 minute runtime pushes {{% link wiki-compact-disc-digital-audio %}}Red Book{{% /link %}} audio to the edge of its comfort zone. Interestingly enough, the first 15 tracks are pretty straightforward and uninteresting. It's not until track 16 ({{% link wiki-south-park-characters-ned-gerblanski /%}}'s cover of "Feel Like Makin' Love") that things start jumping out. Admittedly, the sound of Trey Parker singing a Bad Company song while imitating a man who lost his voice to cancer is difficult to ignore (and in fact, one of the band members can be heard laughing at the song's entire premise at around 3:05), I'd like to call your attention to Hayes' backing vocals. It's difficult to hear, especially because Hayes sings the exact same words as the lead, but his voice suffers from some very distinct compression artifacting. The same can be heard on track 19, "It's A Rockin' World."
+
+For a more audible example of this artifacting, look at tracks 17 and 20---"The Rainbow" and "Mephisto And Kevin"---respectively. In both those songs, Hayes' voice shows some very noticeable artifacts. A fair amount of the frequency spectrum (everything above the 8 kHz neighborhood, specifically) is either entirely missing or at least attenuated to the point where it's no longer audible. The "sss" sounds are hurt most by these artifacts. But there are also other strange symptoms here, like a metallic "underwater" sound that is found most often on poorly compressed, low-bitrate MP3 files. None of the instrument tracks or lead vocals show this type of loss. A great deal of Hayes' voice was unintentionally altered in tracks 16--20, and all because of what I can only assume is a lossy compression format being used somewhere along the line during the tracks' production.
+
+There was a documentary several years ago called _Goin' Down to South Park_. I'm pretty sure they included it on the series' Season Two DVD set, but don't quote me on that. Anyway, that documentary had an interesting fact that may shed some light on all this: While the _South Park_ production buildings are in (or around) the Los Angeles area, Isaac Hayes lived in New York and would record all his dialogue for the show "over the phone" while Parker and Stone directed him. I'm sure everybody reading this knows what a phone sounds like, but suffice it to say the 250--5000 Hz frequency response of standard voice lines sounds downright awful, and nobody worth their weight in body parts would use such a line to record dialogue for a television show. A more likely approach would be to use something like an ISDN line, which might send digital data at 128 kbps between the two callers. Suddenly, it becomes clear where compression artifacts could come from. If you have to squeeze somebody's voice into a 128k stream of data (or worse, if you have to limit your transmit rate to 64k, because the other party is using the other 64k to talk back to you)---and do it in real-time---you're going to lose some audio data.
+
+When you're doing a TV show, you can afford to push some of your dialogue through lossy audio formats. The sound goes through so many manipulations during its voyage from the source tape to your ears, including being heavily compressed (in terms of gain) and limited to -6 dB. It also loses some of its finer detail as it travels from your cable or satellite provider to your home. Most standard-definition digital broadcast systems allocate 3--5 Mbps of data for each channel, and the majority of that is used by the video. Not to mention the fact that some television speakers are tiny and of questionable quality. Add in the fact that the viewer is most likely distracted by the images they're seeing, and sitting 8+ feet from the screen and speakers, and the small artifacts in your dialogue track become more and more insignificant.
+
+I've actually messed around with television audio, doing things like listening to the audio track through high-quality headphones without looking at the video. It's amazing how many small defects I can pick out that I totally missed on the TV. And it's actually surprising how "hollow" most television audio sounds.
+
+When you make the transition to the audio CD world, there's no longer any broadcast equipment to hide behind. Every nuance in your final mix comes through in pristine stereo. Pretty much every CD player can reproduce sounds from 20 Hz all the way up to a theoretical maximum of 22,050 Hz with over 90 dB of dynamic range (and even more if your hardware supports quantization depths higher than 16-bit). If somebody down the hall in the studio so much as sneezed while you were recording something, the digital equipment would pick it up and accurately store it without much loss.
+
+Needless to say, you can't afford to have your lead vocal track squeezed through an ISDN line; it would give itself away almost instantaneously. That's why you'd fly the talent out to the studio and have them record the vocals straight into the mix without any data compression. And that appears to be what they did with Isaac Hayes on this album.
+
+Except for tracks 16--20.
+
+There's only one explanation I can think of that makes any logical sense. I believe that Hayes flew out to do the first 15 tracks and all the intro/outro recording, and everything in track 16 and after had to be recorded "over the phone" after he returned to New York. Either the songs were added at the last minute, or Hayes' schedule didn't permit him to make another trip out to record more. Again, this is nothing more than a conjecture on my part, and unless I ever get the opportunity to meet Trey Parker and ask him about it, this will be nothing more than a guess. But it wouldn't surprise me if that's what happened here. Any self-respecting recording engineer wouldn't want to put out something that sounded bad unless there were outside forces that couldn't be avoided. (Or a producer who didn't care.)
+
+There's one track I've intentionally left out of the discussion until now, and it's certainly the most interesting one on the album. I'm referring to track 18, entitled "Tonight Is Right For Love (With Meredith Baxter-Birney)." A duet between Chef and Meat Loaf, this is actually my favorite song on the entire album. This track also contains clear artifacting on Hayes' vocals, but they're not consistent across the whole song like they are on the other tracks. It's as if half the song was recorded in the studio (without artifacting) and the other half was re-recorded over the phone at a later date.
+
+To outline the point I'm trying to make, I've transcribed the lyrics of the song below. I've marked all the lines with colors to signify what each line sounds like. The color legend is as follows:
+
+- Plain Text: Chef's vocals, no artifacting
+- <span class="chefArtifact">Red Text</span>: Chef's vocals, artifacting present
+- <span class="meatLoafNoArtifact">Green Text</span>: Meat Loaf's vocals, no artifacting
+- <span class="bothNoArtifact">Blue Text</span>: Chef and Meat Loaf simultaneously, no artifacting
+- <span class="bothArtifact">Violet Text</span>: Chef and Meat Loaf simultaneously, artifacting present in Chef's vocals only
+
+> **"Tonight Is Right For Love (With Meredith Baxter-Birney)"**\
+> _Chef & Meat Loaf_
+>
+> ---
+> 
+> Now my friend Meat Loaf and I are gonna sing a little love song.
+>
+> Tonight is right for love, you know I\
+> Wanna touch you where the lights don't go\
+> Tonight is right for love\
+> <span class="chefArtifact">With Meredith Baxter-Birney</span>
+>
+> Expressing love so sweet\
+> I'll keep you burning like a dog in heat\
+> Tonight is right for love\
+> <span class="chefArtifact">With Meredith Baxter-Birney</span>
+>
+> <span class="chefArtifact">We had a love that was so magical\
+> Meredith Baxter-Birney burning, burning in my soul\
+> I'm not talking about Meredith Baxter-Birney today, no\
+> I'm talking about Meredith Baxter-Birney that was on "Family Ties" ten years ago</span>
+>
+> (Instrumental)
+>
+> <span class="meatLoafNoArtifact">After the love comes the darkness of hell\
+> A demon inside you like a bottomless well\
+> Nothing is sacred, everything is a lie\
+> Love doesn't last, no matter how hard you try\
+> Burnin', burnin', through your brain\
+> Unthinkable pain...</span> <span class="chefArtifact">Meat!</span>\
+> <span class="meatLoafNoArtifact">But when you finally realize that it's all in vain...</span> <span class="chefArtifact">Meat Loaf!</span>\
+> <span class="meatLoafNoArtifact">Splinters of wood that get forced through your eyes...</span> <span class="chefArtifact">Meat Loaf!</span>\
+> <span class="meatLoafNoArtifact">Cheese graters of steel being rubbed on your thighs...</span> <span class="chefArtifact">Meat Loaf! Meat!</span>\
+> <span class="meatLoafNoArtifact">Your skin's comin' off and you're rollin' in salt</span>\
+> <span class="chefArtifact">Hey Meat! Meat Loaf!</span>\
+> <span class="meatLoafNoArtifact">What?</span>\
+> <span class="chefArtifact">Where you goin', son?</span>\
+> <span class="meatLoafNoArtifact">Oh, gosh.</span>\
+> <span class="chefArtifact">Come back to us, we're over here.</span>\
+> <span class="meatLoafNoArtifact">Okay. Oh, sorry Chef, man. Sorry.</span>\
+> <span class="chefArtifact">Okay son, but this song is about Meredith Baxter-Birney, alright? But not about splinters of wood in your eyes.</span>\
+> <span class="meatLoafNoArtifact">You're right.</span>\
+> <span class="chefArtifact">Here, have a taco.</span>\
+> <span class="meatLoafNoArtifact">A taco, great. I need a taco.</span>\
+> <span class="chefArtifact">Messing up my business with Meredith Baxter-Birney. Okay?</span>\
+> <span class="meatLoafNoArtifact">Mmm. Yeah, great.</span>
+>
+> <span class="bothNoArtifact">Tonight is right for love</span>\
+> The rain is falling and Jay Leno is on\
+> Let's turn down the lights, turn up the volume\
+> And go crazy
+>
+> I'll touch your body and soul\
+> And change your channels with remote control\
+> <span class="chefArtifact">'Cause</span> <span class="bothArtifact">tonight is right for love</span>\
+> <span class="chefArtifact">With Meredith Baxter-Birney</span>
+
+After looking at these lyrics for a few minutes, certain patterns begin to emerge. It seems the only lines to be re-recorded were the ones involving either Meat Loaf or Meredith Baxter-Birney. Meat Loaf most likely performed his lines alone, and they were later spliced with Hayes' to convey the illusion that they were performing a duet. Hayes definitely recorded material for the album knowing that Meat Loaf would appear (the outro on the preceding track, "The Rainbow," has Chef introducing Meat Loaf without any artifacting). It's possible that Hayes needed to return to New York before the final shape of the duet was determined.
+
+What's more interesting are the lines involving Meredith Baxter-Birney. Perhaps the song was originally about something else?
+
+I call your attention to an episode in the first season of _South Park_. Specifically, episode 1-05, "{{% link wiki-elephant-makes-love-to-a-pig /%}}." In that episode, Chef performs a song entitled "Love Gravy" in order to facilitate the condition described in the episode's title:
+
+{{% audio chef-ep105 %}}
+
+"Love Gravy" is, note-for-note, the exact same song as "Tonight Is Right For Love (With Meredith Baxter-Birney)." In fact, below are the lyrics to the song:
+
+> **"Love Gravy"**\
+> _Chef & Elton John (voiced by Trey Parker)_
+>
+> ---
+>
+> Tonight is right for love, you know I\
+> Wanna touch you where the lights don't go\
+> Tonight is right for love\
+> Love gravy
+>
+> Expressing love so sweet, I wanna\
+> Keep you burning like a dog in heat\
+> Tonight is right for love\
+> Love gravy
+>
+> Ladies and gentlemen, Mr. Elton John!
+>
+> _(Elton John/Trey Parker)\
+> Ooh, tonight\
+> Oh, it's right\
+> Ooh, tonight is right for love\
+> Love gravy_
+>
+> Thank you, Elton!
+>
+> Tonight is right for love\
+> Love gravy
+
+Compare the two. The songs have the same tempo, they're in the same key, they have the same chord progressions, and they have the same lyrics. Except, of course, for the blatant difference between the words "love gravy" and "with Meredith Baxter-Birney." The only lines in "Tonight Is Right..." that show compression artifacting are the lines they changed from the original "Love Gravy" song.
+
+I should point out that the _Chef Aid_ album has a track entitled "Love Gravy," performed by the late great Rick James and Ike Turner. However, that song bears absolutely no resemblance to the original "Love Gravy" song from "An Elephant Makes Love to a Pig." The "Love Gravy" track on _Chef Aid_ seems as if it was only inspired by the words "Love Gravy" and not anything musical at all.
+
+Which explains why they likely changed the words "Love Gravy" to "With Meredith Baxter-Birney." It would be pretty odd to have two unrelated songs on the same album about that topic. And if James and Turner showed up to record their rendition of "Love Gravy" after Hayes had recorded "Tonight Is Right..." and went home, that would explain why he had to re-record "With Meredith Baxter-Birney" remotely.
+
+I took the liberty of placing the words "Birney" from 0:31 and "crazy" from 2:39 together side-by-side in a single file. In the entire song, those two words are the most similar-sounding, yet "Birney" suffers from the compression artifacting while "crazy" does not. Along with the audio, I've placed a time-frequency graph that shows just how different they are. "Birney" looks as if it went through a lowpass filter at 8 kHz, while "crazy" contains detail all the way up to 16 kHz and beyond. You can see and hear the differences between the two below:
+
+{{% figure caption="Comparison between \"Birney\" (which exhibits artifacting) and \"Crazy\" (which sounds clearer)" %}}
+{{% picture stem=birney-crazy-spectral %}}
+{{% /figure %}}
+{{% audio birney-crazy %}}
+
+An even more compelling piece of evidence came to light when I first listened to the song on a pair of relatively decent headphones. During the line in the piano interlude when Chef says "Messing up my business with Meredith Baxter-Birney," you can faintly hear somebody's voice buried deep in the left channel. It's not Hayes' or Meat Loaf's voice, and if I had to guess, I'd say it was most likely guitarist Bruce Howell{{% margin-note %}}Trey Parker and Matt Stone played keyboard and bass (respectively) on this track but I don't immediately recognize the voice as belonging to either of them.{{% /margin-note %}} judging by the way the audio is panned. It's difficult to hear without a great deal of processing, and even then it's still quite faint, but he definitely sings the words "Tonight is right for love, love gravy." He wasn't miked, or if he was, the signal from that mic never made it into the final mix. The words "love gravy" are also louder and more pronounced, as if he sang them more powerfully than the other words. The final syllable "---vy" is a bit buried in the second beat of the following measure, but it's there.
+
+{{% audio yeah-great %}}
+
+I had a conversation with somebody about this a few years ago, and he thought that the mystery vocal was just an instrumentalist saying "yeah, great" as an echo immediately after Meat Loaf said that very same line. However, once I pointed out the presence of the words "Tonight is right for love" directly before the line in question, he admitted that I was probably correct.
+
+I cut out a sample containing that portion of the song and removed the in-phase audio starting around the time Chef says "Messing up my business with Meredith Baxter-Birney" and amplified the remaining out-of-phase signal by 12 dB:
+
+{{% figure caption="Markers indicate the approximate locations for each syllable of \"Tonight is right for love, love gravy\" in the generated instrumental" %}}
+{{% picture stem=yeah-great-instrumental-wave %}}
+{{% /figure %}}
+{{% audio yeah-great-instrumental %}}
+
+What remains is faint, but if you listen carefully, you can hear the line in question coming out of the left speaker. You can also take a look at the accompanying image, which shows the file as a time-frequency graph. I marked the beginning of each syllable to make it easier to see, but some of the shorter words (like "is") can be tricky to spot. Note that the left channel is at the top half of the image, and the right at the bottom.
+
+{{% box %}}
+**Update (July 2024):** I came back to this while trying a relatively new AI vocal splitting service, {{% link lalal-ai /%}}. It managed to isolate a fair bit of the mystery vocal, and that makes it abundantly clear that he's singing "Tonight is right for love, love gravy."
+
+{{% audio yeah-great-vocals %}}
+{{% /box %}}
+
+So what conclusion am I trying to convey? I want to point out that from what I can hear, it sounds like portions of the _Chef Aid_ album were re-recorded after the fact through a lossy telecommunications system. The audible artifacts left by this system also highlight discrepancies in "Tonight Is Right For Love (With Meredith Baxter-Birney)" that indicate the song was originally intended to be an album version of "Love Gravy" from _South Park_ episode 1-05. I also want to make it known that I have entirely too much free time, and I should be using my talents for something worthwhile and important.
+
+But when you get right down to it, the reason why I took the time to write this is because I don't think anybody else ever has. I've searched the internet for people who have listened to this album and heard the same things I have, and my searches have always turned up nothing. I'm sure there are a great many people out there who have never even heard of this album, let alone run it through a spectral analyzer. I'd like to think that in some small way I contributed to society today. And if not, at least I killed an afternoon while waiting for this fever to come down.
+
+Dedicated to the memory of Jerome "Chef" McElroy (August 13, 1997--March 22, 2006).
+
+---
+
+Crappy list of references: _{{% link discogs-chef-aid /%}}_ on Discogs.com and {{% link wikipedia /%}}, which strangely, I only trust to give me information about pop culture.

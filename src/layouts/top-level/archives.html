@@ -1,0 +1,45 @@
+{{ define "pageContent" }}
+    <section>
+        {{ partial "page-content-header.html" . }}
+
+        {{ .Content }}
+
+        {{ markdownify "## Sections" }}
+        <ul>
+            {{ range site.Sections.ByTitle }}
+                <li><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .LinkTitle | markdownify }}</a></li>
+            {{ end }}
+        </ul>
+<!--
+        {{ markdownify "## Taxonomies" }}
+        <ul>
+            {{ range $k, $v := site.Taxonomies }}
+                <li>{{ $k }}</li>
+            {{ end }}
+        </ul>
+-->
+        {{ markdownify "## Pages" }}
+        {{ with where site.RegularPages.ByLinkTitle "Section" "eq" "top-level" }}
+            <ul>
+                <li><a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.Title }}">{{ site.Home.LinkTitle | markdownify }}</a>
+                {{ range . }}
+                    <li><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .LinkTitle | markdownify }}</a></li>
+                {{ end }}
+                <li><a href="/404.html">404 Page</a>
+            </ul>
+        {{ end }}
+        {{ range $pgroup := site.RegularPages.GroupByDate "2006" "desc" }}
+            {{ with where $pgroup.Pages "Section" "ne" "top-level" }}
+                {{ markdownify (printf "### %s" $pgroup.Key) }}
+                <ul>
+                    {{ range . }}
+                        <li>
+                            {{ partial "date.html" (dict "context" . "dateVal" .Date "skipYear" true) }}
+                            {{- "" }}<a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .LinkTitle | markdownify }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        {{ end }}
+    </section>
+{{ end }}

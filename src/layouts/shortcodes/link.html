@@ -1,0 +1,34 @@
+{{/*
+    Renders a link using a named record from the `links.toml` data file. Each
+    entry in that file should have the following form:
+
+        [keyname]
+        href = 'scheme://example'
+        text = 'Example Link'
+        dead = false  # If true, link is drawn with a line-through decoration
+
+    To insert this link, put {{% link keyname /%}} in the content page.
+
+    The shortcode call accepts inner text; if present this will override the
+    `text` value set in the data file. If there is no text from either source,
+    the `href` is used as the display text.
+
+    To further complicate things, if the text that would've been shown is
+    literally HREF, the `href` value will be used even if there is a `text` that
+    would've been otherwise used -- this is for cases where you really, really
+    want to show the URL.
+
+    Positional parameters:
+        0: The name of the key to read from the `links.toml` data.
+*/}}
+
+{{- $id := .Get 0 }}
+
+{{- with index site.Data.links $id }}
+    {{- $trimmedHref := .href | strings.TrimRight "/" }}
+    {{- $text := ($.Inner | default .text | markdownify) | default $trimmedHref }}
+    {{- if eq $text "HREF" }}{{ $text = $trimmedHref }}{{ end }}
+    {{- "" }}<a href="{{ .href }}" rel="external" {{ if .dead }}class="dead"{{ end }} data-link-id="{{ $id }}">{{ $text }}</a>
+{{- else }}
+    {{- errorf "Link %s not defined: %s" $id .Position }}
+{{- end -}}

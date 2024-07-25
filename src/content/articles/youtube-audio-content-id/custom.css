@@ -1,0 +1,16 @@
+.pass { margin: 0 -0.5em; padding: 0 0.5em; background: #afa; }
+.fail { margin: 0 -0.5em; padding: 0 0.5em; background: #faa; }
+
+@media (prefers-color-scheme: dark) {
+    .pass { background: #050; }
+    .fail { background: #500; }
+}
+
+td div {
+    display: grid;  /* Hey, it seems to work alright */
+}
+
+a[href^="https://www.youtube.com/watch"] {
+    /* Lots of dead links in this one */
+    text-decoration: line-through;
+}

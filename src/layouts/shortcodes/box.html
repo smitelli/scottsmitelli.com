@@ -1,0 +1,17 @@
+{{/*
+    Wraps the inner content with a "box" div. If a parameter is provided, it
+    will be added as a class name on the div. (e.g. "warning" for a red box.)
+    This is /slightly/ easier than preserving the necessary number of newlines
+    around a div in the markdown syntax.
+
+    Positional parameters:
+        0 (optional): If non-empty, added as an additional div class name.
+*/}}
+
+{{- $multiline := gt (strings.Count "\n\n" .Inner) 0 }}
+
+{{- "" }}<div class="box {{ with .Get 0 }}{{ . }}{{ end }}">
+    {{- if not $multiline }}<p>{{ end }}
+    {{- .Inner | markdownify }}
+    {{- if not $multiline }}</p>{{ end }}
+{{- "" }}</div>{{ "" -}}
