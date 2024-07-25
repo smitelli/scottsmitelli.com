@@ -1,7 +1,7 @@
 {{ $css_opts := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
 
 <!DOCTYPE html>
-<html lang="{{ site.Language.Lang }}" itemscope itemtype="http://schema.org/WebPage">
+<html lang="{{ site.Language.Lang }}" itemscope itemtype="https://schema.org/WebPage">
     <head>
         <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no">
@@ -106,7 +106,7 @@
                     &copy; 2007&ndash;{{ time.Now.Year }} <a href='{{ relref . "about" }}' rel="author">{{ site.Title | markdownify }}</a>
                     <br><a href='{{ relref . "projects/scottsmitelli.com/index" }}'>About this site</a>
                     {{- with .File }}
-                        {{- $git_url := urls.JoinPath site.Params.gitContentUrl (path.Clean .Path) }}
+                        {{- $git_url := urls.JoinPath (index site.Data.links "scottsmitelli-com-content-dir").href (path.Clean .Path) }}
                         {{- " / " }}<a href="{{ $git_url }}">Page source code</a>
                     {{ end }}
                 </p>

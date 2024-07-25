@@ -124,7 +124,7 @@ href = 'https://github.com/smitelli/cosmore'
 text = 'smitelli/cosmore'
 
 [darrell-stark]
-href = 'http://darrellmstark.squarespace.com/'
+href = 'https://darrellmstark.squarespace.com/'
 text = 'Darrell M. Stark'
 
 [debian]
@@ -328,6 +328,10 @@ text = 'smitelli/scottfiles'
 [scottsmitelli-com]
 href = 'https://www.scottsmitelli.com/'
 text = 'ScottSmitelli.com'
+
+[scottsmitelli-com-content-dir]
+href = 'https://github.com/smitelli/scottsmitelli.com/tree/master/src/content'
+text = 'smitelli/scottsmitelli.com/.../content'
 
 [scottsmitelli-com-links-toml]
 href = 'https://github.com/smitelli/scottsmitelli.com/blob/master/src/data/links.toml'
