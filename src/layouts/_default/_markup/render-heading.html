@@ -1,4 +1,4 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
     {{ .Text | safeHTML }}
-    {{- "" }}<a class="heading-link" href="#{{ .Anchor | safeURL }}">{{ partial "link-icon.svg" . }}</a>
+    {{- "" }}<a class="heading-link" href="#{{ .Anchor | safeURL }}" title="Permalink - {{ .Text | plainify | htmlUnescape }}">{{ partial "link-icon.svg" . }}</a>
 </h{{ .Level }}>

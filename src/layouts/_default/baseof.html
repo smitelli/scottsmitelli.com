@@ -36,7 +36,7 @@
             <link rel="stylesheet" href="{{ (. | toCSS $css_opts | fingerprint).RelPermalink }}">
         {{ end }}
 
-        {{ with or .Description .Summary site.Params.description | plainify | htmlUnescape | chomp }}
+        {{ with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
             <meta name="description" content="{{ . }}">
         {{ end }}
         {{ hugo.Generator }}
