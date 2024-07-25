@@ -6,10 +6,10 @@
     "FOO.jpg" -- assuming all three of these files existed in the page's content
     directory.
 
-    The $fallback variable controls which media types are used for browsers that
-    don't understand the picture element and/or the newer file formats it
-    brings. The first fallback value that matches a file will be placed in an
-    img tag at the end of the shortcode's output.
+    The `pictureFallbackTypes` site parameter controls which media types are
+    used for browsers that don't understand the picture element and/or the newer
+    file formats it brings. The first fallback type that matches a file will be
+    placed in an img tag at the end of the shortcode's output.
 
     Named parameters:
         stem: The stem of the audio file(s) to include in the source list.
@@ -22,7 +22,7 @@
 {{- $stem := .Get "stem" }}
 {{- $alt := .Get "alt" }}
 {{- $matches := printf "%s.*" $stem | .Page.Resources.Match }}
-{{- $fallback := slice "image/jpeg" "image/png" "image/gif" }}
+{{- $fallback := site.Params.shortcode.pictureFallbackTypes }}
 
 {{- with .Parent }}
     {{- with .Get "caption" }}

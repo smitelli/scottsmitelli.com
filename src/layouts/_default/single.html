@@ -1,28 +1,32 @@
 {{ define "pageContent" }}
     {{ $cols := .Params.articleColumns | default "two" }}
+    {{ $form := .Params.articleForm | default "long" }}
+
     {{ if ne $cols "two" }}{{- .Page.Store.Set "prohibit-sidebar" true }}{{ end }}
 
-    <article class='{{ $cols }}-column {{ .Params.articleForm | default "long" }}-form'>
+    <article class='{{ $cols }}-column {{ $form }}-form'>
         {{ partial "page-content-header.html" . }}
 
         {{ if not .Params.skipInfoBox }}
             {{ if .Store.Get "prohibit-sidebar" }}
                 {{ errorf "Info box is prohibited without second column: %s" .File }}
             {{ end }}
+
             <aside id="info-box">
                 <div class="mn-sn-content feature">
                     <dl>
-                        {{ if gt .Date.Year 1970 }}
+                        {{ if gt .Date site.Params.myAgeBasis }}
                             <dt>Published</dt>
                             <dd>{{ partial "date.html" (dict "context" . "dateVal" .Date) }}</dd>
                         {{ else }}
                             {{ errorf "Missing required `date` in front matter: %s" .File }}
                         {{ end }}
 
-                        {{ if ge (sub time.Now.Year .Date.Year) 10 }}
+                        {{ $pageAgeHours := (time.Now.Sub .Date).Hours }}
+                        {{ if ge (div $pageAgeHours 8766) site.Params.classicContentYears }}
                             <dt>Written When I Was</dt>
-                            {{ $ageHours := (.Date.Sub (time "1986-03-01")).Hours }}
-                            <dd>{{ math.Floor (div $ageHours 8766) }} years old</dd>
+                            {{ $myAgeHours := (.Date.Sub (time site.Params.myAgeBasis)).Hours }}
+                            <dd>{{ math.Floor (div $myAgeHours 8766) }} years old</dd>
                         {{ end }}
 
                         {{ if gt .Lastmod .Date }}

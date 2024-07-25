@@ -1,6 +1,6 @@
 {{ define "pageContent" }}
     {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
-    {{ $isMulti := gt $paginator.TotalPages 1 }}
+    {{ $multipage := gt $paginator.TotalPages 1 }}
 
     <section>
         {{ partial "page-content-header.html" . }}
@@ -17,7 +17,7 @@
             </p>
         {{ end }}
 
-        {{ if $isMulti }}
+        {{ if $multipage }}
             <hr>
 
             {{ template "_internal/pagination.html" . }}

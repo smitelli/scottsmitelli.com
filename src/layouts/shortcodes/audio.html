@@ -6,10 +6,10 @@
     "FOO.wav" -- assuming all three of these files existed in the page's content
     directory.
 
-    The $prefer variable influences the order of the matches in the output HTML.
-    Any existing preferred types will appear first, in the order given to
-    `slice`, followed by all non-preferred matches in whichever order Hugo finds
-    them.
+    The `audioPreferredTypes` site parameter influences the order of the matches
+    in the output HTML. Any existing preferred types will appear first, in the
+    order their preferences are listed, followed by all non-preferred matches in
+    whichever order Hugo finds their files.
 
     Positional parameters:
         0: The stem of the audio file(s) to include in the source list.
@@ -17,7 +17,7 @@
 
 {{- $stem := .Get 0 }}
 {{- $matches := printf "%s.*" $stem | .Page.Resources.Match }}
-{{- $prefer := slice "audio/mpeg" "audio/flac" }}
+{{- $prefer := site.Params.shortcode.audioPreferredTypes }}
 
 {{- "" }}<p>
     {{- "" }}<audio preload="none" controls>

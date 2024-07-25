@@ -15,7 +15,15 @@ title = 'Scott Smitelli'
   minifyOutput = true
 
 [params]
+  classicContentYears = 10
+  copyrightStartYear = 2007
+  myAgeBasis = 1986-03-01
+
   [params.mathjax]
     # curl https://<...>.js | sha384sum -b | awk '{ print $1 }' | xxd -r -p | base64
     integrity = 'sha384-NuejywWq7I0qomITfCQmoQ6vhoRC4keD8iNHdUWSqnBoPoQIAccbA/d6uU7oZaic'
     url = 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js'
+
+  [params.shortcode]
+    audioPreferredTypes = ['audio/mpeg', 'audio/flac']
+    pictureFallbackTypes = ['image/jpeg', 'image/png', 'image/gif']
