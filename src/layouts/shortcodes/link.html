@@ -11,7 +11,8 @@
 
     The shortcode call accepts inner text; if present this will override the
     `text` value set in the data file. If there is no text from either source,
-    the `href` is used as the display text.
+    the `href` is used as the display text. The nonsense with the ZWJ is to
+    prevent the Markdown renderer from double-wrapping any raw/textless URLs.
 
     Positional parameters:
         0: The name of the key to read from the `links.toml` data.
@@ -23,13 +24,12 @@
 {{- $raw := .Get 1 | default false }}
 
 {{- with index site.Data.links $id }}
-    {{- $trimmedHref := .href | strings.TrimRight "/" }}
-    {{- if $raw }}
-        {{- $trimmedHref }}
-    {{- else }}
-        {{- $text := ($.Inner | default .text | markdownify) | default $trimmedHref }}
-        {{- "" }}<a href="{{ .href }}" rel="external" {{ if .dead }}class="dead"{{ end }} data-link-id="{{ $id }}">{{ $text }}</a>
+    {{- $text := $.Inner | default .text }}
+    {{- if or $raw (not $text) }}
+        {{- $text = replace (.href | strings.TrimRight "/") "/" "&zwj;/" }}
     {{- end }}
+
+    {{- "" }}<a href="{{ .href }}" rel="external" {{ if .dead }}class="dead"{{ end }} data-link-id="{{ $id }}">{{ $text | markdownify }}</a>
 {{- else }}
     {{- errorf "Link %s not defined: %s" $id .Position }}
 {{- end -}}
