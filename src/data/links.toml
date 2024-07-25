@@ -330,7 +330,7 @@ href = 'https://www.scottsmitelli.com/'
 text = 'ScottSmitelli.com'
 
 [scottsmitelli-com-links-toml]
-href = 'https://github.com/smitelli/scottsmitelli.com/blob/main/src/data/links.toml'
+href = 'https://github.com/smitelli/scottsmitelli.com/blob/master/src/data/links.toml'
 text = 'links.toml'
 
 [scottsmitelli-com-source]
