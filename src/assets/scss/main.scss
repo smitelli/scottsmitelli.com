@@ -8,7 +8,7 @@ $sm-breakpoint: 760px;
 :root {
     --bg-color: color-mix(in oklab, yellow 5%, white);
     --mid-bg-color: color-mix(in oklab, white 92.5%, black);
-    --mid-fg-color: color-mix(in oklab, white 60%, black);
+    --mid-fg-color: color-mix(in oklab, white 55%, black);
     --mid-color: color-mix(in srgb, var(--mid-fg-color) 25%, var(--mid-bg-color));
     --fg-color: color-mix(in oklab, white 20%, black);
     --silcrow-color: var(--bg-color);
@@ -18,7 +18,7 @@ $sm-breakpoint: 760px;
     @media (prefers-color-scheme: dark) {
         --bg-color: color-mix(in oklab, steelblue 20%, black);
         --mid-bg-color: color-mix(in oklab, black 77.5%, white);
-        --mid-fg-color: color-mix(in oklab, black 50%, white);
+        --mid-fg-color: color-mix(in oklab, black 42.5%, white);
         --fg-color: color-mix(in oklab, black 10%, white);
         --silcrow-color: var(--fg-color);
         --warning-bg-color: hsl(0 75% 5%);

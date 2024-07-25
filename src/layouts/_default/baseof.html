@@ -36,6 +36,9 @@
             <link rel="stylesheet" href="{{ (. | toCSS $css_opts | fingerprint).RelPermalink }}">
         {{ end }}
 
+        {{ with or .Description .Summary site.Params.description | plainify | htmlUnescape | chomp }}
+            <meta name="description" content="{{ . }}">
+        {{ end }}
         {{ hugo.Generator }}
         {{ template "_internal/schema.html" . }}
         {{ template "_internal/opengraph.html" . }}
@@ -78,8 +81,8 @@
     <body class="{{ with .Kind }}kind-{{ . }}{{ end }} {{ with .Section }}section-{{ . }}{{ end }}">
         {{ if not .Params.skipPageHeader }}
             <header>
-                <div id="site-title"><a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.Title }}">{{ site.Title | markdownify }}</a></div>
-                <a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.Title }}">{{ partial "site-logo.svg" . }}</a>
+                <div id="site-title"><a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.LinkTitle }}">{{ site.Title | markdownify }}</a></div>
+                <a href="{{ site.Home.RelPermalink }}" title="{{ site.Home.LinkTitle }}">{{ partial "site-logo.svg" . }}</a>
                 <nav>
                     {{ range site.Menus.main.ByWeight }}
                         {{- "" }}<span><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name | markdownify }}</a></span>{{ "" -}}
