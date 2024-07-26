@@ -139,7 +139,7 @@ article {
     figure {
         margin-bottom: 2.25rem;
 
-        @media (max-width: $sm-breakpoint) {
+        @media screen and (max-width: $sm-breakpoint) {
             // Stretch beyond bounds of <body> to touch screen edges
             margin-left: calc(-1 * var(--left-body-pad));
             width: 100vw !important;
