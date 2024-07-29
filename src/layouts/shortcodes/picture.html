@@ -17,10 +17,12 @@
             shortcode instance is nested within something that has a `caption`
             parameter (e.g. %figure%) that is non-empty, that value is used as a
             default when this is empty.
+        alt (optional): If non-empty, added as a class="..." attribute.
 */}}
 
 {{- $stem := .Get "stem" }}
 {{- $alt := .Get "alt" }}
+{{- $class := .Get "class" }}
 {{- $matches := printf "%s.*" $stem | .Page.Resources.Match }}
 {{- $fallback := site.Params.shortcode.pictureFallbackTypes }}
 
@@ -30,7 +32,7 @@
     {{- end }}
 {{- end }}
 
-{{- "" }}<picture>
+{{- "" }}<picture {{ with $class }}class="{{ . }}"{{ end }}>
     {{- range $matches }}
         {{- "" }}<source srcset="{{ .RelPermalink }}" type="{{ .MediaType.Type }}">
     {{- end }}

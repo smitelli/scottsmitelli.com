@@ -11,7 +11,7 @@ value = '{{% link salt-source true /%}}'
 
 **{{% link salt-user-guide %}}Salt{{% /link %}}** is a configuration management tool designed to automate the setup and management of computer systems. Every single bit of software installation and configuration on this server is done via Salt **states**, and every piece of my Salt configuration (with the exception of passwords and other sensitive key material) is completely open on GitHub. The states for ScottSmitelli.com, for example, can be found in {{% link salt-source-scottsmitelli-com %}}this file{{% /link %}}.
 
-The entire configuration of this server comprises well over 300 states. These states do everything, from installing and upgrading nginx and writing its configuration files, to cloning repositories from GitHub and setting up users and permissions. If a service is not running that should be, Salt will start it. If a service is running that should not be, Salt will kill it.
+The entire configuration of this server comprises nearly 300 states. These states do everything, from installing and upgrading nginx and writing its configuration files, to cloning repositories from GitHub and setting up users and permissions. If a service is not running that should be, Salt will start it. If a service is running that should not be, Salt will kill it.
 
 If somebody were to clone this repo, fill in their own secret keys and tweak the configuration to their liking, they could launch a clone of this server and all the sites and applications that run on it. And hey, you know what? More power to 'em.
 

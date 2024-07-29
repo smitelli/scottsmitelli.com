@@ -217,6 +217,12 @@ article {
         }
     }
 
+    .invertible {
+        @media (prefers-color-scheme: dark) {
+            filter: invert(1);
+        }
+    }
+
     .small-caps {
         font-size: 1.25em;
         line-height: 1.19;

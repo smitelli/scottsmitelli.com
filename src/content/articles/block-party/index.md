@@ -17,7 +17,7 @@ With a 4-pack of Red Bull in one hand and a reckless disregard for common sense 
 I'm pretty proud of the result:
 
 {{% figure class=fullwidth caption="Behringer SL2442FX-PRO Block Diagram ([see full size](sl2442.png))" link=sl2442.png %}}
-{{% picture stem=sl2442 alt="Behringer SL2442FX-PRO Block Diagram" %}}
+{{% picture stem=sl2442 alt="Behringer SL2442FX-PRO Block Diagram" class=invertible %}}
 {{% /figure %}}
 
 I deserve the MS Paint Medal of Freedom for this one, I think. No fancy schematic software here; just a steady mouse hand and a free weekend.
