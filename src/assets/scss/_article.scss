@@ -128,15 +128,18 @@ article {
         display: block;
         max-width: 100%;
         height: auto;
-
-        @media (prefers-color-scheme: dark) {
-            filter: brightness(87.5%) contrast(95%);
-        }
+        filter: brightness(var(--image-brightness)) contrast(var(--image-contrast));
 
         @media print {
             max-height: 12rem;
             width: auto;
             break-inside: avoid;
+        }
+
+        &.invertible {
+            @media (prefers-color-scheme: dark) {
+                filter: invert(1) brightness(var(--image-brightness)) contrast(var(--image-contrast));
+            }
         }
     }
 
@@ -218,12 +221,6 @@ article {
 
         > :last-child {
             margin-bottom: 0;
-        }
-    }
-
-    .invertible {
-        @media (prefers-color-scheme: dark) {
-            filter: invert(1);
         }
     }
 
