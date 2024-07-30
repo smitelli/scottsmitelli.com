@@ -32,11 +32,15 @@
     {{- end }}
 {{- end }}
 
-{{- "" }}<picture {{ with $class }}class="{{ . }}"{{ end }}>
+{{- "" }}<picture>
     {{- range $matches }}
         {{- "" }}<source srcset="{{ .RelPermalink }}" type="{{ .MediaType.Type }}">
     {{- end }}
     {{- with index (where $matches "MediaType.Type" "in" $fallback) 0 }}
-        {{- "" }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" {{ with $alt }}alt="{{ . }}"{{ end }}>
+        {{- "" }}<img
+            {{- " " | safeHTMLAttr }}src="{{ .RelPermalink }}"
+            {{- " " | safeHTMLAttr }}width="{{ .Width }}" height="{{ .Height }}"
+            {{- with $alt }} alt="{{ . }}"{{ end }}
+            {{- with $class }} class="{{ . }}"{{ end }}>
     {{- end }}
 {{- "" }}</picture>{{ "" -}}
