@@ -129,6 +129,10 @@ article {
         max-width: 100%;
         height: auto;
 
+        @media (prefers-color-scheme: dark) {
+            filter: brightness(87.5%) contrast(95%);
+        }
+
         @media print {
             max-height: 12rem;
             width: auto;
