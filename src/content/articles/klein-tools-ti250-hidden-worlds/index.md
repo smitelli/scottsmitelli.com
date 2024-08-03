@@ -41,7 +41,7 @@ Okay, back to the saved pictures.
 
 Once a number of image files have been saved on the microSD card, there are two ways to get them out. You can either plug the TI250 into a computer via USB (where it behaves as a removable disk) or you can plug the microSD card directly into a card reader. The end result is the same thing: You get a FAT32 volume containing an `Images` directory, and inside that is... a bunch of `.bmp` files. The images from the TI250 are saved as uncompressed bitmap images, with the date/time of capture encoded in the file name.
 
-Now, since each of these images is only 320&times;240 with a 16-bit color depth, the amount of space used isn't too bad... {{% math %}}$320 \times 240 \times \frac{16}{8} = 150 \mathrm{KiB}${{% /math %}}, plus a little extra for the bitmap header. No big deal.
+Now, since each of these images is only 320&times;240 with a 16-bit color depth, the amount of space used isn't too bad... {{% math %}} 320 \times 240 \times \frac{16}{8} = 150 {{% /math %}} KiB, plus a little extra for the bitmap header. No big deal.
 
 Except all the images that come out of this thing are 225 KiB.
 

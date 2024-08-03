@@ -2,8 +2,14 @@
     Renders the inner content with no modification, but sets a global flag that
     informs the page template that the MathJax script and configuration needs to
     be included in the HTML output.
+
+    Positional parameters:
+        0 (optional): If present and truthy, the math element is rendered as a
+            block by itself. When omitted, the math is rendered inline.
 */}}
 
 {{- .Page.Store.Set "uses-math" true }}
 
-{{- .Inner -}}
+{{- $delimiter := cond (.Get 0 | default false) "$$" "$" }}
+
+{{- $delimiter }} {{ trim .Inner "\t\r\n " }} {{ $delimiter -}}

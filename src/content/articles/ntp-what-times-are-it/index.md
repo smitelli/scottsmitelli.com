@@ -45,17 +45,17 @@ A day after the Unix counter started, the timestamp was 86,400 seconds (requirin
 
 Computers don't use decimal numbers internally; everything is tracked in binary. The equivalent first-day timestamp was 1 0101 0001 1000 0000 (17 bits), the one-week timestamp was 1001 0011 1010 1000 0000 (20 bits), and today's timestamp is 31 bits that I am not going to bother pasting here.
 
-Every computer has an intrinsic data size that it is designed to work best with (which is why you'll hear classic computers described as "8-bit" or "16-bit" systems; this is their native data size). If a piece of data doesn't fit into the machine's preferred data size, the next-best option is to store the data in some even multiple of that size and work on the calculation in pieces. It is because of these factors that a bunch of things historically ended up being **32 bits** wide. If you're wondering about the largest expressible 32-bit number, it's {{< math >}}$ 2^{32} = 4,294,967,296 ${{< /math >}}. Interpreted as a Unix timestamp, this value is the early morning on February 7, 2106. One second later, the timestamp will **overflow** and return back to zero, {{% margin-note %}}Imagine you were doing a math problem on paper: 99 plus 1. Nine plus one is zero, carry the one. Nine plus one is zero, carry the one again. 100. But in this case there is no space for that leading one in the answer; it just falls away quietly.{{% /margin-note %}} reverting the clock back to 1970.
+Every computer has an intrinsic data size that it is designed to work best with (which is why you'll hear classic computers described as "8-bit" or "16-bit" systems; this is their native data size). If a piece of data doesn't fit into the machine's preferred data size, the next-best option is to store the data in some even multiple of that size and work on the calculation in pieces. It is because of these factors that a bunch of things historically ended up being **32 bits** wide. If you're wondering about the largest expressible 32-bit number, it's {{% math %}} 2^{32} = 4,294,967,296 {{% /math %}}. Interpreted as a Unix timestamp, this value is the early morning on February 7, 2106. One second later, the timestamp will **overflow** and return back to zero, {{% margin-note %}}Imagine you were doing a math problem on paper: 99 plus 1. Nine plus one is zero, carry the one. Nine plus one is zero, carry the one again. 100. But in this case there is no space for that leading one in the answer; it just falls away quietly.{{% /margin-note %}} reverting the clock back to 1970.
 
-But remember when we said that negative timestamps are permitted? One of those 32 bits is reserved, used as a **sign flag** that indicates whether the number is negative or positive. Our range is actually more like {{< math >}}$ \pm 2^{31} = \pm 2,147,483,648 ${{< /math >}}. The timestamp range here is December 13, 1901 to January 19, 2038. Once Y2K38 comes, systems that use _signed_ 32-bit timestamps will think it's 1901 again. {{% margin-note %}}Better dust off those knickerbockers and corsets.{{% /margin-note %}}
+But remember when we said that negative timestamps are permitted? One of those 32 bits is reserved, used as a **sign flag** that indicates whether the number is negative or positive. Our range is actually more like {{% math %}} \pm 2^{31} = \pm 2,147,483,648 {{% /math %}}. The timestamp range here is December 13, 1901 to January 19, 2038. Once Y2K38 comes, systems that use _signed_ 32-bit timestamps will think it's 1901 again. {{% margin-note %}}Better dust off those knickerbockers and corsets.{{% /margin-note %}}
 
 The solution, obviously, is to use 64-bit timestamps. By simply doubling the storage size of the timestamp, our timers could tick for hundreds of billions of years without overflowing. In this day and age of staggering storage and bandwidth capacities, only some kind of wiener would use 32 bits for a timestamp.
 
 ## NTP's 32-bit timestamp format
 
-NTP timestamps are positive values that count the number of seconds since the NTP **prime epoch**, which was **midnight UTC on January 1, 1900**. Timestamps are actually 64-bit fixed-width numbers consisting of an unsigned 32-bit seconds field next to an unsigned 32-bit fraction field. As with Unix timestamps, this allows for a range of {{< math >}}$ 2^{32} = 4,294,967,296 ${{< /math >}} seconds with a fractional precision of {{< math >}}$ 1 \over 4,294,967,296 ${{< /math >}} (or {{< math >}}$ 2.33\times10^{-10} ${{< /math >}}) seconds.{{% margin-note side %}}That's how long it takes light to travel about three inches.{{% /margin-note %}}
+NTP timestamps are positive values that count the number of seconds since the NTP **prime epoch**, which was **midnight UTC on January 1, 1900**. Timestamps are actually 64-bit fixed-width numbers consisting of an unsigned 32-bit seconds field next to an unsigned 32-bit fraction field. As with Unix timestamps, this allows for a range of {{% math %}} 2^{32} = 4,294,967,296 {{% /math %}} seconds with a fractional precision of {{% math %}} 1 \over 4,294,967,296 {{% /math %}} (or {{% math %}} 2.33\times10^{-10} {{% /math %}}) seconds.{{% margin-note side %}}That's how long it takes light to travel about three inches.{{% /margin-note %}}
 
-These 64-bit timestamps can be decoded by splitting them into two 32-bit parts, treating the first part as an integer component and the other as the numerator in the expression {{< math >}}$ n \over 2^{32} ${{< /math >}}. It's also possible to get the correct answer by treating the entire timestamp as an unsigned 64-bit integer and then dividing by {{< math >}}$ 2^{32} ${{< /math >}} to produce a floating-point number of seconds.
+These 64-bit timestamps can be decoded by splitting them into two 32-bit parts, treating the first part as an integer component and the other as the numerator in the expression {{% math %}} n \over 2^{32} {{% /math %}}. It's also possible to get the correct answer by treating the entire timestamp as an unsigned 64-bit integer and then dividing by {{% math %}} 2^{32} {{% /math %}} to produce a floating-point number of seconds.
 
 The choice of 1900 for the prime epoch is _possibly_ a remnant of {{% link rfc868 /%}}, the "Time Protocol" from 1983. This two-page(!) document describes a TCP/UDP service that receives no fields from the client, and responds with a 32-bit integer timestamp relative to January 1, 1900. {{% margin-note %}}This is somewhat better than its twin sibling "{{% link rfc867 %}}Daytime Protocol{{% /link %}}," which defines "no specific syntax" that the reply should use.{{% /margin-note %}}
 
@@ -81,31 +81,31 @@ The server populates two additional timestamp fields called the **receive timest
 
 As soon as the response arrives back at the client, it again takes note of its own (wrong) time at that moment. This will be called the **destination timestamp**. Using these four timestamps, the client can compute an **offset**, or the difference between its clock and that of the server, using the following formula:
 
-{{< math >}}$$
+{{< math true >}}
 \mathrm{Offset} = {{
     (T_\mathrm{receive} - T_\mathrm{origin}) + (T_\mathrm{transmit} - T_\mathrm{destination})
 } \over 2}
-$${{< /math >}}
+{{< /math >}}
 
 Where:
-- {{< math >}}$ T_\mathrm{origin} ${{< /math >}}: client timestamp when the request was sent
-- {{< math >}}$ T_\mathrm{receive} ${{< /math >}}: server timestamp when the request was received
-- {{< math >}}$ T_\mathrm{transmit} ${{< /math >}}: server timestamp when the response was sent
-- {{< math >}}$ T_\mathrm{destination} ${{< /math >}}: client timestamp when the response was received
+- {{% math %}} T_\mathrm{origin} {{% /math %}}: client timestamp when the request was sent
+- {{% math %}} T_\mathrm{receive} {{% /math %}}: server timestamp when the request was received
+- {{% math %}} T_\mathrm{transmit} {{% /math %}}: server timestamp when the response was sent
+- {{% math %}} T_\mathrm{destination} {{% /math %}}: client timestamp when the response was received
 
 A _positive_ offset indicates that the server's timestamp is _greater_ than the client's. The client clock is slow and must have this offset _added_ to make its clock accurate.
 
 Even if the two clocks are already synchronized perfectly, it takes time for the message to travel from the client to the server and back. This round-trip **delay** value represents the amount of time the message spent traveling over the network, and can be computed using this formula:
 
-{{< math >}}$$
+{{< math true >}}
 \mathrm{Delay} = (T_\mathrm{destination} - T_\mathrm{origin}) - (T_\mathrm{transmit} - T_\mathrm{receive})
-$${{< /math >}}
+{{< /math >}}
 
 The timestamp definitions are the same as before. This delay value is akin to the round-trip **ping** time between the client and server, and conveys the worst-case uncertainty in the computed offset value. In other words, if an NTP exchange indicates a total delay of one second, the computed offset value represents the midpoint of a one-second window, and the true offset falls somewhere within that window. The more symmetrical the send/receive delays are, the more accurate the offset calculation becomes.
 
 To visualize offset and delay:
 
-{{% figure caption="Diagram of a plausible client-server exchange. The delay is {{< math >}}$ (141 - 100) - (325 - 321) = 37 ${{< /math >}} ms. The offset is {{< math >}}$ [(321 - 100) + (325 - 141)] / 2 = 202.5 ${{< /math >}} ms, indicating that the client clock is slow by about 200 ms. The 2.5 ms of error is a consequence of the asymmetry of the delays (it took longer to send the request than it did to receive the response)." %}}
+{{% figure caption="Diagram of a plausible client-server exchange. The delay is {{% math %}} (141 - 100) - (325 - 321) = 37 {{% /math %}} ms. The offset is {{% math %}} [(321 - 100) + (325 - 141)] / 2 = 202.5 {{% /math %}} ms, indicating that the client clock is slow by about 200 ms. The 2.5 ms of error is a consequence of the asymmetry of the delays (it took longer to send the request than it did to receive the response)." %}}
 {{% picture stem=diagram class=invertible %}}
 {{% /figure %}}
 
@@ -115,15 +115,15 @@ The gap between the receive and transmit timestamps does not contribute to the d
 
 I suppose we could just accept the offset and delay equations as gospel and move on with our lives. Or we could pry. Let's pry.
 
-NTP's main adversary is network delay. The more time that passes during a message exchange, the less certain the algorithm can be about how different the client and server clocks are. The client knows trivially how much time passed from the instant it sent its request to when the response came back: {{< math >}}$ T_\mathrm{destination} - T_\mathrm{origin} ${{< /math >}} encompasses all the network delay encountered in both directions.
+NTP's main adversary is network delay. The more time that passes during a message exchange, the less certain the algorithm can be about how different the client and server clocks are. The client knows trivially how much time passed from the instant it sent its request to when the response came back: {{% math %}} T_\mathrm{destination} - T_\mathrm{origin} {{% /math %}} encompasses all the network delay encountered in both directions.
 
-The server, however, knows things that the client doesn't: The arrival time of the request _and_ the departure time of the response are both available, and the time spent between these two timestamps is _not_ part of network delay. Therefore, the interval {{< math >}}$ T_\mathrm{transmit} - T_\mathrm{receive} ${{< /math >}} can be subtracted from the delay value the client has computed. It does not matter here that the two clocks are unsynchronized; the difference between two timestamps is a relative measurement.
+The server, however, knows things that the client doesn't: The arrival time of the request _and_ the departure time of the response are both available, and the time spent between these two timestamps is _not_ part of network delay. Therefore, the interval {{% math %}} T_\mathrm{transmit} - T_\mathrm{receive} {{% /math %}} can be subtracted from the delay value the client has computed. It does not matter here that the two clocks are unsynchronized; the difference between two timestamps is a relative measurement.
 
 Delay therefore only covers _the time spent actually moving messages over the network._
 
-For offset, there is a bit more blind faith involved. The first subexpression, {{< math >}}$ T_\mathrm{receive} - T_\mathrm{origin} ${{< /math >}}, essentially calculates the client/server offset combined with the network delay on the request side. By itself, there is not enough information to determine how much of the difference is caused by clock offset and how much is network delay.
+For offset, there is a bit more blind faith involved. The first subexpression, {{% math %}} T_\mathrm{receive} - T_\mathrm{origin} {{% /math %}}, essentially calculates the client/server offset combined with the network delay on the request side. By itself, there is not enough information to determine how much of the difference is caused by clock offset and how much is network delay.
 
-The second subexpression, {{< math >}}$ T_\mathrm{transmit} - T_\mathrm{destination} ${{< /math >}}, performs a similar calculation for the response side. Note that in both subexpressions, the server timestamp is the minuend and the client timestamp is the subtrahend. {{% margin-note %}}If my second grade teacher happens to be reading this: Hello! I think this is the first time I've used "minuend" and "subtrahend" in the thirty years since you taught them to me.{{% /margin-note %}} Both sides will produce negative results whenever the client clock is ahead of the server clock, and both will produce positive results otherwise.
+The second subexpression, {{% math %}} T_\mathrm{transmit} - T_\mathrm{destination} {{% /math %}}, performs a similar calculation for the response side. Note that in both subexpressions, the server timestamp is the minuend and the client timestamp is the subtrahend. {{% margin-note %}}If my second grade teacher happens to be reading this: Hello! I think this is the first time I've used "minuend" and "subtrahend" in the thirty years since you taught them to me.{{% /margin-note %}} Both sides will produce negative results whenever the client clock is ahead of the server clock, and both will produce positive results otherwise.
 
 It's important to notice, however, that the _temporal_ ordering of the two subexpressions is mirrored: The request timestamps are in "arrive minus leave" order while the response timestamps are "leave minus arrive." This ends up calculating _positive_ delay on the request side, and _negative_ delay on the response side! {{% margin-note %}}Of all the things I learned while reading about this topic, this was the part that blew my mind once I finally grasped it.{{% /margin-note %}} By adding everything from the two sides together, the offset doubles and the delays---effectively---cancel each other out. Halving the result gives us back our offset, or at least a quite good approximation of it.
 
@@ -206,9 +206,9 @@ LI, VN, and Mode are packed into a single byte on the wire. In our example clien
 
 "**Stratum**" is a measurement of how far removed a server is from the **root clock**, or the original source of true time. For a server connected directly to a high-precision atomic clock or some other preposterously expensive timekeeping apparatus, the Stratum value is 1. This is the purest, most accurate kind of NTP server one can encounter. When some other system synchronizes its clock to this Stratum 1 server, that system becomes a Stratum 2 server---it is one step removed from the source of time. Yet another system may synchronize itself to the Stratum 2 server, becoming a Stratum 3 server, and so on down the line. It's possible to get up to Stratum 15, although timekeeping precision at that point becomes a little questionable. This field is ignored in client requests.
 
-"Poll" is the **poll interval**, expressed as seconds in {{< math >}}$ 2^n ${{< /math >}} form. This is the server's recommendation on the maximum amount of time an SNTP client should wait between successive polls. {{% margin-note %}}As an example, if a server sends the value 6, the client interprets this as {{< math >}}$ 2^6 = 64 ${{< /math >}} seconds, meaning this server should be re-polled about once a minute until advised otherwise.{{% /margin-note %}} This field is ignored in client requests, and is not meaningful for full-fledged NTP clients which make their own decisions about how often to poll the servers.
+"Poll" is the **poll interval**, expressed as seconds in {{% math %}} 2^n {{% /math %}} form. This is the server's recommendation on the maximum amount of time an SNTP client should wait between successive polls. {{% margin-note %}}As an example, if a server sends the value 6, the client interprets this as {{% math %}} 2^6 = 64 {{% /math %}} seconds, meaning this server should be re-polled about once a minute until advised otherwise.{{% /margin-note %}} This field is ignored in client requests, and is not meaningful for full-fledged NTP clients which make their own decisions about how often to poll the servers.
 
-"**Precision**" represents the server's clock precision, expressed as seconds in {{< math >}}$ 2^n ${{< /math >}} form. This field is a signed number and should be negative for any clock capable of sub-second granularity. {{% margin-note %}}As an example, if a server sends the value -8, the client interprets this as {{< math >}}$ 2^{-8} = 0.00390625 ${{< /math >}} seconds, meaning that the smallest time difference this system's clock is able to resolve is about 4 ms. (Its clock objectively sucks.){{% /margin-note %}} This enables the client to determine how many bits of each timestamp's fractional fields have significance. This field is ignored in client requests.
+"**Precision**" represents the server's clock precision, expressed as seconds in {{% math %}} 2^n {{% /math %}} form. This field is a signed number and should be negative for any clock capable of sub-second granularity. {{% margin-note %}}As an example, if a server sends the value -8, the client interprets this as {{% math %}} 2^{-8} = 0.00390625 {{% /math %}} seconds, meaning that the smallest time difference this system's clock is able to resolve is about 4 ms. (Its clock objectively sucks.){{% /margin-note %}} This enables the client to determine how many bits of each timestamp's fractional fields have significance. This field is ignored in client requests.
 
 "Root Delay" is the **total round-trip delay** to the Stratum 1 root clock, in seconds. This is the cumulative count of all delays through all the intermediate strata between this server and the root clock. This field is ignored in client requests.
 

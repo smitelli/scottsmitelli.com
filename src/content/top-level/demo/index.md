@@ -143,13 +143,15 @@ Term Four
 Fourth Term
 : Oh, yeah, you can stack multiple terms if it strikes your fancy.
 
-Did you know that math is a thing? {{% math %}}$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} ${{% /math %}}. Isn't that a strange thing to see on a website? You can also make it big:
+Did you know that math is a thing? {{% math %}} x = {-b \pm \sqrt{b^2-4ac} \over 2a} {{% /math %}}. Isn't that a strange thing to see on a website? You can also make it big:
 
-{{< math >}}$$\begin{bmatrix}
+{{< math true >}}
+\begin{bmatrix}
     a & b \\
     c & d \\
     e & f \\
-\end{bmatrix}$${{< /math >}}
+\end{bmatrix}
+{{< /math >}}
 
 Well that was a whole lot of fun. I really don't know how often I'm going to attempt that. Now it's time to mess around with the heading levels.
 
