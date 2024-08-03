@@ -84,6 +84,11 @@ article, section {
         border-top: 0.05rem solid var(--mid-color);
     }
 
+    mjx-container {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
     p.subheading {
         margin-bottom: 1.8rem;
         font-size: 1.35em;
@@ -113,8 +118,8 @@ article {
     }
 
     @media (max-width: $sm-breakpoint) {
-        #info-box + * {
-            // HACK: "#info-box + .box" borders are tangling up on mobile
+        * + .box, .box + *, {
+            // HACK: ".box" borders are tangling up on mobile
             clear: both;
         }
     }

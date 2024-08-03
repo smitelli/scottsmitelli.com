@@ -34,6 +34,9 @@ hugo gen chromastyles --style=onedark > assets/scss/syntax.scss
 # Lossy
 ffmpeg -i IN.png -codec:v libaom-av1 -still-picture:v 1 OUT.avif
 
+# Lossy with transparency mask
+ffmpeg -i IN.png -map 0 -map 0 -filter:v:1 alphaextract -codec:v libaom-av1 -still-picture:v 1 OUT.avif
+
 # Lossless
 ffmpeg -i IN.png -codec:v libaom-av1 -crf:v 0 -still-picture:v 1 OUT-LOSSLESS.avif
 ```

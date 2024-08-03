@@ -281,6 +281,14 @@ text = 'nginx'
 href = 'https://github.com/isaacs/node-lru-cache'
 text = 'isaacs/lru-cache'
 
+[ntp-pool-project]
+href = 'https://www.ntppool.org/en/'
+text = 'NTP Pool Project'
+
+[ntp-timescale-and-data-formats]
+href = 'https://www.ntp.org/documentation/4.2.8-series/warp/#ntp-timescale-and-data-formats'
+text = 'How NTP Works - NTP Timescale and Data Formats'
+
 [pacifist]
 href = 'https://www.charlessoft.com/'
 text = 'Pacifist'
@@ -304,6 +312,22 @@ text = 'Project Gutenberg'
 [revenews-youtube-audiblemagic]
 href = 'https://web.archive.org/web/20170825000156/http://revenews.com/search-engine-marketing/goog-to-outsource-youtube-filtering-to-audiblemagic/'
 text = 'GOOG to Outsource YouTube Filtering to AudibleMagic'
+
+[rfc867]
+href = 'https://www.rfc-editor.org/rfc/rfc867.html'
+text = 'RFC 867'
+
+[rfc868]
+href = 'https://www.rfc-editor.org/rfc/rfc868.html'
+text = 'RFC 868'
+
+[rfc4330]
+href = 'https://www.rfc-editor.org/rfc/rfc4330.html'
+text = 'RFC 4330'
+
+[rfc4330-client-operations]
+href = 'https://www.rfc-editor.org/rfc/rfc4330.html#section-5'
+text = 'RFC 4330, SNTP Client Operations'
 
 [ruda-font]
 href = 'https://fonts.google.com/specimen/Ruda'
@@ -479,6 +503,10 @@ text = 'Futurama'
 [wiki-hypnotoad]
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
+
+[wiki-segals-law]
+href = 'https://en.wikipedia.org/wiki/Segal%27s_law'
+text = "Segal's Law"
 
 [wiki-south-park]
 href = 'https://en.wikipedia.org/wiki/South_Park'
