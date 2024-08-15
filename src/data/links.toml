@@ -67,6 +67,10 @@ text = 'Patents - Audible Magic'
 href = 'https://web.archive.org/web/20170817034120/http://www.audiocourses.com/2012/02/10/mono-compatibility-and-phase-cancellation/'
 text = 'Mono Compatibility and Phase Cancellation'
 
+[beautifulsoup]
+href = 'https://www.crummy.com/software/BeautifulSoup/'
+text = 'Beautiful Soup'
+
 [ca-street-view-timelapse]
 href = 'https://www.youtube.com/watch?v=b2d-VAAyB9c'
 text = 'Google Street View Time Lapse - 360 Degree Panorama - Pittsburgh, PA to San Mateo, CA'
@@ -219,6 +223,10 @@ text = 'smitelli/isthatcompanyreal.com'
 href = 'https://web.archive.org/web/20170319212321/http://www.youngandablemusic.com/jyh.html'
 text = 'Jim Young'
 
+[josa-population-adjusted-olympics-rankings]
+href = 'https://content.iospress.com/articles/journal-of-sports-analytics/jsa240874'
+text = 'Population-adjusted national rankings in the Olympics'
+
 [keepass]
 href = 'https://keepass.info/'
 text = 'KeePass Password Safe'
@@ -288,6 +296,10 @@ text = 'NTP Pool Project'
 [ntp-timescale-and-data-formats]
 href = 'https://www.ntp.org/documentation/4.2.8-series/warp/#ntp-timescale-and-data-formats'
 text = 'How NTP Works - NTP Timescale and Data Formats'
+
+[olympics-athletes-2024]
+href = 'https://olympics.com/en/paris-2024/athletes'
+text = 'Paris 2024 Olympics - Athletes'
 
 [pacifist]
 href = 'https://www.charlessoft.com/'
@@ -444,6 +456,22 @@ text = 'UTi120P - UNI-T Thermal Imaging'
 href = 'https://web.archive.org/'
 text = 'Wayback Machine'
 
+[wiki-2024-olympics-canada]
+href = 'https://en.wikipedia.org/wiki/Canada_at_the_2024_Summer_Olympics'
+text = 'Canada at the 2024 Summer Olympics'
+
+[wiki-2024-olympics-ghana]
+href = 'https://en.wikipedia.org/wiki/Ghana_at_the_2024_Summer_Olympics'
+text = 'Ghana at the 2024 Summer Olympics'
+
+[wiki-2024-olympics-nations]
+href = 'https://en.wikipedia.org/wiki/Category:Nations_at_the_2024_Summer_Olympics'
+text = 'Nations at the 2024 Summer Olympics'
+
+[wiki-2024-olympics-participating-nocs]
+href = 'https://en.wikipedia.org/wiki/2024_Summer_Olympics#Participating_National_Olympic_Committees'
+text = '2024 Summer Olympics - Participating National Olympic Committees'
+
 [wiki-acoustic-fingerprint]
 href = 'https://en.wikipedia.org/wiki/Acoustic_fingerprint'
 text = 'Acoustic fingerprint'
@@ -476,6 +504,10 @@ text = 'Chef (South Park)'
 href = 'https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio'
 text = 'Compact Disc Digital Audio'
 
+[wiki-country-population]
+href = 'https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population'
+text = 'List of countries and dependencies by population'
+
 [wiki-day-the-earth-stood-stupid]
 href = 'https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Stupid'
 text = 'The Day the Earth Stood Stupid'
@@ -500,6 +532,14 @@ text = 'Engrish'
 href = 'https://en.wikipedia.org/wiki/Futurama'
 text = 'Futurama'
 
+[wiki-help-infobox]
+href = 'https://en.wikipedia.org/wiki/Help:Infobox'
+text = 'Help:Infobox'
+
+[wiki-help-wikitext]
+href = 'https://en.wikipedia.org/wiki/Help:Wikitext'
+text = 'Help:Wikitext'
+
 [wiki-hypnotoad]
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
@@ -523,6 +563,18 @@ text = 'Team America: World Police'
 [wiki-telecine]
 href = 'https://en.wikipedia.org/wiki/Telecine'
 text = 'Telecine'
+
+[wiki-template-infobox-country-at-games]
+href = 'https://en.wikipedia.org/wiki/Template:Infobox_country_at_games'
+text = 'Template:Infobox country at games'
+
+[wiki-template-uk-subdivision-population]
+href = 'https://en.wikipedia.org/wiki/Template:UK_subdivision_population'
+text = 'Template:UK subdivision population'
+
+[wikidata]
+href = 'https://www.wikidata.org/'
+text = 'Wikidata'
 
 [wikipedia]
 href = 'https://www.wikipedia.org/'

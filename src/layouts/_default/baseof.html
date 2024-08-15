@@ -46,10 +46,12 @@
 
         {{/* If a page bundle includes CSS/JS files, inject them into the head */}}
         {{ range page.Resources.Match "*.css" }}
-            <link rel="stylesheet" href="{{ (. | minify | fingerprint).RelPermalink }}">
+            {{ $res := cond (eq hugo.Environment "production") (. | minify | fingerprint) . }}
+            <link rel="stylesheet" href="{{ $res.RelPermalink }}">
         {{ end }}
         {{ range page.Resources.Match "*.js" }}
-            <script src="{{ (. | minify | fingerprint).RelPermalink }}" defer></script>
+            {{ $res := cond (eq hugo.Environment "production") (. | minify | fingerprint) . }}
+            <script src="{{ $res.RelPermalink }}" defer></script>
         {{ end }}
 
         {{/* Ensure the Store object discovers all shortcodes used in the content */}}

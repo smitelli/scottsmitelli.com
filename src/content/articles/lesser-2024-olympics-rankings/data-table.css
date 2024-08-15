@@ -1,0 +1,16 @@
+#data-table table {
+    font-size: 0.9em;
+}
+
+#data-table th {
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#data-table .l {
+    text-align: left;
+}
+
+#data-table .r {
+    text-align: right;
+}
