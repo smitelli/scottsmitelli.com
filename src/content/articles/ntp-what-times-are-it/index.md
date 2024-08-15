@@ -31,7 +31,7 @@ There's a detail in this exchange of messages that's not immediately obvious: As
 
 Ask a typical person the current date, and they'll likely respond with some combination of a month name, day of the month, and maybe a four-digit year if they're a completionist. The thing is, this way of expressing the date involves _a lot_ of complexity. Different months have different numbers of days, the length of February depends on the leap year, the leap year has fiddly rules, {{% margin-note %}}1900 was not a leap year, but 2000 was...{{% /margin-note %}} and so on. The time of day is comparatively easier as long as you disregard time zones, daylight saving time, and leap seconds.{{% margin-note side %}}Or leap smear, if that's your thing{{% /margin-note %}}
 
-Instead of storing time in a human-centric format, computers simply count seconds. Every time their internal timer ticks, a counter is incremented. The value of the counter at any instant reflects the number of seconds that have occurred since the time system's **epoch**, which is the date and time that a count of "zero" represents. {{% margin-note %}}Another way to frame this is to think of the epoch as the moment of the time system's birth. At any point in time, the timestamp represents the age of the time system in seconds.{{% /margin-note %}} All computers that use the same timestamp format must agree to use the same epoch date.
+Instead of storing time in a human-centric format, computers simply count seconds. Every time their internal timer ticks off one second, a counter is incremented. The value of the counter at any instant reflects the number of seconds that have occurred since the time system's **epoch**, which is the date and time that a count of "zero" represents. {{% margin-note %}}Another way to frame this is to think of the epoch as the moment of the time system's birth. At any point in time, the timestamp represents the age of the time system in seconds.{{% /margin-note %}} All computers that use the same timestamp format must agree to use the same epoch date.
 
 Operating systems that descend from Unix conventionally use an epoch of **January 1, 1970 at midnight UTC**, maintaining a count of seconds from this point in time. When this paragraph was written{{% margin-note side %}}August 2024{{% /margin-note %}} the Unix timestamp was approximately 1,722,000,000 seconds.
 
@@ -43,17 +43,17 @@ This scheme of second-counting makes it trivial to determine how to sort events 
 
 A day after the Unix counter started, the timestamp was 86,400 seconds (requiring five decimal digits). After a week it was 604,800 (six digits). Today it takes ten digits to express. As time passes, the number of digits required to store the timestamp grows logarithmically. {{% margin-note %}}That's sorta the whole definition of a logarithm.{{% /margin-note %}}
 
-Computers don't use decimal numbers internally; everything is tracked in binary. The equivalent first-day timestamp was 1 0101 0001 1000 0000 (17 bits), the one-week timestamp was 1001 0011 1010 1000 0000 (20 bits), and today's timestamp is 31 bits that I am not going to bother pasting here.
+Computers don't use decimal numbers internally; everything is tracked in binary using **bits** that are set to either zero or one. The equivalent first-day timestamp was 1 0101 0001 1000 0000 (17 bits), the one-week timestamp was 1001 0011 1010 1000 0000 (20 bits), and today's timestamp is 31 bits that I am not going to bother pasting here.
 
-Every computer has an intrinsic data size that it is designed to work best with (which is why you'll hear classic computers described as "8-bit" or "16-bit" systems; this is their native data size). If a piece of data doesn't fit into the machine's preferred data size, the next-best option is to store the data in some even multiple of that size and work on the calculation in pieces. It is because of these factors that a bunch of things historically ended up being **32 bits** wide. If you're wondering about the largest expressible 32-bit number, it's {{% math %}} 2^{32} = 4,294,967,296 {{% /math %}}. Interpreted as a Unix timestamp, this value is the early morning on February 7, 2106. One second later, the timestamp will **overflow** and return back to zero, {{% margin-note %}}Imagine you were doing a math problem on paper: 99 plus 1. Nine plus one is zero, carry the one. Nine plus one is zero, carry the one again. 100. But in this case there is no space for that leading one in the answer; it just falls away quietly.{{% /margin-note %}} reverting the clock back to 1970.
+Every computer has an intrinsic data size that it is designed to work best with (which is why you'll hear classic computers described as "8-bit" or "16-bit" systems; this is their native data size). If a piece of data doesn't fit into the machine's preferred data size, the next-best option is to store the data in some even multiple of that size and work on the calculation in pieces. It is because of these factors that a bunch of things historically ended up being **32 bits** wide. If you're wondering about the largest expressible 32-bit number, it's {{% math %}} 2^{32} - 1 = 4,294,967,295 {{% /math %}}. Interpreted as a Unix timestamp, this value is the early morning on February 7, 2106. One second later, the timestamp will **overflow** and return back to zero, {{% margin-note %}}Imagine you were doing a math problem on paper: 99 plus 1. Nine plus one is zero, carry the one. Nine plus one is zero, carry the one again. 100. But in this case there is no space for that leading one in the answer; it just falls away quietly.{{% /margin-note %}} reverting the clock back to 1970.
 
-But remember when we said that negative timestamps are permitted? One of those 32 bits is reserved, used as a **sign flag** that indicates whether the number is negative or positive. Our range is actually more like {{% math %}} \pm 2^{31} = \pm 2,147,483,648 {{% /math %}}. The timestamp range here is December 13, 1901 to January 19, 2038. Once Y2K38 comes, systems that use _signed_ 32-bit timestamps will think it's 1901 again. {{% margin-note %}}Better dust off those knickerbockers and corsets.{{% /margin-note %}}
+But remember when we said that negative timestamps are permitted? One of those 32 bits is reserved, used as a **sign flag** that indicates whether the number is negative or positive. Our range is actually more like {{% math %}} \pm 2^{31} - 1 = \pm 2,147,483,647 {{% /math %}}. The timestamp range here is December 13, 1901 to January 19, 2038. Once Y2K38 comes, systems that use _signed_ 32-bit timestamps will think it's 1901 again. {{% margin-note %}}Better dust off those knickerbockers and corsets.{{% /margin-note %}}
 
 The solution, obviously, is to use 64-bit timestamps. By simply doubling the storage size of the timestamp, our timers could tick for hundreds of billions of years without overflowing. In this day and age of staggering storage and bandwidth capacities, only some kind of wiener would use 32 bits for a timestamp.
 
 ## NTP's 32-bit timestamp format
 
-NTP timestamps are positive values that count the number of seconds since the NTP **prime epoch**, which was **midnight UTC on January 1, 1900**. Timestamps are actually 64-bit fixed-width numbers consisting of an unsigned 32-bit seconds field next to an unsigned 32-bit fraction field. As with Unix timestamps, this allows for a range of {{% math %}} 2^{32} = 4,294,967,296 {{% /math %}} seconds with a fractional precision of {{% math %}} 1 \over 4,294,967,296 {{% /math %}} (or {{% math %}} 2.33\times10^{-10} {{% /math %}}) seconds.{{% margin-note side %}}That's how long it takes light to travel about three inches.{{% /margin-note %}}
+NTP timestamps are positive values that count the number of seconds since the NTP **prime epoch**, which was **midnight UTC on January 1, 1900**. Timestamps are actually 64-bit fixed-width numbers consisting of an unsigned 32-bit seconds field next to an unsigned 32-bit fraction field. As with Unix timestamps, this allows for a range of {{% math %}} 2^{32} - 1 = 4,294,967,295 {{% /math %}} seconds with a fractional precision of {{% math %}} 1 \over 4,294,967,296 {{% /math %}} (or {{% math %}} 2.33\times10^{-10} {{% /math %}}) seconds.{{% margin-note side %}}That's how long it takes light to travel about three inches.{{% /margin-note %}}
 
 These 64-bit timestamps can be decoded by splitting them into two 32-bit parts, treating the first part as an integer component and the other as the numerator in the expression {{% math %}} n \over 2^{32} {{% /math %}}. It's also possible to get the correct answer by treating the entire timestamp as an unsigned 64-bit integer and then dividing by {{% math %}} 2^{32} {{% /math %}} to produce a floating-point number of seconds.
 
@@ -63,9 +63,9 @@ NTP's maintainers at least acknowledge that timestamp overflow can happen, and c
 
 So here we are, exchanging messages that can conceivably give us sub-nanosecond precision, but with no absolute way of indicating which century we're in. The NTP software operates under the assumption that the client has some kind of onboard clock that is---at least in the most generous sense--set correctly. In its model, the client and server clocks are trusted to already be accurate to within half an era (so, less than 68 years away from each other). Under those conditions, regular math works correctly and the internal era number can be determined by doing comparisons between two timestamps without explicitly exchanging any era information.
 
-If a na&iuml;ve client boots up with complete chronological amnesia and no sense of what year it is, there's a problem. It cannot know for sure what NTP era the server is calculating its timestamps relative to, and might make an absurdly bad guess. To mitigate this issue, software deployed in these kinds of environments should contain a built-in "earliest reasonable" timestamp that absolutely, positively already occurred. It could be a compile date, a firmware date code, one of the developers' dates of birth, or some other moment that definitely happened in the past and can never happen again. If an NTP server presents a timestamp that occurs before that date, the era number is definitely too low and the next era should be tried. Of course, if a _second_ NTP era has passed since the software was built, you're still going to get the wrong answer doing this.
+If a na&iuml;ve client boots up with complete chronological amnesia and no sense of what year it is, there's a problem. It cannot know for sure what NTP era the server is calculating its timestamps relative to, and might make an absurdly bad guess. To mitigate this issue, software deployed in these kinds of environments should contain a built-in "earliest reasonable" timestamp that absolutely, positively already occurred. It could be a compile date, a firmware date code, one of the developers' dates of birth, or some other moment that definitely happened in the past and can never happen again. If an NTP server presents a timestamp that occurs before that date, the era number is definitely too low and the next era should be tried. Of course, if a _second_ NTP era has passed since the software was built, we're still going to get the wrong answer doing this.
 
-Still, with just a small piece of guard code, you can kick the problem from February 7, 2036{{% margin-note side %}}A date by which I plan to be thoroughly retired from the tech industry{{% /margin-note %}} to March 15, 2172{{% margin-note side %}}A date by which I plan to be thoroughly dead{{% /margin-note %}}.
+Still, with just a small piece of guard code, we can kick the problem from February 7, 2036{{% margin-note side %}}A date by which I plan to be thoroughly retired from the tech industry{{% /margin-note %}} to March 15, 2172{{% margin-note side %}}A date by which I plan to be thoroughly dead{{% /margin-note %}}.
 
 {{% box %}}**Note:** There is an alternative algorithm proposed by {{% link rfc4330 /%}} that involves checking the most significant bit in the response timestamp. If it is set, use 1900 as the epoch as usual. If it is clear, use 2036 as the epoch. This permits timestamps from 1968 to 2104 to be handled.{{% /box %}}
 
@@ -138,19 +138,18 @@ SNTP and NTP are identical protocols over the wire, and an SNTP client can acqui
 {{% figure caption="Extremely tiny SNTP client written in Python. I suppose you could do the same with something like Bash + netcat if you were a masochist." %}}
 
 ```python
-import struct
 from datetime import datetime, timedelta, timezone
 from socket import SOCK_DGRAM, socket
+from struct import pack, unpack
 
 PRIME_EPOCH = datetime(1900, 1, 1, tzinfo=timezone.utc)
 
-request = struct.pack('!B47x', 0x23)
 client = socket(type=SOCK_DGRAM)
+request = pack('!B47x', 0x23)
 client.sendto(request, ('pool.ntp.org', 123))
-response, _ = client.recvfrom(256)
-(tx_ts, ) = struct.unpack('!40xQ', response)
-
-print(PRIME_EPOCH + timedelta(seconds=tx_ts / (2 ** 32)))
+response = client.recv(64)
+(t_transmit, ) = unpack('!40xQ', response)
+print(PRIME_EPOCH + timedelta(seconds=t_transmit / (2 ** 32)))
 ```
 {{% /figure %}}
 
