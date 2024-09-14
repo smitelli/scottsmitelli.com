@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="815.54138"
+   height="299.71326"
+   viewBox="0 0 215.77865 79.299135"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="projection-plane-source.svg"
+   inkscape:export-filename="D:\ssmitelli\cyghome\projects\scottsmitelli.com\src\content\articles\raycast\projection-plane.png"
+   inkscape:export-xdpi="181.28"
+   inkscape:export-ydpi="181.28"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="1.1473395"
+     inkscape:cx="404.84966"
+     inkscape:cy="157.75627"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker20372"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="StopL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,5.65 V -5.65"
+         id="path20370" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="StopL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="StopL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,5.65 V -5.65"
+         id="path20271" />
+    </marker>
+    <rect
+       x="332.65079"
+       y="160.44696"
+       width="323.66025"
+       height="58.092861"
+       id="rect5597" />
+    <rect
+       x="332.65079"
+       y="160.44696"
+       width="323.66025"
+       height="58.092861"
+       id="rect6811" />
+    <rect
+       x="332.65079"
+       y="160.44696"
+       width="323.66025"
+       height="58.092861"
+       id="rect10830" />
+    <rect
+       x="332.65079"
+       y="160.44696"
+       width="323.66025"
+       height="58.092861"
+       id="rect14306" />
+    <rect
+       x="332.65079"
+       y="160.44696"
+       width="323.66025"
+       height="58.092861"
+       id="rect18038" />
+    <rect
+       x="332.65079"
+       y="160.44696"
+       width="323.66025"
+       height="58.092861"
+       id="rect21356" />
+    <rect
+       x="332.65079"
+       y="160.44696"
+       width="323.66025"
+       height="58.092861"
+       id="rect26514" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.4317169,-70.771908)">
+    <path
+       style="fill:none;stroke:#a8a8a8;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 87.771288,82.679121 H 12.39998 l 75.371308,63.244049"
+       id="path1394"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#40bfbf;stroke:#000000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:0.2"
+       d="M 163.1426,82.679117 87.771288,145.92317 V 82.679117 Z"
+       id="path857"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a8a8a8;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path8271"
+       sodipodi:type="arc"
+       sodipodi:cx="87.771286"
+       sodipodi:cy="145.92317"
+       sodipodi:rx="6.6145835"
+       sodipodi:ry="6.6145835"
+       sodipodi:start="3.8484065"
+       sodipodi:end="5.5266043"
+       sodipodi:arc-type="arc"
+       d="m 82.741326,141.62757 a 6.6145835,6.6145835 0 0 1 4.865382,-2.31693 6.6145835,6.6145835 0 0 1 4.974618,2.07202"
+       sodipodi:open="true" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 88.153569,89.201698 h 6.151563 v -6.151563"
+       id="path1214" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.175, 3.175;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -5.4317169,82.679121 H 181.63677"
+       id="path3432"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,66.547489,38.084856)"
+       id="text5595"
+       style="font-weight:bold;font-size:13.3333px;line-height:1.25;font-family:roboto;-inkscape-font-specification:'roboto Bold';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5597)"><tspan
+         x="445.12187"
+         y="172.1139"
+         id="tspan28092">Projection Plane</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-42.985489,104.49812)"
+       id="text6809"
+       style="font-weight:bold;font-size:13.3333px;line-height:1.25;font-family:roboto;-inkscape-font-specification:'roboto Bold';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6811)"><tspan
+         x="447.41028"
+         y="172.1139"
+         id="tspan28094">Viewer Position</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path10658"
+       sodipodi:type="arc"
+       sodipodi:cx="87.771286"
+       sodipodi:cy="145.92317"
+       sodipodi:rx="12.082553"
+       sodipodi:ry="12.082553"
+       sodipodi:start="4.7116499"
+       sodipodi:end="5.5784324"
+       sodipodi:arc-type="arc"
+       d="m 87.762356,133.84062 a 12.082553,12.082553 0 0 1 9.213076,4.25492"
+       sodipodi:open="true" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-57.797677,99.279587)"
+       id="text10828"
+       style="font-weight:bold;font-size:13.3333px;line-height:1.25;font-family:roboto;-inkscape-font-specification:'roboto Bold';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect10830);fill:#a8a8a8;fill-opacity:1"><tspan
+         x="461.52482"
+         y="172.1139"
+         id="tspan28096">FOV (100°)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,10.035053,95.829433)"
+       id="text14304"
+       style="font-weight:bold;font-size:13.3333px;line-height:1.25;font-family:roboto;-inkscape-font-specification:'roboto Bold';text-align:start;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect14306)"
+       x="-46.695847"
+       y="0"><tspan
+         x="332.65039"
+         y="172.1139"
+         id="tspan28098">θ = Half FOV (50°)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-87.285483,51.631907)"
+       id="text18036"
+       style="font-weight:bold;font-size:13.3333px;line-height:1.25;font-family:roboto;-inkscape-font-specification:'roboto Bold';text-align:start;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect18038)"
+       x="60.439297"
+       y="0"><tspan
+         x="495.2758"
+         y="172.1139"
+         id="tspan28102"><tspan
+           style="text-align:end;text-anchor:end"
+           id="tspan28100">Adj = Distance from viewer
+</tspan></tspan><tspan
+         x="524.2601"
+         y="188.78053"
+         id="tspan28106"><tspan
+           style="text-align:end;text-anchor:end"
+           id="tspan28104">to projection plane (6)</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396874;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#marker20372)"
+       d="M 12.217699,75.582685 H 163.31914"
+       id="path20067" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-5.3554313,41.291516)"
+       id="text21354"
+       style="font-weight:bold;font-size:13.3333px;line-height:1.25;font-family:roboto;-inkscape-font-specification:'roboto Bold';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect21356)"><tspan
+         x="430.96175"
+         y="172.1139"
+         id="tspan28108">Opp = Half projection
+</tspan><tspan
+         x="436.37515"
+         y="188.78053"
+         id="tspan28110">plane width (≈7.15)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-43.077512,28.017069)"
+       id="text26512"
+       style="font-weight:bold;font-size:13.3333px;line-height:1.25;font-family:roboto;-inkscape-font-specification:'roboto Bold';text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect26514)"><tspan
+         x="403.99567"
+         y="172.1139"
+         id="tspan28112">Projection plane width (≈14.3)</tspan></text>
+  </g>
+</svg>

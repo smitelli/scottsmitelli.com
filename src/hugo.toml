@@ -26,4 +26,5 @@ title = 'Scott Smitelli'
 
   [params.shortcode]
     audioPreferredTypes = ['audio/mpeg', 'audio/flac']
+    pictureEagerMaximum = 2
     pictureFallbackTypes = ['image/jpeg', 'image/png', 'image/gif']

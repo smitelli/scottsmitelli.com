@@ -32,13 +32,17 @@
     {{- end }}
 {{- end }}
 
+{{- .Page.Scratch.Add "shortcodesPictureIndex" 1 }}
+{{- $index := .Page.Scratch.Get "shortcodesPictureIndex" }}
+{{- $loading := cond (gt $index site.Params.shortcode.pictureEagerMaximum) "lazy" "eager" }}
+
 {{- "" }}<picture>
     {{- range $matches }}
         {{- "" }}<source srcset="{{ .RelPermalink }}" type="{{ .MediaType.Type }}">
     {{- end }}
     {{- with index (where $matches "MediaType.Type" "in" $fallback) 0 }}
         {{- "" }}<img
-            {{- " " | safeHTMLAttr }}src="{{ .RelPermalink }}"
+            {{- " " | safeHTMLAttr }}src="{{ .RelPermalink }}" loading="{{ $loading }}"
             {{- " " | safeHTMLAttr }}width="{{ .Width }}" height="{{ .Height }}"
             {{- with $alt }} alt="{{ . }}"{{ end }}
             {{- with $class }} class="{{ . }}"{{ end }}>

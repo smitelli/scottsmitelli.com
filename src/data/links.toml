@@ -139,6 +139,10 @@ text = 'Debian'
 href = 'https://www.discogs.com/release/713545-Various-Chef-Aid-The-South-Park-Album'
 text = 'Various --- Chef Aid: The South Park Album'
 
+[discord]
+href = 'https://discord.com/'
+text = 'Discord'
+
 [docroute-source]
 href = 'https://github.com/smitelli/docroute'
 text = 'smitelli/docroute'
@@ -385,6 +389,10 @@ text = 'Speed Class'
 href = 'https://github.com/smitelli/sort_of_face'
 text = 'smitelli/sort_of_face'
 
+[stackoverflow]
+href = 'https://stackoverflow.com/'
+text = 'Stack Overflow'
+
 [stow]
 href = 'https://www.gnu.org/software/stow/'
 text = 'GNU Stow'
@@ -544,6 +552,14 @@ text = 'Help:Wikitext'
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
 
+[wiki-off-by-one-error]
+href = 'https://en.wikipedia.org/wiki/Off-by-one_error'
+text = 'Off-by-one error'
+
+[wiki-ray-casting]
+href = 'https://en.wikipedia.org/wiki/Ray_casting'
+text = 'Ray Casting'
+
 [wiki-segals-law]
 href = 'https://en.wikipedia.org/wiki/Segal%27s_law'
 text = "Segal's Law"
@@ -571,6 +587,14 @@ text = 'Template:Infobox country at games'
 [wiki-template-uk-subdivision-population]
 href = 'https://en.wikipedia.org/wiki/Template:UK_subdivision_population'
 text = 'Template:UK subdivision population'
+
+[wiki-ulp]
+href = 'https://en.wikipedia.org/wiki/Unit_in_the_last_place'
+text = 'Unit in the last place'
+
+[wiki-wolfenstein-3d]
+href = 'https://en.wikipedia.org/wiki/Wolfenstein_3D'
+text = 'Wolfenstein 3D'
 
 [wikidata]
 href = 'https://www.wikidata.org/'
