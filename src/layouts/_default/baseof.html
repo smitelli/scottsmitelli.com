@@ -57,7 +57,7 @@
         {{/* Ensure the Store object discovers all shortcodes used in the content */}}
         {{ $_ := .Content }}
 
-        {{ if page.Store.Get "uses-math" }}
+        {{ if and (page.Store.Get "uses-math") (not .IsHome) }}
             <script>
                 window.MathJax = {
                     tex: {
