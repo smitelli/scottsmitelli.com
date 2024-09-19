@@ -19,6 +19,10 @@ title = 'Scott Smitelli'
   copyrightStartYear = 2007
   myAgeBasis = 1986-03-01
 
+  # These defaults bolster Hugo's built-in OpenGraph/social templates
+  images = ['/img/mortal-damage.jpg']
+  title = 'Scott Smitelli'
+
   [params.mathjax]
     # curl https://<...>.js | sha384sum -b | awk '{ print $1 }' | xxd -r -p | base64
     integrity = 'sha384-NuejywWq7I0qomITfCQmoQ6vhoRC4keD8iNHdUWSqnBoPoQIAccbA/d6uU7oZaic'
@@ -28,3 +32,7 @@ title = 'Scott Smitelli'
     audioPreferredTypes = ['audio/mpeg', 'audio/flac']
     pictureEagerMaximum = 2
     pictureFallbackTypes = ['image/jpeg', 'image/png', 'image/gif']
+
+  [params.social]
+    # I don't personally care, but somebody out there might
+    twitter = '@smitelli'

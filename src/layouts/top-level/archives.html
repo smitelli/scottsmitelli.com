@@ -10,7 +10,8 @@
                 <li><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .LinkTitle | markdownify }}</a></li>
             {{ end }}
         </ul>
-<!--
+<!--    `series` - https://github.com/gohugoio/hugo/blob/v0.121.0/tpl/tplimpl/embedded/templates/opengraph.html
+        * - https://github.com/gohugoio/hugo/blob/v0.121.0/tpl/tplimpl/embedded/templates/schema.html#L16
         {{ markdownify "## Taxonomies" }}
         <ul>
             {{ range $k, $v := site.Taxonomies }}
