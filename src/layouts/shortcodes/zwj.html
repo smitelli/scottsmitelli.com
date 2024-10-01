@@ -1,0 +1,7 @@
+{{/*
+    Returns a unicode "Zero Width Joiner" character and nothing else, intended
+    to be used in places where the Markdown renderer is interpreting text as a
+    URL or email address and turning it into an unwanted link.
+*/}}
+
+{{- "" -}}&zwj;{{- "" -}}

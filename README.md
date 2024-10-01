@@ -6,6 +6,21 @@ My personal website, hosted at [scottsmitelli.com](https://www.scottsmitelli.com
 
 This project requires the [Hugo](https://gohugo.io/) Extended build, and was most recently verified against Hugo v0.121.0.
 
+### Installing an old Hugo version (on macOS)
+
+Typically I would install this using Homebrew, but after years of fighting with the tool and adapting to its breakneck pace of internal changes, I simply gave up. Instead, I pull the binary for the version I need straight from the GitHub release and jam it into `bin`.
+
+```bash
+SRC=https://github.com/gohugoio/hugo/releases/download/v0.121.0/hugo_extended_0.121.0_darwin-universal.tar.gz
+curl -fL "$SRC" | tar xf - -C /usr/local/bin hugo
+```
+
+To uninstall:
+
+```bash
+rm /usr/local/bin/hugo
+```
+
 ## Build the site
 
 This requires a working `hugo` binary.

@@ -5,6 +5,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no">
+        <meta name="theme-color" content="hsl(0.6turn 85% 50%)" media="(prefers-color-scheme: light)">
+        <meta name="theme-color" content="hsl(0.6turn 85% 30%)" media="(prefers-color-scheme: dark)">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         {{ with site.Home.OutputFormats.Get "rss" }}
@@ -18,14 +20,17 @@
 
         <link rel="canonical" href="{{ .Permalink }}">
 
-        {{ range $size := slice 180 32 16 }}
-            {{ with resources.Get (printf "img/favicon-%d.png" $size) }}
-                {{ if eq $size 180 }}
+        {{ range $tag := slice 180 32 16 }}
+            {{ with resources.Get (printf "img/favicon-%d.png" $tag) }}
+                {{ if eq $tag 180 }}
                     <link rel="apple-touch-icon" sizes="{{ .Width }}x{{ .Height }}" href="{{ .RelPermalink }}">
                 {{ else }}
                     <link rel="icon" type="{{ .MediaType.Type }}" sizes="{{ .Width }}x{{ .Height }}" href="{{ .RelPermalink }}">
                 {{ end }}
             {{ end }}
+        {{ end }}
+        {{ with resources.Get "img/favicon.svg" }}
+            <link rel="icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}">
         {{ end }}
         {{ with resources.Get "img/favicon.ico" }}
             <link rel="shortcut icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}">

@@ -175,6 +175,18 @@ text = 'Game Engine Black Book: Wolfenstein 3D'
 href = 'https://gist.github.com/smitelli/8b5602cea0be3830c6f80802b3c4ff5c'
 text = 'ti250tool.py'
 
+[internetbestsecrets-google-calendar-event-images]
+href = 'http://www.internetbestsecrets.com/2019/09/google-calendar-event-images.html'
+text = 'Google Calendar event images'
+
+[google-contacts]
+href = 'https://contacts.google.com/'
+text = 'Google Contacts'
+
+[google-street-view]
+href = 'https://www.google.com/streetview/'
+text = 'Google Street View'
+
 [googleblog-making-money-on-youtube-with-content-id]
 href = 'https://googleblog.blogspot.com/2008/08/making-money-on-youtube-with-content-id.html'
 text = 'Making money on YouTube with Content ID'
@@ -345,6 +357,10 @@ text = 'RFC 4330'
 href = 'https://www.rfc-editor.org/rfc/rfc4330.html#section-5'
 text = 'RFC 4330, SNTP Client Operations'
 
+[rfc6474]
+href = 'https://www.rfc-editor.org/rfc/rfc6474.html'
+text = 'RFC 6474'
+
 [ruda-font]
 href = 'https://fonts.google.com/specimen/Ruda'
 text = 'Ruda'
@@ -396,6 +412,10 @@ text = 'Stack Overflow'
 [stow]
 href = 'https://www.gnu.org/software/stow/'
 text = 'GNU Stow'
+
+[cplusplus-strstr]
+href = 'https://cplusplus.com/reference/cstring/strstr/'
+text = 'strstr()'
 
 [tco-before]
 href = 'https://t.co/o5DFjS0SDq'
@@ -591,6 +611,14 @@ text = 'Template:UK subdivision population'
 [wiki-ulp]
 href = 'https://en.wikipedia.org/wiki/Unit_in_the_last_place'
 text = 'Unit in the last place'
+
+[wiki-vcard]
+href ='https://en.wikipedia.org/wiki/VCard'
+text = 'vCard'
+
+[wiki-wizard-software]
+href = 'https://en.wikipedia.org/wiki/Wizard_(software)'
+text = 'Wizard (software)'
 
 [wiki-wolfenstein-3d]
 href = 'https://en.wikipedia.org/wiki/Wolfenstein_3D'
