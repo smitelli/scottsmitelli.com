@@ -5,6 +5,7 @@ linkTitle = 'Credits'
 description = 'This page contains a chronological listing of all the film and video projects I have worked on as a freelancer.'
 articleForm = 'short'
 skipInfoBox = true
+excludeFromRss = true
 
 [menus.main]
 weight = 30

@@ -19,6 +19,7 @@ skipPageHeader = false
 skipPageFooter = false
 skipTitle = false
 skipInfoBox = false
+excludeFromRss = true
 
 [[infoBox]]
 key = 'Info-Box Key 1'

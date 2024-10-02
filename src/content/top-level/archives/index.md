@@ -3,6 +3,7 @@ url = 'archives'
 layout = 'archives'
 title = 'Archives'
 description = 'The main index of all content that has ever been published on this site.'
+excludeFromRss = true
 
 [menus.main]
 weight = 10

@@ -5,6 +5,7 @@ linkTitle = 'About/Contact'
 description = "A bit of information about Scott Smitelli (this site's owner) and his contact information."
 articleForm = 'short'
 skipInfoBox = true
+excludeFromRss = true
 
 [menus.main]
 weight = 20

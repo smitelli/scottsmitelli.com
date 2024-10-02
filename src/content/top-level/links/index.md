@@ -3,6 +3,7 @@ url = 'links'
 layout = 'links'
 title = 'Links'
 description = 'A list of every external link that has been used on this site.'
+excludeFromRss = true
 
 [menus.main]
 weight = 1000

@@ -6,6 +6,7 @@ articleColumns = 'one'
 articleForm = 'short'
 skipTitle = true
 skipInfoBox = true
+excludeFromRss = true
 
 [menus.main]
 weight = 20
