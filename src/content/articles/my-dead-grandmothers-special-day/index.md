@@ -2,6 +2,7 @@
 title = "This is [my dead grandmother]'s special day!"
 description = "Everybody has their own unique way of processing and dealing with grief. There's not really any right or wrong way to do it. Except for Google Calendar---they are absolutely doing it wrong."
 date = 2024-09-30
+lastmod = 2024-10-03
 +++
 
 When you get right down to it, there is really only one thing that we can all predict with absolute certainty: We are all going to die someday. Each and every person you have ever met will either outlive you _or_ be outlived by you.{{% margin-note side %}}Barring some freak accident or staggering coincidence where you die simultaneously.{{% /margin-note %}} I lead with this wholly dour introduction to really drive home how difficult it can be sometimes to voluntarily think about such things even though they are _absolutely going to happen to you, me, and everybody._
@@ -52,7 +53,7 @@ The fields on these contacts are called _significant_ dates. Not _happy_ dates. 
 
 There are all kinds of things a person might want to commemorate. Some, like birthdays and anniversaries, are happy occasions. Not everything is. Some people might use these fields to remind them of something somber or sad. The date a person went away. The date somebody went through something unthinkable. A date on which one chapter closed, and a significantly different one opened. Just because we choose to remember a date doesn't automatically mean we want to be _happied at_ each that date recurs.
 
-There is actually an {{% link rfc6474 %}}entire goddamn RFC{{% /link %}} that adds `DEATHDATE` and `DEATHPLACE` to the list of properties that can be stored in a vCard,{{% margin-note side %}}The fact that this document was published in December 2021---right in the middle of a gnarly COVID-19 variant---is certainly a mood.{{% /margin-note %}} although Google Contacts does not seem to understand how to import or preserve them.
+There is actually an {{% link rfc6474 %}}entire goddamn RFC{{% /link %}} that adds `DEATHDATE` and `DEATHPLACE` to the list of properties that can be stored in a vCard,{{% margin-note side %}}This document was published _twelve years ago_ and yet I've never seen any mention of it---much less an actual implementation in a user-facing product---prior to writing this article.{{% /margin-note %}} although Google Contacts does not seem to understand how to import or preserve them.
 
 ## Computers are as dumb as we tell them to be
 
