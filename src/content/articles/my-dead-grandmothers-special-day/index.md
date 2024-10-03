@@ -29,7 +29,7 @@ Last summer, my grandmother died. She had just turned 98 and, quite frankly, she
 {{% picture stem=contact-dates %}}
 {{% /figure %}}
 
-I've been using Google for email for close to twenty years, and continue to use it mainly out of habit.{{% margin-note side %}}And sheer migration difficulty. And laziness.{{% /margin-note %}} Due to the tight integration between services, I also use Google's Calendar and Contacts products. Google maintains the primary copy of my contacts list, and all the devices I use on a day-to-day basis synchronize with that. As a result, mg grandmother's contact---her mini-memorial---lives in Google.
+I've been using Google for email for close to twenty years, and continue to use it mainly out of habit.{{% margin-note side %}}And sheer migration difficulty. And laziness.{{% /margin-note %}} Due to the tight integration between services, I also use Google's Calendar and Contacts products. Google maintains the primary copy of my contacts list, and all the devices I use on a day-to-day basis synchronize with that. As a result, my grandmother's contact---her mini-memorial---lives in Google.
 
 ## Baffling product decisions
 
