@@ -1,0 +1,153 @@
++++
+title = "The Fake Fixation"
+description = "TODO."
+date = 2024-11-04
++++
+
+{{% epigraph %}}
+> If I say "fake" two more times \
+> That's forty-six "fake"&zwj;s in this faked up rhyme.
+> <footer>(Probably) Fred Durst</footer>
+{{% /epigraph %}}
+
+Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
+
+- Fake It / Seether / Finding Beauty in Negative Spaces / 2007
+- I'm a Fake / The Used / Berth / 2007
+- Don't Fake This / Chevelle / Wonder What's Next / 2002
+- Counterfeit / Limp Bizkit / The Collected / 2008
+- If It Ain't Broke Break It / Meat Loaf / Bat Out of Hell III: The Monster Is Loose / 2006
+- Battle for the Sun / Placebo / Battle for the Sun / 2009
+- Nuttin' But a Bitch Thang / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
+- Stupid Girl / Garbage / Absolute Garbage / 2007
+- Moron / Sum 41 / Go Chuck Yourself / 2006
+- Motivation / Sum 41 / Go Chuck Yourself / 2006
+- Fake / Busted / A Present for Everyone / 2004
+- Fake / Shinedown / Us and Them [Bonus Tracks] / 2005
+- Mara and Me / Say Anything / Say Anything / 2009
+- Complicated [Video] / Avril Lavigne / My World / 2003
+- Explode / Nelly Furtado / Folklore / 2003
+- Admit It!!! / Say Anything / ...Is a Real Boy / 2004
+- Changes / Godsmack / Faceless / 2003
+- Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
+- Together / The Mighty Mighty Bosstones / Pay Attention [Australia Bonus Tracks] / 2000
+- Weather Channel / Sheryl Crow / C'mon, C'mon [Japan Bonus CD] /2002
+- Womanizer / Britney Spears / The Singles Collection [Box Set] / 2009
+- Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000
+- (Can't Get My) Head Around You / The Offspring / Greatest Hits [Australia Bonus Tracks] / 2005
+- Will You / P.O.D. / Payable on Death / 2003
+- I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies [Maxi Single] / 2007
+- Shattered / O.A.R. / Rain or Shine / 2010
+- Goodbye / SR-71 / Tomorrow [Bonus Track] / 2002
+- Revenga / System of a Down / Mezmerize / 2005
+- Topless / Breaking Benjamin / Phobia [Bonus Tracks/Bonus DVD] / 2006
+- Cross to Bear / Staind / Chapter V / 2005
+- Death Rattle / Pantera / Reinventing the Steel / 2000
+- Normal / Foo Fighters / Times Like These / 2003
+- Fell on Black Days [Alternate Take] / Soundgarden / Telephantasm [CD/DVD] / 2010
+- Anxiety / Good Charlotte / The Greatest Remixes / 2008
+- Let You Down / P.O.D. / Testify [Bonus Track] / 2006
+- What I Believe / Sum 41 / Half Hour of Power / 2000
+- Magic's in the Makeup / No Doubt / Return of Saturn / 2000
+- All My Friends / Our Lady Peace / Spiritual Machines / 2001
+- Blood on the Table / Puddle of Mudd / Volume 4: Songs in the Key of Love & Hate / 2009
+- Motivation / Sheryl Crow / Detours / 2008
+- Out of My Depth / Everclear / Songs from an American Movie, Vol. 2: Good Time for a Bad Attitude [Clean] / 2000
+- Not as We / Alanis Morissette / Not as We / 2008
+- (Can't Get My) Head Around You [DVD] / The Offspring / Greatest Hits [DualDisc] / 2005
+- Topless [DVD] / Breaking Benjamin / Phobia [CD/DVD] / 2006
+- F*** You / Damageplan / New Found Power / 2004
+- Over My Head (Better off Dead) / Sum 41 / Does This Look Infected? / 2002
+- Pardon Me / Staind / Illusion of Progress / 2008
+- Take This / Staind / Chapter V [Clean] / 2005
+- Hide Away / Hilary Duff / Hilary Duff / 2004
+- LAX / Big D and the Kids Table / How It Goes / 2004
+- Fear Is a Place to Live / Korn / Korn III: Remember Who You Are / 2010
+- Sorry / Dry Cell / Disconnected / 2002
+- Make It Right / New Found Glory / Coming Home [International Version] / 2006
+- Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010
+- P*** It All Away / Puddle of Mudd / Come Clean [UK Bonus Tracks] / 2001
+- My Bionic Eyes / Liz Phair / Liz Phair / 2003
+- Pretty Fly (For a White Guy) [DVD] / The Offspring / Greatest Hits [DualDisc] / 2005
+- You Get What You Give [Album Version] / The New Radicals / The Trip: Dirty Vegas / 2003
+- Dream On / Robyn / Robyn / 2005
+- Forever / Kid Rock / Cocky / 2001
+- Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
+- Jesus Frankenstein / Rob Zombie / Hellbilly Deluxe, Vol. 2 / 2010
+- We'll Grind That Axe for a Long Time / Pantera / Reinventing the Steel [Bonus Disc] / 2000
+- Fuck the World / Insane Clown Posse / Jugganauts: The Best of Insane Clown Posse / 2007
+- Step Down / Sick of It All / The Story So Far / 2001
+- But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005
+- The Last Tear / Trapt / Only Through the Pain / 2008
+- Teardrops On My Guitar [Acoustic] [acoustic ] / Taylor Swift / Beautiful Eyes / 2008
+- Never Gonna Leave This Bed / Maroon 5 / Hands All Over / 2010
+- I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
+- Hemorrhage (In My Hands) / Fuel / ...
+- Stacked Actors [Live] / Foo Fighters / Breakout [Japan CD] / 2000
+- Vultures / The Offspring / Conspiracy of One / 2000
+- The Enemy / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
+- Storm in a Teacup / Red Hot Chili Peppers / Stadium Arcadium / 2006
+- Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
+- Places You Have Come to Fear the Most / Dashboard Confessional / The Places You Have Come to Fear the Most [Bonus Track] / 2001
+- Dreams / Taproot / Welcome / 2002
+- Box / Tokyo Police Club / Smith / 2007
+- Who's the Criminal / Kottonmouth Kings / Fire It Up / 2004
+- ashes and ghosts / The Cult / Beyond Good and Evil / 2001
+- Boom Boom / Macy Gray / Desperate Housewives / 2005
+- Houses of Cards / Zeromancer / Clone Your Lover / 2000
+- I've Got a Dark Alley and a Bad Idea That Says You Should Shut Your Mou / Fall Out Boy / From Under the Cork Tree / 2005
+- No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006
+- Teenage Dirtbag / Wheatus / Teenage Dirtbag / 2000
+- Drop It Like It's Hot [DVD] / Snoop Dogg / Drop It Like It's Hot / 2006
+- In Too Deep [Multimedia Track] / Sum 41 / All Killer No Filler [Bonus Disc] / 2001
+- Welcome to My Life / Simple Plan / Welcome To My Life Pt.1 (2 Tracks) / 2004
+- Blurry / Puddle of Mudd / Come Clean / 2001
+- Just Like You / Three Days Grace / Three Days Grace / 2003
+- I Just Wanna Live / Good Charlotte / The Chronicles of Life and Death / 2004
+- One Week [Live] / Barenaked Ladies / Extended Versions / 2006
+- Boom! / System of a Down / Steal This Album! / 2002
+- Pushing Me Away / Linkin Park / Hybrid Theory / 2000
+- Spinning Around [DVD] / Kylie Minogue /Body Language: Live / 2004
+- Asylum / Disturbed / Asylum / 2010
+- Slipped Away / Avril Lavigne / Under My Skin / 2004
+- No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000
+- Burn / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
+- No Reason / Sum 41 / Chuck [Bonus Track] / 2004
+- Bojangles [Main] / Pitbull / Bojangles / 2006
+- Believe [Explicit Version] / Staind / Believe / 2008
+- Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000
+- Love You Madly / Cake / Comfort Eagle / 2001
+- Satellite / P.O.D. / Satellite / 2001
+- Dig In / Lenny Kravitz / Lenny / 2001
+- Cold Wind Blows / Eminem / Recovery / 2010
+- Forget It / Breaking Benjamin / We Are Not Alone / 2004
+- Just Want You to Know / Backstreet Boys / Never Gone [Germany Bonus DVD] / 2005
+- I Fucking Hate You / Godsmack / Faceless / 2003
+- Turn on Me / The Shins / Wincing the Night Away / 2007
+- Cold As You / Taylor Swift / Taylor Swift / 2006
+- Goddamn Electric / Pantera / Reinventing the Steel / 2000
+- Holding On / Simple Plan / Simple Plan [Napster Exclusive] / 2008
+- Fake / Korn / Korn/Follow the Leader / 2005
+- Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001
+- Suture Up Your Future / Queens of the Stone Age / Era Vulgaris [European Tour Edition] / 2007
+- I Do / Chingy / Powerballin' [Clean] / 2004
+- Someday / Crossfade / Falling Away / 2006
+- Ka-Boom Ka-Boom / Marilyn Manson / The Golden Age of Grotesque / 2003
+- Blood on the Ground / Incubus / Morning View / 2001
+- This Is the Place / Red Hot Chili Peppers / By the Way / 2002
+- Phase / Breaking Benjamin / Digital Box Set / 2009
+- That's How Strong My Love Is / Alicia Keys / The Element of Freedom / 2009
+- Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006
+- So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
+- Story of a Lonely Guy / blink-182 / Take Off Your Pants and Jacket / 2001
+- Breezy / JoJo / Jo Jo / 2004
+- Phenomenon / Limp Bizkit / Results May Vary / 2003
+- Wind it Up / Barenaked Ladies / Barenaked Ladies Are Men / 2007
+- Crumble / Dinosaur Jr. / Beyond / 2007
+- Execute The Sounds / P.O.D. / Payable on Death / 2003
+- Sending Postcards From a Plane Crash (Wish You Were Here) / Fall Out Boy / Take This To Your Grave / 2003
+- Straight To Your Face / Hatebreed / The Rise of Brutality / 2003
+- Don't Think You're the First / The Coral / Magic and Medicine / 2003
+- Billy Spleen / Sum 41 / Does This Look Infected? [Clean] / 2002
+- Bed of Lies / Matchbox Twenty / Yourself or Someone Like You/Mad Season / 2008
+https://www.lyrics.com/serp.php?st=fake&p=80&dec=2000
