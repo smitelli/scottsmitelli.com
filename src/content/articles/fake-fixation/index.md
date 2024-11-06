@@ -12,24 +12,42 @@ date = 2024-11-04
 
 Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 
-- (Can't Get My) Head Around You / The Offspring / Greatest Hits [Australia Bonus Tracks] / 2005
-- 6 in the Morning / D12 / D12 World / 2004
-- A View To Save / Rufio / The Comfort of Home / 2005
-- Adjustments / Smile Empty Soul / Vultures / 2006
-- Admit It!!! / Say Anything / ...Is a Real Boy / 2004
-- Ain't It the Life [DVD] / Foo Fighters / Skin and Bones [DVD] / 2006
-- All My Friends / Our Lady Peace / Spiritual Machines / 2001
-- American X / Black Rebel Motorcycle Club / Baby 81 / 2007
-- Another Innocent Girl / Alkaline Trio / From Here to Infirmary / 2001
-- Anxiety / Good Charlotte / The Greatest Remixes / 2008
-- Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010
-- ashes and ghosts / The Cult / Beyond Good and Evil / 2001
-- Asylum / Disturbed / Asylum / 2010
-- Automatic / Lagwagon / Resolve / 2005
-- Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
-- Battle for the Sun / Placebo / Battle for the Sun / 2009
-- Bed of Lies / Matchbox Twenty / Yourself or Someone Like You/Mad Season / 2008
-- Believe [Explicit Version] / Staind / Believe / 2008
+## Literal fake object
+
+- K750: American X / Black Rebel Motorcycle Club / Baby 81 / 2007 -- soul
+
+## Fake smile (in emotional sense)
+
+- M013: Believe / Staind / Believe / 2008
+- M002: Another Innocent Girl / Alkaline Trio / From Here to Infirmary / 2001
+- M040: Asylum / Disturbed / Asylum / 2010
+- M010: Bed of Lies / Matchbox Twenty / Yourself or Someone Like You/Mad Season / 2008
+
+## Fake as an environmental element
+
+- M001: Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010
+
+## Faking as an action
+
+- M077: (Can't Get My) Head Around You / The Offspring / Greatest Hits [Australia Bonus Tracks] / 2005
+- M005: 6 in the Morning / D12 / D12 World / 2004
+- K822: Anxiety / Good Charlotte / The Greatest Remixes / 2008
+- K624: Automatic / Lagwagon / Resolve / 2005
+
+## Fake "it"
+
+- K520: Adjustments / Smile Empty Soul / Vultures / 2006
+- M017: Ain't It the Life / Foo Fighters / Skin and Bones [DVD] / 2006
+
+# Person is fake / a faker
+
+- M005: Admit It!!! / Say Anything / ...Is a Real Boy / 2004
+- K255: ashes and ghosts / The Cult / Beyond Good and Evil / 2001
+- K705: Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
+- M010: Battle for the Sun / Placebo / Battle for the Sun / 2009
+
+## Uncategorized
+
 - Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
 - Betrayal Is a Symptom / Thrice / Point Break, Vol. 1 / 2002
 - Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
