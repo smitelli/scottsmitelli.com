@@ -12,8 +12,6 @@ date = 2024-11-05
 
 Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 
-
-
 ## Literal fake object
 
 - K750: American X / Black Rebel Motorcycle Club / Baby 81 / 2007 -- soul
@@ -22,8 +20,16 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - M122: Cowboy / Kid Rock / Live Trucker / 2006 -- breasts
 - K635: Everybody's Friend / Jane's Addiction / Strays / 2003 -- shaken head
 - M118: Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000 -- titties
-
-
+- M001: LAX / Big D and the Kids Table / How It Goes / 2004 -- heart/world
+- K353: Out of Sight / Smash Mouth / Smash Mouth / 2001 -- rubber thumb
+- M001: Over / Jimmy Eat World / Stay on My Side Tonight / 2005 -- attention
+- M650: Psychosocial / Slipknot / {sic}nesses: Live at Download / 2010 -- lie
+- M061: Right Now / SR-71 / Now You See Inside / 2000 -- plastic submarine
+- M024: Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001 -- eyes
+- K763: Simple Livin' / Gym Class Heroes / The Papercut Chronicles [Bonus CD] / 2005 -- something
+- M030: Slipped Away / Avril Lavigne / Under My Skin / 2004 -- incident
+- M936: Soul Music / Everlast / White Trash Beautiful / 2004 -- jacks
+- M059: Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006 -- tan
 
 ## Fake smile/grin (in emotional sense)
 
@@ -38,15 +44,24 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - M003: Don't You Forget About Me / Enrique Iglesias / Insomniac / 2007
 - K094: Happy / American Hi-Fi / Live From Tokyo / 2002
 - K360: If You Come Back to Me / Bowling for Soup / The Great Burrito Extortion Case / 2006
-
-
+- K552: Mona Lisa / Guster / Guster on Ice: Live from Portland, Maine [DVD] / 2004
+- M117: Pushing Me Away / Linkin Park / Hybrid Theory / 2000
+- M001: Rosealia / Better Than Ezra / Greatest Hits / 2005
+- K064: Shine / Everclear / Welcome to the Drama Club / 2006
+- M001: Someday / Crossfade / Falling Away / 2006
+- M001: Stay / Everlast / Love, War and the Ghost of Whitey Ford / 2008
+- M035: Story of a Lonely Guy / blink-182 / Take Off Your Pants and Jacket / 2001
+- M037: Teardrops On My Guitar / Taylor Swift / Beautiful Eyes / 2008
+- M003: Trade Yourself In / Shinedown / Us and Them / 2005
+- M284: Welcome to My Life / Simple Plan / Welcome To My Life Pt.1 (2 Tracks) / 2004
 
 ## Fake as an environmental element
 
 - M001: Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010
 - M005: Billy Spleen / Sum 41 / Does This Look Infected? [Clean] / 2002
-
-
+- K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008
+- K061: Sierra's Song / The All-American Rejects / 90210 / 2009
+- M704: Teenage Dirtbag / Wheatus / Teenage Dirtbag / 2000
 
 ## Faking as an action
 
@@ -76,8 +91,22 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - K571: Hurricane / Bush / Golden State [Japan Bonus Track] / 2001
 - M008: I Know I Know I Know / Tegan and Sara / So Jealous / 2004
 - M004: I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies [Maxi Single] / 2007
-
-
+- K365: Kim Gordon and the Arthur Doyle Hand Cream / Sonic Youth / Sonic Nurse / 2004
+- K654: Let You Down / P.O.D. / Testify [Bonus Track] / 2006
+- M001: New Beginning / Trapt / Trapt [DualDisc] / 2002
+- K566: Normal / Foo Fighters / Times Like These / 2003
+- K677: Not with You / Tegan and Sara / This Business of Art / 2000
+- M004: Phase / Breaking Benjamin / Digital Box Set / 2009
+- 504M: Pretty Fly (For a White Guy) / The Offspring / Greatest Hits [DualDisc] / 2005
+- ++M071: Revenga / System of a Down / Mezmerize / 2005
+- M068: Shattered / O.A.R. / Rain or Shine / 2010
+- K470: Sincerely, Me / Better Than Ezra / Closer / 2001
+- M006: Socio / Stone Sour / Come What(ever) May [Clean] / 2006
+- M016: Storm in a Teacup / Red Hot Chili Peppers / Stadium Arcadium / 2006 -- tears
+- M045: Superman's Dead / Our Lady Peace / Live [DVD] / 2003
+- M003: What I Believe / Sum 41 / Half Hour of Power / 2000
+- K456: When I Go Deaf / Low / The Great Destroyer / 2005
+- M622: Womanizer / Britney Spears / The Singles Collection [Box Set] / 2009
 
 ## Fake "it"/"this"
 
@@ -102,8 +131,41 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - M001: If Only She Knew / Michelle Branch / The Spirit Room/Hotel Paper / 2009
 - M552: In Too Deep / Sum 41 / All Killer No Filler [Bonus Disc] / 2001
 - M031: Just Want You to Know / Backstreet Boys / Never Gone [Germany Bonus DVD] / 2005
-
-
+- M006: Ka-Boom Ka-Boom / Marilyn Manson / The Golden Age of Grotesque / 2003
+- M001: Lien on Your Dreams / Black Rebel Motorcycle Club / Baby 81 / 2007
+- M041: Love You Madly / Cake / Comfort Eagle / 2001
+- M002: Magic's in the Makeup / No Doubt / Return of Saturn / 2000
+- K034: Mosquito / Sister Hazel / BAM!, Vol. 1 / 2007
+- K183: Motion Isn't Meaning / Thrice / All That's Left / 2003
+- K223: Motivation / Sheryl Crow / Detours / 2008
+- M052: Motivation / Sum 41 / Go Chuck Yourself / 2006
+- K176: My Bionic Eyes / Liz Phair / Liz Phair / 2003
+- K099: My Escape / Rufio / The Comfort of Home / 2005
+- M106: Never Gonna Leave This Bed / Maroon 5 / Hands All Over / 2010
+- M059: No Reason / Sum 41 / Chuck [Bonus Track] / 2004
+- M005: Not as We / Alanis Morissette / Not as We / 2008
+- M002: Our Sick Story / Atreyu / A Death-Grip on Yesterday / 2006
+- K176: Out of My Depth / Everclear / Songs from an American Movie, Vol. 2: Good Time for a Bad Attitude [Clean] / 2000
+- K428: Panic Attack / Finger Eleven / Finger Eleven / 2003
+- M004: Pardon Me / Staind / Illusion of Progress / 2008
+- M005: Places You Have Come to Fear the Most / Dashboard Confessional / The Places You Have Come to Fear the Most [Bonus Track] / 2001
+- M009: Sending Postcards From a Plane Crash (Wish You Were Here) / Fall Out Boy / Take This To Your Grave / 2003
+- M003: Shatter / Feeder / The Singles / 2006
+- M029: Stacked Actors / Foo Fighters / Breakout [Japan CD] / 2000
+- M004: Stripped Intro / Christina Aguilera / Christina Aguilera/Stripped / 2006
+- M111: Stupid Girl / Garbage / Absolute Garbage / 2007
+- M009: Suture Up Your Future / Queens of the Stone Age / Era Vulgaris [European Tour Edition] / 2007
+- M001: Take This / Staind / Chapter V [Clean] / 2005
+- M006: The Enemy / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
+- K610: The Last Tear / Trapt / Only Through the Pain / 2008
+- M034: This Is the Place / Red Hot Chili Peppers / By the Way / 2002
+- K599: This Moment Is All There Is / Lenny Kravitz / It Is Time for a Love Revolution / 2008
+- M016: Turn on Me / The Shins / Wincing the Night Away / 2007
+- K235: Up All Night / Suburban Legends / Rump Shaker / 2003
+- M005: Vultures / The Offspring / Conspiracy of One / 2000
+- K171: We Wanna Party / Girls Aloud / Out of Control / 2008
+- M010: When You're Around / Motion City Soundtrack / Commit This to Memory / 2005
+- K244: Wind it Up / Barenaked Ladies / Barenaked Ladies Are Men / 2007
 
 # Person/life is fake / a faker
 
@@ -115,6 +177,7 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - M003: Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
 - K254: Blackball / KMFDM / WWIII/Opium / 2004
 - M298: Blurry / Puddle of Mudd / Come Clean / 2001
+- ???M: Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
 - K233: Box / Tokyo Police Club / Smith / 2007
 - K763: Breezy / JoJo / Jo Jo / 2004
 - K431: Bro / Goldfinger / Stomping Ground [Clean] / 2000
@@ -138,147 +201,46 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - K993: Intro / Staind / 14 Shades of Grey [DVD Audio] / 2003
 - M002: Jesus Frankenstein / Rob Zombie / Hellbilly Deluxe, Vol. 2 / 2010
 - M150: Just Like You / Three Days Grace / Three Days Grace / 2003
-
-
+- M001: Low Down / Black Label Society / Berzerkus Tour Sampler / 2010
+- M001: Mara and Me / Say Anything / Say Anything / 2009
+- K505: Naked / Everlast / Love, War and the Ghost of Whitey Ford / 2008
+- K307: Nuttin' But a Bitch Thang / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
+- M093: Over My Head (Better off Dead) / Sum 41 / Does This Look Infected? / 2002
+- M003: Phenomenon / Limp Bizkit / Results May Vary / 2003
+- K161: Skulls and Stars / Crazy Town / Darkhorse [Clean] / 2002
+- M001: So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
+- M029: So Good / Destiny's Child / #1's [Japan Bonus Tracks] / 2005
+- M013: So Long, Jimmy / James Blunt / Back to Bedlam / 2005
+- M007: Step Down / Sick of It All / The Story So Far / 2001
+- M001: Straight To Your Face / Hatebreed / The Rise of Brutality / 2003
+- K139: Take Me Home / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
+- M015: That's How Strong My Love Is / Alicia Keys / The Element of Freedom / 2009
+- K340: The End of the Day / Goldfinger / Stomping Ground / 2000
+- M012: There for You / Flyleaf / Flyleaf / 2005
+- M001: U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
+- K119: Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
+- M003: We'll Grind That Axe for a Long Time / Pantera / Reinventing the Steel [Bonus Disc] / 2000
+- K316: Weather Channel / Sheryl Crow / C'mon, C'mon [Japan Bonus CD] /2002
+- M041: Who the Fuck Are Arctic Monkeys? / Arctic Monkeys / Who the Fuck Are Arctic Monkeys? / 2006
+- K203: Zero Tolerance / Kottonmouth Kings / Rollin' Stoned / 2002
 
 ## Noun
 
 - M003: Fuck You / Damageplan / New Found Power / 2004 -- fakery
-
-
+- M003: No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000 -- what you hear
+- K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007
 
 ## Don't even know
 
 - M019: Counterfeit / Limp Bizkit / The Collected / 2008
 - M019: I Do / Chingy / Powerballin' [Clean] / 2004
 - M027: Satellite / P.O.D. / Lay It Down [Screwed] / 2001
-
-
-## Uncategorized
-
-- Ka-Boom Ka-Boom / Marilyn Manson / The Golden Age of Grotesque / 2003
-- Kim Gordon and the Arthur Doyle Hand Cream / Sonic Youth / Sonic Nurse / 2004
-- LAX / Big D and the Kids Table / How It Goes / 2004
-- Let You Down / P.O.D. / Testify [Bonus Track] / 2006
-- Lien on Your Dreams / Black Rebel Motorcycle Club / Baby 81 / 2007
-- Life's a Bitch / Everlast / Black and White / 2000
-- Love You Madly / Cake / Comfort Eagle / 2001
-- Low Down (Intro) / Black Label Society / Berzerkus Tour Sampler / 2010
-- Magic's in the Makeup / No Doubt / Return of Saturn / 2000
-- Make It Right / New Found Glory / Coming Home [International Version] / 2006
-- Mara and Me / Say Anything / Say Anything / 2009
-- Mona Lisa [DVD Video] / Guster / Guster on Ice: Live from Portland, Maine [DVD] / 2004
-- Moron / Sum 41 / Go Chuck Yourself / 2006
-- Mosquito / Sister Hazel / BAM!, Vol. 1 / 2007
-- Motion Without Meaning / Thrice / All That's Left / 2003
-- Motivation / Sheryl Crow / Detours / 2008
-- Motivation / Sum 41 / Go Chuck Yourself / 2006
-- Mount Normal / Blues Traveler / Truth Be Told / 2003
-- My Bionic Eyes / Liz Phair / Liz Phair / 2003
-- My Escape / Rufio / The Comfort of Home / 2005
-- Naked / Everlast / Love, War and the Ghost of Whitey Ford / 2008
-- Never Gonna Leave This Bed / Maroon 5 / Hands All Over / 2010
-- New Beginning / Trapt / Trapt [DualDisc] / 2002
-- No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006
-- No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000
-- No Reason / Sum 41 / Chuck [Bonus Track] / 2004
-- Normal / Foo Fighters / Times Like These / 2003
-- Not as We / Alanis Morissette / Not as We / 2008
-- Not with You / Tegan and Sara / This Business of Art / 2000
-- Nuttin' But a Bitch Thang / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
-- One Week [Live] / Barenaked Ladies / Extended Versions / 2006
-- Our Sick Story / Atreyu / A Death-Grip on Yesterday / 2006
-- Out of My Depth / Everclear / Songs from an American Movie, Vol. 2: Good Time for a Bad Attitude [Clean] / 2000
-- Out of My Face / Saving Abel / Saving Abel [Clean] / 2008
-- Out of Sight / Smash Mouth / Smash Mouth / 2001
-- Over / Jimmy Eat World / Stay on My Side Tonight / 2005
-- Over My Head (Better off Dead) / Sum 41 / Does This Look Infected? / 2002
-- P*** It All Away / Puddle of Mudd / Come Clean [UK Bonus Tracks] / 2001
-- Panic Attack / Finger Eleven / Finger Eleven / 2003
-- Pardon Me / Staind / Illusion of Progress / 2008
-- Party / Nelly Furtado / Whoa, Nelly! [Bonus Track] / 2000
-- Phase / Breaking Benjamin / Digital Box Set / 2009
-- Phenomenon / Limp Bizkit / Results May Vary / 2003
-- Places You Have Come to Fear the Most / Dashboard Confessional / The Places You Have Come to Fear the Most [Bonus Track] / 2001
-- Pretty Fly (For a White Guy) [DVD] / The Offspring / Greatest Hits [DualDisc] / 2005
-- Psychosocial [Video] / Slipknot / {sic}nesses: Live at Download / 2010
-- Pushing Me Away / Linkin Park / Hybrid Theory / 2000
-- Revenga / System of a Down / Mezmerize / 2005
-- Right Now / SR-71 / Now You See Inside / 2000
-- Rosealia [Single Remix] / Better Than Ezra / Greatest Hits / 2005
-- Satellite / P.O.D. / Satellite / 2001
-- Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001
-- Sending Postcards From a Plane Crash (Wish You Were Here) / Fall Out Boy / Take This To Your Grave / 2003
-- Shatter / Feeder / The Singles / 2006
-- Shatter [New Version] / Feeder / Shatter / 2005
-- Shattered / O.A.R. / Rain or Shine / 2010
-- Shine / Everclear / Welcome to the Drama Club / 2006
-- Sierra's Song / The All-American Rejects / 90210 / 2009
-- Simple Livin' / Gym Class Heroes / The Papercut Chronicles [Bonus CD] / 2005
-- Sincerely, Me / Better Than Ezra / Closer / 2001
-- Skulls and Stars / Crazy Town / Darkhorse [Clean] / 2002
-- Slipped Away / Avril Lavigne / Under My Skin / 2004
-- So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
-- So Good [Japan Only Bonus Track] / Destiny's Child / #1's [Japan Bonus Tracks] / 2005
-- So Long, Jimmy / James Blunt / Back to Bedlam / 2005
-- Socio / Stone Sour / Come What(ever) May [Clean] / 2006
-- Someday / Crossfade / Falling Away / 2006
-- Sorry / Dry Cell / Disconnected / 2002
-- Soul Music / Everlast / White Trash Beautiful / 2004
-- Spinning Around [DVD] / Kylie Minogue /Body Language: Live / 2004
-- Stacked Actors [Live] / Foo Fighters / Breakout [Japan CD] / 2000
-- Stay / Everlast / Love, War and the Ghost of Whitey Ford / 2008
-- Step Down / Sick of It All / The Story So Far / 2001
-- Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006
-- Storm in a Teacup / Red Hot Chili Peppers / Stadium Arcadium / 2006
-- Story of a Lonely Guy / blink-182 / Take Off Your Pants and Jacket / 2001
-- Straight To Your Face / Hatebreed / The Rise of Brutality / 2003
-- Stripped [Intro] / Christina Aguilera / Christina Aguilera/Stripped / 2006
-- Stupid Girl / Garbage / Absolute Garbage / 2007
-- Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007
-- Superman's Dead [DVD] / Our Lady Peace / Live [DVD] / 2003
-- Suture Up Your Future / Queens of the Stone Age / Era Vulgaris [European Tour Edition] / 2007
-- Take Me Home / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
-- Take This / Staind / Chapter V [Clean] / 2005
-- Teardrops On My Guitar [Acoustic] [acoustic ] / Taylor Swift / Beautiful Eyes / 2008
-- Teenage Dirtbag / Wheatus / Teenage Dirtbag / 2000
-- That's How Strong My Love Is / Alicia Keys / The Element of Freedom / 2009
-- The End of the Day / Goldfinger / Stomping Ground / 2000
-- The Enemy / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
-- The Last Tear / Trapt / Only Through the Pain / 2008
-- There for You / Flyleaf / Flyleaf / 2005
-- This Is the Place / Red Hot Chili Peppers / By the Way / 2002
-- This Moment Is All There Is / Lenny Kravitz / It Is Time for a Love Revolution / 2008
-- Tic Toc / LeAnn Rimes / Twisted Angel / 2002
-- Together / The Mighty Mighty Bosstones / Pay Attention [Australia Bonus Tracks] / 2000
-- Topless / Breaking Benjamin / Phobia [Bonus Tracks/Bonus DVD] / 2006
-- Topless [DVD] / Breaking Benjamin / Phobia [CD/DVD] / 2006
-- Trade Yourself In / Shinedown / Us and Them / 2005
-- Troubled Girl / Fefe Dobson / Sunday Love / 2006
-- Turn on Me / The Shins / Wincing the Night Away / 2007
-- U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
-- Up All Night / Suburban Legends / Rump Shaker / 2003
-- Vultures / The Offspring / Conspiracy of One / 2000
-- Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
-- We Wanna Party / Girls Aloud / Out of Control / 2008
-- We'll Grind That Axe for a Long Time / Pantera / Reinventing the Steel [Bonus Disc] / 2000
-- Weather Channel / Sheryl Crow / C'mon, C'mon [Japan Bonus CD] /2002
-- Weeds / You Am I / Dress Me Slowly / 2001
-- Welcome to My Life (Video) / Simple Plan / Welcome to My Life / 2004
-- Welcome to My Life / Simple Plan / Welcome To My Life Pt.1 (2 Tracks) / 2004
-- What I Believe / Sum 41 / Half Hour of Power / 2000
-- When I Go Deaf / Low / The Great Destroyer / 2005
-- When You're Around / Motion City Soundtrack / Commit This to Memory / 2005
-- Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
-- Who the Fuck Are Arctic Monkeys? / Arctic Monkeys / Who the Fuck Are Arctic Monkeys? / 2006
-- Who's the Criminal / Kottonmouth Kings / Fire It Up / 2004
-- Will You / P.O.D. / Payable on Death / 2003
-- Wind Me Up / Fastball / The Harsh Light of Day / 2000
-- Wind it Up / Barenaked Ladies / Barenaked Ladies Are Men / 2007
-- With or Without You / Cher / Not.Com.mercial / 2000
-- Womanizer / Britney Spears / The Singles Collection [Box Set] / 2009
-- You Get What You Give [Album Version] / The New Radicals / The Trip: Dirty Vegas / 2003
-- Zero Tolerance / Kottonmouth Kings / Rollin' Stoned / 2002
+- K023: Mount Normal / Blues Traveler / Truth Be Told / 2003
+- M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006
+- M274: One Week / Barenaked Ladies / Extended Versions / 2006
+- M001: Party / Nelly Furtado / Whoa, Nelly! [Bonus Track] / 2000
+- M007: Will You / P.O.D. / Payable on Death / 2003
+- M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003
 
 ---
 
@@ -292,7 +254,7 @@ Karma and Effect
 - Burrito
 Finding Beauty in Negative Spaces
 - Fake It
-- Quirk [?]
+- Quirk [demo]
 Holding onto Strings Better Left to Fray
 - Fur Cue
 Poison the Parish
