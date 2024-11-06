@@ -1,7 +1,7 @@
 +++
 title = "The Fake Fixation"
 description = "TODO."
-date = 2024-11-04
+date = 2024-11-05
 +++
 
 {{% epigraph %}}
@@ -12,20 +12,41 @@ date = 2024-11-04
 
 Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 
+
+
 ## Literal fake object
 
 - K750: American X / Black Rebel Motorcycle Club / Baby 81 / 2007 -- soul
+- M002: Between the End and Where We Lie / Thrice / Vheissu [iTunes Bonus Edition] / 2005 -- sky
+- M028: Boom! / System of a Down / Steal This Album! / 2002 -- lawn/houses
+- M122: Cowboy / Kid Rock / Live Trucker / 2006 -- breasts
+- K635: Everybody's Friend / Jane's Addiction / Strays / 2003 -- shaken head
+- M118: Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000 -- titties
 
-## Fake smile (in emotional sense)
+
+
+## Fake smile/grin (in emotional sense)
 
 - M013: Believe / Staind / Believe / 2008
 - M002: Another Innocent Girl / Alkaline Trio / From Here to Infirmary / 2001
 - M040: Asylum / Disturbed / Asylum / 2010
 - M010: Bed of Lies / Matchbox Twenty / Yourself or Someone Like You/Mad Season / 2008
+- M010: Blood on the Ground / Incubus / Morning View / 2001
+- M001: Can't Stop, Gotta Date with Hate / Lostprophets / Liberation Transmission / 2006
+- M047: Cold As You / Taylor Swift / Taylor Swift / 2006
+- M009: Come Back Down / Lifehouse / Lifehouse / 2005
+- M003: Don't You Forget About Me / Enrique Iglesias / Insomniac / 2007
+- K094: Happy / American Hi-Fi / Live From Tokyo / 2002
+- K360: If You Come Back to Me / Bowling for Soup / The Great Burrito Extortion Case / 2006
+
+
 
 ## Fake as an environmental element
 
 - M001: Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010
+- M005: Billy Spleen / Sum 41 / Does This Look Infected? [Clean] / 2002
+
+
 
 ## Faking as an action
 
@@ -33,118 +54,108 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - M005: 6 in the Morning / D12 / D12 World / 2004
 - K822: Anxiety / Good Charlotte / The Greatest Remixes / 2008
 - K624: Automatic / Lagwagon / Resolve / 2005
+- M001: Betrayal Is a Symptom / Thrice / Point Break, Vol. 1 / 2002
+- K952: Black Illusion / Ozzy Osbourne / Down to Earth / 2001
+- K751: Blood on the Table / Puddle of Mudd / Volume 4: Songs in the Key of Love & Hate / 2009
+- M020: Come out Swinging / The Offspring / Conspiracy of One [Australia Bonus Track] / 2000
+- M010: Crazy Amanda Bunkface / Sum 41 / Motivation / 2002
+- M001: Cross to Bear / Staind / Chapter V / 2005
+- M004: Crumble / Dinosaur Jr. / Beyond / 2007
+- M004: Death Rattle / Pantera / Reinventing the Steel / 2000
+- K561: Destination Anywhere / Sugarcult / Warped Tour: 2004 Compilation / 2004
+- M002: Explode / Nelly Furtado / Folklore / 2003
+- M006: Fake / Shinedown / Us and Them [Bonus Tracks] / 2005
+- M191: Fell on Black Days / Soundgarden / Telephantasm [CD/DVD] / 2010
+- M002: Follow / Sevendust / Best Of (Chapter One 1997-2004) / 2005
+- M002: From Chaos / 311 / From Chaos / 2001
+- M010: Goddamn Electric / Pantera / Reinventing the Steel / 2000
+- M010: Goodbye / SR-71 / Tomorrow [Bonus Track] / 2002
+- M123: Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000
+- M003: Holding On / Simple Plan / Simple Plan [Napster Exclusive] / 2008
+- K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001
+- K571: Hurricane / Bush / Golden State [Japan Bonus Track] / 2001
+- M008: I Know I Know I Know / Tegan and Sara / So Jealous / 2004
+- M004: I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies [Maxi Single] / 2007
 
-## Fake "it"
+
+
+## Fake "it"/"this"
 
 - K520: Adjustments / Smile Empty Soul / Vultures / 2006
 - M017: Ain't It the Life / Foo Fighters / Skin and Bones [DVD] / 2006
+- M116: But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005
+- M963: Complicated / Avril Lavigne / My World / 2003
+- M007: Dig In / Lenny Kravitz / Lenny / 2001
+- M006: Don't Fake This / Chevelle / Wonder What's Next / 2002
+- M001: Drawn Out / Dishwalla / Opaline / 2002
+- M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006
+- M002: Easy / Westlife / The Love Album [Deluxe Edition] / 2006
+- M007: Execute The Sounds / P.O.D. / Payable on Death / 2003
+- M023: Forget It / Breaking Benjamin / We Are Not Alone / 2004
+- K952: Get Up / Unwritten Law / Here's to the Mourning [Clean] / 2005
+- K409: Hey Kids / Jet / Shine On / 2006
+- M001: Hide Away / Hilary Duff / Hilary Duff / 2004
+- K141: Houses of Cards / Zeromancer / Clone Your Lover / 2000
+- K072: I Wanna Know Your Name / 2gether / 2ge+her: Again / 2000
+- M022: I've Got a Dark Alley and a Bad Idea That Says You Should Shut Your Mou / Fall Out Boy / From Under the Cork Tree / 2005
+- K092: If It Ain't Broke Break It / Meat Loaf / Bat Out of Hell III: The Monster Is Loose / 2006
+- M001: If Only She Knew / Michelle Branch / The Spirit Room/Hotel Paper / 2009
+- M552: In Too Deep / Sum 41 / All Killer No Filler [Bonus Disc] / 2001
+- M031: Just Want You to Know / Backstreet Boys / Never Gone [Germany Bonus DVD] / 2005
 
-# Person is fake / a faker
+
+
+# Person/life is fake / a faker
 
 - M005: Admit It!!! / Say Anything / ...Is a Real Boy / 2004
 - K255: ashes and ghosts / The Cult / Beyond Good and Evil / 2001
 - K705: Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
 - M010: Battle for the Sun / Placebo / Battle for the Sun / 2009
+- M002: Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
+- M003: Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
+- K254: Blackball / KMFDM / WWIII/Opium / 2004
+- M298: Blurry / Puddle of Mudd / Come Clean / 2001
+- K233: Box / Tokyo Police Club / Smith / 2007
+- K763: Breezy / JoJo / Jo Jo / 2004
+- K431: Bro / Goldfinger / Stomping Ground [Clean] / 2000
+- M027: Burn / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
+- M110: Cold Wind Blows / Eminem / Recovery / 2010
+- M003: Combat / Flobots / Fight with Tools / 2008
+- M005: Dead Skin / Crossfade / Crossfade [DualDisc] / 2004
+- K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
+- K254: Dream On / Robyn / Robyn / 2005
+- M002: Fake / Busted / A Present for Everyone / 2004
+- M008: Fake / Korn / Korn/Follow the Leader / 2005
+- M002: Fear Is a Place to Live / Korn / Korn III: Remember Who You Are / 2010
+- M007: Forever / Kid Rock / Cocky / 2001
+- M009: Fuck the World / Insane Clown Posse / Jugganauts: The Best of Insane Clown Posse / 2007
+- K423: Helicopters / Barenaked Ladies / Maroon / 2000
+- M017: I Fucking Hate You / Godsmack / Faceless / 2003
+- M110: I Just Wanna Live / Good Charlotte / The Chronicles of Life and Death / 2004
+- M299: I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
+- M011: I'm a Fake / The Used / Berth / 2007
+- K063: Insincere / The Go-Go's / God Bless the Go-Go's / 2001
+- K993: Intro / Staind / 14 Shades of Grey [DVD Audio] / 2003
+- M002: Jesus Frankenstein / Rob Zombie / Hellbilly Deluxe, Vol. 2 / 2010
+- M150: Just Like You / Three Days Grace / Three Days Grace / 2003
+
+
+
+## Noun
+
+- M003: Fuck You / Damageplan / New Found Power / 2004 -- fakery
+
+
+
+## Don't even know
+
+- M019: Counterfeit / Limp Bizkit / The Collected / 2008
+- M019: I Do / Chingy / Powerballin' [Clean] / 2004
+- M027: Satellite / P.O.D. / Lay It Down [Screwed] / 2001
+
 
 ## Uncategorized
 
-- Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
-- Betrayal Is a Symptom / Thrice / Point Break, Vol. 1 / 2002
-- Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
-- Between the End and Where We Lie / Thrice / Vheissu [iTunes Bonus Edition] / 2005
-- Billy Spleen / Sum 41 / Does This Look Infected? [Clean] / 2002
-- Bite Back / The All-American Rejects / Dirty Little Secret [UK Single #1] / 2005
-- Black Illusion / Ozzy Osbourne / Down to Earth / 2001
-- Blackball / KMFDM / WWIII/Opium / 2004
-- Blood on the Ground / Incubus / Morning View / 2001
-- Blood on the Table / Puddle of Mudd / Volume 4: Songs in the Key of Love & Hate / 2009
-- Blurry / Puddle of Mudd / Come Clean / 2001
-- Bojangles [Main] / Pitbull / Bojangles / 2006
-- Boom Boom / Macy Gray / Desperate Housewives / 2005
-- Boom! / System of a Down / Steal This Album! / 2002
-- Box / Tokyo Police Club / Smith / 2007
-- Breezy / JoJo / Jo Jo / 2004
-- Bro / Goldfinger / Stomping Ground [Clean] / 2000
-- Burn / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
-- But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005
-- Can't Stop, Gotta Date with Hate / Lostprophets / Liberation Transmission / 2006
-- Changes / Godsmack / Faceless / 2003
-- Cold As You / Taylor Swift / Taylor Swift / 2006
-- Cold Wind Blows / Eminem / Recovery / 2010
-- Combat / Flobots / Fight with Tools / 2008
-- Come Back Down / Lifehouse / Lifehouse / 2005
-- Come out Swinging / The Offspring / Conspiracy of One [Australia Bonus Track] / 2000
-- Complicated [Video] / Avril Lavigne / My World / 2003
-- Counterfeit / Limp Bizkit / The Collected / 2008
-- Cowboy (Intro) / Kid Rock / Live Trucker / 2006
-- Crazy Amanda Bunkface [Live] / Sum 41 / Motivation / 2002
-- Cross to Bear / Staind / Chapter V / 2005
-- Crumble / Dinosaur Jr. / Beyond / 2007
-- Dead Skin / Crossfade / Crossfade [DualDisc] / 2004
-- Death Rattle / Pantera / Reinventing the Steel / 2000
-- Destination Anywhere / Sugarcult / Warped Tour: 2004 Compilation / 2004
-- Dig In / Lenny Kravitz / Lenny / 2001
-- Do You Want Me? / Hilary Duff / Hilary Duff / 2004
-- Don't Fake This / Chevelle / Wonder What's Next / 2002
-- Don't Tell Me It's Over / Gym Class Heroes / The Quilt / 2008
-- Don't Think You're the First / The Coral / Magic and Medicine / 2003
-- Don't You Forget About Me / Enrique Iglesias / Insomniac / 2007
-- Drawn Out / Dishwalla / Opaline / 2002
-- Dream On / Robyn / Robyn / 2005
-- Dreams / Taproot / Welcome / 2002
-- Drop It Like It's Hot [DVD] / Snoop Dogg / Drop It Like It's Hot / 2006
-- Easy / Westlife / The Love Album [Deluxe Edition] / 2006
-- Everybody's Friend / Jane's Addiction / Strays / 2003
-- Execute The Sounds / P.O.D. / Payable on Death / 2003
-- Execute the Sounds [2006 Remastered Album Version] [Version] / P.O.D. / Greatest Hits: The Atlantic Years / 2006
-- Explode / Nelly Furtado / Folklore / 2003
-- F*** You / Damageplan / New Found Power / 2004
-- Fake / Busted / A Present for Everyone / 2004
-- Fake / Korn / Korn/Follow the Leader / 2005
-- Fake / Shinedown / Us and Them [Bonus Tracks] / 2005
-- Fear Is a Place to Live / Korn / Korn III: Remember Who You Are / 2010
-- Fell on Black Days [Alternate Take] / Soundgarden / Telephantasm [CD/DVD] / 2010
-- Few Days Down / Mandy Moore / Wild Hope / 2007
-- Follow / Sevendust / Best Of (Chapter One 1997-2004) / 2005
-- Forever / Kid Rock / Cocky / 2001
-- Forget It / Breaking Benjamin / We Are Not Alone / 2004
-- From Chaos / 311 / From Chaos / 2001
-- Fuck the World / Insane Clown Posse / Jugganauts: The Best of Insane Clown Posse / 2007
-- Get Up / Unwritten Law / Here's to the Mourning [Clean] / 2005
-- Goddamn Electric / Pantera / Reinventing the Steel / 2000
-- Good for You / Soul Asylum / The Silver Lining / 2006
-- Goodbye / SR-71 / Tomorrow [Bonus Track] / 2002
-- Happy / American Hi-Fi / Live From Tokyo / 2002
-- Helicopters / Barenaked Ladies / Maroon / 2000
-- Hemorrhage (In My Hands) / Fuel / ...
-- Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000
-- Hey Kids [Digital Album Version] / Jet / Shine On / 2006
-- Hide Away / Hilary Duff / Hilary Duff / 2004
-- Holding On / Simple Plan / Simple Plan [Napster Exclusive] / 2008
-- Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000
-- Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001
-- Houses of Cards / Zeromancer / Clone Your Lover / 2000
-- Hurricane / Bush / Golden State [Japan Bonus Track] / 2001
-- I Do / Chingy / Powerballin' [Clean] / 2004
-- I Fucking Hate You / Godsmack / Faceless / 2003
-- I Just Wanna Live / Good Charlotte / The Chronicles of Life and Death / 2004
-- I Just Wanna Live [Acoustic] [Album Version] / Good Charlotte / Keep Your Hands off My Girl, Pt. 1 / 2007
-- I Know I Know I Know / Tegan and Sara / So Jealous / 2004
-- I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies [Maxi Single] / 2007
-- I Wanna Know Your Name / 2gether / 2ge+her: Again / 2000
-- I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
-- I'm a Fake / The Used / Berth / 2007
-- I've Got a Dark Alley and a Bad Idea That Says You Should Shut Your Mou / Fall Out Boy / From Under the Cork Tree / 2005
-- If It Ain't Broke Break It / Meat Loaf / Bat Out of Hell III: The Monster Is Loose / 2006
-- If Only She Knew / Michelle Branch / The Spirit Room/Hotel Paper / 2009
-- If You Come Back to Me / Bowling for Soup / The Great Burrito Extortion Case / 2006
-- In Too Deep [Multimedia Track] / Sum 41 / All Killer No Filler [Bonus Disc] / 2001
-- Insincere / The Go-Go's / God Bless the Go-Go's / 2001
-- Intro / P.O.D. / Lay It Down [Screwed] / 2001
-- Intro / Staind / 14 Shades of Grey [DVD Audio] / 2003
-- Jesus Frankenstein / Rob Zombie / Hellbilly Deluxe, Vol. 2 / 2010
-- Just Like You / Three Days Grace / Three Days Grace / 2003
-- Just Want You to Know / Backstreet Boys / Never Gone [Germany Bonus DVD] / 2005
 - Ka-Boom Ka-Boom / Marilyn Manson / The Golden Age of Grotesque / 2003
 - Kim Gordon and the Arthur Doyle Hand Cream / Sonic Youth / Sonic Nurse / 2004
 - LAX / Big D and the Kids Table / How It Goes / 2004
