@@ -592,6 +592,10 @@ text = 'South Park'
 href = 'https://en.wikipedia.org/wiki/List_of_South_Park_characters#Ned_Gerblanski'
 text = 'Ned Gerblanski'
 
+[wiki-synchronicity-ii]
+href = 'https://en.wikipedia.org/wiki/Synchronicity_II'
+text = 'Synchronicity II'
+
 [wiki-team-america-world-police]
 href = 'https://en.wikipedia.org/wiki/Team_America:_World_Police'
 text = 'Team America: World Police'
@@ -615,6 +619,10 @@ text = 'Unit in the last place'
 [wiki-vcard]
 href ='https://en.wikipedia.org/wiki/VCard'
 text = 'vCard'
+
+[wiki-walk-the-dinosaur]
+href = 'https://en.wikipedia.org/wiki/Walk_the_Dinosaur'
+text = 'Walk the Dinosaur'
 
 [wiki-wizard-software]
 href = 'https://en.wikipedia.org/wiki/Wizard_(software)'

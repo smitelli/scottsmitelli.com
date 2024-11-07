@@ -1,7 +1,7 @@
 +++
 title = "The Fake Fixation"
 description = "TODO."
-date = 2024-11-05
+date = 2024-11-06
 +++
 
 {{% epigraph %}}
@@ -10,31 +10,55 @@ date = 2024-11-05
 > <footer>(Probably) Fred Durst</footer>
 {{% /epigraph %}}
 
-Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
+Close your eyes for a moment and allow yourself to be transported into the past, back to a time when {{% link wiki-walk-the-dinosaur %}}dinosaurs walked the earth{{% /link %}}. Seek out the first stranger you can find, and ask them to recite the first song lyric they can think of that contains the word **"fake."**
 
-## Literal fake object
+It's a bit of a stumper to anybody who hasn't consciously prepared for it. So maybe a hint is warranted: Something involving **faking a smile**, you know, pretending you're happy when you're not.
 
-- M936: Soul Music / Everlast / White Trash Beautiful / 2004 -- jacks
-- M650: Psychosocial / Slipknot / {sic}nesses: Live at Download / 2010 -- lie
-- M122: Cowboy / Kid Rock / Live Trucker / 2006 -- breasts
-- M118: Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000 -- titties
-- M061: Right Now / SR-71 / Now You See Inside / 2000 -- plastic submarine
-- M059: Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006 -- tan
-- M030: Slipped Away / Avril Lavigne / Under My Skin / 2004 -- incident
-- M028: Boom! / System of a Down / Steal This Album! / 2002 -- lawn/houses
-- M024: Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001 -- eyes
-- M002: Between the End and Where We Lie / Thrice / Vheissu [iTunes Bonus Edition] / 2005 -- sky
-- M001: Over / Jimmy Eat World / Stay on My Side Tonight / 2005 -- attention
-- M001: LAX / Big D and the Kids Table / How It Goes / 2004 -- heart/world
-- K763: Simple Livin' / Gym Class Heroes / The Papercut Chronicles [Bonus CD] / 2005 -- something
-- K750: American X / Black Rebel Motorcycle Club / Baby 81 / 2007 -- soul
-- K635: Everybody's Friend / Jane's Addiction / Strays / 2003 -- shaken head
-- K353: Out of Sight / Smash Mouth / Smash Mouth / 2001 -- rubber thumb
+Given a few more moments, any true-blooded citizen of the 1980s might very well conjure this one up:
 
-## Fake smile/grin (in emotional sense)
+> Every **smile you fake** \
+> Every claim you stake \
+> I'll be watching you
+> <footer>The Police, "Every Breath You Take"</footer>
+
+A valid answer, but can they name _another_ song lyric from that era containing that word? One that's not the {{% link wiki-synchronicity-ii %}}track immediately before{{% /link %}} the one they just named? It's not so easy; there weren't all that many.{{% margin-note %}}I'll give you "911 is a Joke" by Public Enemy and "House of Pain" by Faster Pussycat. What have you got?{{% /margin-note %}} The 80s were simply too genuine, I suppose.
+
+## I'll take Napster Downloads for $200, Alex.
+
+Recently I found myself in the rather unenviable position of needing to sand the exposed surface of an entire deck. It was a back-breaking, hand-numbing, frustrating job that could only be complimented by one soundtrack: Angry post-grunge/nu metal/alternative rock from the early 2000s. It was the only thing that felt right at the time.
+
+Squatting and kneeling, occasionally hitting a particularly determined mosquito with the belt sander, {{% margin-note %}}I go with 120 grit to really smear her blood meal around, but that's just me talking.{{% /margin-note %}} I started to pick up a pattern in the music. _A whole bunch of these song lyrics used the word "fake."_ The longer I listened, the more it happened.
+
+Fake smiles and grins, like those Sting sang twenty years earlier, are as present as ever:
+
+> This is the last **smile** \
+> That I'll **fake** for the sake of being with you
+> <footer>Linkin Park, "Pushing Me Away"</footer>
+
+TODO smile list
+
+## "Gonna make a break and take a fake"
+
+It makes sense from a practical standpoint why the word "fake" in the abstract is useful in lyrics. It's short, punchy, and it can be used to set up a whole mess of different rhyme options:
+
+> My sweet revenge will be yours, it's in the **making** \
+> It's in the **taking**, **making**, **baking**, **taking**, **faking** \
+> Ah-ah-ah, ah-ah, ah-ah
+> <footer>System of a Down, "Revenga"</footer>
+
+TODO Party / Nelly Furtado ?
+
+Of course, no discussion on rhyme scheme would be complete without mentioning this piece of poetic perfection:
+
+> Everything's so blurry and everyone's so **fake** \
+> And everybody's empty and everything is so **messed up**
+> <footer>Puddle of Mudd, "Blurry"</footer>
+
+Somehow I remember this seeming more profound when it was coming out of Winamp 3.
+
+## Fale smile/grin
 
 - M284: Welcome to My Life / Simple Plan / Welcome To My Life Pt.1 (2 Tracks) / 2004
-- M117: Pushing Me Away / Linkin Park / Hybrid Theory / 2000
 - M047: Cold As You / Taylor Swift / Taylor Swift / 2006
 - M040: Asylum / Disturbed / Asylum / 2010
 - M037: Teardrops On My Guitar / Taylor Swift / Beautiful Eyes / 2008
@@ -55,6 +79,31 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - K094: Happy / American Hi-Fi / Live From Tokyo / 2002
 - K064: Shine / Everclear / Welcome to the Drama Club / 2006
 
+## Literal fake object
+
+- M936: Soul Music / Everlast / White Trash Beautiful / 2004 -- jacks
+- M650: Psychosocial / Slipknot / {sic}nesses: Live at Download / 2010 -- lie
+- M122: Cowboy / Kid Rock / Live Trucker / 2006 -- breasts
+- M118: Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000 -- titties
+- M061: Right Now / SR-71 / Now You See Inside / 2000 -- plastic submarine
+- M059: Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006 -- tan
+- M030: Slipped Away / Avril Lavigne / Under My Skin / 2004 -- incident
+- M028: Boom! / System of a Down / Steal This Album! / 2002 -- lawn/houses
+- M024: Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001 -- eyes
+- M002: Between the End and Where We Lie / Thrice / Vheissu [iTunes Bonus Edition] / 2005 -- sky
+- M001: Over / Jimmy Eat World / Stay on My Side Tonight / 2005 -- attention
+- M001: LAX / Big D and the Kids Table / How It Goes / 2004 -- heart/world
+- K763: Simple Livin' / Gym Class Heroes / The Papercut Chronicles [Bonus CD] / 2005 -- something
+- K750: American X / Black Rebel Motorcycle Club / Baby 81 / 2007 -- soul
+- K635: Everybody's Friend / Jane's Addiction / Strays / 2003 -- shaken head
+- K353: Out of Sight / Smash Mouth / Smash Mouth / 2001 -- rubber thumb
+
+## Noun
+
+- M003: No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000 -- what you hear
+- M003: Fuck You / Damageplan / New Found Power / 2004 -- fakery
+- K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007
+
 ## Fake as an environmental element
 
 - M704: Teenage Dirtbag / Wheatus / Teenage Dirtbag / 2000
@@ -70,7 +119,6 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - M191: Fell on Black Days / Soundgarden / Telephantasm [CD/DVD] / 2010
 - M123: Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000
 - M077: (Can't Get My) Head Around You / The Offspring / Greatest Hits [Australia Bonus Tracks] / 2005
-- ++M071: Revenga / System of a Down / Mezmerize / 2005
 - M068: Shattered / O.A.R. / Rain or Shine / 2010
 - M045: Superman's Dead / Our Lady Peace / Live [DVD] / 2003
 - M020: Come out Swinging / The Offspring / Conspiracy of One [Australia Bonus Track] / 2000
@@ -224,17 +272,10 @@ Hi. https://en.wikipedia.org/wiki/Walk_the_Dinosaur
 - K119: Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
 - K063: Insincere / The Go-Go's / God Bless the Go-Go's / 2001
 
-## Noun
-
-- M003: No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000 -- what you hear
-- M003: Fuck You / Damageplan / New Found Power / 2004 -- fakery
-- K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007
-
 ## Don't even know
 
 - M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006
 - M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003
-- M274: One Week / Barenaked Ladies / Extended Versions / 2006
 - M027: Satellite / P.O.D. / Lay It Down [Screwed] / 2001
 - M019: I Do / Chingy / Powerballin' [Clean] / 2004
 - M019: Counterfeit / Limp Bizkit / The Collected / 2008
