@@ -1,7 +1,7 @@
 +++
 title = "The Fake Fixation"
 description = "TODO."
-date = 2024-11-06
+date = 2024-11-07
 +++
 
 {{% epigraph %}}
@@ -12,30 +12,50 @@ date = 2024-11-06
 
 Close your eyes for a moment and allow yourself to be transported into the past, back to a time when {{% link wiki-walk-the-dinosaur %}}dinosaurs walked the earth{{% /link %}}. Seek out the first stranger you can find, and ask them to recite the first song lyric they can think of that contains the word **"fake."**
 
-It's a bit of a stumper to anybody who hasn't consciously prepared for it. So maybe a hint is warranted: Something involving **faking a smile**, you know, pretending you're happy when you're not.
+It's a bit of a stumper to anybody who hasn't consciously prepared for it. So maybe a hint is warranted: Something involving **faking a smile**---you know---pretending you're happy when you're really not.
 
 Given a few more moments, any true-blooded citizen of the 1980s might very well conjure this one up:
 
 > Every **smile you fake** \
 > Every claim you stake \
 > I'll be watching you
-> <footer>The Police, "Every Breath You Take"</footer>
+> <footer>The Police, &ldquo;Every Breath You Take&rdquo;</footer>
 
-A valid answer, but can they name _another_ song lyric from that era containing that word? One that's not the {{% link wiki-synchronicity-ii %}}track immediately before{{% /link %}} the one they just named? It's not so easy; there weren't all that many.{{% margin-note %}}I'll give you "911 is a Joke" by Public Enemy and "House of Pain" by Faster Pussycat. What have you got?{{% /margin-note %}} The 80s were simply too genuine, I suppose.
+A valid answer, but can they name _another_ song lyric from that era containing that word in _any_ sense? One that's not the {{% link wiki-synchronicity-ii %}}track that directly precedes{{% /link %}} the one they just named? It's not so easy; there weren't all that many.{{% margin-note %}}I'll give you "911 Is a Joke" by Public Enemy and "House of Pain" by Faster Pussycat. What have _you_ got?{{% /margin-note %}} The 80s were simply too genuine, I suppose.
 
 ## I'll take Napster Downloads for $200, Alex.
 
-Recently I found myself in the rather unenviable position of needing to sand the exposed surface of an entire deck. It was a back-breaking, hand-numbing, frustrating job that could only be complimented by one soundtrack: Angry post-grunge/nu metal/alternative rock from the early 2000s. It was the only thing that felt right at the time.
+Recently I found myself in the rather unenviable position of needing to sand the exposed surfaces of an entire deck. It was a back-breaking, hand-numbing, frustrating job that could only be complimented by one soundtrack: Angry post-grunge/nu metal/alternative rock from the early 2000s. It was the only thing that felt right at the time.
 
-Squatting and kneeling, occasionally hitting a particularly determined mosquito with the belt sander, {{% margin-note %}}I go with 120 grit to really smear her blood meal around, but that's just me talking.{{% /margin-note %}} I started to pick up a pattern in the music. _A whole bunch of these song lyrics used the word "fake."_ The longer I listened, the more it happened.
+Squatting and kneeling, occasionally hitting a particularly determined mosquito with the belt sander, {{% margin-note %}}I go with 120 grit to really smear her blood meal around, but that's just me talking.{{% /margin-note %}} I started to pick up a pattern in the music. _A whole bunch of these song lyrics contain the word "fake."_ The longer I listened, the more apparent it became.
 
 Fake smiles and grins, like those Sting sang twenty years earlier, are as present as ever:
 
 > This is the last **smile** \
 > That I'll **fake** for the sake of being with you
-> <footer>Linkin Park, "Pushing Me Away"</footer>
+> <footer>Linkin Park, &ldquo;Pushing Me Away&rdquo;</footer>
 
-TODO smile list
+TODO
+
+- M284: Welcome to My Life / Simple Plan / Welcome To My Life Pt.1 (2 Tracks) / 2004 -- smile
+- [sad ballad] M047: Cold As You / Taylor Swift / Taylor Swift / 2006 -- smile
+- M040: Asylum / Disturbed / Asylum / 2010 -- smile
+- [slow country] M037: Teardrops On My Guitar / Taylor Swift / Beautiful Eyes / 2008 -- smile
+- M035: Story of a Lonely Guy / blink-182 / Take Off Your Pants and Jacket / 2001 -- smile
+- M010: Blood on the Ground / Incubus / Morning View / 2001 -- grin
+- [slow] M010: Bed of Lies / Matchbox Twenty / Yourself or Someone Like You/Mad Season / 2008 -- hollow smile
+- M009: Come Back Down / Lifehouse / Lifehouse / 2005 -- smile
+- M003: Trade Yourself In / Shinedown / Us and Them / 2005 -- smile
+- M003: Don't You Forget About Me / Enrique Iglesias / Insomniac / 2007 -- smile
+- M002: Another Innocent Girl / Alkaline Trio / From Here to Infirmary / 2001 -- smile
+- M001: Stay / Everlast / Love, War and the Ghost of Whitey Ford / 2008 -- smile
+- M001: Someday / Crossfade / Falling Away / 2006 -- smile
+- M001: Rosealia / Better Than Ezra / Greatest Hits / 2005 -- smile
+- M001: Can't Stop, Gotta Date with Hate / Lostprophets / Liberation Transmission / 2006 -- smiles
+- K552: Mona Lisa / Guster / Guster on Ice: Live from Portland, Maine [DVD] / 2004 -- smile
+- K360: If You Come Back to Me / Bowling for Soup / The Great Burrito Extortion Case / 2006 -- smiles
+- K094: Happy / American Hi-Fi / Live From Tokyo / 2002 -- smile
+- K064: Shine / Everclear / Welcome to the Drama Club / 2006 -- smiles
 
 ## "Gonna make a break and take a fake"
 
@@ -44,40 +64,17 @@ It makes sense from a practical standpoint why the word "fake" in the abstract i
 > My sweet revenge will be yours, it's in the **making** \
 > It's in the **taking**, **making**, **baking**, **taking**, **faking** \
 > Ah-ah-ah, ah-ah, ah-ah
-> <footer>System of a Down, "Revenga"</footer>
+> <footer>System of a Down, &ldquo;Revenga"</footer>
 
-TODO Party / Nelly Furtado ?
-
-Of course, no discussion on rhyme scheme would be complete without mentioning this piece of poetic perfection:
+Of course, no discussion on rhyme scheme would be complete without mentioning this piece of patterned perfection:
 
 > Everything's so blurry and everyone's so **fake** \
 > And everybody's empty and everything is so **messed up**
-> <footer>Puddle of Mudd, "Blurry"</footer>
+> <footer>Puddle of Mudd, &ldquo;Blurry&rdquo;</footer>
 
-Somehow I remember this seeming more profound when it was coming out of Winamp 3.
+Pure poetry, that. Somehow I remember these words seeming more profound coming out of Winamp 3.
 
-## Fale smile/grin
-
-- M284: Welcome to My Life / Simple Plan / Welcome To My Life Pt.1 (2 Tracks) / 2004
-- M047: Cold As You / Taylor Swift / Taylor Swift / 2006
-- M040: Asylum / Disturbed / Asylum / 2010
-- M037: Teardrops On My Guitar / Taylor Swift / Beautiful Eyes / 2008
-- M035: Story of a Lonely Guy / blink-182 / Take Off Your Pants and Jacket / 2001
-- M013: Believe / Staind / Believe / 2008
-- M010: Blood on the Ground / Incubus / Morning View / 2001
-- M010: Bed of Lies / Matchbox Twenty / Yourself or Someone Like You/Mad Season / 2008
-- M009: Come Back Down / Lifehouse / Lifehouse / 2005
-- M003: Trade Yourself In / Shinedown / Us and Them / 2005
-- M003: Don't You Forget About Me / Enrique Iglesias / Insomniac / 2007
-- M002: Another Innocent Girl / Alkaline Trio / From Here to Infirmary / 2001
-- M001: Stay / Everlast / Love, War and the Ghost of Whitey Ford / 2008
-- M001: Someday / Crossfade / Falling Away / 2006
-- M001: Rosealia / Better Than Ezra / Greatest Hits / 2005
-- M001: Can't Stop, Gotta Date with Hate / Lostprophets / Liberation Transmission / 2006
-- K552: Mona Lisa / Guster / Guster on Ice: Live from Portland, Maine [DVD] / 2004
-- K360: If You Come Back to Me / Bowling for Soup / The Great Burrito Extortion Case / 2006
-- K094: Happy / American Hi-Fi / Live From Tokyo / 2002
-- K064: Shine / Everclear / Welcome to the Drama Club / 2006
+---
 
 ## Literal fake object
 
@@ -215,7 +212,7 @@ Somehow I remember this seeming more profound when it was coming out of Winamp 3
 - K072: I Wanna Know Your Name / 2gether / 2ge+her: Again / 2000
 - K034: Mosquito / Sister Hazel / BAM!, Vol. 1 / 2007
 
-# Person/life is fake / a faker
+## Person/life is fake / a faker
 
 - M299: I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
 - M298: Blurry / Puddle of Mudd / Come Clean / 2001
@@ -285,23 +282,24 @@ Somehow I remember this seeming more profound when it was coming out of Winamp 3
 
 ---
 
-Disclaimer
-- 69 Tea
-- Needles
-- Driven Under
-... II
-- Hang On
-Karma and Effect
-- Burrito
-Finding Beauty in Negative Spaces
-- Fake It
-- Quirk [demo]
-Holding onto Strings Better Left to Fray
-- Fur Cue
-Poison the Parish
-- Something Else
-- Saviours
-- Nothing Left
-Si Vis Pacem, Para Bellum
-- Feast or Famine
-- Leech
+Seether gets The Table<sup>TM</sup>:
+
+{{% fullwidth %}}
+Title                    | Album                                    | Year | Lyric
+:------------------------|:-----------------------------------------|-----:|:-----
+"69 Tea"                 | Disclaimer                               | 2002 | "Say you will, **faking** ill"
+"Needles"                | Disclaimer                               | 2002 | "**Faking**, forsaking, and failing"
+"Driven Under"           | Disclaimer                               | 2002 | "Do you know I'm **faking**?"
+"Hang On"                | Disclaimer II                            | 2004 | "I wish I could **fake** it"
+"Burrito"                | Karma and Effect                         | 2005 | "I keep **faking**, **faking**, **fake**!"
+"Fake It"                | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it if..." / "I can **fake**..."
+"Quirk" ("Fake It" demo) | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it if..." / "I can **fake**..."
+"Fur Cue"                | Holding Onto Strings Better Left to Fray | 2011 | "**Fake**, you’re more than I can take"
+"Something Else"         | Poison the Parish                        | 2017 | "Tell me how you **fake** it"
+"Saviours"               | Poison the Parish                        | 2017 | "Fuck you and your **fake** adoration"
+"Nothing Left"           | Poison the Parish                        | 2017 | "The **fakes** and liars"
+"Feast or Famine"        | Si Vis Pacem, Para Bellum                | 2020 | "I won't **fake** this"
+"Leech"                  | Si Vis Pacem, Para Bellum                | 2020 | "**Fake** your apathy" / "**Fake** your purity"
+{{% /fullwidth %}}
+
+That's 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been.
