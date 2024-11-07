@@ -25,37 +25,34 @@ A valid answer, but can they name _another_ song lyric from that era containing 
 
 ## I'll take Napster Downloads for $200, Alex.
 
-Recently I found myself in the rather unenviable position of needing to sand the exposed surfaces of an entire deck. It was a back-breaking, hand-numbing, frustrating job that could only be complimented by one soundtrack: Angry post-grunge/nu metal/alternative rock from the early 2000s. It was the only thing that felt right at the time.
+Recently I found myself in the rather unenviable position of needing to sand the exposed surfaces of an entire deck. It was a back-breaking, hand-numbing, frustrating job that could only be complimented by one soundtrack: Angry alternative rock/post-grunge/nu metal from the early 2000s. It was the only thing that felt right at the time.
 
 Squatting and kneeling, occasionally hitting a particularly determined mosquito with the belt sander, {{% margin-note %}}I go with 120 grit to really smear her blood meal around, but that's just me talking.{{% /margin-note %}} I started to pick up a pattern in the music. _A whole bunch of these song lyrics contain the word "fake."_ The longer I listened, the more apparent it became.
 
-Fake smiles and grins, like those Sting sang twenty years earlier, are as present as ever:
+Fake smiles and grins, like those Sting sang about twenty years earlier, are as present as ever:
 
 > This is the last **smile** \
 > That I'll **fake** for the sake of being with you
 > <footer>Linkin Park, &ldquo;Pushing Me Away&rdquo;</footer>
 
-TODO
+From Simple Plan{{% margin-note side %}}"Welcome to My Life"{{% /margin-note %}} to Crossfade,{{% margin-note side %}}"Someday"{{% /margin-note %}} Disturbed{{% margin-note side %}}"Asylum"{{% /margin-note %}} to Blink-182,{{% margin-note side %}}"Story of a Lonely Guy"{{% /margin-note %}} seems like nobody in any of these songs was really happy.
 
-- M284: Welcome to My Life / Simple Plan / Welcome To My Life Pt.1 (2 Tracks) / 2004 -- smile
-- [sad ballad] M047: Cold As You / Taylor Swift / Taylor Swift / 2006 -- smile
-- M040: Asylum / Disturbed / Asylum / 2010 -- smile
-- [slow country] M037: Teardrops On My Guitar / Taylor Swift / Beautiful Eyes / 2008 -- smile
-- M035: Story of a Lonely Guy / blink-182 / Take Off Your Pants and Jacket / 2001 -- smile
-- M010: Blood on the Ground / Incubus / Morning View / 2001 -- grin
-- [slow] M010: Bed of Lies / Matchbox Twenty / Yourself or Someone Like You/Mad Season / 2008 -- hollow smile
-- M009: Come Back Down / Lifehouse / Lifehouse / 2005 -- smile
-- M003: Trade Yourself In / Shinedown / Us and Them / 2005 -- smile
-- M003: Don't You Forget About Me / Enrique Iglesias / Insomniac / 2007 -- smile
-- M002: Another Innocent Girl / Alkaline Trio / From Here to Infirmary / 2001 -- smile
-- M001: Stay / Everlast / Love, War and the Ghost of Whitey Ford / 2008 -- smile
-- M001: Someday / Crossfade / Falling Away / 2006 -- smile
-- M001: Rosealia / Better Than Ezra / Greatest Hits / 2005 -- smile
-- M001: Can't Stop, Gotta Date with Hate / Lostprophets / Liberation Transmission / 2006 -- smiles
-- K552: Mona Lisa / Guster / Guster on Ice: Live from Portland, Maine [DVD] / 2004 -- smile
-- K360: If You Come Back to Me / Bowling for Soup / The Great Burrito Extortion Case / 2006 -- smiles
-- K094: Happy / American Hi-Fi / Live From Tokyo / 2002 -- smile
-- K064: Shine / Everclear / Welcome to the Drama Club / 2006 -- smiles
+> Can't pretend just to **fake a smile** \
+> 'Cause you know I feel every ounce of \
+> Pain [...]
+> <footer>Shinedown, &ldquo;Trade Yourself In&rdquo;</footer>
+
+And also Everlast,{{% margin-note side %}}"Stay"{{% /margin-note %}} and Lostprophets,{{% margin-note side %}}"Can't Stop, Gotta Date with Hate"{{% /margin-note %}} and Guster,{{% margin-note side %}}"Mona Lisa"{{% /margin-note %}} and...
+
+> From now on I'm going to start holding my breath \
+> When you come around and you flex that **fake grin** \
+> 'Cause something inside me has said more than twice \
+> That breathing less air beats breathing you in
+> <footer>Incubus, &ldquo;Blood on the Ground&rdquo;</footer>
+
+And we haven't even explored the likes of Taylor Swift,{{% margin-note side %}}"Cold As You"; "Teardrops On My Guitar"{{% /margin-note %}} Matchbox Twenty,{{% margin-note side %}}"Bed of Lies"{{% /margin-note %}} Alkaline Trio,{{% margin-note side %}}"Another Innocent Girl"{{% /margin-note %}} you know, the sorts of songs that make you fumble around for the ":fast_forward:" button due to how insufficiently angry they are for the task at hand.
+
+But there's so much more to it than unauthentic facial expressions. There is an entire universe of fakeness before us.
 
 ## "Gonna make a break and take a fake"
 
@@ -66,6 +63,15 @@ It makes sense from a practical standpoint why the word "fake" in the abstract i
 > Ah-ah-ah, ah-ah, ah-ah
 > <footer>System of a Down, &ldquo;Revenga"</footer>
 
+It's a versatile word that can be molded to fit in any number of places:
+
+> Your tragedy, your misery \
+> But most of all fuck you \
+> [...] \
+> Your **fakery**, your butchery \
+> Is nothing compared to my hate for you
+> <footer>Damageplan, &ldquo;Fuck You&rdquo;</footer>
+
 Of course, no discussion on rhyme scheme would be complete without mentioning this piece of patterned perfection:
 
 > Everything's so blurry and everyone's so **fake** \
@@ -74,43 +80,43 @@ Of course, no discussion on rhyme scheme would be complete without mentioning th
 
 Pure poetry, that. Somehow I remember these words seeming more profound coming out of Winamp 3.
 
----
+## "Hitching a ride with a big fake rubber thumb"
 
-## Literal fake object
-
-- M936: Soul Music / Everlast / White Trash Beautiful / 2004 -- jacks
+- M704: Teenage Dirtbag / Wheatus / Teenage Dirtbag / 2000 -- situation
 - M650: Psychosocial / Slipknot / {sic}nesses: Live at Download / 2010 -- lie
+- M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
 - M122: Cowboy / Kid Rock / Live Trucker / 2006 -- breasts
 - M118: Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000 -- titties
 - M061: Right Now / SR-71 / Now You See Inside / 2000 -- plastic submarine
-- M059: Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006 -- tan
-- M030: Slipped Away / Avril Lavigne / Under My Skin / 2004 -- incident
+- [indie punky] M059: Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006 -- tan
 - M028: Boom! / System of a Down / Steal This Album! / 2002 -- lawn/houses
-- M024: Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001 -- eyes
-- M002: Between the End and Where We Lie / Thrice / Vheissu [iTunes Bonus Edition] / 2005 -- sky
+- M027: Satellite / P.O.D. / Lay It Down [Screwed] / 2001 -- environmental CHRISTIAN
+- [e] M024: Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001 -- eyes
+- M007: Will You / P.O.D. / Payable on Death / 2003 -- situation nonsensical
+- M005: Billy Spleen / Sum 41 / Does This Look Infected? [Clean] / 2002 -- reality
+- [rap] M003: No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000 -- what you hear
+- [e] M002: Between the End and Where We Lie / Thrice / Vheissu [iTunes Bonus Edition] / 2005 -- sky
 - M001: Over / Jimmy Eat World / Stay on My Side Tonight / 2005 -- attention
-- M001: LAX / Big D and the Kids Table / How It Goes / 2004 -- heart/world
-- K763: Simple Livin' / Gym Class Heroes / The Papercut Chronicles [Bonus CD] / 2005 -- something
+- [late] M001: Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010 -- NOUN environment
+- K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
 - K750: American X / Black Rebel Motorcycle Club / Baby 81 / 2007 -- soul
-- K635: Everybody's Friend / Jane's Addiction / Strays / 2003 -- shaken head
-- K353: Out of Sight / Smash Mouth / Smash Mouth / 2001 -- rubber thumb
+- K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007 -- NOUN nonsensical
+- [off genre] K023: Mount Normal / Blues Traveler / Truth Be Told / 2003 -- probably situation/environment
 
-## Noun
+---
 
-- M003: No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000 -- what you hear
-- M003: Fuck You / Damageplan / New Found Power / 2004 -- fakery
-- K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007
+## Trapt vs Staind
 
-## Fake as an environmental element
-
-- M704: Teenage Dirtbag / Wheatus / Teenage Dirtbag / 2000
-- M005: Billy Spleen / Sum 41 / Does This Look Infected? [Clean] / 2002
-- M001: Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010
-- K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008
-- K061: Sierra's Song / The All-American Rejects / 90210 / 2009
+- M004: Pardon Me / Staind / Illusion of Progress / 2008 -- ACTION, pretenting to still like enemy
+- M001: New Beginning / Trapt / Trapt [DualDisc] / 2002 -- ACTION, trying to choose a life path
+- M001: Cross to Bear / Staind / Chapter V / 2005 -- ACTION, waiting for enemy to leave
+- [not angry] M001: Take This / Staind / Chapter V [Clean] / 2005 -- ACTION, waiting for enemy to leave
+- K993: Intro / Staind / 14 Shades of Grey [DVD Audio] / 2003 -- CLASS
+- K610: The Last Tear / Trapt / Only Through the Pain / 2008 -- ACTION, criticizing the way another person lives
 
 ## Faking as an action
 
+- M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006
 - M622: Womanizer / Britney Spears / The Singles Collection [Box Set] / 2009
 - M504: Pretty Fly (For a White Guy) / The Offspring / Greatest Hits [DualDisc] / 2005
 - M191: Fell on Black Days / Soundgarden / Telephantasm [CD/DVD] / 2010
@@ -136,8 +142,6 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 - M002: From Chaos / 311 / From Chaos / 2001
 - M002: Follow / Sevendust / Best Of (Chapter One 1997-2004) / 2005
 - M002: Explode / Nelly Furtado / Folklore / 2003
-- M001: New Beginning / Trapt / Trapt [DualDisc] / 2002
-- M001: Cross to Bear / Staind / Chapter V / 2005
 - M001: Betrayal Is a Symptom / Thrice / Point Break, Vol. 1 / 2002
 - K952: Black Illusion / Ozzy Osbourne / Down to Earth / 2001
 - K822: Anxiety / Good Charlotte / The Greatest Remixes / 2008
@@ -183,18 +187,15 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 - M005: Places You Have Come to Fear the Most / Dashboard Confessional / The Places You Have Come to Fear the Most [Bonus Track] / 2001
 - M005: Not as We / Alanis Morissette / Not as We / 2008
 - M004: Stripped Intro / Christina Aguilera / Christina Aguilera/Stripped / 2006
-- M004: Pardon Me / Staind / Illusion of Progress / 2008
 - M003: Shatter / Feeder / The Singles / 2006
 - M002: Our Sick Story / Atreyu / A Death-Grip on Yesterday / 2006
 - M002: Magic's in the Makeup / No Doubt / Return of Saturn / 2000
 - M002: Easy / Westlife / The Love Album [Deluxe Edition] / 2006
-- M001: Take This / Staind / Chapter V [Clean] / 2005
 - M001: Lien on Your Dreams / Black Rebel Motorcycle Club / Baby 81 / 2007
 - M001: If Only She Knew / Michelle Branch / The Spirit Room/Hotel Paper / 2009
 - M001: Hide Away / Hilary Duff / Hilary Duff / 2004
 - M001: Drawn Out / Dishwalla / Opaline / 2002
 - K952: Get Up / Unwritten Law / Here's to the Mourning [Clean] / 2005
-- K610: The Last Tear / Trapt / Only Through the Pain / 2008
 - K599: This Moment Is All There Is / Lenny Kravitz / It Is Time for a Love Revolution / 2008
 - K520: Adjustments / Smile Empty Soul / Vultures / 2006
 - K428: Panic Attack / Finger Eleven / Finger Eleven / 2003
@@ -212,7 +213,9 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 - K072: I Wanna Know Your Name / 2gether / 2ge+her: Again / 2000
 - K034: Mosquito / Sister Hazel / BAM!, Vol. 1 / 2007
 
-## Person/life is fake / a faker
+## Person/life/world is fake / a faker
+
+- M019: Counterfeit / Limp Bizkit / The Collected / 2008
 
 - M299: I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
 - M298: Blurry / Puddle of Mudd / Come Clean / 2001
@@ -243,13 +246,13 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 - M002: Fear Is a Place to Live / Korn / Korn III: Remember Who You Are / 2010
 - M002: Fake / Busted / A Present for Everyone / 2004
 - M002: Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
+- M001: LAX / Big D and the Kids Table / How It Goes / 2004
 - M001: U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
 - M001: Straight To Your Face / Hatebreed / The Rise of Brutality / 2003
 - M001: So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
 - M001: Mara and Me / Say Anything / Say Anything / 2009
 - M001: Low Down / Black Label Society / Berzerkus Tour Sampler / 2010
 - K???: Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
-- K993: Intro / Staind / 14 Shades of Grey [DVD Audio] / 2003
 - K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
 - K763: Breezy / JoJo / Jo Jo / 2004
 - K705: Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
@@ -268,34 +271,24 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 - K139: Take Me Home / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
 - K119: Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
 - K063: Insincere / The Go-Go's / God Bless the Go-Go's / 2001
-
-## Don't even know
-
-- M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006
-- M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003
-- M027: Satellite / P.O.D. / Lay It Down [Screwed] / 2001
-- M019: I Do / Chingy / Powerballin' [Clean] / 2004
-- M019: Counterfeit / Limp Bizkit / The Collected / 2008
-- M007: Will You / P.O.D. / Payable on Death / 2003
-- M001: Party / Nelly Furtado / Whoa, Nelly! [Bonus Track] / 2000
-- K023: Mount Normal / Blues Traveler / Truth Be Told / 2003
+- K061: Sierra's Song / The All-American Rejects / 90210 / 2009
 
 ---
 
-Seether gets The Table<sup>TM</sup>:
+TODO ACTION Seether gets The Table<sup>TM</sup>:
 
 {{% fullwidth %}}
 Title                    | Album                                    | Year | Lyric
 :------------------------|:-----------------------------------------|-----:|:-----
-"69 Tea"                 | Disclaimer                               | 2002 | "Say you will, **faking** ill"
-"Needles"                | Disclaimer                               | 2002 | "**Faking**, forsaking, and failing"
-"Driven Under"           | Disclaimer                               | 2002 | "Do you know I'm **faking**?"
-"Hang On"                | Disclaimer II                            | 2004 | "I wish I could **fake** it"
+"69 Tea"                 | Disclaimer                               | 2002 | "Say you will, **faking** ill" _(x3)_
+"Needles"                | Disclaimer                               | 2002 | "**Faking**, forsaking, and failing" _(x2)_
+"Driven Under"           | Disclaimer                               | 2002 | "[Do/I guess] you [think/know] I'm **faking**?" _(x6)_
+"Hang On"                | Disclaimer II                            | 2004 | "Wish I could **fake** [it]" _(x3)__
 "Burrito"                | Karma and Effect                         | 2005 | "I keep **faking**, **faking**, **fake**!"
-"Fake It"                | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it if..." / "I can **fake**..."
-"Quirk" ("Fake It" demo) | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it if..." / "I can **fake**..."
-"Fur Cue"                | Holding Onto Strings Better Left to Fray | 2011 | "**Fake**, you’re more than I can take"
-"Something Else"         | Poison the Parish                        | 2017 | "Tell me how you **fake** it"
+"Fake It"                | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it if ..." _(x12)_ / "I can **fake** ..." _(x4)_
+"Quirk" ("Fake It" demo) | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it ..." _(x20)_ / "I can **fake** ..." _(x4)_
+"Fur Cue"                | Holding Onto Strings Better Left to Fray | 2011 | "**Fake**, you're more than I can take" _(x4)_
+"Something Else"         | Poison the Parish                        | 2017 | "Tell me how you **fake** it" _(x2)_
 "Saviours"               | Poison the Parish                        | 2017 | "Fuck you and your **fake** adoration"
 "Nothing Left"           | Poison the Parish                        | 2017 | "The **fakes** and liars"
 "Feast or Famine"        | Si Vis Pacem, Para Bellum                | 2020 | "I won't **fake** this"
