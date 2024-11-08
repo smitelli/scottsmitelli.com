@@ -580,6 +580,10 @@ text = 'Off-by-one error'
 href = 'https://en.wikipedia.org/wiki/Ray_casting'
 text = 'Ray Casting'
 
+[wiki-rule-of-three]
+href = 'https://en.wikipedia.org/wiki/Rule_of_three_(writing)'
+text = 'Rule of three'
+
 [wiki-segals-law]
 href = 'https://en.wikipedia.org/wiki/Segal%27s_law'
 text = "Segal's Law"

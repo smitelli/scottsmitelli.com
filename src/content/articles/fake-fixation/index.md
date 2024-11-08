@@ -80,28 +80,64 @@ Of course, no discussion on rhyme scheme would be complete without mentioning th
 
 Pure poetry, that. Somehow I remember these words seeming more profound coming out of Winamp 3.
 
+{{% small-caps %}}Beyond its use{{% /small-caps %}} as a convenient glue word, "fake" occasionally serves as a one-word metaphor for an unbelievable or even dreamlike situation. Things never go the artist's way, and anything different must not be real. Ergo, fake:
+
+> Man, I feel like mold \
+> It's prom night and I am lonely \
+> Lo and behold \
+> She's walkin' over to me \
+> This must be **fake** \
+> My lip starts to shake \
+> How does she know who I am? \
+> And why does she give a damn about me?
+> <footer>Wheatus, &ldquo;Teenage Dirtbag&rdquo;</footer>
+
+This sort of "conventional" fakeness is sometimes directly contrasted with realness, as sort of an objective guidepost to the way things ought to be:
+
+> It plays tricks with my mind, some call it asinine \
+> But it's like love or hate, now is that real or **fake**? \
+> Cause it's a real thin line, but that's your choice to make
+> <footer>P.O.D., &ldquo;Satellite&rdquo;</footer>
+
+I'm _pretty sure_ this song is using the midday sun as a metaphor for God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the songwriter was using the geocentric model where said sun revolved around the Earth as a natural satellite would. Faith being a fuzzy thing and all, it's difficult to find a single measure of absolute truth to use as a frame of reference.
+
+> See you sittin' next to the window in the bedroom \
+> She breaks down (breaks down) \
+> Cryin' over something and starin' into nothing \
+> Afraid now (hate now) \
+> Wanting, needing, haunting, it's killing me \
+> **Faking** what has happened to live the life like that, man \
+> I break down, it's **fake** now
+> <footer>P.O.D., &ldquo;Will You&rdquo;</footer>
+
+Now that, I don't have a goddamned clue.
+
 ## "Hitching a ride with a big fake rubber thumb"
 
-- M704: Teenage Dirtbag / Wheatus / Teenage Dirtbag / 2000 -- situation
-- M650: Psychosocial / Slipknot / {sic}nesses: Live at Download / 2010 -- lie
-- M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
-- M122: Cowboy / Kid Rock / Live Trucker / 2006 -- breasts
-- M118: Hot Dog / Limp Bizkit / Chocolate Starfish and the Hot Dog Flavored Water / 2000 -- titties
-- M061: Right Now / SR-71 / Now You See Inside / 2000 -- plastic submarine
-- [indie punky] M059: Still Take You Home / Arctic Monkeys / Whatever People Say I Am, That's What I'm Not / 2006 -- tan
-- M028: Boom! / System of a Down / Steal This Album! / 2002 -- lawn/houses
-- M027: Satellite / P.O.D. / Lay It Down [Screwed] / 2001 -- environmental CHRISTIAN
-- [e] M024: Screaming Infidelities / Dashboard Confessional / The Places You Have Come to Fear the Most / 2001 -- eyes
-- M007: Will You / P.O.D. / Payable on Death / 2003 -- situation nonsensical
-- M005: Billy Spleen / Sum 41 / Does This Look Infected? [Clean] / 2002 -- reality
-- [rap] M003: No Matter What They Say / Lil' Kim / The Notorious K.I.M. / 2000 -- what you hear
-- [e] M002: Between the End and Where We Lie / Thrice / Vheissu [iTunes Bonus Edition] / 2005 -- sky
-- M001: Over / Jimmy Eat World / Stay on My Side Tonight / 2005 -- attention
-- [late] M001: Are You Ready to Live? / Korn / Korn III: Remember Who You Are / 2010 -- NOUN environment
-- K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
-- K750: American X / Black Rebel Motorcycle Club / Baby 81 / 2007 -- soul
-- K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007 -- NOUN nonsensical
-- [off genre] K023: Mount Normal / Blues Traveler / Truth Be Told / 2003 -- probably situation/environment
+At the other end of the spectrum, sometimes the word conveys exactly what it says. There exists a concept of some object, and this particular instance of that object is phony.
+
+Similar to the fake smiles from before, these constructions tend to gravitate towards body parts. Dashboard Confessional sings, "I'm missing your laugh, how did it break? / And when did your **eyes** begin to look **fake**? / I hope you're as happy as you're pretending."{{% margin-note side %}}"Screaming Infidelities"{{% /margin-note %}} Or so I have been told. By somebody who listened to Dashboard Confessional in high school. Somebody who was not me.
+
+{{% small-caps %}}For some unknown reason,{{% /small-caps %}} there have been a lot more lines written about another body part:
+
+> Well I'm packin' up my game and I'ma head out west \
+> Where real women come equipped with scripts and **fake breasts**
+> <footer>Kid Rock, &ldquo;Cowboy&rdquo;</footer>
+
+A very particular body part:
+
+> **Fake-ass titties** on a fucked up chest
+> <footer>Limp Bizkit, &ldquo;Hot Dog&rdquo;</footer>
+
+And because I am an avid believer in the {{% link wiki-rule-of-three %}}rule of three{{% /link %}}:
+
+> She clings to me like cellophane \
+> **Fake plastic submarine**
+> <footer>SR-71, &ldquo;Right Now&rdquo;</footer>
+
+Apparently this one is also intended (at least partially) as a metaphor for a woman's chest, expressed in the clumsiest way possible. Honestly you'd get the same enjoyment out of the song if you just kept imagining the yellow bathtub toy you had in your mind before you started reading this paragraph.
+
+There's some middle ground here as well. System of a Down sings of "revolving **fake** lawn houses"{{% margin-note side %}}"Boom!"{{% /margin-note %}} which is not quite literal but does accurately describe the overall vibe of some American suburban housing developments. There's "**fake** anti-fascist lie,"{{% margin-note side %}}Slipknot, "Psychosocial"{{% /margin-note %}} "**fake** reality,"{{% margin-note side %}}Sum 41, "Billy Spleen"{{% /margin-note %}} **fake** soul,{{% margin-note side %}}Black Rebel Motorcycle Club, "American X"{{% /margin-note %}} and **fake** attention.{{% margin-note side %}}Jimmy Eat World, "Over"{{% /margin-note %}} In each of these, the "fake" is more of a color adjective---it's not doing the heavy lifting all by itself.
 
 ---
 
@@ -153,6 +189,7 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 - K566: Normal / Foo Fighters / Times Like These / 2003 -- artist is done pretending to like past loves; this is the one
 - K561: Destination Anywhere / Sugarcult / Warped Tour: 2004 Compilation / 2004 --
 - K470: Sincerely, Me / Better Than Ezra / Closer / 2001 -- artist misses ex even though it got to the point where she faked love
+- K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007 -- NOUN nonsensical "give a fake"
 - K365: Kim Gordon and the Arthur Doyle Hand Cream / Sonic Youth / Sonic Nurse / 2004 --
 - K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001 -- artist knows her partner is playing her
 
@@ -216,6 +253,7 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 
 - M019: Counterfeit / Limp Bizkit / The Collected / 2008
 
+- M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
 - M299: I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
 - M298: Blurry / Puddle of Mudd / Come Clean / 2001
 - M150: Just Like You / Three Days Grace / Three Days Grace / 2003
@@ -252,6 +290,7 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 - M001: Mara and Me / Say Anything / Say Anything / 2009
 - M001: Low Down / Black Label Society / Berzerkus Tour Sampler / 2010
 - K???: Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
+- K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
 - K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
 - K763: Breezy / JoJo / Jo Jo / 2004
 - K705: Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
