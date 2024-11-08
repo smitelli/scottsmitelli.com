@@ -99,7 +99,7 @@ This sort of "conventional" fakeness is sometimes directly contrasted with realn
 > Cause it's a real thin line, but that's your choice to make
 > <footer>P.O.D., &ldquo;Satellite&rdquo;</footer>
 
-I'm _pretty sure_ this song is using the midday sun as a metaphor for God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the songwriter was using the geocentric model where said sun revolved around the Earth as a natural satellite would. Faith being a fuzzy thing and all, it's difficult to find a single measure of absolute truth to use as a frame of reference.
+I'm _pretty sure_ this song is using the midday sun as a metaphor for God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the band was using the geocentric model where said sun revolved around the Earth as a natural satellite would. (Maybe the songwriters and Vanessa Williams{{% margin-note side %}}"Sometimes the snow comes down in June / Sometimes the sun goes 'round the moon" ("Save the Best for Last," a song that does not contain the word "fake." I checked.){{% /margin-note %}} all had the same science teacher, I dunno.) Faith being a fuzzy thing and all, it's difficult to find a single measure of absolute truth to use as a frame of reference.
 
 > See you sittin' next to the window in the bedroom \
 > She breaks down (breaks down) \
@@ -114,20 +114,20 @@ Now that, I don't have a goddamned clue.
 
 ## "Hitching a ride with a big fake rubber thumb"
 
-At the other end of the spectrum, sometimes the word conveys exactly what it says. There exists a concept of some object, and this particular instance of that object is phony.
+At the other end of the spectrum, sometimes the word conveys exactly what it says. There exists a concept of some object, and this particular instance of that object is phony by some metric.
 
-Similar to the fake smiles from before, these constructions tend to gravitate towards body parts. Dashboard Confessional sings, "I'm missing your laugh, how did it break? / And when did your **eyes** begin to look **fake**? / I hope you're as happy as you're pretending."{{% margin-note side %}}"Screaming Infidelities"{{% /margin-note %}} Or so I have been told. By somebody who listened to Dashboard Confessional in high school. Somebody who was not me.
+Similar to the fake smiles from before, these constructions tend to gravitate towards body parts. For example, Dashboard Confessional sang, "I'm missing your laugh, how did it break? / And when did your **eyes** begin to look **fake**? / I hope you're as happy as you're pretending."{{% margin-note side %}}"Screaming Infidelities"{{% /margin-note %}} (Or so I have been told. By somebody who listened to Dashboard Confessional in high school. Somebody who was not me.) In these usages, "fake" means nothing by itself and only serves to modify the object it's linked with. The combination of the two sets up the metaphor.
 
-{{% small-caps %}}For some unknown reason,{{% /small-caps %}} there have been a lot more lines written about another body part:
+{{% small-caps %}}For some unknown reason,{{% /small-caps %}} there have been a lot more lines written about another body part:{{% margin-note %}}{{% picture stem=hdfw alt="Limp Bizkit presents Chocolate Starfish and the Hot Dog Flavored Water" %}}Apropos of nothing, I feel the need to highlight Wes Borland's album cover work for anybody who might not be familiar with it already. It defies any attempt at analysis, only permitting one's critical eye to come away with a single burning question: _Why was the art stretched horizontally like that?_{{% /margin-note %}}
+
+> **Fake-ass titties** on a fucked up chest
+> <footer>Limp Bizkit, &ldquo;Hot Dog&rdquo;</footer>
+
+A very particular body part:
 
 > Well I'm packin' up my game and I'ma head out west \
 > Where real women come equipped with scripts and **fake breasts**
 > <footer>Kid Rock, &ldquo;Cowboy&rdquo;</footer>
-
-A very particular body part:
-
-> **Fake-ass titties** on a fucked up chest
-> <footer>Limp Bizkit, &ldquo;Hot Dog&rdquo;</footer>
 
 And because I am an avid believer in the {{% link wiki-rule-of-three %}}rule of three{{% /link %}}:
 
@@ -135,7 +135,7 @@ And because I am an avid believer in the {{% link wiki-rule-of-three %}}rule of 
 > **Fake plastic submarine**
 > <footer>SR-71, &ldquo;Right Now&rdquo;</footer>
 
-Apparently this one is also intended (at least partially) as a metaphor for a woman's chest, expressed in the clumsiest way possible. Honestly you'd get the same enjoyment out of the song if you just kept imagining the yellow bathtub toy you had in your mind before you started reading this paragraph.
+This too, apparently, is a {{% link plunk-sr-71-right-now %}}bosom euphemism{{% /link %}} (at least partially) expressed in the clumsiest way possible. I give them credit for trying, but honestly you'd get the same enjoyment out of the song if you just kept imagining the yellow bathtub toy you had in your mind before you started reading this paragraph.
 
 There's some middle ground here as well. System of a Down sings of "revolving **fake** lawn houses"{{% margin-note side %}}"Boom!"{{% /margin-note %}} which is not quite literal but does accurately describe the overall vibe of some American suburban housing developments. There's "**fake** anti-fascist lie,"{{% margin-note side %}}Slipknot, "Psychosocial"{{% /margin-note %}} "**fake** reality,"{{% margin-note side %}}Sum 41, "Billy Spleen"{{% /margin-note %}} **fake** soul,{{% margin-note side %}}Black Rebel Motorcycle Club, "American X"{{% /margin-note %}} and **fake** attention.{{% margin-note side %}}Jimmy Eat World, "Over"{{% /margin-note %}} In each of these, the "fake" is more of a color adjective---it's not doing the heavy lifting all by itself.
 
@@ -316,21 +316,21 @@ There's some middle ground here as well. System of a Down sings of "revolving **
 TODO ACTION Seether gets The Table<sup>TM</sup>:
 
 {{% fullwidth %}}
-Title                    | Album                                    | Year | Lyric
-:------------------------|:-----------------------------------------|-----:|:-----
-"69 Tea"                 | Disclaimer                               | 2002 | "Say you will, **faking** ill" _(x3)_
-"Needles"                | Disclaimer                               | 2002 | "**Faking**, forsaking, and failing" _(x2)_
-"Driven Under"           | Disclaimer                               | 2002 | "[Do/I guess] you [think/know] I'm **faking**?" _(x6)_
-"Hang On"                | Disclaimer II                            | 2004 | "Wish I could **fake** [it]" _(x3)__
-"Burrito"                | Karma and Effect                         | 2005 | "I keep **faking**, **faking**, **fake**!"
-"Fake It"                | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it if ..." _(x12)_ / "I can **fake** ..." _(x4)_
-"Quirk" ("Fake It" demo) | Finding Beauty in Negative Spaces        | 2007 | "**Fake** it ..." _(x20)_ / "I can **fake** ..." _(x4)_
-"Fur Cue"                | Holding Onto Strings Better Left to Fray | 2011 | "**Fake**, you're more than I can take" _(x4)_
-"Something Else"         | Poison the Parish                        | 2017 | "Tell me how you **fake** it" _(x2)_
-"Saviours"               | Poison the Parish                        | 2017 | "Fuck you and your **fake** adoration"
-"Nothing Left"           | Poison the Parish                        | 2017 | "The **fakes** and liars"
-"Feast or Famine"        | Si Vis Pacem, Para Bellum                | 2020 | "I won't **fake** this"
-"Leech"                  | Si Vis Pacem, Para Bellum                | 2020 | "**Fake** your apathy" / "**Fake** your purity"
+Title                    | Album                                      | Year | Lyric
+:------------------------|:-------------------------------------------|-----:|:-----
+"69 Tea"                 | _Disclaimer_                               | 2002 | "Say you will, **faking** ill" _(x3)_
+"Needles"                | _Disclaimer_                               | 2002 | "**Faking**, forsaking, and failing" _(x2)_
+"Driven Under"           | _Disclaimer_                               | 2002 | "[Do/I guess] you [think/know] I'm **faking**?" _(x6)_
+"Hang On"                | _Disclaimer II_                            | 2004 | "Wish I could **fake** [it]" _(x3)__
+"Burrito"                | _Karma and Effect_                         | 2005 | "I keep **faking**, **faking**, **fake**!"
+"Fake It"                | _Finding Beauty in Negative Spaces_        | 2007 | "**Fake** it if ..." _(x12)_ / "I can **fake** ..." _(x4)_
+"Quirk" ("Fake It" demo) | _Finding Beauty in Negative Spaces_        | 2007 | "**Fake** it ..." _(x20)_ / "I can **fake** ..." _(x4)_
+"Fur Cue"                | _Holding Onto Strings Better Left to Fray_ | 2011 | "**Fake**, you're more than I can take" _(x4)_
+"Something Else"         | _Poison the Parish_                        | 2017 | "Tell me how you **fake** it" _(x2)_
+"Saviours"               | _Poison the Parish_                        | 2017 | "Fuck you and your **fake** adoration"
+"Nothing Left"           | _Poison the Parish_                        | 2017 | "The **fakes** and liars"
+"Feast or Famine"        | _Si Vis Pacem, Para Bellum_                | 2020 | "I won't **fake** this"
+"Leech"                  | _Si Vis Pacem, Para Bellum_                | 2020 | "**Fake** your apathy" / "**Fake** your purity"
 {{% /fullwidth %}}
 
 That's 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been.

@@ -333,6 +333,10 @@ text = 'LinkedIn Confirms Account Passwords Hacked'
 href = 'https://www.peelified.com/Futurama-Forum-1/Topic-750-0-Hypnotoads_sound_effect.html'
 text = "Hypnotoad's sound effect?"
 
+[plunk-sr-71-right-now]
+href = 'https://plunkreviews.wordpress.com/2021/04/21/song-review-sr-71-right-now/'
+text = 'Song review: SR-71 - Right Now'
+
 [project-gutenberg]
 href = 'https://www.gutenberg.org/'
 text = 'Project Gutenberg'
