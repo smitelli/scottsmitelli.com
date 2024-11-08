@@ -116,57 +116,56 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 
 ## Faking as an action
 
-- M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006
-- M622: Womanizer / Britney Spears / The Singles Collection [Box Set] / 2009
-- M504: Pretty Fly (For a White Guy) / The Offspring / Greatest Hits [DualDisc] / 2005
-- M191: Fell on Black Days / Soundgarden / Telephantasm [CD/DVD] / 2010
-- M123: Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000
-- M077: (Can't Get My) Head Around You / The Offspring / Greatest Hits [Australia Bonus Tracks] / 2005
-- M068: Shattered / O.A.R. / Rain or Shine / 2010
-- M045: Superman's Dead / Our Lady Peace / Live [DVD] / 2003
-- M020: Come out Swinging / The Offspring / Conspiracy of One [Australia Bonus Track] / 2000
-- M016: Storm in a Teacup / Red Hot Chili Peppers / Stadium Arcadium / 2006 -- tears
-- M010: Goodbye / SR-71 / Tomorrow [Bonus Track] / 2002
-- M010: Goddamn Electric / Pantera / Reinventing the Steel / 2000
-- M010: Crazy Amanda Bunkface / Sum 41 / Motivation / 2002
-- M008: I Know I Know I Know / Tegan and Sara / So Jealous / 2004
-- M006: Socio / Stone Sour / Come What(ever) May [Clean] / 2006
-- M006: Fake / Shinedown / Us and Them [Bonus Tracks] / 2005
-- M005: 6 in the Morning / D12 / D12 World / 2004
-- M004: Phase / Breaking Benjamin / Digital Box Set / 2009
-- M004: I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies [Maxi Single] / 2007
-- M004: Death Rattle / Pantera / Reinventing the Steel / 2000
-- M004: Crumble / Dinosaur Jr. / Beyond / 2007
-- M003: What I Believe / Sum 41 / Half Hour of Power / 2000
-- M003: Holding On / Simple Plan / Simple Plan [Napster Exclusive] / 2008
-- M002: From Chaos / 311 / From Chaos / 2001
-- M002: Follow / Sevendust / Best Of (Chapter One 1997-2004) / 2005
-- M002: Explode / Nelly Furtado / Folklore / 2003
-- M001: Betrayal Is a Symptom / Thrice / Point Break, Vol. 1 / 2002
-- K952: Black Illusion / Ozzy Osbourne / Down to Earth / 2001
-- K822: Anxiety / Good Charlotte / The Greatest Remixes / 2008
-- K751: Blood on the Table / Puddle of Mudd / Volume 4: Songs in the Key of Love & Hate / 2009
-- K677: Not with You / Tegan and Sara / This Business of Art / 2000
-- K654: Let You Down / P.O.D. / Testify [Bonus Track] / 2006
-- K624: Automatic / Lagwagon / Resolve / 2005
-- K571: Hurricane / Bush / Golden State [Japan Bonus Track] / 2001
-- K566: Normal / Foo Fighters / Times Like These / 2003
-- K561: Destination Anywhere / Sugarcult / Warped Tour: 2004 Compilation / 2004
-- K470: Sincerely, Me / Better Than Ezra / Closer / 2001
-- K456: When I Go Deaf / Low / The Great Destroyer / 2005
-- K365: Kim Gordon and the Arthur Doyle Hand Cream / Sonic Youth / Sonic Nurse / 2004
-- K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001
+- [rap] M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006 -- her moves are genuine
+- [off genre] M622: Womanizer / Britney Spears / The Singles Collection / 2009 -- observing a man who preys on women
+- M504: Pretty Fly (For a White Guy) / The Offspring / Greatest Hits / 2005 -- subject of song is trying/failing to be cool
+- [early] M191: Fell on Black Days / Soundgarden / Telephantasm / 2010 -- things usually go wrong, right is an aberration
+- M123: Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000 -- subject's interactions are like an inauthentic movie actor
+- M077: (Can't Get My) Head Around You / The Offspring / Greatest Hits / 2005 -- subject cannot be understood and actively works to obfuscate
+- [happy] M068: Shattered / O.A.R. / Rain or Shine / 2010 -- artist lies to himself that he doesn't belong with the girl
+- M045: Superman's Dead / Our Lady Peace / Live / 2003 -- subject feels the need to act a certain way from TV
+- M020: Come out Swinging / The Offspring / Conspiracy of One / 2000 -- subject is pretending that they're not scared
+- M016: Storm in a Teacup / Red Hot Chili Peppers / Stadium Arcadium / 2006 -- fake tears, not sure
+- M010: Goodbye / SR-71 / Tomorrow / 2002 -- subject is lying/pretending they're something they're not
+---resume---
+- M010: Goddamn Electric / Pantera / Reinventing the Steel / 2000 -- be true to yourself
+- M010: Crazy Amanda Bunkface / Sum 41 / Motivation / 2002 -- artist can no longer pretend to tolerate the subject
+- M008: I Know I Know I Know / Tegan and Sara / So Jealous / 2004 -- relationship push and pull, is it holding together?
+- M006: Socio / Stone Sour / Come What(ever) May / 2006 -- artist is not okay and has difficulty acting normal
+- M006: Fake / Shinedown / Us and Them / 2005 --
+- M005: 6 in the Morning / D12 / D12 World / 2004 -- act like you know the words to the song
+- M004: Phase / Breaking Benjamin / Digital Box Set / 2009 -- act like you are okay
+- M004: I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies / 2007 -- artist is afraid of revealing truth
+- M004: Death Rattle / Pantera / Reinventing the Steel / 2000 -- no escape from death
+- M004: Crumble / Dinosaur Jr. / Beyond / 2007 -- probably wants to have what he once had
+- M003: What I Believe / Sum 41 / Half Hour of Power / 2000 --
+- M003: Holding On / Simple Plan / Simple Plan / 2008 -- artist pretends that relationship is ok
+- M002: From Chaos / 311 / From Chaos / 2001 -- artist is the original at the genre, and can't be imitated
+- M002: Follow / Sevendust / Best Of (Chapter One 1997-2004) / 2005 -- bhuddist koan?
+- M002: Explode / Nelly Furtado / Folklore / 2003 -- teenagers try everything, including pretending they're something they're not
+- M001: Betrayal Is a Symptom / Thrice / Point Break, Vol. 1 / 2002 -- artist doesn't genuinely believe in faith
+- K822: Anxiety / Good Charlotte / The Greatest Remixes / 2008 -- subject's eyes are different than they've been before; their love is not real
+- K751: Blood on the Table / Puddle of Mudd / Volume 4: Songs in the Key of Love & Hate / 2009 -- subject is overly dramatic; relationship is not going well
+- K677: Not with You / Tegan and Sara / This Business of Art / 2000 -- artist doesn't like partner, partner acts to keep status quo
+- K654: Let You Down / P.O.D. / Testify / 2006 -- artist is tired of putting on a facade
+- K624: Automatic / Lagwagon / Resolve / 2005 -- have ambition, even if it's more pretend than actual
+- K571: Hurricane / Bush / Golden State [Japan Bonus Track] / 2001 --
+- K566: Normal / Foo Fighters / Times Like These / 2003 -- artist is done pretending to like past loves; this is the one
+- K561: Destination Anywhere / Sugarcult / Warped Tour: 2004 Compilation / 2004 --
+- K470: Sincerely, Me / Better Than Ezra / Closer / 2001 -- artist misses ex even though it got to the point where she faked love
+- K365: Kim Gordon and the Arthur Doyle Hand Cream / Sonic Youth / Sonic Nurse / 2004 --
+- K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001 -- artist knows her partner is playing her
 
 ## Fake "it"/"this"
 
-- M963: Complicated / Avril Lavigne / My World / 2003
-- M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006
-- M552: In Too Deep / Sum 41 / All Killer No Filler [Bonus Disc] / 2001
-- M116: But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005
-- M111: Stupid Girl / Garbage / Absolute Garbage / 2007
-- M106: Never Gonna Leave This Bed / Maroon 5 / Hands All Over / 2010
-- M059: No Reason / Sum 41 / Chuck [Bonus Track] / 2004
-- M052: Motivation / Sum 41 / Go Chuck Yourself / 2006
+- M963: Complicated / Avril Lavigne / My World / 2003 -- fake it, acting like someone they're not
+- M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006 -- fake it, self image
+- M552: In Too Deep / Sum 41 / All Killer No Filler / 2001 -- fake it, problematic relationship
+- M116: But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005 -- artist ended up in a strip club on a bluff
+- M111: Stupid Girl / Garbage / Absolute Garbage / 2007 -- subject pretends about every aspect of life to be liked
+- M106: Never Gonna Leave This Bed / Maroon 5 / Hands All Over / 2010 -- artist is willing to become something they're not to get love back
+- M059: No Reason / Sum 41 / Chuck [Bonus Track] / 2004 -- how can society ignore its problems
+- M052: Motivation / Sum 41 / Go Chuck Yourself / 2006 -- artist espouses nihilism, or refuses to act if he's his own problem
 - M041: Love You Madly / Cake / Comfort Eagle / 2001
 - M034: This Is the Place / Red Hot Chili Peppers / By the Way / 2002
 - M031: Just Want You to Know / Backstreet Boys / Never Gone [Germany Bonus DVD] / 2005
