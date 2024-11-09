@@ -214,24 +214,24 @@ There's some middle ground here as well. System of a Down sings of "revolving **
 - [off genre] M034: This Is the Place / Red Hot Chili Peppers / By the Way / 2002
 - [off genre] M031: Just Want You to Know / Backstreet Boys / Never Gone [Germany Bonus DVD] / 2005
 - M029: Stacked Actors / Foo Fighters / Breakout [Japan CD] / 2000
----resume---
-- M023: Forget It / Breaking Benjamin / We Are Not Alone / 2004
-- M022: I've Got a Dark Alley and a Bad Idea That Says You Should Shut Your Mou / Fall Out Boy / From Under the Cork Tree / 2005
-- M017: Ain't It the Life / Foo Fighters / Skin and Bones [DVD] / 2006
-- M016: Turn on Me / The Shins / Wincing the Night Away / 2007
+- [not angry?] M023: Forget It / Breaking Benjamin / We Are Not Alone / 2004
+- [off genre] M022: I've Got a Dark Alley and a Bad Idea That Says You Should Shut Your Mou / Fall Out Boy / From Under the Cork Tree / 2005
+- [off genre] M017: Ain't It the Life / Foo Fighters / Skin and Bones [DVD] / 2006
+- [off genre] M016: Turn on Me / The Shins / Wincing the Night Away / 2007
 - M010: When You're Around / Motion City Soundtrack / Commit This to Memory / 2005
-- M009: Suture Up Your Future / Queens of the Stone Age / Era Vulgaris [European Tour Edition] / 2007
+- [off genre] M009: Suture Up Your Future / Queens of the Stone Age / Era Vulgaris [European Tour Edition] / 2007
 - M009: Sending Postcards From a Plane Crash (Wish You Were Here) / Fall Out Boy / Take This To Your Grave / 2003
 - M007: Execute The Sounds / P.O.D. / Payable on Death / 2003
-- M007: Dig In / Lenny Kravitz / Lenny / 2001
+- [off genre] M007: Dig In / Lenny Kravitz / Lenny / 2001
 - M006: The Enemy / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
 - M006: Ka-Boom Ka-Boom / Marilyn Manson / The Golden Age of Grotesque / 2003
 - M006: Don't Fake This / Chevelle / Wonder What's Next / 2002
 - M005: Vultures / The Offspring / Conspiracy of One / 2000
-- M005: Places You Have Come to Fear the Most / Dashboard Confessional / The Places You Have Come to Fear the Most [Bonus Track] / 2001
-- M005: Not as We / Alanis Morissette / Not as We / 2008
-- M004: Stripped Intro / Christina Aguilera / Christina Aguilera/Stripped / 2006
+- [e] M005: Places You Have Come to Fear the Most / Dashboard Confessional / The Places You Have Come to Fear the Most [Bonus Track] / 2001
+- [off genre] M005: Not as We / Alanis Morissette / Not as We / 2008
+- [off genre] M004: Stripped Intro / Christina Aguilera / Christina Aguilera/Stripped / 2006
 - M003: Shatter / Feeder / The Singles / 2006
+---resume---
 - M002: Our Sick Story / Atreyu / A Death-Grip on Yesterday / 2006
 - M002: Magic's in the Makeup / No Doubt / Return of Saturn / 2000
 - M002: Easy / Westlife / The Love Album [Deluxe Edition] / 2006
