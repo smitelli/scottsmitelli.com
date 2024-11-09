@@ -155,7 +155,7 @@ print(PRIME_EPOCH + timedelta(seconds=t_transmit / (2 ** 32)))
 
 This code finds an (IPv4) NTP server from the {{% link ntp-pool-project /%}}, fires off the smallest technically-valid NTP version 4 request possible, and extracts only the server's transmit timestamp from the response. This is combined with the prime epoch (blindly assuming we're in NTP era zero), then printed. Aside from some shenanigans with struct packing and unpacking, this should be pretty straightforward to folks who have worked with dates and sockets in Python.
 
-This code makes no effort to transmit the client's origin timestamp, and the server doesn't mind. As a consequence of this, however, this client can't determine how precise the returned timestamp is or how to correlate it with its own clock. All it knows is that, sometime between the time the request was sent and when the response arrived, the time at the server was the value shown. That's Pretty Good<sup>TM</sup> for our use case.
+This code makes no effort to transmit the client's origin timestamp, and the server doesn't mind. As a consequence of this, however, this client can't determine how precise the returned timestamp is or how to correlate it with its own clock. All it knows is that, sometime between the time the request was sent and when the response arrived, the time at the server was the value shown. That's Pretty Good&trade; for our use case.
 
 Those structs, though. There are more weeds to get into.
 

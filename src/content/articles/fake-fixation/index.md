@@ -1,7 +1,7 @@
 +++
 title = "The Fake Fixation"
 description = "TODO."
-date = 2024-11-08
+date = 2024-11-09
 
 # NOTE: The bulk of the HTML character references in this document are to work
 # around instances of double quotes not converting to "6-quotes" and "9-quotes"
@@ -141,22 +141,68 @@ And because I am an avid believer in the {{% link wiki-rule-of-three %}}rule of 
 > **Fake plastic submarine**
 > <footer>SR-71, &ldquo;Right Now&rdquo;</footer>
 
-This too, apparently, is a {{% link plunk-sr-71-right-now %}}bosom euphemism{{% /link %}} (at least partially) expressed in the clumsiest way possible. I give them credit for trying, but honestly you'd get the same enjoyment out of the song if you just kept imagining the yellow bathtub toy you had in your mind before you started reading this paragraph.
+This too, apparently, is a {{% link plunk-sr-71-right-now %}}bosom euphemism (at least partially){{% /link %}} expressed in the clumsiest way possible. I give them credit for trying, but honestly you'd get the same enjoyment out of the song if you just kept imagining the yellow bathtub toy you had in your mind before you started reading this paragraph.
 
-There's some middle ground here as well. System of a Down sings of "revolving **fake** lawn houses"{{% margin-note side %}}"Boom!"{{% /margin-note %}} which is not quite literal but does accurately describe the overall vibe of some American suburban housing developments. There's &ldquo;**fake** anti-fascist lie,&rdquo;{{% margin-note side %}}Slipknot, "Psychosocial"{{% /margin-note %}} &ldquo;**fake** reality,&rdquo; {{% margin-note side %}}Sum 41, "Billy Spleen"{{% /margin-note %}} **fake** soul,{{% margin-note side %}}Black Rebel Motorcycle Club, "American X"{{% /margin-note %}} and **fake** attention.{{% margin-note side %}}Jimmy Eat World, "Over"{{% /margin-note %}} In each of these, the "fake" is more of a color adjective---it's not doing the heavy lifting all by itself.
+There's some middle ground here as well. System of a Down sings of "revolving **fake** lawn houses"{{% margin-note side %}}"Boom!"{{% /margin-note %}} which is not quite literal but does accurately describe the overall vibe of some American suburban housing developments. There's &ldquo;**fake** anti-fascist lie,&rdquo;{{% margin-note side %}}Slipknot, "Psychosocial"{{% /margin-note %}} &ldquo;**fake** reality,&rdquo;{{% margin-note side %}}Sum 41, "Billy Spleen"{{% /margin-note %}} **fake** soul,{{% margin-note side %}}Black Rebel Motorcycle Club, "American X"{{% /margin-note %}} and **fake** attention.{{% margin-note side %}}Jimmy Eat World, "Over"{{% /margin-note %}} In each of these, the "fake" is more of a color adjective---it's not doing the heavy lifting all by itself.
 
 ## "Our subject isn't cool, but he fakes it anyway"
 
+Staind{{% margin-note side %}}Not to be confused with Trapt.{{% /margin-note %}} uses "faking" to describe maniuplative behavior that torments the narrator:
+
+> Faceless, **faking** \
+> Pushing, taking \
+> All this, just to \
+> Bring me, down
+> <footer>Staind, &ldquo;Cross to Bear&rdquo;</footer>
+
+Contrast this with Trapt,{{% margin-note side %}}Not to be confused with Staind.{{% /margin-note %}} who uses "fake" as... well, it's essentially the same thing:
+
+> You know how to play that game \
+> Even though you're the only one who plays \
+> So attached to the feelings that you **fake** \
+> Your weakness is your only strength \
+> [...] \
+> You traded honesty for lies \
+> You **faked** it all your life \
+> You always swear this is the last tear \
+> You'll ever cry
+> <footer>Trapt, &ldquo;The Last Tear&rdquo;</footer>
+
+TODO Seether gets The Table&trade;:
+
+{{% fullwidth %}}
+Title                    | Album                                      | Year | Lyric
+:------------------------|:-------------------------------------------|-----:|:-----
+"69 Tea"                 | _Disclaimer_                               | 2002 | "Say you will, **faking** ill" _(x3)_
+"Needles"                | _Disclaimer_                               | 2002 | "**Faking**, forsaking, and failing" _(x2)_
+"Driven Under"           | _Disclaimer_                               | 2002 | "[Do/I guess] you [think/know] I'm **faking**?" _(x6)_
+"Hang On"                | _Disclaimer II_                            | 2004 | "Wish I could **fake** [it]" _(x3)_
+"Burrito"                | _Karma and Effect_                         | 2005 | "I keep **faking**, **faking**, **fake**!"
+"Fake It"                | _Finding Beauty in Negative Spaces_        | 2007 | "**Fake** it if ..." _(x12)_&nbsp;/ "I can **fake** ..." _(x4)_
+"Quirk" ("Fake It" demo) | _Finding Beauty in Negative Spaces_        | 2007 | "**Fake** it ..." _(x20)_&nbsp;/ "I can **fake** ..." _(x4)_
+"Fur Cue"                | _Holding Onto Strings Better Left to Fray_ | 2011 | "**Fake**, you're more than I can take" _(x4)_
+"Something Else"         | _Poison the Parish_                        | 2017 | "Tell me how you **fake** it" _(x2)_
+"Saviours"               | _Poison the Parish_                        | 2017 | "Fuck you and your **fake** adoration"
+"Nothing Left"           | _Poison the Parish_                        | 2017 | "The **fakes** and liars"
+"Feast or Famine"        | _Si Vis Pacem, Para Bellum_                | 2020 | "I won't **fake** this"
+"Leech"                  | _Si Vis Pacem, Para Bellum_                | 2020 | "**Fake** your apathy"&nbsp;/ "**Fake** your purity"
+{{% /fullwidth %}}
+
+That's 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been.
+
+## "You're a phony, you know we figured you out, fake!"
+
+> I could be mean \
+> I could be angry \
+> You know I could be just like you \
+> I could be **fake** \
+> I could be stupid \
+> You know I could be just like you
+> <footer>Three Days Grace, &ldquo;Just Like You&rdquo;</footer>
+
+## "Good God, you're coming up with reasons"
+
 ---
-
-## Trapt vs Staind
-
-- M004: Pardon Me / Staind / Illusion of Progress / 2008 -- ACTION, pretenting to still like enemy
-- M001: New Beginning / Trapt / Trapt [DualDisc] / 2002 -- ACTION, trying to choose a life path
-- M001: Cross to Bear / Staind / Chapter V / 2005 -- ACTION, waiting for enemy to leave
-- [not angry] M001: Take This / Staind / Chapter V [Clean] / 2005 -- ACTION, waiting for enemy to leave
-- K993: Intro / Staind / 14 Shades of Grey [DVD Audio] / 2003 -- CLASS
-- K610: The Last Tear / Trapt / Only Through the Pain / 2008 -- ACTION, criticizing the way another person lives
 
 ## Faking as an action
 
@@ -202,74 +248,74 @@ There's some middle ground here as well. System of a Down sings of "revolving **
 
 ## Fake "it"/"this"
 
+- M059: No Reason / Sum 41 / Chuck [Bonus Track] / 2004 -- how can society ignore its problems
+- M052: Motivation / Sum 41 / Go Chuck Yourself / 2006 -- artist espouses nihilism, or refuses to act if he's his own problem
+- M029: Stacked Actors / Foo Fighters / Breakout [Japan CD] / 2000
+- M010: When You're Around / Motion City Soundtrack / Commit This to Memory / 2005
+- M009: Sending Postcards From a Plane Crash (Wish You Were Here) / Fall Out Boy / Take This To Your Grave / 2003
+- M007: Execute The Sounds / P.O.D. / Payable on Death / 2003
+- M006: The Enemy / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
+- M006: Ka-Boom Ka-Boom / Marilyn Manson / The Golden Age of Grotesque / 2003
+- M006: Don't Fake This / Chevelle / Wonder What's Next / 2002
+- M005: Vultures / The Offspring / Conspiracy of One / 2000
+- M003: Shatter / Feeder / The Singles / 2006
+- M002: Our Sick Story / Atreyu / A Death-Grip on Yesterday / 2006
+- M001: Lien on Your Dreams / Black Rebel Motorcycle Club / Baby 81 / 2007
+- K952: Get Up / Unwritten Law / Here's to the Mourning [Clean] / 2005
+- K520: Adjustments / Smile Empty Soul / Vultures / 2006
+- K428: Panic Attack / Finger Eleven / Finger Eleven / 2003
+- K409: Hey Kids / Jet / Shine On / 2006
+- K183: Motion Isn't Meaning / Thrice / All That's Left / 2003
+- K176: Out of My Depth / Everclear / Songs from an American Movie, Vol. 2: Good Time for a Bad Attitude [Clean] / 2000
+- K141: Houses of Cards / Zeromancer / Clone Your Lover / 2000
+- K092: If It Ain't Broke Break It / Meat Loaf / Bat Out of Hell III: The Monster Is Loose / 2006
+
 - [off genre] M963: Complicated / Avril Lavigne / My World / 2003 -- fake it, acting like someone they're not
 - [rap] M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006 -- fake it, self image
 - [happy] M552: In Too Deep / Sum 41 / All Killer No Filler / 2001 -- fake it, problematic relationship
 - [e] M116: But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005 -- artist ended up in a strip club on a bluff
 - [early] M111: Stupid Girl / Garbage / Absolute Garbage / 2007 -- subject pretends about every aspect of life to be liked
 - [off genre late] M106: Never Gonna Leave This Bed / Maroon 5 / Hands All Over / 2010 -- artist is willing to become something they're not to get love back
-- M059: No Reason / Sum 41 / Chuck [Bonus Track] / 2004 -- how can society ignore its problems
-- M052: Motivation / Sum 41 / Go Chuck Yourself / 2006 -- artist espouses nihilism, or refuses to act if he's his own problem
 - [off genre] M041: Love You Madly / Cake / Comfort Eagle / 2001
 - [off genre] M034: This Is the Place / Red Hot Chili Peppers / By the Way / 2002
 - [off genre] M031: Just Want You to Know / Backstreet Boys / Never Gone [Germany Bonus DVD] / 2005
-- M029: Stacked Actors / Foo Fighters / Breakout [Japan CD] / 2000
 - [not angry?] M023: Forget It / Breaking Benjamin / We Are Not Alone / 2004
 - [off genre] M022: I've Got a Dark Alley and a Bad Idea That Says You Should Shut Your Mou / Fall Out Boy / From Under the Cork Tree / 2005
 - [off genre] M017: Ain't It the Life / Foo Fighters / Skin and Bones [DVD] / 2006
 - [off genre] M016: Turn on Me / The Shins / Wincing the Night Away / 2007
-- M010: When You're Around / Motion City Soundtrack / Commit This to Memory / 2005
 - [off genre] M009: Suture Up Your Future / Queens of the Stone Age / Era Vulgaris [European Tour Edition] / 2007
-- M009: Sending Postcards From a Plane Crash (Wish You Were Here) / Fall Out Boy / Take This To Your Grave / 2003
-- M007: Execute The Sounds / P.O.D. / Payable on Death / 2003
 - [off genre] M007: Dig In / Lenny Kravitz / Lenny / 2001
-- M006: The Enemy / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
-- M006: Ka-Boom Ka-Boom / Marilyn Manson / The Golden Age of Grotesque / 2003
-- M006: Don't Fake This / Chevelle / Wonder What's Next / 2002
-- M005: Vultures / The Offspring / Conspiracy of One / 2000
 - [e] M005: Places You Have Come to Fear the Most / Dashboard Confessional / The Places You Have Come to Fear the Most [Bonus Track] / 2001
 - [off genre] M005: Not as We / Alanis Morissette / Not as We / 2008
 - [off genre] M004: Stripped Intro / Christina Aguilera / Christina Aguilera/Stripped / 2006
-- M003: Shatter / Feeder / The Singles / 2006
----resume---
-- M002: Our Sick Story / Atreyu / A Death-Grip on Yesterday / 2006
-- M002: Magic's in the Makeup / No Doubt / Return of Saturn / 2000
-- M002: Easy / Westlife / The Love Album [Deluxe Edition] / 2006
-- M001: Lien on Your Dreams / Black Rebel Motorcycle Club / Baby 81 / 2007
-- M001: If Only She Knew / Michelle Branch / The Spirit Room/Hotel Paper / 2009
-- M001: Hide Away / Hilary Duff / Hilary Duff / 2004
-- M001: Drawn Out / Dishwalla / Opaline / 2002
-- K952: Get Up / Unwritten Law / Here's to the Mourning [Clean] / 2005
-- K599: This Moment Is All There Is / Lenny Kravitz / It Is Time for a Love Revolution / 2008
-- K520: Adjustments / Smile Empty Soul / Vultures / 2006
-- K428: Panic Attack / Finger Eleven / Finger Eleven / 2003
-- K409: Hey Kids / Jet / Shine On / 2006
-- K244: Wind it Up / Barenaked Ladies / Barenaked Ladies Are Men / 2007
-- K235: Up All Night / Suburban Legends / Rump Shaker / 2003
-- K223: Motivation / Sheryl Crow / Detours / 2008
-- K183: Motion Isn't Meaning / Thrice / All That's Left / 2003
-- K176: Out of My Depth / Everclear / Songs from an American Movie, Vol. 2: Good Time for a Bad Attitude [Clean] / 2000
-- K176: My Bionic Eyes / Liz Phair / Liz Phair / 2003
-- K171: We Wanna Party / Girls Aloud / Out of Control / 2008
-- K141: Houses of Cards / Zeromancer / Clone Your Lover / 2000
-- K099: My Escape / Rufio / The Comfort of Home / 2005
-- K092: If It Ain't Broke Break It / Meat Loaf / Bat Out of Hell III: The Monster Is Loose / 2006
-- K072: I Wanna Know Your Name / 2gether / 2ge+her: Again / 2000
-- K034: Mosquito / Sister Hazel / BAM!, Vol. 1 / 2007
+- [off genre] M002: Magic's in the Makeup / No Doubt / Return of Saturn / 2000
+- [off genre cover] M002: Easy / Westlife / The Love Album [Deluxe Edition] / 2006
+- [off genre] M001: If Only She Knew / Michelle Branch / The Spirit Room/Hotel Paper / 2009
+- [off genre] M001: Hide Away / Hilary Duff / Hilary Duff / 2004
+- [off genre] M001: Drawn Out / Dishwalla / Opaline / 2002
+- [off genre] K599: This Moment Is All There Is / Lenny Kravitz / It Is Time for a Love Revolution / 2008
+- [off genre] K244: Wind it Up / Barenaked Ladies / Barenaked Ladies Are Men / 2007
+- [off genre] K235: Up All Night / Suburban Legends / Rump Shaker / 2003
+- [off genre] K223: Motivation / Sheryl Crow / Detours / 2008
+- [off genre] K176: My Bionic Eyes / Liz Phair / Liz Phair / 2003
+- [off genre] K171: We Wanna Party / Girls Aloud / Out of Control / 2008
+- [e] K099: My Escape / Rufio / The Comfort of Home / 2005
+- [off genre] K072: I Wanna Know Your Name / 2gether / 2ge+her: Again / 2000
+- [off genre] K034: Mosquito / Sister Hazel / BAM!, Vol. 1 / 2007
 
 ## Person/life/world is fake / a faker
 
 - M019: Counterfeit / Limp Bizkit / The Collected / 2008
-
-- M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
+- [off genre] M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
 - M299: I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
 - M298: Blurry / Puddle of Mudd / Come Clean / 2001
 - M150: Just Like You / Three Days Grace / Three Days Grace / 2003
 - M110: I Just Wanna Live / Good Charlotte / The Chronicles of Life and Death / 2004
-- M110: Cold Wind Blows / Eminem / Recovery / 2010
+- [rap] M110: Cold Wind Blows / Eminem / Recovery / 2010
 - M093: Over My Head (Better off Dead) / Sum 41 / Does This Look Infected? / 2002
-- M041: Who the Fuck Are Arctic Monkeys? / Arctic Monkeys / Who the Fuck Are Arctic Monkeys? / 2006
-- M029: So Good / Destiny's Child / #1's [Japan Bonus Tracks] / 2005
+- [off genre] M041: Who the Fuck Are Arctic Monkeys? / Arctic Monkeys / Who the Fuck Are Arctic Monkeys? / 2006
+- [off genre] M029: So Good / Destiny's Child / #1's [Japan Bonus Tracks] / 2005
+---resume---
 - M027: Burn / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
 - M017: I Fucking Hate You / Godsmack / Faceless / 2003
 - M015: That's How Strong My Love Is / Alicia Keys / The Element of Freedom / 2009
@@ -297,7 +343,6 @@ There's some middle ground here as well. System of a Down sings of "revolving **
 - M001: So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
 - M001: Mara and Me / Say Anything / Say Anything / 2009
 - M001: Low Down / Black Label Society / Berzerkus Tour Sampler / 2010
-- K???: Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
 - K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
 - K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
 - K763: Breezy / JoJo / Jo Jo / 2004
@@ -318,27 +363,4 @@ There's some middle ground here as well. System of a Down sings of "revolving **
 - K119: Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
 - K063: Insincere / The Go-Go's / God Bless the Go-Go's / 2001
 - K061: Sierra's Song / The All-American Rejects / 90210 / 2009
-
----
-
-TODO ACTION Seether gets The Table<sup>TM</sup>:
-
-{{% fullwidth %}}
-Title                    | Album                                      | Year | Lyric
-:------------------------|:-------------------------------------------|-----:|:-----
-"69 Tea"                 | _Disclaimer_                               | 2002 | "Say you will, **faking** ill" _(x3)_
-"Needles"                | _Disclaimer_                               | 2002 | "**Faking**, forsaking, and failing" _(x2)_
-"Driven Under"           | _Disclaimer_                               | 2002 | "[Do/I guess] you [think/know] I'm **faking**?" _(x6)_
-"Hang On"                | _Disclaimer II_                            | 2004 | "Wish I could **fake** [it]" _(x3)_
-"Burrito"                | _Karma and Effect_                         | 2005 | "I keep **faking**, **faking**, **fake**!"
-"Fake It"                | _Finding Beauty in Negative Spaces_        | 2007 | "**Fake** it if ..." _(x12)_&nbsp;/ "I can **fake** ..." _(x4)_
-"Quirk" ("Fake It" demo) | _Finding Beauty in Negative Spaces_        | 2007 | "**Fake** it ..." _(x20)_&nbsp;/ "I can **fake** ..." _(x4)_
-"Fur Cue"                | _Holding Onto Strings Better Left to Fray_ | 2011 | "**Fake**, you're more than I can take" _(x4)_
-"Something Else"         | _Poison the Parish_                        | 2017 | "Tell me how you **fake** it" _(x2)_
-"Saviours"               | _Poison the Parish_                        | 2017 | "Fuck you and your **fake** adoration"
-"Nothing Left"           | _Poison the Parish_                        | 2017 | "The **fakes** and liars"
-"Feast or Famine"        | _Si Vis Pacem, Para Bellum_                | 2020 | "I won't **fake** this"
-"Leech"                  | _Si Vis Pacem, Para Bellum_                | 2020 | "**Fake** your apathy"&nbsp;/ "**Fake** your purity"
-{{% /fullwidth %}}
-
-That's 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been.
+- K???: Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
