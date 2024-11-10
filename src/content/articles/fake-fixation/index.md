@@ -72,7 +72,6 @@ It makes sense from a practical standpoint why the word "fake" in the abstract i
 It's a versatile word that can be molded to fit in any number of places:
 
 > Your tragedy, your misery \
-> But most of all fuck you \
 > [...] \
 > Your **fakery**, your butchery \
 > Is nothing compared to my hate for you
@@ -105,7 +104,7 @@ This sort of "conventional" fakeness is sometimes directly contrasted with realn
 > Cause it's a real thin line, but that's your choice to make
 > <footer>P.O.D., &ldquo;Satellite&rdquo;</footer>
 
-I'm _pretty sure_ this song is using the midday sun as a metaphor for God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the band was using the geocentric model where said sun revolved around the Earth as a natural satellite would. (Maybe the songwriters and Vanessa Williams{{% margin-note side %}}"Sometimes the snow comes down in June&nbsp;/ Sometimes the sun goes 'round the moon" ("Save the Best for Last," a song that does not contain the word "fake." I checked.){{% /margin-note %}} all had the same science teacher, I dunno.) Faith being a fuzzy thing and all, it's difficult to find a single measure of absolute truth to use as a frame of reference.
+I'm _pretty sure_ that the larger context of this song uses the midday sun to represent God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the band was using the geocentric model where said sun revolved around the Earth as a natural satellite would. (Maybe the songwriters and Vanessa Williams{{% margin-note side %}}"Sometimes the snow comes down in June&nbsp;/ Sometimes the sun goes 'round the moon" ("Save the Best for Last," a song that does not contain the word "fake." I checked.){{% /margin-note %}} all had the same science teacher, I dunno.) Faith being a fuzzy thing and all, it's difficult to find a single measure of absolute truth to use as a frame of reference.
 
 > See you sittin' next to the window in the bedroom \
 > She breaks down (breaks down) \
@@ -122,7 +121,7 @@ Now that, I don't have a goddamned clue.
 
 At the other end of the spectrum, sometimes the word conveys exactly what it says. There exists a concept of some object, and this particular instance of that object is phony by some metric.
 
-Similar to the fake smiles from before, these constructions tend to gravitate towards body parts. For example, Dashboard Confessional sang, "I'm missing your laugh, how did it break?&nbsp;/ And when did **your eyes** begin to look **fake**?&nbsp;/ I hope you're as happy as you're pretending." {{% margin-note side %}}"Screaming Infidelities"{{% /margin-note %}} (Or so I have been told. By somebody who listened to Dashboard Confessional in high school. Somebody who was not me.) In these usages, "fake" means nothing by itself and only serves to modify the object it's linked with. The combination of the two sets up the metaphor.
+Similar to the fake smiles from before, these constructions tend to gravitate towards body parts. For example, Dashboard Confessional sang, "I'm missing your laugh, how did it break?&nbsp;/ And when did **your eyes** begin to look **fake**?&nbsp;/ I hope you're as happy as you're pretending." {{% margin-note side %}}"Screaming Infidelities"{{% /margin-note %}} (Or so I have been told. By somebody who had a fleeting Dashboard Confessional moment in high school. Somebody who was not me.) In these usages, "fake" means nothing by itself and only serves to modify the object it's linked with. The combination of the two sets up the metaphor.
 
 {{% small-caps %}}For some unknown reason,{{% /small-caps %}} there have been a lot more lines written about another body part:{{% margin-note %}}{{% picture stem=hdfw alt="Limp Bizkit presents Chocolate Starfish and the Hot Dog Flavored Water" %}}Apropos of nothing, I feel the need to highlight Wes Borland's album cover work for anybody who might not be familiar with it already. It defies any attempt at analysis, only permitting one's critical eye to come away with a single burning question: _Why was the art stretched horizontally like that?_{{% /margin-note %}}
 
@@ -305,52 +304,50 @@ That's 13 tracks spanning 18 years. The distribution is pretty even; they're as 
 
 ## Person/life/world is fake / a faker
 
-- M019: Counterfeit / Limp Bizkit / The Collected / 2008
 - [off genre] M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
 - M299: I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
-- M298: Blurry / Puddle of Mudd / Come Clean / 2001
 - M150: Just Like You / Three Days Grace / Three Days Grace / 2003
 - M110: I Just Wanna Live / Good Charlotte / The Chronicles of Life and Death / 2004
 - [rap] M110: Cold Wind Blows / Eminem / Recovery / 2010
 - M093: Over My Head (Better off Dead) / Sum 41 / Does This Look Infected? / 2002
 - [off genre] M041: Who the Fuck Are Arctic Monkeys? / Arctic Monkeys / Who the Fuck Are Arctic Monkeys? / 2006
 - [off genre] M029: So Good / Destiny's Child / #1's [Japan Bonus Tracks] / 2005
----resume---
 - M027: Burn / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
 - M017: I Fucking Hate You / Godsmack / Faceless / 2003
-- M015: That's How Strong My Love Is / Alicia Keys / The Element of Freedom / 2009
-- M013: So Long, Jimmy / James Blunt / Back to Bedlam / 2005
-- M012: There for You / Flyleaf / Flyleaf / 2005
-- M011: I'm a Fake / The Used / Berth / 2007
+- [off genre] M015: That's How Strong My Love Is / Alicia Keys / The Element of Freedom / 2009
+- [off genre] M013: So Long, Jimmy / James Blunt / Back to Bedlam / 2005
+- [e] M012: There for You / Flyleaf / Flyleaf / 2005
+- [e ridiculous] M011: I'm a Fake / The Used / Berth / 2007
 - M010: Battle for the Sun / Placebo / Battle for the Sun / 2009
-- M009: Fuck the World / Insane Clown Posse / Jugganauts: The Best of Insane Clown Posse / 2007
+- [rap link to hot dog] M009: Fuck the World / Insane Clown Posse / Jugganauts: The Best of Insane Clown Posse / 2007
 - M008: Fake / Korn / Korn/Follow the Leader / 2005
-- M007: Step Down / Sick of It All / The Story So Far / 2001
+- [off genre] M007: Step Down / Sick of It All / The Story So Far / 2001
 - M007: Forever / Kid Rock / Cocky / 2001
 - M005: Dead Skin / Crossfade / Crossfade [DualDisc] / 2004
-- M005: Admit It!!! / Say Anything / ...Is a Real Boy / 2004
+- [e] M005: Admit It!!! / Say Anything / ...Is a Real Boy / 2004
 - M003: We'll Grind That Axe for a Long Time / Pantera / Reinventing the Steel [Bonus Disc] / 2000
 - M003: Phenomenon / Limp Bizkit / Results May Vary / 2003
-- M003: Combat / Flobots / Fight with Tools / 2008
+- [off genre] M003: Combat / Flobots / Fight with Tools / 2008
 - M003: Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
 - M002: Jesus Frankenstein / Rob Zombie / Hellbilly Deluxe, Vol. 2 / 2010
 - M002: Fear Is a Place to Live / Korn / Korn III: Remember Who You Are / 2010
-- M002: Fake / Busted / A Present for Everyone / 2004
+- [happy] M002: Fake / Busted / A Present for Everyone / 2004
 - M002: Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
 - M001: LAX / Big D and the Kids Table / How It Goes / 2004
-- M001: U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
+- [rap] M001: U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
 - M001: Straight To Your Face / Hatebreed / The Rise of Brutality / 2003
-- M001: So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
-- M001: Mara and Me / Say Anything / Say Anything / 2009
+- [off genre] M001: So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
+- [e] M001: Mara and Me / Say Anything / Say Anything / 2009
 - M001: Low Down / Black Label Society / Berzerkus Tour Sampler / 2010
 - K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
-- K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
-- K763: Breezy / JoJo / Jo Jo / 2004
-- K705: Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
-- K505: Naked / Everlast / Love, War and the Ghost of Whitey Ford / 2008
+- [off genre] K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
+- [off genre] K763: Breezy / JoJo / Jo Jo / 2004
+- [rap] K705: Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
+- [late] K505: Naked / Everlast / Love, War and the Ghost of Whitey Ford / 2008
 - K431: Bro / Goldfinger / Stomping Ground [Clean] / 2000
-- K423: Helicopters / Barenaked Ladies / Maroon / 2000
+- [off genre] K423: Helicopters / Barenaked Ladies / Maroon / 2000
 - K340: The End of the Day / Goldfinger / Stomping Ground / 2000
+---resume---
 - K316: Weather Channel / Sheryl Crow / C'mon, C'mon [Japan Bonus CD] /2002
 - K307: Nuttin' But a Bitch Thang / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
 - K255: ashes and ghosts / The Cult / Beyond Good and Evil / 2001
