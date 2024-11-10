@@ -203,7 +203,7 @@ That's 13 tracks spanning 18 years. The distribution is pretty even; they're as 
 
 ---
 
-## Faking as an action
+## Faking as an action (22 / 16)
 
 - M504: Pretty Fly (For a White Guy) / The Offspring / Greatest Hits / 2005 -- subject of song is trying/failing to be cool
 - M123: Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000 -- subject's interactions are like an inauthentic movie actor
@@ -245,7 +245,7 @@ That's 13 tracks spanning 18 years. The distribution is pretty even; they're as 
 - [happy] K470: Sincerely, Me / Better Than Ezra / Closer / 2001 -- artist misses ex even though it got to the point where she faked love
 - [off genre] K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001 -- artist knows her partner is playing her
 
-## Fake "it"/"this"
+## Fake "it"/"this" (21 / 32)
 
 - M059: No Reason / Sum 41 / Chuck [Bonus Track] / 2004 -- how can society ignore its problems
 - M052: Motivation / Sum 41 / Go Chuck Yourself / 2006 -- artist espouses nihilism, or refuses to act if he's his own problem
@@ -302,62 +302,62 @@ That's 13 tracks spanning 18 years. The distribution is pretty even; they're as 
 - [off genre] K072: I Wanna Know Your Name / 2gether / 2ge+her: Again / 2000
 - [off genre] K034: Mosquito / Sister Hazel / BAM!, Vol. 1 / 2007
 
-## Person/life/world is fake / a faker
+## Person/life/world is fake / a faker (26 / 30)
 
-- [off genre] M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
 - M299: I Will Not Bow / Breaking Benjamin / Dear Agony / 2009
 - M150: Just Like You / Three Days Grace / Three Days Grace / 2003
 - M110: I Just Wanna Live / Good Charlotte / The Chronicles of Life and Death / 2004
-- [rap] M110: Cold Wind Blows / Eminem / Recovery / 2010
 - M093: Over My Head (Better off Dead) / Sum 41 / Does This Look Infected? / 2002
-- [off genre] M041: Who the Fuck Are Arctic Monkeys? / Arctic Monkeys / Who the Fuck Are Arctic Monkeys? / 2006
-- [off genre] M029: So Good / Destiny's Child / #1's [Japan Bonus Tracks] / 2005
 - M027: Burn / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
 - M017: I Fucking Hate You / Godsmack / Faceless / 2003
+- M010: Battle for the Sun / Placebo / Battle for the Sun / 2009
+- M008: Fake / Korn / Korn/Follow the Leader / 2005
+- M007: Forever / Kid Rock / Cocky / 2001
+- M005: Dead Skin / Crossfade / Crossfade [DualDisc] / 2004
+- M003: We'll Grind That Axe for a Long Time / Pantera / Reinventing the Steel [Bonus Disc] / 2000
+- M003: Phenomenon / Limp Bizkit / Results May Vary / 2003
+- M003: Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
+- M002: Jesus Frankenstein / Rob Zombie / Hellbilly Deluxe, Vol. 2 / 2010
+- M002: Fear Is a Place to Live / Korn / Korn III: Remember Who You Are / 2010
+- M002: Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
+- M001: LAX / Big D and the Kids Table / How It Goes / 2004
+- M001: Straight To Your Face / Hatebreed / The Rise of Brutality / 2003
+- M001: Low Down / Black Label Society / Berzerkus Tour Sampler / 2010
+- K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
+- K431: Bro / Goldfinger / Stomping Ground [Clean] / 2000
+- K340: The End of the Day / Goldfinger / Stomping Ground / 2000
+- K255: ashes and ghosts / The Cult / Beyond Good and Evil / 2001
+- K254: Blackball / KMFDM / WWIII/Opium / 2004
+- K161: Skulls and Stars / Crazy Town / Darkhorse [Clean] / 2002
+- K???: Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
+
+- [off genre] M501: You Get What You Give / The New Radicals / The Trip: Dirty Vegas / 2003 -- computer / fake celebrities
+- [rap] M110: Cold Wind Blows / Eminem / Recovery / 2010
+- [off genre] M041: Who the Fuck Are Arctic Monkeys? / Arctic Monkeys / Who the Fuck Are Arctic Monkeys? / 2006
+- [off genre] M029: So Good / Destiny's Child / #1's [Japan Bonus Tracks] / 2005
 - [off genre] M015: That's How Strong My Love Is / Alicia Keys / The Element of Freedom / 2009
 - [off genre] M013: So Long, Jimmy / James Blunt / Back to Bedlam / 2005
 - [e] M012: There for You / Flyleaf / Flyleaf / 2005
 - [e ridiculous] M011: I'm a Fake / The Used / Berth / 2007
-- M010: Battle for the Sun / Placebo / Battle for the Sun / 2009
 - [rap link to hot dog] M009: Fuck the World / Insane Clown Posse / Jugganauts: The Best of Insane Clown Posse / 2007
-- M008: Fake / Korn / Korn/Follow the Leader / 2005
 - [off genre] M007: Step Down / Sick of It All / The Story So Far / 2001
-- M007: Forever / Kid Rock / Cocky / 2001
-- M005: Dead Skin / Crossfade / Crossfade [DualDisc] / 2004
 - [e] M005: Admit It!!! / Say Anything / ...Is a Real Boy / 2004
-- M003: We'll Grind That Axe for a Long Time / Pantera / Reinventing the Steel [Bonus Disc] / 2000
-- M003: Phenomenon / Limp Bizkit / Results May Vary / 2003
 - [off genre] M003: Combat / Flobots / Fight with Tools / 2008
-- M003: Better of Two Evils / Marilyn Manson / The Golden Age of Grotesque / 2003
-- M002: Jesus Frankenstein / Rob Zombie / Hellbilly Deluxe, Vol. 2 / 2010
-- M002: Fear Is a Place to Live / Korn / Korn III: Remember Who You Are / 2010
 - [happy] M002: Fake / Busted / A Present for Everyone / 2004
-- M002: Bend the Bracket / Chevelle / This Type of Thinking (Could Do Us In) [Bonus Track] / 2004
-- M001: LAX / Big D and the Kids Table / How It Goes / 2004
 - [rap] M001: U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
-- M001: Straight To Your Face / Hatebreed / The Rise of Brutality / 2003
 - [off genre] M001: So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
 - [e] M001: Mara and Me / Say Anything / Say Anything / 2009
-- M001: Low Down / Black Label Society / Berzerkus Tour Sampler / 2010
-- K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
 - [off genre] K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
 - [off genre] K763: Breezy / JoJo / Jo Jo / 2004
 - [rap] K705: Baby Girl Interlude/Intro / Missy Elliott / This Is Not a Test! [Bonus Track] / 2003
 - [late] K505: Naked / Everlast / Love, War and the Ghost of Whitey Ford / 2008
-- K431: Bro / Goldfinger / Stomping Ground [Clean] / 2000
 - [off genre] K423: Helicopters / Barenaked Ladies / Maroon / 2000
-- K340: The End of the Day / Goldfinger / Stomping Ground / 2000
----resume---
-- K316: Weather Channel / Sheryl Crow / C'mon, C'mon [Japan Bonus CD] /2002
-- K307: Nuttin' But a Bitch Thang / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
-- K255: ashes and ghosts / The Cult / Beyond Good and Evil / 2001
-- K254: Dream On / Robyn / Robyn / 2005
-- K254: Blackball / KMFDM / WWIII/Opium / 2004
-- K233: Box / Tokyo Police Club / Smith / 2007
-- K203: Zero Tolerance / Kottonmouth Kings / Rollin' Stoned / 2002
-- K161: Skulls and Stars / Crazy Town / Darkhorse [Clean] / 2002
-- K139: Take Me Home / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
-- K119: Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
-- K063: Insincere / The Go-Go's / God Bless the Go-Go's / 2001
-- K061: Sierra's Song / The All-American Rejects / 90210 / 2009
-- K???: Who I Am / Smile Empty Soul / Spider-Man 2 [Original Soundtrack] / 2004
+- [off genre] K316: Weather Channel / Sheryl Crow / C'mon, C'mon [Japan Bonus CD] /2002
+- [rap] K307: Nuttin' But a Bitch Thang / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
+- [off genre] K254: Dream On / Robyn / Robyn / 2005
+- [e] K233: Box / Tokyo Police Club / Smith / 2007
+- [rap] K203: Zero Tolerance / Kottonmouth Kings / Rollin' Stoned / 2002
+- [off genre] K139: Take Me Home / Insane Clown Posse / Forgotten Freshness, Vol. 3 / 2001
+- [rap] K119: Watch Your Back / Kottonmouth Kings / Kottonmouth Kings / 2005
+- [off genre] K063: Insincere / The Go-Go's / God Bless the Go-Go's / 2001
+- [off genre] K061: Sierra's Song / The All-American Rejects / 90210 / 2009
