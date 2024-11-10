@@ -1,7 +1,7 @@
 +++
 title = "The Fake Fixation"
 description = "TODO."
-date = 2024-11-09
+date = 2024-11-10
 
 # NOTE: The bulk of the HTML character references in this document are to work
 # around instances of double quotes not converting to "6-quotes" and "9-quotes"
