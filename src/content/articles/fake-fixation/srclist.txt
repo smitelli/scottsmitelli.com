@@ -71,7 +71,7 @@ X V M005: Vultures / The Offspring / Conspiracy of One / 2000
 X V M002: Our Sick Story / Atreyu / A Death-Grip on Yesterday / 2006
 - A K913: Out of My Face / Saving Abel / Saving Abel [Clean] / 2008 -- environment: everything is
 X V K751: Blood on the Table / Puddle of Mudd / Volume 4: Songs in the Key of Love & Hate / 2009 -- subject is overly dramatic; relationship is not going well
-X ? K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007 -- NOUN nonsensical "give a fake"
+- ? K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007 -- NOUN nonsensical "give a fake"
 - A K431: Bro / Goldfinger / Stomping Ground [Clean] / 2000
 - V K141: Houses of Cards / Zeromancer / Clone Your Lover / 2000
 
@@ -79,7 +79,7 @@ X ? K441: Suffer / Sevendust / Alpha [Amended] [U.S. Version] / 2007 -- NOUN non
 
 - V M007: Execute The Sounds / P.O.D. / Payable on Death / 2003
 - V M004: Death Rattle / Pantera / Reinventing the Steel / 2000 -- no escape from death
-X V M002: Follow / Sevendust / Best Of (Chapter One 1997-2004) / 2005 -- bhuddist koan?
+- V M002: Follow / Sevendust / Best Of (Chapter One 1997-2004) / 2005 -- bhuddist koan?
 - A K161: Skulls and Stars / Crazy Town / Darkhorse [Clean] / 2002
 
 ### misc
@@ -90,26 +90,26 @@ X V M006: Don't Fake This / Chevelle / Wonder What's Next / 2002 -- depressive?
 
 ## Faking as an action (22 / 16)
 
-- [rap] M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006 -- her moves are genuine
-- [off genre] M622: Womanizer / Britney Spears / The Singles Collection / 2009 -- observing a man who preys on women
+X [rap] M846: No Diggity / Blackstreet / Maynard's Mirrorball Classics / 2006 -- her moves are genuine
+X [off genre] M622: Womanizer / Britney Spears / The Singles Collection / 2009 -- observing a man who preys on women
 - [early] M191: Fell on Black Days / Soundgarden / Telephantasm / 2010 -- things usually go wrong, right is an aberration
 - [happy] M068: Shattered / O.A.R. / Rain or Shine / 2010 -- artist lies to himself that he doesn't belong with the girl
-- [e] M008: I Know I Know I Know / Tegan and Sara / So Jealous / 2004 -- relationship push and pull, is it holding together?
-- [rap] M005: 6 in the Morning / D12 / D12 World / 2004 -- act like you know the words to the song
-- [off genre happy] M004: I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies / 2007 -- artist is afraid of revealing truth
-- [off genre] M004: Crumble / Dinosaur Jr. / Beyond / 2007 -- probably wants to have what he once had
+X [e] M008: I Know I Know I Know / Tegan and Sara / So Jealous / 2004 -- relationship push and pull, is it holding together?
+X [rap] M005: 6 in the Morning / D12 / D12 World / 2004 -- act like you know the words to the song
+X [off genre happy] M004: I Wanna Have Your Babies / Natasha Bedingfield / I Wanna Have Your Babies / 2007 -- artist is afraid of revealing truth
+X [off genre] M004: Crumble / Dinosaur Jr. / Beyond / 2007 -- probably wants to have what he once had
 - [off genre late] M003: Holding On / Simple Plan / Simple Plan / 2008 -- artist pretends that relationship is ok
-- [off genre] M002: From Chaos / 311 / From Chaos / 2001 -- artist is the original at the genre, and can't be imitated
-- [off genre] M002: Explode / Nelly Furtado / Folklore / 2003 -- teenagers try everything, including pretending they're something they're not
+X [off genre] M002: From Chaos / 311 / From Chaos / 2001 -- artist is the original at the genre, and can't be imitated
+X [off genre] M002: Explode / Nelly Furtado / Folklore / 2003 -- teenagers try everything, including pretending they're something they're not
 - [late] K822: Anxiety / Good Charlotte / The Greatest Remixes / 2008 -- subject's eyes are different than they've been before; their love is not real
 - [off genre] K677: Not with You / Tegan and Sara / This Business of Art / 2000 -- artist doesn't like partner, partner acts to keep status quo
 - [off genre] K566: Normal / Foo Fighters / Times Like These / 2003 -- artist is done pretending to like past loves; this is the one
 - [happy] K470: Sincerely, Me / Better Than Ezra / Closer / 2001 -- artist misses ex even though it got to the point where she faked love
-- [off genre] K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001 -- artist knows her partner is playing her
+X [off genre] K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track] / 2001 -- artist knows her partner is playing her
 
 ## Fake "it"/"this" (21 / 32)
 
-- [off genre] M963: Complicated / Avril Lavigne / My World / 2003 -- fake it, acting like someone they're not
+X [off genre] M963: Complicated / Avril Lavigne / My World / 2003 -- fake it, acting like someone they're not
 - [rap] M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006 -- fake it, self image
 - [happy] M552: In Too Deep / Sum 41 / All Killer No Filler / 2001 -- fake it, problematic relationship
 - [e] M116: But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005 -- artist ended up in a strip club on a bluff

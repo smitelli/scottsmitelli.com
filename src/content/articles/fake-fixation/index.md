@@ -174,7 +174,7 @@ Often a situation is encountered where one person confesses, accuses, or pleads 
 > Can you make it look like we won?
 > <footer>Foo Fighters, &ldquo;Stacked Actors&rdquo;</footer>
 
-If I were to name one band that was the unduspited king of using "fake" in this sort of way, it would be Seether. Their usage is significant enough that they are going to get The Table&trade;:
+Though if I were to name one band that was the unduspited king of using "fake" in this sort of way, it would be Seether. Their usage is significant enough that they are going to get The Table&trade;:
 
 {{% fullwidth %}}
 Title                    | Album                                      | Year | Lyric
@@ -196,20 +196,13 @@ Title                    | Album                                      | Year | L
 
 That's 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been.
 
-Of all the forms of the word "fake," the verb form definitely has the widest range. It can be used to build yourself up,{{% margin-note side %}}Pantera, "Goddamn Electric"; Thrice, "Betrayal Is a Symptom"; The Offspring, "Come out Swinging"{{% /margin-note %}} tear yourself down,{{% margin-note side %}}Chevelle, "Don't Fake This"; Papa Roach, "The Enemy"; Feeder, "Shatter"{{% /margin-note %}} criticize a friend,{{% margin-note side %}}The Offspring, "(Can't Get My) Head Around You"; Black Rebel Motorcycle Club, "Lien on Your Dreams"{{% /margin-note %}} criticize yourself,{{% margin-note side %}}Stone Sour, "Socio"; Breaking Benjamin, "Phase"; Fuel, "Hemorrhage (In My Hands)"{{% /margin-note %}} criticize society,{{% margin-note side %}}Our Lady Peace, "Superman's Dead"; Lagwagon, "Automatic"; Thrice, "Motion Isn't Meaning"{{% /margin-note %}} or destroy a relationship.{{% margin-note side %}}SR-71, "Goodbye"; Motion City Soundtrack, "When You're Around"; Sum 41, "Crazy Amanda Bunkface"; The Offspring, "Vultures"; Atreyu, "Our Sick Story"; Puddle of Mudd, "Blood on the Table"{{% /margin-note %}}
+Of all the forms of the word "fake," this verb form definitely has the widest range. It can be used to build yourself up,{{% margin-note side %}}Pantera, "Goddamn Electric"; Thrice, "Betrayal Is a Symptom"; The Offspring, "Come out Swinging"{{% /margin-note %}} tear yourself down,{{% margin-note side %}}Chevelle, "Don't Fake This"; Papa Roach, "The Enemy"; Feeder, "Shatter"{{% /margin-note %}} criticize a friend,{{% margin-note side %}}The Offspring, "(Can't Get My) Head Around You"; Black Rebel Motorcycle Club, "Lien on Your Dreams"{{% /margin-note %}} criticize yourself,{{% margin-note side %}}Stone Sour, "Socio"; Breaking Benjamin, "Phase"; Fuel, "Hemorrhage (In My Hands)"{{% /margin-note %}} criticize society,{{% margin-note side %}}Our Lady Peace, "Superman's Dead"; Lagwagon, "Automatic"; Thrice, "Motion Isn't Meaning"{{% /margin-note %}} or destroy a relationship.{{% margin-note side %}}SR-71, "Goodbye"; Motion City Soundtrack, "When You're Around"; Sum 41, "Crazy Amanda Bunkface"; The Offspring, "Vultures"; Atreyu, "Our Sick Story"; Puddle of Mudd, "Blood on the Table"{{% /margin-note %}}
 
-Now, I consider myself to be a reasonably intelligent person, but there are some bands that I've never been able to figure out. Sevendust is a big one:
+Fundamentally each of these usages is based around some kind of lie. From living in a society of ignorant sheep, to suffering through a romantic relationship or parasitic sort of friendship, all the way down to an argument with your own (more than likely clinically depressed) self, the fakeness represents tension. Very few of these songs could be described as even remotely cheerful; it's more, "I'm screwed up, you're screwed up, everything's screwed up, tune 'em down to drop C&sharp;."
 
-> Slip and give a **fake**
-> <footer>Sevendust, &ldquo;Suffer&rdquo;</footer>
+For fake-filled songs that have nothing to do with metal or metal-adjacent genres, I might recommend "I Wanna Have Your Babies" by Natasha Bedingfield, "6 in the Morning" by D12, "Hot Like Fire" by Jessica Simpson, or "No Diggity" by Blackstreet. Or "From Chaos" by 311, "I Know I Know I Know" by Tegan and Sara, "Crumble" by Dinosaur Jr., or "Womanizer" by Britney Spears. Every damn one of these has some kind of fake behavior.
 
-Or:
-
-> You can't **fake** everything that reminds you how you feel \
-> Time will tell what's inside you
-> <footer>Sevendust, &ldquo;Follow&rdquo;</footer>
-
-That whole song reads like some kind of Zen koan.
+(Or "Complicated" by Avril Lavigne, "Explode" by Nelly Furtado, "Drop It Like It's Hot" by Snoop Dogg, "But It's Better If You Do" by Panic! at the Disco, or...)
 
 ## "You're a phony, you know we figured you out, fake!"
 
