@@ -1,7 +1,7 @@
 +++
 title = "The Fake Fixation"
-description = "TODO."
-date = 2024-11-10
+description = "Twenty years ago, it was not difficult to find songs that used the word \"fake\" somewhere in the lyrics. This is not nearly as prevalent in music today, nor was it common before that era. This article explores the phenomenon to try to see if there's really something to it."
+date = 2024-11-11
 
 # NOTE: The bulk of the HTML character references in this document are to work
 # around instances of double quotes not converting to "6-quotes" and "9-quotes"
@@ -27,7 +27,7 @@ Given a few more moments, any true-blooded citizen of the 1980s might very well 
 > I'll be watching you
 > <footer>The Police, &ldquo;Every Breath You Take&rdquo;</footer>
 
-A valid answer, but can they name _another_ song lyric from that approximate era containing that word in _any_ sense? One that's not the {{% link wiki-synchronicity-ii %}}track that directly precedes{{% /link %}} the one they just named? It's not so easy; there weren't all that many.{{% margin-note %}}I'll give you "911 Is a Joke" by Public Enemy and "House of Pain" by Faster Pussycat. For something older, "Easy" by the Commodores or "It's Too Late" by Carole King. Now, what have _you_ got?{{% /margin-note %}} The 80s were simply too genuine, I suppose.
+A valid answer, but can they name _another_ song lyric from that approximate era containing that word in _any_ sense? {{% margin-note %}}I'll give you "911 Is a Joke" by Public Enemy and "House of Pain" by Faster Pussycat. For something older, "Easy" by the Commodores or "It's Too Late" by Carole King. Now, what have _you_ got?{{% /margin-note %}} One that's not the {{% link wiki-synchronicity-ii %}}track that directly precedes{{% /link %}} the one they just named? It's not so easy; there weren't all that many. The 80s were simply too genuine, I suppose.
 
 ## I'll take Napster Downloads for $200, Alex.
 
@@ -223,8 +223,14 @@ In each of the preceding examples you could add or remove an article to convert 
 
 The noun form of "fake" fits a wide range of scenarios. Some use it in a cocky or self-aggrandizing way, proudly proclaiming that they are the best or most original at the kind of music they make, and the hell with all of the cheap imitators.{{% margin-note side %}}Kid Rock, "Forever"; Pantera, "We'll Grind That Axe for a Long Time"; Limp Bizkit, "Phenomenon"{{% /margin-note %}} Other grandiose usages suggest that a society of sheep who are all going to be saved (or conquered) by some kind of epic figure.{{% margin-note side %}}Rob Zombie, "Jesus Frankenstein"; Chevelle, "Bend the Bracket"{{% /margin-note %}} On the lighter side of the spectrum, some of these lyrics describe vacuous fame-seekers who will happily pretend to be something they're not for success, or to catch the romantic interests of a successful person.{{% margin-note side %}}Big D and the Kids Table, "LAX"; Good Charlotte, "I Just Wanna Live"; Marilyn Manson, "Ka-Boom Ka-Boom." (Preposterous fact: Those last two songs both independently mention the idea of wearing a "lawsuit" as clothing.){{% /margin-note %}}
 
-On a more interpersonal level, groups of people can be described as "fake" if they are a real or perceived enemy, or some kind of backstabbing liar.{{% margin-note side %}}Korn, "Fear Is a Place to Live"; Hatebreed, "Straight To Your Face"; Crazy Town, "Skulls and Stars"{{% /margin-note %}} Less adversarial but still disingenuious people can also be fakes simply by hiding the truth from others, which can go both ways.{{% margin-note side %}}Breaking Benjamin, "I Will Not Bow"; Sum 41, "Over My Head (Better off Dead)"; Smile Empty Soul, "Who I Am" (Yeah, the song from _Spider-Man 2_. Maybe "Superman (It's Not Easy)" by Five for Fighting would've put the film over budget.){{% /margin-note %}}
+On a more interpersonal level, groups of people can be described as "fake" if they are a real or perceived enemy, or some kind of backstabbing liar.{{% margin-note side %}}Korn, "Fear Is a Place to Live"; Hatebreed, "Straight To Your Face"; Crazy Town, "Skulls and Stars"{{% /margin-note %}} Less adversarial but still disingenuious people can also be fakes simply by hiding the truth from others, which can go both ways.{{% margin-note side %}}Breaking Benjamin, "I Will Not Bow"; Sum 41, "Over My Head (Better off Dead)"; Smile Empty Soul, "Who I Am" (Yeah, the song in _Spider-Man 2_. Maybe "Superman (It's Not Easy)" by Five for Fighting would've put the film over budget.){{% /margin-note %}}
 
-And of course, all of this lying and faking inevitably leads to the breakdown of friendships and romantic relationships alike.{{% margin-note side %}}Papa Roach, "Burn"; Godsmack, "I Fucking Hate You"; Placebo, "Battle for the Sun"; Black Label Society, "Low Down"; Saving Abel, "Out of My Face"; Goldfinger, "Bro"{{% /margin-note %}}
+And of course, all of this lying and faking inevitably leads to the breakdown of friendships and romantic relationships alike.{{% margin-note side %}}Papa Roach, "Burn"; Godsmack, "I Fucking Hate You"; Placebo, "Battle for the Sun"; Black Label Society, "Low Down"; Saving Abel, "Out of My Face"; Goldfinger, "Bro"{{% /margin-note %}} The beautiful thing about the word "fake" is that you can use it to describe the entire population of this planet, or you could use it in reference to yourself and yourself alone. It works equally well either way, and it tends to boil down to the same thing: "I am not like them, or they are not like me. Has anybody seen my DS-1 pedal?"
+
+And if you thought I would end a section without a dense paragraph where I prattle off a dozen song names that didn't fit into the main theme of the article: "You Get What You Give" by The New Radicals, "Cold Wind Blows" by Eminem, "I'm a Fake" by The Used,{{% margin-note side %}}I actually laughed out loud while listening to this one. Screamo is, uh, let's just say it is not to my liking.{{% /margin-note %}} "Fuck the World" by Insane Clown Posse,{{% margin-note side %}}This might be the original "I said 'fuck' a preposterous and specific number of times!" song, predating the release of Limp Bizkit's "Hot Dog" by over a year.{{% /margin-note %}} "So Good" by Destiny's Child, "That's How Strong My Love Is" by Alicia Keys, "So Long, Jimmy" by James Blunt, "There for You" by Flyleaf, "Admit It!!!" by Say Anything, "Combat" by Flobots, "Fake" by Busted, and/or "So Damn Clever" by Plain White T's.
 
 ## "Good God, you're coming up with reasons"
+
+This leads to a question: Why?{{% margin-note side %}}Not like "why did I do this"---we know the answer to that already: Because something is profoundly wrong with me.{{% /margin-note %}}
+
+Based on rough search result counts, I estimate the peak of the "fake" era to be right around the year 2004, extending maybe six or seven years on each side. You can find the word in all kinds of genres spanning every imaginable decade, but there is a definite hot spot at the intersection of alternative metal and the mid 2000s.

@@ -153,11 +153,11 @@ X [rap] M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006 
 - [e] M012: There for You / Flyleaf / Flyleaf / 2005
 - [e ridiculous] M011: I'm a Fake / The Used / Berth / 2007
 - [rap link to hot dog] M009: Fuck the World / Insane Clown Posse / Jugganauts: The Best of Insane Clown Posse / 2007
-- [off genre] M007: Step Down / Sick of It All / The Story So Far / 2001
+- [early off genre] M007: Step Down / Sick of It All / The Story So Far / 2001
 - [e] M005: Admit It!!! / Say Anything / ...Is a Real Boy / 2004
 - [off genre] M003: Combat / Flobots / Fight with Tools / 2008
 - [happy] M002: Fake / Busted / A Present for Everyone / 2004
-- [rap] M001: U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
+A [rap] M001: U Got a Problem? / Ludacris / Back for the First Time [Clean] / 2000
 - [off genre] M001: So Damn Clever / Plain White T's / Every Second Counts [Bonus Tracks] [Deluxe Edition] / 2006
 - [e] M001: Mara and Me / Say Anything / Say Anything / 2009
 - [off genre] K906: Don't Think You're the First / The Coral / Magic and Medicine / 2003
