@@ -592,6 +592,10 @@ text = 'Rule of three'
 href = 'https://en.wikipedia.org/wiki/Segal%27s_law'
 text = "Segal's Law"
 
+[wiki-simulacrum]
+href = 'https://en.wikipedia.org/wiki/Simulacrum'
+text = 'Simulacrum'
+
 [wiki-south-park]
 href = 'https://en.wikipedia.org/wiki/South_Park'
 text = 'South Park'

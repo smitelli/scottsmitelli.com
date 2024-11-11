@@ -37,7 +37,7 @@ X V M123: Hemorrhage (In My Hands) / Fuel / Something Like Human / 2000 -- subje
 X V M010: Goddamn Electric / Pantera / Reinventing the Steel / 2000 -- be true to yourself
 - V M006: Fake / Shinedown / Us and Them / 2005 --
 X V M006: The Enemy / Papa Roach / Time for Annihilation: On the Record and on the Road / 2010
-- N M005: Dead Skin / Crossfade / Crossfade [DualDisc] / 2004
+X N M005: Dead Skin / Crossfade / Crossfade [DualDisc] / 2004
 - V? K571: Hurricane / Bush / Golden State [Japan Bonus Track] / 2001 --
 - V K561: Destination Anywhere / Sugarcult / Warped Tour: 2004 Compilation / 2004 --
 - V K176: Out of My Depth / Everclear / Songs from an American Movie, Vol. 2: Good Time for a Bad Attitude [Clean] / 2000
@@ -110,7 +110,7 @@ X [off genre] K231: Hot Like Fire / Jessica Simpson / Irresistible [Bonus Track]
 ## Fake "it"/"this" (21 / 32)
 
 X [off genre] M963: Complicated / Avril Lavigne / My World / 2003 -- fake it, acting like someone they're not
-- [rap] M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006 -- fake it, self image
+X [rap] M636: Drop It Like It's Hot / Snoop Dogg / Drop It Like It's Hot / 2006 -- fake it, self image
 - [happy] M552: In Too Deep / Sum 41 / All Killer No Filler / 2001 -- fake it, problematic relationship
 - [e] M116: But It's Better If You Do / Panic at the Disco / A Fever You Can't Sweat Out / 2005 -- artist ended up in a strip club on a bluff
 - [early] M111: Stupid Girl / Garbage / Absolute Garbage / 2007 -- subject pretends about every aspect of life to be liked

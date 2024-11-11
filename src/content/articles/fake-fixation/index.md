@@ -62,7 +62,7 @@ But we've barely scratched the surface. There is an entire universe of fakeness 
 
 ## "Gonna make a break and take a fake"
 
-It makes sense from a practical standpoint why the word "fake" in the abstract is useful in lyrics. {{% margin-note %}}Just look at the alternatives: _bogus_, _phony_, _feign_, _scam_. They all sound... goofy.{{% /margin-note %}} It's short, punchy, and it can be used to set up a whole mess of different rhyme options:
+It makes sense from a practical standpoint why the word "fake" in the abstract is useful in lyrics. {{% margin-note %}}Just look at the alternatives: _feign_, _scam_, _pretend_, _bogus_, _phony_, _insincere_, _disingenuous_. They all sound... goofy.{{% /margin-note %}} It's short, punchy, and it can be used to set up a whole mess of different rhyme options:
 
 > My sweet revenge will be yours, it's in the **making** \
 > It's in the **taking**, **making**, **baking**, **taking**, **faking** \
@@ -166,7 +166,7 @@ Sometimes the target of such criticism is oblivious to the fact that they're eng
 > It makes me feel some innocence
 > <footer>Sum 41, &ldquo;No Reason&rdquo;</footer>
 
-In this case, all of society is faking by failing to take charge of the world{{% margin-note side %}}Or at least the world as it existed midway through the George W. Bush administration.{{% /margin-note %}} and make things better for everybody. This is _somewhat_ undercut by some of their lines from a different song released about two years earlier: "It's all just a waste of time in the end&nbsp;/ Don't care, so why should I even pretend?"{{% margin-note side %}}"Motivation," which _does_ contain the word "fake" as well.{{% /margin-note %}}
+In this case, all of society is faking by failing to take charge of the world{{% margin-note side %}}Or at least the world as it existed halfway through the George W. Bush administration.{{% /margin-note %}} and make things better for everybody. This is _somewhat_ undercut by some of their lines from a different song released about two years earlier: "It's all just a waste of time in the end&nbsp;/ Don't care, so why should I even pretend?"{{% margin-note side %}}"Motivation," which _does_ contain the word "fake."{{% /margin-note %}}
 
 Often a situation is encountered where one person confesses, accuses, or pleads another person to engage in an act of deceit:
 
@@ -194,7 +194,7 @@ Title                    | Album                                      | Year | L
 "Leech"                  | _Si Vis Pacem, Para Bellum_                | 2020 | "**Fake** your apathy"&nbsp;/ "**Fake** your purity"
 {{% /fullwidth %}}
 
-That's 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been.
+By my count, that's 68 utterances of some variant of "fake" on 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been. In all of the research carried out in preparing this piece, I have not seen another 2000s-era artist that was anywhere near as attuned to fakeness as Seether.
 
 Of all the forms of the word "fake," this verb form definitely has the widest range. It can be used to build yourself up,{{% margin-note side %}}Pantera, "Goddamn Electric"; Thrice, "Betrayal Is a Symptom"; The Offspring, "Come out Swinging"{{% /margin-note %}} tear yourself down,{{% margin-note side %}}Chevelle, "Don't Fake This"; Papa Roach, "The Enemy"; Feeder, "Shatter"{{% /margin-note %}} criticize a friend,{{% margin-note side %}}The Offspring, "(Can't Get My) Head Around You"; Black Rebel Motorcycle Club, "Lien on Your Dreams"{{% /margin-note %}} criticize yourself,{{% margin-note side %}}Stone Sour, "Socio"; Breaking Benjamin, "Phase"; Fuel, "Hemorrhage (In My Hands)"{{% /margin-note %}} criticize society,{{% margin-note side %}}Our Lady Peace, "Superman's Dead"; Lagwagon, "Automatic"; Thrice, "Motion Isn't Meaning"{{% /margin-note %}} or destroy a relationship.{{% margin-note side %}}SR-71, "Goodbye"; Motion City Soundtrack, "When You're Around"; Sum 41, "Crazy Amanda Bunkface"; The Offspring, "Vultures"; Atreyu, "Our Sick Story"; Puddle of Mudd, "Blood on the Table"{{% /margin-note %}}
 
@@ -206,9 +206,19 @@ For fake-filled songs that have nothing to do with metal or metal-adjacent genre
 
 ## "You're a phony, you know we figured you out, fake!"
 
+The final layer of the part-of-speech cake is the nouns. In these usages, the subject is neither acting fake nor appearing fake---it _actually is_ a fake thing:{{% margin-note %}}Like pretty much every other occurrence, these things are only fake in the metaphorical sense. I'm sure somebody has written a song about schizophrenic delusions where their friends and family are replaced with {{% link wiki-simulacrum %}}simulacra{{% /link %}}, but that's not what most of these are.{{% /margin-note %}}
+
+> Such a waste, what a shame \
+> My whole life is a **fake**
+> <footer>Crossfade, &ldquo;Dead Skin&rdquo;
+
+Now, at this point, I'm going to piss off a bunch of English teachers by also lumping in usages that are actually adjectives, but behave more like nouns where they appear. See, you could say "Joe is a fake" like in the Crossfade lyric above, but you could also say "Joe is fake" to mean effectively the same thing:
+
 > I could be **fake** \
 > I could be stupid \
 > You know I could be just like you
 > <footer>Three Days Grace, &ldquo;Just Like You&rdquo;</footer>
+
+In each of the preceding examples you could add or remove an article to convert "fake" between a noun or an adjective without substantially affecting the meaning of the lyrics; songwriting as a form of communication is simply not precise enough for the difference to matter in most cases. The more noticable effect is on the rhythmic flow of the line, which is most likely what dictated the word choice in the first place.
 
 ## "Good God, you're coming up with reasons"
