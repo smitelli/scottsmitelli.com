@@ -41,14 +41,14 @@ Fake smiles and grins, like those Sting sang about twenty years earlier, are as 
 > That I'll **fake** for the sake of being with you
 > <footer>Linkin Park, &ldquo;Pushing Me Away&rdquo;</footer>
 
-From Simple Plan{{% margin-note side %}}"Welcome to My Life"{{% /margin-note %}} to Crossfade,{{% margin-note side %}}"Someday"{{% /margin-note %}} Disturbed{{% margin-note side %}}"Asylum"{{% /margin-note %}} to Blink-182,{{% margin-note side %}}"Story of a Lonely Guy"{{% /margin-note %}} seems like nobody in any of these songs was really happy.
+From Simple Plan{{% margin-note side %}}"Welcome to My Life"{{% /margin-note %}} to Crossfade,{{% margin-note side %}}"Someday"{{% /margin-note %}} Disturbed{{% margin-note side %}}"Asylum"{{% /margin-note %}} to Blink-182,{{% margin-note side %}}"Story of a Lonely Guy"{{% /margin-note %}} seems like nobody in any of these songs is really happy.
 
 > Can't pretend just to **fake a smile** \
 > 'Cause you know I feel every ounce of \
 > Pain [...]
 > <footer>Shinedown, &ldquo;Trade Yourself In&rdquo;</footer>
 
-And also Everlast,{{% margin-note side %}}"Stay"{{% /margin-note %}} and Lostprophets,{{% margin-note side %}}"Can't Stop, Gotta Date with Hate"{{% /margin-note %}} and Guster,{{% margin-note side %}}"Mona Lisa"{{% /margin-note %}} and...
+And also Everlast,{{% margin-note side %}}"Stay"{{% /margin-note %}} Lostprophets,{{% margin-note side %}}"Can't Stop, Gotta Date with Hate"{{% /margin-note %}} Guster,{{% margin-note side %}}"Mona Lisa"{{% /margin-note %}} Marilyn Manson,{{% margin-note side %}}"Better of Two Evils"{{% /margin-note %}} and...
 
 > From now on I'm going to start holding my breath \
 > When you come around and you flex that **fake grin** \
@@ -56,13 +56,13 @@ And also Everlast,{{% margin-note side %}}"Stay"{{% /margin-note %}} and Lostpro
 > That breathing less air beats breathing you in
 > <footer>Incubus, &ldquo;Blood on the Ground&rdquo;</footer>
 
-And we haven't even explored the likes of Taylor Swift,{{% margin-note side %}}"Cold As You"; "Teardrops On My Guitar"{{% /margin-note %}} Matchbox Twenty,{{% margin-note side %}}"Bed of Lies"{{% /margin-note %}} Alkaline Trio,{{% margin-note side %}}"Another Innocent Girl"{{% /margin-note %}} you know, the sorts of songs that make you fumble around for the "&#9197;" button due to how insufficiently angry they are for the task at hand.
+And we haven't even explored the likes of Taylor Swift,{{% margin-note side %}}"Cold As You"; "Teardrops On My Guitar"{{% /margin-note %}} Matchbox Twenty,{{% margin-note side %}}"Bed of Lies"{{% /margin-note %}} Alkaline Trio,{{% margin-note side %}}"Another Innocent Girl"{{% /margin-note %}} you know, the sorts of songs that make you fumble around for the "&#9197;" button due to how insufficiently angry they are for the task at hand. Every single one of these songs has some kind of unauthentic facial expression in the lyrics.
 
-But there's so much more to it than unauthentic facial expressions. There is an entire universe of fakeness before us.
+But we've barely scratched the surface. There is an entire universe of fakeness before us.
 
 ## "Gonna make a break and take a fake"
 
-It makes sense from a practical standpoint why the word "fake" in the abstract is useful in lyrics. It's short, punchy, and it can be used to set up a whole mess of different rhyme options:
+It makes sense from a practical standpoint why the word "fake" in the abstract is useful in lyrics. {{% margin-note %}}Just look at the alternatives: _bogus_, _phony_, _feign_, _scam_. They all sound... goofy.{{% /margin-note %}} It's short, punchy, and it can be used to set up a whole mess of different rhyme options:
 
 > My sweet revenge will be yours, it's in the **making** \
 > It's in the **taking**, **making**, **baking**, **taking**, **faking** \
@@ -77,7 +77,7 @@ It's a versatile word that can be molded to fit in any number of places:
 > Is nothing compared to my hate for you
 > <footer>Damageplan, &ldquo;Fuck You&rdquo;</footer>
 
-Of course, no discussion on rhyme scheme would be complete without mentioning this piece of patterned perfection:
+Of course, no discussion on rhyme scheme would be complete without mentioning this piece of patterned perfection:{{% margin-note %}}The choruses and bridge in this one are pretty all-over-the-place in terms of rhyme, but this is the only instance of a verse breaking the _AABB_ pattern. Maybe it was an intentional literary device, where "everything"---including this line---was "messed up."{{% /margin-note %}}
 
 > Everything's so blurry and everyone's so **fake** \
 > And everybody's empty and everything is so **messed up**
@@ -97,33 +97,24 @@ Pure poetry, that. Somehow I remember these words seeming more profound coming o
 > And why does she give a damn about me?
 > <footer>Wheatus, &ldquo;Teenage Dirtbag&rdquo;</footer>
 
-This sort of "conventional" fakeness is sometimes directly contrasted with realness, as sort of an objective guidepost to the way things ought to be:
+This sort of "situational" fakeness is sometimes directly contrasted with realness:
 
 > It plays tricks with my mind, some call it asinine \
 > But it's like love or hate, now is that real or **fake**? \
 > Cause it's a real thin line, but that's your choice to make
 > <footer>P.O.D., &ldquo;Satellite&rdquo;</footer>
 
-I'm _pretty sure_ that the larger context of this song uses the midday sun to represent God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the band was using the geocentric model where said sun revolved around the Earth as a natural satellite would. (Maybe the songwriters and Vanessa Williams{{% margin-note side %}}"Sometimes the snow comes down in June&nbsp;/ Sometimes the sun goes 'round the moon" ("Save the Best for Last," a song that does not contain the word "fake." I checked.){{% /margin-note %}} all had the same science teacher, I dunno.) Faith being a fuzzy thing and all, it's difficult to find a single measure of absolute truth to use as a frame of reference.
+I'm _pretty sure_ that the larger context of this song uses the midday sun to represent God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the band was using the geocentric model where said sun revolved around the Earth as a natural satellite would. (Maybe the songwriters and Vanessa Williams{{% margin-note side %}}"Sometimes the snow comes down in June&nbsp;/ Sometimes the sun goes 'round the moon" ("Save the Best for Last," a song that does not contain the word "fake." I checked.){{% /margin-note %}} all had the same science teacher, I dunno.)
 
-> See you sittin' next to the window in the bedroom \
-> She breaks down (breaks down) \
-> Cryin' over something and starin' into nothing \
-> Afraid now (hate now) \
-> Wanting, needing, haunting, it's killing me \
-> **Faking** what has happened to live the life like that, man \
-> I break down, it's **fake** now
-> <footer>P.O.D., &ldquo;Will You&rdquo;</footer>
-
-Now that, I don't have a goddamned clue.
+"Fake" in adjective form also appears frequently in metaphors. But it really shines in its verb and noun forms, as we'll see in a bit.
 
 ## "Hitching a ride with a big fake rubber thumb"
 
-At the other end of the spectrum, sometimes the word conveys exactly what it says. There exists a concept of some object, and this particular instance of that object is phony by some metric.
+It's not uncommon to find lyrics containing a phrase like "fake [thing]," where the thing could either be a literal object or (more commonly) something to be taken in a metaphorical sense. In the earlier examples of "fake smile," the interpretation is that there is an insencere emotion present---_not_ that the subject of the song was wearing a literal smile-shaped wax novelty mouth.
 
-Similar to the fake smiles from before, these constructions tend to gravitate towards body parts. For example, Dashboard Confessional sang, "I'm missing your laugh, how did it break?&nbsp;/ And when did **your eyes** begin to look **fake**?&nbsp;/ I hope you're as happy as you're pretending." {{% margin-note side %}}"Screaming Infidelities"{{% /margin-note %}} (Or so I have been told. By somebody who had a fleeting Dashboard Confessional moment in high school. Somebody who was not me.) In these usages, "fake" means nothing by itself and only serves to modify the object it's linked with. The combination of the two sets up the metaphor.
+These constructions tend to gravitate towards body parts. For example, Dashboard Confessional sang, "I'm missing your laugh, how did it break?&nbsp;/ And when did **your eyes** begin to look **fake**?&nbsp;/ I hope you're as happy as you're pretending." {{% margin-note side %}}"Screaming Infidelities"{{% /margin-note %}} (Or so I have been told. By somebody who had a fleeting Dashboard Confessional phase in high school. Somebody who was not me.) In these usages, "fake" means nothing by itself and only serves to modify the object it's linked with. The combination of the two sets up the metaphor.
 
-{{% small-caps %}}For some unknown reason,{{% /small-caps %}} there have been a lot more lines written about another body part:{{% margin-note %}}{{% picture stem=hdfw alt="Limp Bizkit presents Chocolate Starfish and the Hot Dog Flavored Water" %}}Apropos of nothing, I feel the need to highlight Wes Borland's album cover work for anybody who might not be familiar with it already. It defies any attempt at analysis, only permitting one's critical eye to come away with a single burning question: _Why was the art stretched horizontally like that?_{{% /margin-note %}}
+_For some reason,_ there has been a lot more ink spent writing lyrics around another body part:{{% margin-note %}}{{% picture stem=hdfw alt="Limp Bizkit presents Chocolate Starfish and the Hot Dog Flavored Water" %}}Apropos of nothing, I feel the need to highlight Wes Borland's album cover work for anybody who might not be familiar with it already. It defies any attempt at analysis, only permitting one's critical eye to come away with a single burning question: _Why was the art stretched horizontally like that?_{{% /margin-note %}}
 
 > **Fake-ass titties** on a fucked up chest
 > <footer>Limp Bizkit, &ldquo;Hot Dog&rdquo;</footer>
@@ -142,11 +133,11 @@ And because I am an avid believer in the {{% link wiki-rule-of-three %}}rule of 
 
 This too, apparently, is a {{% link plunk-sr-71-right-now %}}bosom euphemism (at least partially){{% /link %}} expressed in the clumsiest way possible. I give them credit for trying, but honestly you'd get the same enjoyment out of the song if you just kept imagining the yellow bathtub toy you had in your mind before you started reading this paragraph.
 
-There's some middle ground here as well. System of a Down sings of "revolving **fake** lawn houses"{{% margin-note side %}}"Boom!"{{% /margin-note %}} which is not quite literal but does accurately describe the overall vibe of some American suburban housing developments. There's &ldquo;**fake** anti-fascist lie,&rdquo;{{% margin-note side %}}Slipknot, "Psychosocial"{{% /margin-note %}} &ldquo;**fake** reality,&rdquo;{{% margin-note side %}}Sum 41, "Billy Spleen"{{% /margin-note %}} **fake** soul,{{% margin-note side %}}Black Rebel Motorcycle Club, "American X"{{% /margin-note %}} and **fake** attention.{{% margin-note side %}}Jimmy Eat World, "Over"{{% /margin-note %}} In each of these, the "fake" is more of a color adjective---it's not doing the heavy lifting all by itself.
+Anatomical abundance aside, it doesn't take much to find metaphors built around inanimate objects. System of a Down sings of "revolving **fake** lawn houses"{{% margin-note side %}}"Boom!"{{% /margin-note %}} to describe the overall vibe of some American suburban housing developments. There's &ldquo;**fake** anti-fascist lie,&rdquo;{{% margin-note side %}}Slipknot, "Psychosocial"{{% /margin-note %}} &ldquo;**fake** reality,&rdquo;{{% margin-note side %}}Sum 41, "Billy Spleen"{{% /margin-note %}} **fake** tears,{{% margin-note side %}}Red Hot Chili Peppers, "Storm in a Teacup"{{% /margin-note %}} **fake** soul,{{% margin-note side %}}Black Rebel Motorcycle Club, "American X"{{% /margin-note %}} and **fake** attention.{{% margin-note side %}}Jimmy Eat World, "Over"{{% /margin-note %}} In each of these, the "fake" is more of a color adjective---it's not doing the heavy lifting all by itself.
 
 ## "Our subject isn't cool, but he fakes it anyway"
 
-Staind{{% margin-note side %}}Not to be confused with Trapt.{{% /margin-note %}} uses "faking" to describe maniuplative behavior that torments the narrator:
+In verb form, the word "fake" starts sending these songs down new avenues, most of which involve a sense of scheming or deception. Staind{{% margin-note side %}}Not to be confused with Trapt.{{% /margin-note %}} uses "faking" to describe maniuplative behavior committed by somebody---possibly a romantic partner, but definitely an enemy---that torments the narrator:
 
 > Faceless, **faking** \
 > Pushing, taking \
@@ -162,12 +153,28 @@ Contrast this with Trapt,{{% margin-note side %}}Not to be confused with Staind.
 > Your weakness is your only strength \
 > [...] \
 > You traded honesty for lies \
-> You **faked** it all your life \
+> You **faked it** all your life \
 > You always swear this is the last tear \
 > You'll ever cry
 > <footer>Trapt, &ldquo;The Last Tear&rdquo;</footer>
 
-TODO Seether gets The Table&trade;:
+Sometimes the target of such criticism is oblivious to the fact that they're engaging in any sort of fakery in the first place:
+
+> How can we **fake this** anymore? \
+> To turn our backs away and choose to just ignore \
+> Some say it's ignorance \
+> It makes me feel some innocence
+> <footer>Sum 41, &ldquo;No Reason&rdquo;</footer>
+
+In this case, all of society is faking by failing to take charge of the world{{% margin-note side %}}Or at least the world as it existed midway through the George W. Bush administration.{{% /margin-note %}} and make things better for everybody. This is _somewhat_ undercut by some of their lines from a different song released about two years earlier: "It's all just a waste of time in the end&nbsp;/ Don't care, so why should I even pretend?"{{% margin-note side %}}"Motivation," which _does_ contain the word "fake" as well.{{% /margin-note %}}
+
+Often a situation is encountered where one person confesses, accuses, or pleads another person to engage in an act of deceit:
+
+> Hey, hey, now, can you **fake it**? \
+> Can you make it look like we won?
+> <footer>Foo Fighters, &ldquo;Stacked Actors&rdquo;</footer>
+
+If I were to name one band that was the unduspited king of using "fake" in this sort of way, it would be Seether. Their usage is significant enough that they are going to get The Table&trade;:
 
 {{% fullwidth %}}
 Title                    | Album                                      | Year | Lyric
@@ -189,11 +196,23 @@ Title                    | Album                                      | Year | L
 
 That's 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been.
 
+Of all the forms of the word "fake," the verb form definitely has the widest range. It can be used to build yourself up,{{% margin-note side %}}Pantera, "Goddamn Electric"; Thrice, "Betrayal Is a Symptom"; The Offspring, "Come out Swinging"{{% /margin-note %}} tear yourself down,{{% margin-note side %}}Chevelle, "Don't Fake This"; Papa Roach, "The Enemy"; Feeder, "Shatter"{{% /margin-note %}} criticize a friend,{{% margin-note side %}}The Offspring, "(Can't Get My) Head Around You"; Black Rebel Motorcycle Club, "Lien on Your Dreams"{{% /margin-note %}} criticize yourself,{{% margin-note side %}}Stone Sour, "Socio"; Breaking Benjamin, "Phase"; Fuel, "Hemorrhage (In My Hands)"{{% /margin-note %}} criticize society,{{% margin-note side %}}Our Lady Peace, "Superman's Dead"; Lagwagon, "Automatic"; Thrice, "Motion Isn't Meaning"{{% /margin-note %}} or destroy a relationship.{{% margin-note side %}}SR-71, "Goodbye"; Motion City Soundtrack, "When You're Around"; Sum 41, "Crazy Amanda Bunkface"; The Offspring, "Vultures"; Atreyu, "Our Sick Story"; Puddle of Mudd, "Blood on the Table"{{% /margin-note %}}
+
+Now, I consider myself to be a reasonably intelligent person, but there are some bands that I've never been able to figure out. Sevendust is a big one:
+
+> Slip and give a **fake**
+> <footer>Sevendust, &ldquo;Suffer&rdquo;</footer>
+
+Or:
+
+> You can't **fake** everything that reminds you how you feel \
+> Time will tell what's inside you
+> <footer>Sevendust, &ldquo;Follow&rdquo;</footer>
+
+That whole song reads like some kind of Zen koan.
+
 ## "You're a phony, you know we figured you out, fake!"
 
-> I could be mean \
-> I could be angry \
-> You know I could be just like you \
 > I could be **fake** \
 > I could be stupid \
 > You know I could be just like you
