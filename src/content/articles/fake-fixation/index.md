@@ -223,14 +223,61 @@ In each of the preceding examples you could add or remove an article to convert 
 
 The noun form of "fake" fits a wide range of scenarios. Some use it in a cocky or self-aggrandizing way, proudly proclaiming that they are the best or most original at the kind of music they make, and the hell with all of the cheap imitators.{{% margin-note side %}}Kid Rock, "Forever"; Pantera, "We'll Grind That Axe for a Long Time"; Limp Bizkit, "Phenomenon"{{% /margin-note %}} Other grandiose usages suggest that a society of sheep who are all going to be saved (or conquered) by some kind of epic figure.{{% margin-note side %}}Rob Zombie, "Jesus Frankenstein"; Chevelle, "Bend the Bracket"{{% /margin-note %}} On the lighter side of the spectrum, some of these lyrics describe vacuous fame-seekers who will happily pretend to be something they're not for success, or to catch the romantic interests of a successful person.{{% margin-note side %}}Big D and the Kids Table, "LAX"; Good Charlotte, "I Just Wanna Live"; Marilyn Manson, "Ka-Boom Ka-Boom." (Preposterous fact: Those last two songs both independently mention the idea of wearing a "lawsuit" as clothing.){{% /margin-note %}}
 
-On a more interpersonal level, groups of people can be described as "fake" if they are a real or perceived enemy, or some kind of backstabbing liar.{{% margin-note side %}}Korn, "Fear Is a Place to Live"; Hatebreed, "Straight To Your Face"; Crazy Town, "Skulls and Stars"{{% /margin-note %}} Less adversarial but still disingenuious people can also be fakes simply by hiding the truth from others, which can go both ways.{{% margin-note side %}}Breaking Benjamin, "I Will Not Bow"; Sum 41, "Over My Head (Better off Dead)"; Smile Empty Soul, "Who I Am" (Yeah, the song in _Spider-Man 2_. Maybe "Superman (It's Not Easy)" by Five for Fighting would've put the film over budget.){{% /margin-note %}}
+On a more interpersonal level, groups of people can be described as "fake" if they are a real or perceived enemy, or some kind of backstabbing liar.{{% margin-note side %}}Korn, "Fear Is a Place to Live"; Hatebreed, "Straight To Your Face"; Crazy Town, "Skulls and Stars"{{% /margin-note %}} Less adversarial but still disingenuious people can also be fakes simply by hiding the truth from others, which can go both ways.{{% margin-note side %}}Breaking Benjamin, "I Will Not Bow"; Sum 41, "Over My Head (Better off Dead)"; Smile Empty Soul, "Who I Am" (Yeah, from the _Spider-Man 2_ soundtrack. Maybe "Superman (It's Not Easy)" by Five for Fighting had a scheduling conflict.){{% /margin-note %}}
 
 And of course, all of this lying and faking inevitably leads to the breakdown of friendships and romantic relationships alike.{{% margin-note side %}}Papa Roach, "Burn"; Godsmack, "I Fucking Hate You"; Placebo, "Battle for the Sun"; Black Label Society, "Low Down"; Saving Abel, "Out of My Face"; Goldfinger, "Bro"{{% /margin-note %}} The beautiful thing about the word "fake" is that you can use it to describe the entire population of this planet, or you could use it in reference to yourself and yourself alone. It works equally well either way, and it tends to boil down to the same thing: "I am not like them, or they are not like me. Has anybody seen my DS-1 pedal?"
 
-And if you thought I would end a section without a dense paragraph where I prattle off a dozen song names that didn't fit into the main theme of the article: "You Get What You Give" by The New Radicals, "Cold Wind Blows" by Eminem, "I'm a Fake" by The Used,{{% margin-note side %}}I actually laughed out loud while listening to this one. Screamo is, uh, let's just say it is not to my liking.{{% /margin-note %}} "Fuck the World" by Insane Clown Posse,{{% margin-note side %}}This might be the original "I said 'fuck' a preposterous and specific number of times!" song, predating the release of Limp Bizkit's "Hot Dog" by over a year.{{% /margin-note %}} "So Good" by Destiny's Child, "That's How Strong My Love Is" by Alicia Keys, "So Long, Jimmy" by James Blunt, "There for You" by Flyleaf, "Admit It!!!" by Say Anything, "Combat" by Flobots, "Fake" by Busted, and/or "So Damn Clever" by Plain White T's.
+And if you thought I would end a section without a dense paragraph where I prattle off a dozen song names that didn't fit into the rest of the article: "You Get What You Give" by The New Radicals, "Cold Wind Blows" by Eminem, "I'm a Fake" by The Used,{{% margin-note side %}}I actually laughed out loud while listening to this one. Screamo is, uh, let's just say it is not to my liking.{{% /margin-note %}} "Fuck the World" by Insane Clown Posse,{{% margin-note side %}}This might be the original "I said 'fuck' a preposterous and specific number of times!" song, predating the release of Limp Bizkit's "Hot Dog" by over a year.{{% /margin-note %}} "So Good" by Destiny's Child, "That's How Strong My Love Is" by Alicia Keys, "So Long, Jimmy" by James Blunt, "There for You" by Flyleaf, "Admit It!!!" by Say Anything, "Combat" by Flobots, "Fake" by Busted, and/or "So Damn Clever" by Plain White T's.
 
 ## "Good God, you're coming up with reasons"
 
 This leads to a question: Why?{{% margin-note side %}}Not like "why did I do this"---we know the answer to that already: Because something is profoundly wrong with me.{{% /margin-note %}}
 
-Based on rough search result counts, I estimate the peak of the "fake" era to be right around the year 2004, extending maybe six or seven years on each side. You can find the word in all kinds of genres spanning every imaginable decade, but there is a definite hot spot at the intersection of alternative metal and the mid 2000s.
+Based on rough search result counts, I estimate the peak of this "fake" era to be right around the year 2004, extending maybe six or seven years on each side. You can find the word in all kinds of genres spanning every imaginable decade, but there is a definite hot spot at the intersection of alternative metal and the mid 2000s.
+
+Song lyrics always have at least two layers: what is said{{% margin-note side %}}"Fake" is what is said. This article says "fake" TODO times.{{% /margin-note %}} and what is meant. We've examined some of the most common meanings already, but it's worth a recap:
+
+- Glue word to assist with a rhyme or metaphor
+- Dreamlike situations
+- Insincere emotions or acts
+- Literal fake appearance (e.g. plastic surgery)
+- Putting down exes, enemies or rivals
+- Resistance to conformity, sense of superiority
+- Refusal to come to terms with something
+- Fear of showing weakness
+- Self loathing
+
+There are common themes present. The metaphors, dreams, and even a lot of the insencere elements have been part of storytelling as far back as I care to look. Somebody did something wrong to me, here's how I reacted, there's the outline of this story's plot. Most "fake" lyrics from the pre-2000s tends to use one of the themes from this group.
+
+The denial, fear, and self-loathing elements, whether real or percieved, all play well into the genre's themes of anger and anguish. These kinds of lyrics describe a person who is objectively depressed, or at least on the road that leads to the condition. In these cases, the fakeness is in the artist's head, giving the listener a glimpse into their situation and the perspective to appreciate the blessing of not being burdened with that. Or if the listener is already angsty or wants to feel it a little more, the song can serve as a blueprint for that.
+
+The more interesting themes take a sort of "us vs. them" position. In these, the artist is quantifiably different from some other group, and either the artist hates the group and refuses to be like them, or the group hates the artist and is trying to force conformity. The plastic surgery group falsifies their appearance, the fame-seeking group sacrifices their morals, the copycat artists imitate perfoemance styles without understanding the culture, any any group the artist tries to make an emotional connection with uses that interaction for their own gain and hurts the artist in the process. This, I suspect, is the central thread of what it means to be fake in the context of the whole alternative scene. Which begs the question, what the hell is alternative anyway?
+
+
+
+- alternative to what
+    - old metal, dude looks like a lady, solos, mr. ouch logo
+    - purity tests (name every sandwich Dave Mustaine ever ate)
+    - simplistic group identity, like a biker gang
+        - we're different so i have to beat the crap out of you
+- alternative grew to mainstream size
+    - sub-genres
+    - more purity tests, poseurs and sellouts
+    - middle school kid with a peavey could play it
+- focus on real
+    - reality tv / midpoint of the real world
+    - judge judy intro
+- also internet
+    - what was scarce and monolithic is now plentiful
+    - no longer beholden to the guy in the record store
+    - people can pick and choose tastes
+- wrap up
+    - music is created in a movement, but detaching it is okay
+    - unless you're suing somebody, you don't get to dictate
+    - don't like it, pick a different medium, right sellout? END
+
+> You call me a **fake** \
+> You're giving me some punk rock test \
+> You say how you could do so much better than me \
+> But all you do is meth
+> <footer>Goldfinger, &ldquo;End of the Day&rdquo;</footer>
