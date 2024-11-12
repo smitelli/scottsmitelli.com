@@ -33,9 +33,11 @@ A valid answer, but can they name _another_ song lyric from that approximate era
 
 Recently I found myself in the rather unenviable position of needing to sand the exposed surfaces of an entire deck. It was a back-breaking, hand-numbing, frustrating job that could only be complimented by one soundtrack: Angry alternative rock/post-grunge/nu metal from the early 2000s. It was the only thing that felt right at the time.
 
-Squatting and kneeling, occasionally hitting a particularly determined mosquito with the belt sander, {{% margin-note %}}I go with 120 grit to really smear her blood meal around, but that's just me talking.{{% /margin-note %}} I started to pick up a pattern in the music. _A whole bunch of these song lyrics contain the word "fake."_ The longer I listened, the more apparent it became.
+Squatting and kneeling, occasionally hitting a particularly determined mosquito with the belt sander, {{% margin-note %}}I go with 120 grit to really smear her blood meal around, but that's just me talking.{{% /margin-note %}} I started to pick up a pattern in the music:
 
-Fake smiles and grins, like those Sting sang about twenty years earlier, are as present as ever:
+_A whole bunch of these song lyrics contain the word "fake."_
+
+The longer I listened, the more apparent it became. Fake smiles and grins, like those Sting sang about twenty years earlier, are as present as ever:
 
 > This is the last **smile** \
 > That I'll **fake** for the sake of being with you
@@ -104,7 +106,7 @@ This sort of "situational" fakeness is sometimes directly contrasted with realne
 > Cause it's a real thin line, but that's your choice to make
 > <footer>P.O.D., &ldquo;Satellite&rdquo;</footer>
 
-I'm _pretty sure_ that the larger context of this song uses the midday sun to represent God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. was a Christian metal band.{{% /margin-note %}} and the band was using the geocentric model where said sun revolved around the Earth as a natural satellite would. (Maybe the songwriters and Vanessa Williams{{% margin-note side %}}"Sometimes the snow comes down in June&nbsp;/ Sometimes the sun goes 'round the moon" ("Save the Best for Last," a song that does not contain the word "fake." I checked.){{% /margin-note %}} all had the same science teacher, I dunno.)
+I'm _pretty sure_ that the larger context of this song uses the midday sun to represent God,{{% margin-note side %}}The greatest trick the Devil ever played was making the world forget that P.O.D. is a Christian metal band.{{% /margin-note %}} and the band was using the geocentric model where said sun revolved around the Earth as a natural satellite would. (Maybe the songwriters and Vanessa Williams{{% margin-note side %}}"Sometimes the snow comes down in June&nbsp;/ Sometimes the sun goes 'round the moon" ("Save the Best for Last," a song that does not contain the word "fake." I checked.){{% /margin-note %}} all had the same science teacher, I dunno.)
 
 "Fake" in adjective form also appears frequently in metaphors. But it really shines in its verb and noun forms, as we'll see in a bit.
 
@@ -112,11 +114,11 @@ I'm _pretty sure_ that the larger context of this song uses the midday sun to re
 
 It's not uncommon to find lyrics containing a phrase like "fake [thing]," where the thing could either be a literal object or (more commonly) something to be taken in a metaphorical sense. In the earlier examples of "fake smile," the interpretation is that there is an insencere emotion present---_not_ that the subject of the song was wearing a literal smile-shaped wax novelty mouth.
 
-These constructions tend to gravitate towards body parts. For example, Dashboard Confessional sang:{{% margin-note %}}Or so I have been told. By somebody who had a fleeting Dashboard Confessional phase in high school. Somebody who was not me.{{% /margin-note %}}
+These constructions tend to gravitate towards body parts across all manner of different genres. For example, Dashboard Confessional sang:{{% margin-note %}}Or so I have been told. By somebody who had a fleeting Dashboard Confessional phase in high school. Somebody who was not me.{{% /margin-note %}}
 
 > I'm missing your laugh, how did it break? \
 > And when did **your eyes** begin to look **fake**? \
-> I hope you're as happy as you're pretending.
+> I hope you're as happy as you're pretending
 > <footer>Dashboard Confessional, &ldquo;Screaming Infidelities&rdquo;</footer>
 
 In these usages, "fake" means nothing by itself and only serves to modify the object it's linked with. The combination of the two sets up the metaphor.
@@ -201,7 +203,7 @@ Title                    | Album                                      | Year | L
 "Leech"                  | _Si Vis Pacem, Para Bellum_                | 2020 | "**Fake** your apathy"&nbsp;/ "**Fake** your purity"
 {{% /fullwidth %}}
 
-By my count, that's 68 utterances of some variant of "fake" on 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been. In all of the research carried out in preparing this piece, I have not seen another 2000s-era artist that was anywhere near as attuned to fakeness as Seether.
+By my count, that's 68 utterances of some variant of "fake" on 13 tracks spanning 18 years. The distribution is pretty even; they're as down with the fakeness today as they've always been. In all of the research carried out in preparing this piece, I have not found another 2000s-era artist that was anywhere near as attuned to fakeness as Seether.
 
 Of all the forms of the word "fake," this verb form definitely has the widest range. It can be used to build yourself up,{{% margin-note side %}}Pantera, "Goddamn Electric"; Thrice, "Betrayal Is a Symptom"; The Offspring, "Come out Swinging"{{% /margin-note %}} tear yourself down,{{% margin-note side %}}Chevelle, "Don't Fake This"; Papa Roach, "The Enemy"; Feeder, "Shatter"{{% /margin-note %}} criticize a friend,{{% margin-note side %}}The Offspring, "(Can't Get My) Head Around You"; Black Rebel Motorcycle Club, "Lien on Your Dreams"{{% /margin-note %}} criticize yourself,{{% margin-note side %}}Stone Sour, "Socio"; Breaking Benjamin, "Phase"; Fuel, "Hemorrhage (In My Hands)"{{% /margin-note %}} criticize society,{{% margin-note side %}}Our Lady Peace, "Superman's Dead"; Lagwagon, "Automatic"; Thrice, "Motion Isn't Meaning"{{% /margin-note %}} or destroy a relationship.{{% margin-note side %}}SR-71, "Goodbye"; Motion City Soundtrack, "When You're Around"; Sum 41, "Crazy Amanda Bunkface"; The Offspring, "Vultures"; Atreyu, "Our Sick Story"; Puddle of Mudd, "Blood on the Table"{{% /margin-note %}}
 
@@ -211,7 +213,7 @@ For fake-filled songs that have nothing to do with metal or metal-adjacent genre
 
 (Or "Complicated" by Avril Lavigne, "Explode" by Nelly Furtado, "Drop It Like It's Hot" by Snoop Dogg, "But It's Better If You Do" by Panic! at the Disco, or...)
 
-## "You're a phony, you know we figured you out, fake!"
+## "You know we figured you out, fake!"
 
 The final layer of the part-of-speech cake is the nouns. In these usages, the subject is neither acting fake nor appearing fake---it _actually is_ a fake thing:{{% margin-note %}}Like pretty much every other occurrence, these things are only fake in the metaphorical sense. I'm sure somebody has written a song about schizophrenic delusions where their friends and family are replaced with {{% link wiki-simulacrum %}}simulacra{{% /link %}}, but that's not what most of these are.{{% /margin-note %}}
 
@@ -270,7 +272,7 @@ Amid all the bickering, the one thing they didn't want to happen happens: The al
 
 Thus the entire goddamn cycle repeats itself. Now the bands that were labeled as "alternative" are feeling threatened by the new emo screaming and white kid rapping. And so begins a new generation of infighting and gatekeeping, which unintentionally plants the seeds for the next cohort. Over and over, seemingly faster and faster as the internet becomes increasingly involved in the mix. See something on a message board, spend 20 minutes waiting for the MP3 to come in from a stranger on Napster, cherry-pick from a virtually boundless buffet {{% margin-note %}}It also gave fans a new way to show pride in things they liked. I'll bet a sizable amount of GeoCities, Tripod, and Angelfire site content consisted of song lyrics, video game cheats, or _MST3K_ quotes. All misattributed, as is the custom of our people.{{% /margin-note %}} without having to wait for releases to trickle into the local record store. Bad for monoculture, perhaps, but a definite win for people finding what they wanted.
 
-This music, at this time, is a snapshot of life at the center of that churn. Groups who are trying to do their own thing and break away from a stodgy establishment, while at the same time becoming that establishment and experiencing their own overthrow at the hand of even fresher groups. While very little of this music is overtly political, it was contemporaneous with the loud continuous drumbeat of the U.S. war on terror and I would have to think that had some effect on the overall mood.{{% margin-note side %}}Maybe it's just me, but I just can't picture something like {{% link wiki-summer-girls %}}LFO's "Summer Girls"{{% /link %}} being written in the shadow of 9/11.{{% /margin-note %}}
+This music, at this time, is a snapshot of life at the center of that churn. Groups who are trying to do their own thing and break away from a stodgy establishment, while at the same time becoming that establishment and experiencing their own overthrow at the hand of even fresher groups. While very little of this music drew from the overtly political of well of punk, it was contemporaneous with the loud continuous drumbeat of the U.S. war on terror and I would have to think that had some effect on the overall mood.{{% margin-note side %}}Maybe it's just me, but I just can't picture something like {{% link wiki-summer-girls %}}LFO's "Summer Girls"{{% /link %}} being written in the shadow of 9/11.{{% /margin-note %}}
 
 There had also been an odd fascination with "realness" brewing in our culture for some time prior to that. I estimate that our mainstream idea of modern "reality" television started around the beginning of the 1990s, with the pairing of _Cops_ and _The Real World_, which ran from 1989--2020 and 1992--2017 respectively.{{% margin-note side %}}I am not considering _Cops_ after its move to Fox Nation or _The Real World_ on Facebook Watch because I do not feel those audiences are a representative sampling of "mainstream" compared to the shows' original networks.{{% /margin-note %}} The midpoint of each of these year ranges is... 2004.
 
