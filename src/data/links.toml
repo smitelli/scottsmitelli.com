@@ -548,6 +548,10 @@ text = 'The Day the Earth Stood Stupid'
 href = 'https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act'
 text = 'Digital Millennium Copyright Act'
 
+[wiki-dude-looks-like-a-lady]
+href = 'https://en.wikipedia.org/wiki/Dude_(Looks_Like_a_Lady)'
+text = 'Dude (Looks Like a Lady)'
+
 [wiki-elephant-makes-love-to-a-pig]
 href = 'https://en.wikipedia.org/wiki/An_Elephant_Makes_Love_to_a_Pig'
 text = 'An Elephant Makes Love to a Pig'
@@ -564,6 +568,10 @@ text = 'Engrish'
 href = 'https://en.wikipedia.org/wiki/Futurama'
 text = 'Futurama'
 
+[wiki-heavy-metal-music]
+href = 'https://en.wikipedia.org/wiki/Heavy_metal_music'
+text = 'Heavy metal music'
+
 [wiki-help-infobox]
 href = 'https://en.wikipedia.org/wiki/Help:Infobox'
 text = 'Help:Infobox'
@@ -575,6 +583,10 @@ text = 'Help:Wikitext'
 [wiki-hypnotoad]
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
+
+[wiki-mr-ouch]
+href = 'https://en.wikipedia.org/wiki/Mr._Ouch'
+text = 'Mr. Ouch'
 
 [wiki-off-by-one-error]
 href = 'https://en.wikipedia.org/wiki/Off-by-one_error'
@@ -603,6 +615,10 @@ text = 'South Park'
 [wiki-south-park-characters-ned-gerblanski]
 href = 'https://en.wikipedia.org/wiki/List_of_South_Park_characters#Ned_Gerblanski'
 text = 'Ned Gerblanski'
+
+[wiki-summer-girls]
+href = 'https://en.wikipedia.org/wiki/Summer_Girls'
+text = 'Summer Girls'
 
 [wiki-synchronicity-ii]
 href = 'https://en.wikipedia.org/wiki/Synchronicity_II'
@@ -671,6 +687,14 @@ text = 'WordPress'
 [youtube]
 href = 'https://www.youtube.com/'
 text = 'YouTube'
+
+[youtube-coca-cola-summer-skateboarding]
+href = 'https://www.youtube.com/watch?v=XwT7F0RICWc'
+text = 'Coca Cola (2004) Television Commercial - Summer Skateboarding'
+
+[youtube-judge-judy-intro-2004]
+href = 'https://www.youtube.com/watch?v=5xrqgwzkJ6Y'
+text = 'Judge Judy Intro 2004-2008'
 
 [youtube-user-retnirpregnif]
 href = 'https://www.youtube.com/@retnirpregnif'
