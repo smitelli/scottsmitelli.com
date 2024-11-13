@@ -219,7 +219,7 @@ The final layer of the part-of-speech cake is the nouns. In these usages, the su
 
 > Such a waste, what a shame \
 > My whole life is a **fake**
-> <footer>Crossfade, &ldquo;Dead Skin&rdquo;
+> <footer>Crossfade, &ldquo;Dead Skin&rdquo;</footer>
 
 Now, at this point, I'm going to piss off a bunch of English teachers by also lumping in usages that are actually adjectives, but behave more like nouns where they appear. See, you could say "Joe is a fake" like in the Crossfade lyric above, but you could also say "Joe is fake" to mean effectively the same thing:
 
