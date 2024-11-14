@@ -1,7 +1,7 @@
 +++
 title = "The Fake Fixation"
 description = "Twenty years ago, it was not difficult to find songs that used the word \"fake\" somewhere in the lyrics. This is not nearly as prevalent in music today, nor was it common before that era. This article explores the phenomenon to try to see if there's really something to it."
-date = 2024-11-12
+date = 2024-11-14
 
 # NOTE: The bulk of the HTML character references in this document are to work
 # around instances of double quotes not converting to "6-quotes" and "9-quotes"
@@ -50,7 +50,7 @@ From Simple Plan{{% margin-note side %}}"Welcome to My Life"{{% /margin-note %}}
 > Pain [...]
 > <footer>Shinedown, &ldquo;Trade Yourself In&rdquo;</footer>
 
-And also Everlast,{{% margin-note side %}}"Stay"{{% /margin-note %}} Lostprophets,{{% margin-note side %}}"Can't Stop, Gotta Date with Hate"{{% /margin-note %}} Guster,{{% margin-note side %}}"Mona Lisa"{{% /margin-note %}} Marilyn Manson,{{% margin-note side %}}"Better of Two Evils"{{% /margin-note %}} and...
+And also Everlast,{{% margin-note side %}}"Stay"{{% /margin-note %}} Lostprophets,{{% margin-note side %}}"Can't Stop, Gotta Date with Hate"{{% /margin-note %}} American Hi-Fi,{{% margin-note side %}}"Happy"{{% /margin-note %}} Marilyn Manson,{{% margin-note side %}}"Better of Two Evils"{{% /margin-note %}} and...
 
 > From now on I'm going to start holding my breath \
 > When you come around and you flex that **fake grin** \
@@ -278,7 +278,7 @@ There had also been an odd fascination with "realness" brewing in mainstream cul
 
 _Judge Judy_ episodes from that year opened with the following narration: &ldquo;The people are **real.** The cases are **real.** The rulings are final.&rdquo;{{% margin-note side %}}{{% link youtube-judge-judy-intro-2004 %}}Emphasis _his._{{% /link %}} Each instance of "real" really was enunciated that way.{{% /margin-note %}} Three separate episodes from the 2004 season of _Chappelle's Show_ had a segment titled "When Keeping It Real Goes Wrong." From the primary U.S. run of _Whose Line Is It Anyway?_ (1998--2007) to _Jerry Springer_ (1991--2018), shows centered around realness (or at least unscriptedness) rise and fall centered around this time period. Coca-Cola's actual advertising slogan in 2004 was, and I am not making this up, &ldquo;Real.&rdquo;{{% margin-note side %}}{{% picture stem=coca-cola-real alt="Coca Cola - Real (2004)" %}}{{% link youtube-coca-cola-summer-skateboarding %}}Really. 100% real.{{% /link %}}{{% /margin-note %}} Our culture had realness on the mind, even though nobody really had a cohesive ethos for what "real" was supposed to mean. It was just, you know, real.
 
-What do you get when you mash together youthful angst, in- and out-group dynamics, sociopolitical malaise, obsession with measures of cultural authenticity, and actually pretty catchy songwriting and production? _This._ This product of its time, this sum of it parts, this weird time capsule that unintentionally fossilized a little mosquito of fakeness inside a chunk of once-kinda-mainstream musical amber. Admittedly these songs weren't the first to express such ideas in this way, nor will they be the last. But they were unsettlingly plentiful at the time, forming a kind of fakeness nexus that I really don't know will ever occur again.
+What do you get when you mash together youthful angst, in- and out-group dynamics, sociopolitical malaise, obsession with measures of cultural authenticity, and actually pretty catchy songwriting and production? _This._ This product of its time, this sum of it parts, this weird time capsule that unintentionally fossilized a little mosquito{{% margin-note side %}}&lt;plugs belt sander back in>{{% /margin-note %}} of fakeness inside a chunk of once-kinda-mainstream musical amber. Admittedly these songs weren't the first to express such ideas in this way, nor will they be the last. But they were unsettlingly plentiful at the time, forming a kind of fakeness nexus that I really don't know will ever occur again.
 
 {{% small-caps %}}The most tragic part{{% /small-caps %}} of all that has got to be the infighting, though. The idea that "X music sounds like Y, and you don't sound like Y, so you are not X." That by itself might be alright, but when you start dictating that adherents you your particular style must also pledge their allegiance to its history and ideology, that really turns people off. Some folks just want to rock out, simple as that.
 
@@ -292,4 +292,6 @@ The fact is, when you create something and release it for public consumption, yo
 
 Bluntly, if you want to create an art scene that requires its participants and patrons to know the full history and understand the ideals that brought it into being, then maybe mass-market music isn't the right medium for you to be working in. Perhaps a sort of immersive gallery installation would be better suited to all of that. Of course, that would severely limit the reach of your art to only those die-hard fans who want to take the time to learn all the same things that you have learned, and travel all the way to this temple, this _cathedral_ you have created. You probably wouldn't make nearly as much money doing it that way, but that shouldn't matter. Right, sellout?
 
-TODO guster/parachute early
+TODO
+- add deaths/murders that inspired songs
+- tighten and loosen genre categorization where needed
