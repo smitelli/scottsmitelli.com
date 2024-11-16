@@ -79,6 +79,10 @@ text = 'Google Street View Time Lapse - 360 Degree Panorama - Pittsburgh, PA to 
 href = 'https://web.archive.org/web/20090926084845/http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&fcategoryid=174&modelid=11004'
 text = 'Canon ZR200'
 
+[citynews-pod-satellite]
+href = 'https://www.citynews.sg/2022/07/05/iconic-contemporary-christian-albums-p-o-ds-satellite/'
+text = "City News - P.O.D.'s Satellite"
+
 [commonmark-spec]
 href = 'https://spec.commonmark.org/current/'
 text = 'CommonMark Spec'
@@ -333,9 +337,17 @@ text = 'LinkedIn Confirms Account Passwords Hacked'
 href = 'https://www.peelified.com/Futurama-Forum-1/Topic-750-0-Hypnotoads_sound_effect.html'
 text = "Hypnotoad's sound effect?"
 
+[plunk-sr-71-right-now]
+href = 'https://plunkreviews.wordpress.com/2021/04/21/song-review-sr-71-right-now/'
+text = 'Song review: SR-71 - Right Now'
+
 [project-gutenberg]
 href = 'https://www.gutenberg.org/'
 text = 'Project Gutenberg'
+
+[psychologytoday-shaun-morgan]
+href = 'https://www.psychologytoday.com/us/blog/brick-by-brick/202304/how-shaun-morgan-empties-his-jar'
+text = 'Psychology Today - How Shaun Morgan Empties His Jar'
 
 [revenews-youtube-audiblemagic]
 href = 'https://web.archive.org/web/20170825000156/http://revenews.com/search-engine-marketing/goog-to-outsource-youtube-filtering-to-audiblemagic/'
@@ -544,6 +556,10 @@ text = 'The Day the Earth Stood Stupid'
 href = 'https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act'
 text = 'Digital Millennium Copyright Act'
 
+[wiki-dude-looks-like-a-lady]
+href = 'https://en.wikipedia.org/wiki/Dude_(Looks_Like_a_Lady)'
+text = 'Dude (Looks Like a Lady)'
+
 [wiki-elephant-makes-love-to-a-pig]
 href = 'https://en.wikipedia.org/wiki/An_Elephant_Makes_Love_to_a_Pig'
 text = 'An Elephant Makes Love to a Pig'
@@ -560,6 +576,10 @@ text = 'Engrish'
 href = 'https://en.wikipedia.org/wiki/Futurama'
 text = 'Futurama'
 
+[wiki-heavy-metal-music]
+href = 'https://en.wikipedia.org/wiki/Heavy_metal_music'
+text = 'Heavy metal music'
+
 [wiki-help-infobox]
 href = 'https://en.wikipedia.org/wiki/Help:Infobox'
 text = 'Help:Infobox'
@@ -572,6 +592,10 @@ text = 'Help:Wikitext'
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
 
+[wiki-mr-ouch]
+href = 'https://en.wikipedia.org/wiki/Mr._Ouch'
+text = 'Mr. Ouch'
+
 [wiki-off-by-one-error]
 href = 'https://en.wikipedia.org/wiki/Off-by-one_error'
 text = 'Off-by-one error'
@@ -580,9 +604,21 @@ text = 'Off-by-one error'
 href = 'https://en.wikipedia.org/wiki/Ray_casting'
 text = 'Ray Casting'
 
+[wiki-ricky-kasso]
+href = 'https://en.wikipedia.org/wiki/Ricky_Kasso'
+text = 'Ricky Kasso'
+
+[wiki-rule-of-three]
+href = 'https://en.wikipedia.org/wiki/Rule_of_three_(writing)'
+text = 'Rule of three'
+
 [wiki-segals-law]
 href = 'https://en.wikipedia.org/wiki/Segal%27s_law'
 text = "Segal's Law"
+
+[wiki-simulacrum]
+href = 'https://en.wikipedia.org/wiki/Simulacrum'
+text = 'Simulacrum'
 
 [wiki-south-park]
 href = 'https://en.wikipedia.org/wiki/South_Park'
@@ -591,6 +627,14 @@ text = 'South Park'
 [wiki-south-park-characters-ned-gerblanski]
 href = 'https://en.wikipedia.org/wiki/List_of_South_Park_characters#Ned_Gerblanski'
 text = 'Ned Gerblanski'
+
+[wiki-summer-girls]
+href = 'https://en.wikipedia.org/wiki/Summer_Girls'
+text = 'Summer Girls'
+
+[wiki-synchronicity-ii]
+href = 'https://en.wikipedia.org/wiki/Synchronicity_II'
+text = 'Synchronicity II'
 
 [wiki-team-america-world-police]
 href = 'https://en.wikipedia.org/wiki/Team_America:_World_Police'
@@ -615,6 +659,10 @@ text = 'Unit in the last place'
 [wiki-vcard]
 href ='https://en.wikipedia.org/wiki/VCard'
 text = 'vCard'
+
+[wiki-walk-the-dinosaur]
+href = 'https://en.wikipedia.org/wiki/Walk_the_Dinosaur'
+text = 'Walk the Dinosaur'
 
 [wiki-wizard-software]
 href = 'https://en.wikipedia.org/wiki/Wizard_(software)'
@@ -652,10 +700,22 @@ text = 'WordPress'
 href = 'https://www.youtube.com/'
 text = 'YouTube'
 
+[youtube-coca-cola-summer-skateboarding]
+href = 'https://www.youtube.com/watch?v=XwT7F0RICWc'
+text = 'Coca Cola (2004) Television Commercial - Summer Skateboarding'
+
+[youtube-judge-judy-intro-2004]
+href = 'https://www.youtube.com/watch?v=5xrqgwzkJ6Y'
+text = 'Judge Judy Intro 2004-2008'
+
 [youtube-user-retnirpregnif]
 href = 'https://www.youtube.com/@retnirpregnif'
 text = 'retnirpregnif'
 dead = true
+
+[youtube-vh1-fuel-hemorrhage]
+href = 'https://www.youtube.com/watch?v=yf8Zr5DalKo'
+text = 'Fuel - VH1 Storytellers - Hemorrhage Story'
 
 [ytblog-Gg-mX2mof8c]
 href = 'https://web.archive.org/web/20090307095832/https://www.youtube.com/blog?entry=Gg-mX2mof8c'
