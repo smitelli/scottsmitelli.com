@@ -23,9 +23,17 @@ text = 'smitelli on Stack Overflow'
 href = 'https://www.adobe.com/products/audition.html'
 text = 'Adobe Audition'
 
+[alibaba-cloud]
+href = 'https://www.alibabacloud.com/en'
+text = 'Alibaba Cloud'
+
 [angelo-dinardi]
 href = 'https://angelo.dinardi.name/'
 text = 'Angelo DiNardi'
+
+[anthropic]
+href = 'https://www.anthropic.com/'
+text = 'Anthropic'
 
 [apple-faq-itunes-store-movie-rental]
 href = 'https://web.archive.org/web/20080406121746/https://docs.info.apple.com/article.html?artnum=307257'
@@ -70,6 +78,10 @@ text = 'Mono Compatibility and Phase Cancellation'
 [beautifulsoup]
 href = 'https://www.crummy.com/software/BeautifulSoup/'
 text = 'Beautiful Soup'
+
+[bloomberg-anguilla-domain-name]
+href = 'https://www.bloomberg.com/news/articles/2023-08-31/ai-startups-create-digital-demand-for-anguilla-s-website-domain-name'
+text = 'Bloomberg - The Tropical Island With the Hot Domain Name'
 
 [ca-street-view-timelapse]
 href = 'https://www.youtube.com/watch?v=b2d-VAAyB9c'
@@ -187,6 +199,10 @@ text = 'Google Calendar event images'
 href = 'https://contacts.google.com/'
 text = 'Google Contacts'
 
+[google-deepmind]
+href = 'https://deepmind.google/'
+text = 'Google DeepMind'
+
 [google-street-view]
 href = 'https://www.google.com/streetview/'
 text = 'Google Street View'
@@ -214,6 +230,10 @@ text = 'Hugo'
 [hugo-figure-shortcode]
 href = 'https://gohugo.io/content-management/shortcodes/#figure'
 text = 'Hugo Shortcodes - figure'
+
+[ibm-watson]
+href = 'https://www.ibm.com/watson'
+text = 'IBM Watson'
 
 [imdb-scott-smitelli]
 href = 'https://www.imdb.com/name/nm2736773/'
@@ -293,6 +313,14 @@ text = 'Markdown Extended Syntax'
 href = 'https://www.mathjax.org/'
 text = 'MathJax'
 
+[meta-ai]
+href = 'https://www.meta.ai/'
+text = 'Meta AI'
+
+[mistral-ai]
+href = 'https://mistral.ai/'
+text = 'Mistral AI'
+
 [ms-translator-api]
 href = 'https://www.microsoft.com/en-us/translator/business/translator-api/'
 text = 'Microsoft Translator Text API'
@@ -317,9 +345,17 @@ text = 'NTP Pool Project'
 href = 'https://www.ntp.org/documentation/4.2.8-series/warp/#ntp-timescale-and-data-formats'
 text = 'How NTP Works - NTP Timescale and Data Formats'
 
+[nytimes-jeopardy-watson]
+href = 'https://www.nytimes.com/2011/02/17/science/17jeopardy-watson.html'
+text = "On 'Jeopardy!'' Watson Win Is All but Trivial"
+
 [olympics-athletes-2024]
 href = 'https://olympics.com/en/paris-2024/athletes'
 text = 'Paris 2024 Olympics - Athletes'
+
+[openai]
+href = 'https://openai.com/'
+text = 'OpenAI'
 
 [pacifist]
 href = 'https://www.charlessoft.com/'
@@ -420,6 +456,10 @@ text = 'smitelli/sort_of_face'
 [stackoverflow]
 href = 'https://stackoverflow.com/'
 text = 'Stack Overflow'
+
+[stihl-chainsaw-safety-manual]
+href = 'https://www.stihlusa.com/WebContent/CMSFileLibrary/InstructionManuals/Chainsaw-Safety-Manual_1.pdf'
+text = 'STIHL Chain Saw Safety Manual'
 
 [stow]
 href = 'https://www.gnu.org/software/stow/'
@@ -539,6 +579,10 @@ text = 'Chef Aid: The South Park Album'
 [wiki-chef-south-park]
 href = 'https://en.wikipedia.org/wiki/Chef_%28South_Park%29'
 text = 'Chef (South Park)'
+
+[wiki-chinese-room]
+href = 'https://en.wikipedia.org/wiki/Chinese_room'
+text = 'Chinese room'
 
 [wiki-compact-disc-digital-audio]
 href = 'https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio'
@@ -696,13 +740,26 @@ text= 'Wireshark'
 href = 'https://wordpress.org/'
 text = 'WordPress'
 
+[xai]
+# This makes me smile and I have no intention of linking it properly.
+href = 'https://twitter.ai/'
+text = 'xAI'
+
 [youtube]
 href = 'https://www.youtube.com/'
 text = 'YouTube'
 
+[youtube-chainsaw-hedge-trimming]
+href = 'https://www.youtube.com/watch?v=gO9M90fdZDA'
+text = 'chainsaw hedge trimming hootenanny'
+
 [youtube-coca-cola-summer-skateboarding]
 href = 'https://www.youtube.com/watch?v=XwT7F0RICWc'
 text = 'Coca Cola (2004) Television Commercial - Summer Skateboarding'
+
+[youtube-excelent-grass-cutting]
+href = 'https://www.youtube.com/watch?v=H8SsTBZCL_M'
+text = 'Excelent grass cutting'
 
 [youtube-judge-judy-intro-2004]
 href = 'https://www.youtube.com/watch?v=5xrqgwzkJ6Y'
