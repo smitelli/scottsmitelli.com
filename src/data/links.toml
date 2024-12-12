@@ -305,6 +305,10 @@ text = 'Lora'
 href = 'https://web.archive.org/web/20090220060456/http://www.m-audio.com/products/en_us/StudiophileBX5a.html'
 text = 'M-Audio Studiophile BX5a - 70 Watt Bi-Amplified Studio Reference Monitors'
 
+[mannheim-school-musical-innovations]
+href = 'https://en.wikipedia.org/wiki/Mannheim_school#Musical_innovations'
+text = 'Mannheim school - Musical innovations'
+
 [markdown-extended-syntax]
 href = 'https://www.markdownguide.org/extended-syntax/'
 text = 'Markdown Extended Syntax'
@@ -412,6 +416,10 @@ text = 'RFC 6474'
 [ruda-font]
 href = 'https://fonts.google.com/specimen/Ruda'
 text = 'Ruda'
+
+[rush-limbaugh-mannheim-steamroller]
+href = 'https://www.rushlimbaugh.com/daily/2018/12/13/my-first-memory-of-mannheim-steamroller/'
+text = 'The Rush Limbaugh Show - My First Memory of Mannheim Steamroller'
 
 [salt-source]
 href = 'https://github.com/smitelli/salt'
@@ -595,6 +603,10 @@ text = 'List of countries and dependencies by population'
 [wiki-day-the-earth-stood-stupid]
 href = 'https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Stupid'
 text = 'The Day the Earth Stood Stupid'
+
+[wiki-deck-the-hall-1877]
+href = 'https://commons.wikimedia.org/wiki/File:Deck_the_hall.png'
+text = 'File:Deck the hall.png'
 
 [wiki-digital-millennium-copyright-act]
 href = 'https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act'
