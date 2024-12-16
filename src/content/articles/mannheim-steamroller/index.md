@@ -4,7 +4,7 @@ description = "TODO."
 date = 2024-12-11
 +++
 
-"**Deck the Halls**" is a Christmas carol whose lyrics, penned in the late 1800s, describe traditions and celebrations of the Yule---not Christmas!---holiday. The music is perhaps centuries older, repurposed from a Welsh song associated with New Year's Day gift-giving. The combined music and lyrics have been covered by innumerable artists who have each added their own flair to the performance, but the essential spirit of the song is always the same:
+"**Deck the Halls**" is a Christmas carol whose lyrics, penned in the late 1800s, describe traditions and celebrations of the Yule---not Christmas!---holiday. The music is perhaps centuries older, repurposed from a Welsh song called "Nos Galan" and associated with New Year's Day gift-giving. The combined music and lyrics have been covered by innumerable artists who have each added their own flair to the performance, but the essential spirit of the song is always the same:
 
 {{% figure caption="\"Deck the Hall [sic] With Boughs of Holly\" as printed in The Pennsylvania School Journal, vol. xxvi (1877, {{% link wiki-deck-the-hall-1877 %}}Wikipedia{{% /link %}}). This version lacks the third set of \"fa la las\" and their distinct melody." %}}
 {{% picture stem=deck-the-hall-1877 class=invertible %}}
