@@ -1,4 +1,4 @@
-% lilypond --png first.ly
+% lilypond --svg traditional-source.ly
 
 \version "2.22.2"
 \language "english"
@@ -12,23 +12,12 @@
   }
 }
 
+\header {
+  tagline = ##f
+}
+
 <<
   \chords {
-    \set chordChanges = ##t
-
-    % https://musescore.com/user/27997005/scores/5347261
-    % f1 | d4:m c4 f2 | bf2 f2 | f4 c4:7 f2 |
-    % f1 | d4:m c4 f2 | bf2 f2 | f4 c4:7 f2 |
-    % c1 | f1 | f2 g2:m7 | c4 g4:7 c2:7 |
-    % f1 | d4:m c4 f2 | bf2 f2 | f4 c4:7 f2 |
-
-    % standalone gif
-    % f1 | f1 | c2 f2 | f4 c4 f2 |
-    % f1 | f1 | c2 f2 | f4 c4 f2 |
-    % c1:7 | f2 c2 | f1 | c4 g4 c2 |
-    % f1 | f1 | bf2 f2 | f4 c4 f2 |
-
-    % https://www.christmasmusicsongs.com/deck-the-halls-sheet-music.html
     f2. c4:7 | d4:m c4 f2 | c2:7 f2 | f4 c4 f2 |
     f2. c4:7 | d4:m c4 f2 | c2:7 f2 | f4 c4 f2 |
     c2 c2:7 | f2. c4 | f2 d2:m | c4 g4:7 c2 |
