@@ -473,6 +473,10 @@ text = 'STIHL Chain Saw Safety Manual'
 href = 'https://www.gnu.org/software/stow/'
 text = 'GNU Stow'
 
+[synthesia]
+href = 'https://synthesiagame.com/'
+text = 'Synthesia'
+
 [cplusplus-strstr]
 href = 'https://cplusplus.com/reference/cstring/strstr/'
 text = 'strstr()'
@@ -776,6 +780,10 @@ text = 'Excelent grass cutting'
 [youtube-judge-judy-intro-2004]
 href = 'https://www.youtube.com/watch?v=5xrqgwzkJ6Y'
 text = 'Judge Judy Intro 2004-2008'
+
+[youtube-mannheim-steamroller-synthesia]
+href = 'https://www.youtube.com/watch?v=6Yw84GhGWfY'
+text = 'Deck the Halls - Mannheim Steamroller - Transcription Synthesia'
 
 [youtube-user-retnirpregnif]
 href = 'https://www.youtube.com/@retnirpregnif'
