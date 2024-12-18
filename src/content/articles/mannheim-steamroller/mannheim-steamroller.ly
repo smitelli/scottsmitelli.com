@@ -13,49 +13,46 @@
   \chords {
     \set chordChanges = ##t
 
-    % https://musescore.com/user/27997005/scores/5347261
-    % f1 | d4:m c4 f2 | bf2 f2 | f4 c4:7 f2 |
-    % f1 | d4:m c4 f2 | bf2 f2 | f4 c4:7 f2 |
-    % c1 | f1 | f2 g2:m7 | c4 g4:7 c2:7 |
-    % f1 | d4:m c4 f2 | bf2 f2 | f4 c4:7 f2 |
-
     R1*7 |
-    ef1*11:5 |
-    f1*6:5 |
-    ef1:5 | ef2:5 bf2:5 |
-    bf1:5 | bf4:5 c4 |
-    f1*4:5 |
-    ef1:5 | ef2:5 |
-    bf1*2:5 |
-    f1*6:5 |
-    ef1:5 | ef2:5 bf2:5 |
-    bf1:5 | bf4:5 c4 |
-    f1*4:5 |
-    ef1:5 | ef2:5 |
-    bf1*2:5 |
-    f1*4:5 |
+
+    ef1*11 |
+    f1*6 |
+    ef1 | ef2 bf2 |
+    bf1 | bf4 c4 |
+    f1*4 |
+    ef1 | ef2 |
+    bf1*2 |
+    f1*6 |
+    ef1 | ef2 bf2 |
+    bf1 | bf4 c4 |
+    f1*4 |
+    ef1 | ef2 |
+    bf1*2 |
+    f1*4 |
     c1 |
     f1 | f2 g2 |
     c4 b4:dim c2 | c1 |
-    f1*3:5 |
-    bf2:5 c2 | c2 |
+    f1*3 |
+    bf2 c2 | c2 |
     ef1*2 |
     bf1*2 |
-    f1*2:5 |
-    R1*30 |
-    f1*2:5 |
-    ef1:5 | ef2:5 bf2:5 |
-    bf1:5 |
-    bf4:5 c4 |
-    f1*3:5 |
-    bf2:5 c2 | c2 |
-    ef1*2 |
-    bf1*2 |
-    ef1*2 |
+    f1*2 |
 
+    R1*30 |
+
+    f1*2 |
+    ef1 | ef2 bf2 |
+    bf1 |
+    bf4 c4 |
+    f1*3 |
+    bf2 c2 | c2 |
+    ef1*2 |
     bf1*2 |
-    f1*2:5 |
+    ef1*2 |
+    bf1*2 |
+    f1*2 |
   }
+
   \fixed c' {
     \tempo "Swing" 4 = 160
 
