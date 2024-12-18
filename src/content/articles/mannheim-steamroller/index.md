@@ -78,7 +78,53 @@ That's an important thing to keep in mind: It doesn't matter if an unexpected no
 
 ## Another brick in the hall
 
-Repetition is the key to memory. As a consequence of repetition being the key to memory, folk and traditional songs tend to follow predictable patterns. The lines each tend to have identical or substantially similar melodic and rhythmic content, and even the rhyming nature of the lines could arguably be viewed as a memory aid. {{% margin-note %}}I'm sure somebody out there has had an exchange similar to this during a performance: "What's the next line... I can't remember! Something that rhymes with 'holly.' Oh! 'Jolly.' Tis the season, yeah, I got it now."{{% /margin-note %}}
+Repetition is the key to memory. As a consequence of repetition being the key to memory, folk and traditional songs tend to follow predictable patterns. The lines each tend to have identical or substantially similar melodic and rhythmic content, and even the rhyming nature of the lines could arguably be viewed as a memory aid. {{% margin-note %}}I'm sure somebody out there has had an exchange similar to this during a performance: "What's the next line... I can't remember! Something that rhymes with 'holly.' Oh! 'Jolly.' Tis the season, yeah, I got it now."{{% /margin-note %}} The music printed earlier was specifically aligned so that each line started and ended on a self-similar piece of music. This can be drawn even more explicitly:
+
+{{% figure class=fullwidth %}}
+
+```goat
++---------------------+---------------------+---------------------+---------------------+
+| Deck the halls with | boughs of holly,    | Fa la la la la la   | la la la,           |
++---------------------+---------------------+---------------------+---------------------+
+| 'Tis the season     | to be jolly,        | Fa la la la la la   | la la la,           |
++---------------------+---------------------+---------------------+---------------------+
+| Don we now our      | gay apparel,        | Fa la la la la la   | la la la,           |
++---------------------+---------------------+---------------------+---------------------+
+| Troll the ancient   | Yuletide carol,     | Fa la la la la la   | la la la.           |
++---------------------+---------------------+---------------------+---------------------+
+```
+{{% /figure %}}
+
+Read horizontally, these are the lyrics. Vertically, each cell shows a sequence of words with a similar syllable pattern and---in certain columns---rhyming elements. Similar cells can be swapped without really breaking the rhythmic flow of the song, although the meaning of the words would get jumbled.
+
+This works for the chord changes as well:
+
+{{% figure class=fullwidth %}}
+
+```goat
++---------------------+---------------------+---------------------+---------------------+
+| I    -    -    V7   | vi   V    I    -    | V7   -    I    -    | I    V    I    -    |
++---------------------+---------------------+---------------------+---------------------+
+| I    -    -    V7   | vi   V    I    -    | V7   -    I    -    | I    V    I    -    |
++---------------------+---------------------+---------------------+---------------------+
+| V    -    V7   -    | I    -    -    V    | I    -    vi   -    | V    II7  V    -    |
++---------------------+---------------------+---------------------+---------------------+
+| I    -    -    V    | vi   V    I    -    | IV   -    I    -    | I    V7   I    -    |
++---------------------+---------------------+---------------------+---------------------+
+```
+{{% /figure %}}
+
+We can observe in a similar way that the first two lines of the song are identical from a chord standpoint, and the fourth line is substantially similar to them (essentially only swapping select instances of _V_ and _V<sup>7</sup>_, plus the special climactic _IV_ moment).
+
+Take another moment to study these little bricks. Notice how they fit together, how their internal patterns duplicate themselves into larger constructions. Repetition is the key to memory.
+
+## Anyway, here's Steamroller
+
+The Mannheim Steamroller cover of "Deck the Halls" contains three complete(ish) verses of the original music. The first verse happens 30 seconds into the recording, with the melody played on a Sequential Circuits **Prophet-5** with numerous floroushes throughout. The next verse, initially played on a French horn, begins about 55 seconds into the recording. Halfway throguh that, the Prophet-5 returns to complete the last two lines.
+
+Following this is a passage that has nothing to do with the original song, and which frankly sounds like what would happen if Electric Light Orchestra was commissioned to write a _Star Trek_ theme. This portion of the song is not discussed here.
+
+At 2 minutes and 30 seconds, the third verse is played by a string section. This is abbreviated TODO
 
 - art criticism is mostly BS
     - in this context, 2 requirements: do i like it aesthetically; does it accurately convey the song
