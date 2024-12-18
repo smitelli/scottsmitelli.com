@@ -66,13 +66,13 @@ A particularly fancy arrangement of the traditional "Deck the Halls" might look 
 {{% picture stem=traditional class=invertible %}}
 {{% /figure %}}
 
-Admittedly there is a lot going on with the chords marked above the staff, but most of it follows a pattern---like a winter break--ruining report card, it's mostly F's and C's. The "F" represents the F major chord or the _I_. Likewise the "C" is a C major or _V_. "C<sup>7</sup>" is the same as C major but with the addition of a note seven steps above the chord's root note (in this case, that seventh note is B&flat;).
+Admittedly there is a lot going on with the chords marked above the staff, but most of it follows a pattern: Like a winter break--ruining report card, it's mostly F's and C's. The "F" represents the F major chord or the _I_. Likewise the "C" is a C major or _V_. "C<sup>7</sup>" is the same as C major but with the addition of a note seven steps above the chord's root note (in this case, that seventh note is B&flat;). This is notated in roman numerals as _V_<sup>7</sup>.
 
 Throughout the song, the scale's key note of F is the anchor point that everything else revolves around. The _I_ chord, having the same root note as the scale conveys a strong sense of resolution---it is very much the "home" chord. The second-most common chord is the _V_, which could be thought of as a sort of "going to the office" chord---it's different but basically familiar. The song travels from _I_ to _V_ and from _V_ to _I_ and it's all pretty much routine. The addition of the seventh (_V_<sup>7</sup>) chords creates added anticipation for the upcoming _I_. Maybe it's the Friday before a holiday weekend.
 
-The "Dm" (D minor) chord represents the _vi_, one of the most commonly-found "sad" chords. "Deck the Halls" is not a sad song, nor does it even have moments of plaintive contemplation. When this chord appears, its primary function is to break up the _V_<sup>7</sup> and the _V_. Another rare chord is the "B&flat;" (B&flat; major) or the _IV_. Its usage in this song could be described as "triumphant" and its unique quality seemingly only fits in with the climactic "fa la la" in the final line.
+The "Dm" (D minor) chord represents the _vi_, one of the most commonly-found "sad" chords in folk and popular music. "Deck the Halls" is not a sad song, nor does it even have moments of plaintive contemplation. When this chord appears, its primary function is to break up whatever comes before the _V_. Another rare chord in this particular song is the "B&flat;" (B&flat; major) or the _IV_. Its usage in this song could be described as "triumphant" and its unique quality seemingly only fits in with the climactic "fa la la" in the final line.
 
-This leave us with "G<sup>7</sup>" (G major seventh) which is a weird chord to find here. The notes that comprise this chord are G--**B**--D--F. Not B&flat;... **B natural**. This chord explicitly uses a note that does not belong in the F major scale, producing a chord that does not really belong there either. {{% margin-note %}}The roman numeral notation for this one would be _II_<sup>7</sup>.{{% /margin-note %}} This chord follows an earlier appearance of a B natural in the preceding measure. Why does this happen here? The simple answer is, because it does. Even the printed sheet music for "Nos Galan" has it doing this. It's simply part of the composition. It's nestled in the middle of a melodic turn that only occurs once in the melody, and it does not overstay its welcome. You've probably heard it dozens of times without really noticing it was there.
+This leave us with "G<sup>7</sup>" (G major seventh) which is a weird chord to find here. The notes that comprise this chord are G--**B**--D--F. Not B&flat;... **B natural**. This chord explicitly uses a note that does not belong in the F major scale, producing a chord that does not really belong there either. {{% margin-note %}}The roman numeral notation for this one would be _II_<sup>7</sup>.{{% /margin-note %}} This chord follows an earlier appearance of a B natural in the preceding measure. Why does this happen here? The simple answer is this: It happens because it does. Even the printed sheet music for "Nos Galan" has it doing this. It's simply part of the composition. It's nestled in the middle of a melodic turn that only occurs once briefly in each verse, and it does not overstay its welcome. You've probably heard it a hundred times without really noticing it was there.
 
 That's an important thing to keep in mind: It doesn't matter if an unexpected note or out-of-place chord finds its way into a piece of music so long as it works in the context where it appears. Put another way, the "safe" notes of the diatonic scale and the chords that can be built from them all fit together beautifully, but sometimes a pinch of _je ne sais quoi_ can work wonders.
 
@@ -80,7 +80,7 @@ That's an important thing to keep in mind: It doesn't matter if an unexpected no
 
 Repetition is the key to memory. As a consequence of repetition being the key to memory, folk and traditional songs tend to follow predictable patterns. The lines each tend to have identical or substantially similar melodic and rhythmic content, and even the rhyming nature of the lines could arguably be viewed as a memory aid. {{% margin-note %}}I'm sure somebody out there has had an exchange similar to this during a performance: "What's the next line... I can't remember! Something that rhymes with 'holly.' Oh! 'Jolly.' Tis the season, yeah, I got it now."{{% /margin-note %}} The music printed earlier was specifically aligned so that each line started and ended on a self-similar piece of music. This can be drawn even more explicitly:
 
-{{% figure class=fullwidth %}}
+{{% figure caption="Brick chart of the traditional \"Deck the Halls\" lyrics." class=fullwidth %}}
 
 ```goat
 +---------------------+---------------------+---------------------+---------------------+
@@ -99,7 +99,7 @@ Read horizontally, these are the lyrics. Vertically, each cell shows a sequence 
 
 This works for the chord changes as well:
 
-{{% figure class=fullwidth %}}
+{{% figure caption="Brick chart of chords for a plausible \"Deck the Halls\" arrangement." class=fullwidth %}}
 
 ```goat
 +---------------------+---------------------+---------------------+---------------------+
@@ -125,6 +125,68 @@ The Mannheim Steamroller cover of "Deck the Halls" contains three complete(ish) 
 Following this is a passage that has nothing to do with the original song, and which frankly sounds like what would happen if Electric Light Orchestra was commissioned to write a _Star Trek_ theme. This portion of the song is not discussed here.
 
 At 2 minutes and 30 seconds, the third verse is played by a string section. This is abbreviated TODO
+
+{{% margin-note %}}{{% picture stem=synthesia %}}Ah yes, transcribing this was clearly an optimal use of two consecutive evenings.{{% /margin-note %}} The sheet music for the Mannheim Steamroller version of "Deck the Halls" is available for sale online, but I'll be goddamned if I'm going to spend $5.99 on something that I despise. Instead, I found somebody who ran a MIDI file of the song through {{% link synthesia /%}} and {{% link youtube-mannheim-steamroller-synthesia %}}posted its playback on YouTube{{% /link %}}. That, combined with a close listen of the actual track from their 1984 _Christmas_ album, allowed me to put together what I feel is a rather accurate representation of the essence of the song:
+
+{{% figure caption="Deck the halls with boughs of holly, Fa la la la la la la la la." class=fullwidth %}}
+{{% picture stem=mannheim-1 class=invertible %}}
+{{% /figure %}}
+
+So, a couple of things. Pitchwise, this is substantially the same as the traditional melody. Setting aside the extra ornamentation, only one note sticks out: The E&flat; immediately preceding the final note. And that one sticks out like the sorest of thumbs. It's not subtle, it does not ease the transition from one chord to another, it's audibly dissonant, and honestly it just seems like it is here out of pure spite.
+
+E&flat; has nothing to do with the key of F major, as evidenced by the fact that it requires an explicit flat symbol right on the staff. It is the flattened seventh of the scale, and is not used in any of the typical chords found in F major. And speaking of chords, did anybody notice the E&flat; major chord in the middle of the line? That would be an &flat;VII chord in this key; what the _actual hell_ is that doing there?
+
+Setting _that_ aside, this line also stretches certain parts of measures but not others. Compared with the original structure of the song:
+
+{{% figure caption="Brick chart comparing line 1 of the traditional and Mannheim Steamroller versions. The box marked (r) is a one-beat rest." class=fullwidth %}}
+
+```goat
+Traditional lyrics:
++-----------------------+-----------------------+-----------------------+-----------------------+
+| Deck the halls with   | boughs of holly,      | Fa la la la la la     | la la la,             |
++-----------------------+-----------------------+-----------------------+-----------------------+
+|   <-- 1 measure -->   |                       |                       |                       |
+|                       |                       |                       |                       |
+
+Mannheim Steamroller, assuming it had lyrics:
++-----------------------+-----------------------------------+-----------------------+-----------------------------------------+-----+
+| Deck the halls with   | boughs of holly,                  | Fa la la la la la     | la la la,                               | (r) |
++-----------------------+-----------------------+-----------+-----------+-----------+-----------+-----------------------+-----+-----+
+|   <-- 1 measure -->   |                       |                       |                       |                       |   (2/4)   |
+|                       |                       |                       |                       |                       |           |
+```
+{{% /figure %}}
+
+Mannheim Steamroller's version uses a 22-beat line, whereas the traditional song accomplishes the same thing in only 16 beats. The most noticable effect of this, aside from the song seeming to take a really long time to get the lines out, is that lyrical phrases no longer start and end on a measure divider. And it keeps going:
+
+{{% figure caption="'Tis the season to be jolly, Fa la la la la la la la la." class=fullwidth %}}
+{{% picture stem=mannheim-2 class=invertible %}}
+{{% /figure %}}
+
+This line has 26 beats. Compared to _itself_ from the line immediately before:
+
+{{% figure caption="Brick chart comparing lines 1 and 2 of the Mannheim Steamroller version." class=fullwidth %}}
+
+```goat
+First line:
++-----------------------+-----------------------------------+-----------------------+-----------------------------------------+-----+
+| Deck the halls with   | boughs of holly,                  | Fa la la la la la     | la la la,                               | (r) |
++-----------------------+-----------------------+-----------+-----------+-----------+-----------+-----------------------+-----+-----+
+|   <-- 1 measure -->   |                       |                       |                       |                       |   (2/4)   |
+|                       |                       |                       |                       |                       |           |
+
+Second line:
++-----------------------+-----------------------------------------------+-----------+-----------------------+-----------------------------------------------+
+| 'Tis the season       | to be jolly,                                  |  (rest)   | Fa la la la la la     | la la la,                                     |
++-----------------------+-----------------------+-----------------------+-----------+-----------+-----------+-----------+-----------+-----------------------+
+|   <-- 1 measure -->   |                       |                       |                       |                       |   (2/4)   |                       |
+|                       |                       |                       |                       |                       |           |                       |
+```
+{{% /figure %}}
+
+
+
+|1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1
 
 - art criticism is mostly BS
     - in this context, 2 requirements: do i like it aesthetically; does it accurately convey the song
