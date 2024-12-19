@@ -20,7 +20,7 @@ The song may have originally found its U.S. audience due to its many appearance 
 
 Instead of being thrown onto time's garbage heap along with the Dodge Rampage, Walter Mondale, and the Louisiana World's Fair, this song is somehow still being played. Every December, and sometimes even in late November, some grocery store or dentist office waiting room plays it. They'll play it again next year too, I'm sure of it. Against all odds, a synthesizer version of "Deck the Halls" has managed to permanently embed itself in our collective holiday consciousness.
 
-I really hate this song, and I'm going to tell you _exactly_ why.
+I really despise this song, and I'm going to tell you _exactly_ why.
 
 ## Just enough scale theory to hurt ourselves
 
