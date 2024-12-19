@@ -1,7 +1,7 @@
 +++
 title = "The Mannheim Steamroller Version of \"Deck the Halls\" Is Insufferable and I Will Fight Anyone Who Disagrees"
 description = "TODO."
-date = 2024-12-11
+date = 2024-12-19
 +++
 
 "**Deck the Halls**" is a Christmas carol whose lyrics, penned in the late 1800s, describe traditions and celebrations of the Yule---not Christmas!---holiday. The music is perhaps centuries older, repurposed from a Welsh song called "Nos Galan" and associated with New Year's gift-giving (the English translation of the title literally means "New Year's Eve"). The combined music and lyrics have been covered by innumerable artists who have each added their own flair to the performance, but the essential spirit of the song is always the same:
@@ -16,11 +16,11 @@ The original song is a straightforward jaunt in "common" (4/4) time in the key o
 
 The first track on _Christmas_ is titled "Deck the Halls" and, as one might surmise, is yet another rendition of the well-known carol. It is an instrumental piece with prominent synthesizer, french horn, and strings. As best I can determine, the intention of the song is to reimagine the song---which, remember, is _centuries old_---by marrying classical music techniques with cutting-edge-at-the-time popular music production choices. The result is basically what you would expect: "Deck the Halls" on a bunch of synthesizers.
 
-The song may have originally found its U.S. audience due to its many appearance on conservative talk radio. Rush Limbaugh {{% link rush-limbaugh-mannheim-steamroller %}}played Mannheim Steamroller's Christmas music during his show{{% /link %}}{{% margin-note side %}}And now he's dead. Really makes you think.{{% /margin-note %}} as sort of an annual tradition, which does sort of line up with the age profile of those who seem to genuinely like it. (And to those who genuinely like it, I feel I must ask: Could you name another Mannheim Steamroller song aside from "Deck the Halls" that you remember hearing? And liking?) {{% margin-note %}}(If you answered "Carol of the Bells," are you _sure_ it's the Mannheim Steamroller recording, and not Trans-Siberian Orchestra?){{% /margin-note %}} While at the other end of the spectrum, now there are kids growing up who enjoy the whole {{% small-caps %}}_aesthetic_{{% /small-caps %}} of the 1980s and unironically listen to this song precisely because of its retro production.
+The song may have originally found its U.S. audience due to its many appearance on conservative talk radio. Rush Limbaugh {{% link rush-limbaugh-mannheim-steamroller %}}played Mannheim Steamroller's Christmas music during his show{{% /link %}}{{% margin-note side %}}And now he's dead. Really makes you think.{{% /margin-note %}} as sort of an annual tradition, which does sort of line up with the age profile of those who seem to genuinely like it. (And to those who genuinely like it, I feel I must ask: Could you name another Mannheim Steamroller song aside from "Deck the Halls" that you remember hearing? And _liking?_) {{% margin-note %}}(If you answered "Carol of the Bells," are you _sure_ it's the Mannheim Steamroller recording, and not Trans-Siberian Orchestra?){{% /margin-note %}} While at the other end of the spectrum, now there are kids growing up who enjoy the whole {{% small-caps %}}_aesthetic_{{% /small-caps %}} of the 1980s and unironically listen to this song precisely because of its retro production.
 
 Instead of being thrown onto time's garbage heap along with the Dodge Rampage, Walter Mondale, and the Louisiana World's Fair, this song is somehow still being played. Every December, and sometimes even in late November, some grocery store or dentist office waiting room plays it. They'll play it again next year too, I'm sure of it. Against all odds, a synthesizer version of "Deck the Halls" has managed to permanently embed itself in our collective holiday consciousness.
 
-I hate this song, and I'm going to tell you _exactly_ why.
+I really hate this song, and I'm going to tell you _exactly_ why.
 
 ## Just enough scale theory to hurt ourselves
 
@@ -44,7 +44,7 @@ The effect of this is that the chords sound different from each other, and not j
 
 Pulling back to the context of the F major scale, the sequence of three-note chords available to us is F major, G minor, A minor, B&flat; major, C major, D minor, E diminished, and back to F major. These are the workhorse chords, and while it's certainly possible to add additional notes from the scale or even some of the discouraged notes from unrelated keys, you'll find that, most of the time, most popular and folk music doesn't. {{% margin-note %}}Does the traditional "Deck the Halls" adhere strictly to this palette of chords? Are you _sure_ about that?{{% /margin-note %}}
 
-The roman numeral notation I introduced above can actually be extended to represent the chord qualities: capital letters for major, lowercase letters for minor, and the addition of "&flat;5" to indicate diminished. {{% margin-note %}}Some texts use "dim" or "<sup>o</sup>" to indicate this kind of diminished chord, but there are cases where it has an ambiguous interpretation.{{% /margin-note %}} Using this notation, the sequence of chords is _I_, _ii_, _iii_, _IV_, _V_, _vi_, _vii_<sup>&flat;5</sup>. Using this kind of shorthand can really help distill music down to its bare essence. Instead of having to explicitly list out the notes (e.g.) B&flat;--D--F, one could just say "_IV_ chord" and, knowing the key the song is in, reconstruct the list of notes whenever needed. It certainly makes it easier to transpose songs into different keys.
+The roman numeral notation I introduced above can actually be extended to represent the chord qualities: capital letters for major, lowercase letters for minor, and the addition of "<sup>o</sup>" to indicate diminished. {{% margin-note %}}Some texts use "dim" or "&flat;5" to indicate this kind of diminished chord, and you should be aware that there can sometimes be some ambiguity that can arise from these different abbreviations.{{% /margin-note %}} Using this notation, the sequence of chords is _I_, _ii_, _iii_, _IV_, _V_, _vi_, _vii_<sup>o</sup>. Using this kind of shorthand can really help distill music down to its bare essence. Instead of having to explicitly list out the notes (e.g.) B&flat;--D--F, one could just say "_IV_ chord" and, knowing the key the song is in, reconstruct the list of notes whenever needed. It certainly makes it easier to transpose songs into different keys.
 
 ## Something to dance to
 
@@ -62,7 +62,7 @@ It's surprisingly difficult to attach chords to simple melodies that were not or
 
 A particularly fancy arrangement of the traditional "Deck the Halls" might look like the following:
 
-{{% figure caption="Representative arrangement for a modern rendition of \"Deck the Halls\" that maintains the essence of the traditional song." class=fullwidth %}}
+{{% figure caption="Representative arrangement for a modern rendition of \"Deck the Halls\" that maintains the essence of the traditional song. ([LilyPond source](traditional-source.ly))" class=fullwidth %}}
 {{% picture stem=traditional class=invertible %}}
 {{% /figure %}}
 
@@ -102,15 +102,15 @@ This works for the chord changes as well:
 {{% figure caption="Brick chart of chords for a plausible \"Deck the Halls\" arrangement." class=fullwidth %}}
 
 ```goat
-+---------------------+---------------------+---------------------+---------------------+
-| I    -    -    V7   | vi   V    I    -    | V7   -    I    -    | I    V    I    -    |
-+---------------------+---------------------+---------------------+---------------------+
-| I    -    -    V7   | vi   V    I    -    | V7   -    I    -    | I    V    I    -    |
-+---------------------+---------------------+---------------------+---------------------+
-| V    -    V7   -    | I    -    -    V    | I    -    vi   -    | V    II7  V    -    |
-+---------------------+---------------------+---------------------+---------------------+
-| I    -    -    V    | vi   V    I    -    | IV   -    I    -    | I    V7   I    -    |
-+---------------------+---------------------+---------------------+---------------------+
++-------------------+-------------------+-------------------+-------------------+
+| I    -    -    V7 | vi   V    I    -  | V7   -    I    -  | I    V    I    -  |
++-------------------+-------------------+-------------------+-------------------+
+| I    -    -    V7 | vi   V    I    -  | V7   -    I    -  | I    V    I    -  |
++-------------------+-------------------+-------------------+-------------------+
+| V    -    V7   -  | I    -    -    V  | I    -    vi   -  | V    II7  V    -  |
++-------------------+-------------------+-------------------+-------------------+
+| I    -    -    V  | vi   V    I    -  | IV   -    I    -  | I    V7   I    -  |
++-------------------+-------------------+-------------------+-------------------+
 ```
 {{% /figure %}}
 
@@ -126,9 +126,11 @@ Following this is a passage that has nothing to do with the original song, and w
 
 At 2 minutes and 30 seconds, the third verse is played by a string section. This is abbreviated TODO
 
+The song could be described as either a 4/4 piece using a "swing" feel, or as a 12/8 piece with a strong preference for the first and third triplets in each beat. Regardless of the notation (I chose the former) the interpretation is the same: The beats follow a "one-and-a two-and-a three-and-a" where the center "and" is avoided. Of all the liberties taken with their interpretation of this song, the use of swing rhythm is actually nowhere on my list of grievances. I dig it, and I mean that sincerely.
+
 {{% margin-note %}}{{% picture stem=synthesia %}}Ah yes, transcribing this was clearly an optimal use of two consecutive evenings.{{% /margin-note %}} The sheet music for the Mannheim Steamroller version of "Deck the Halls" is available for sale online, but I'll be goddamned if I'm going to spend $5.99 on something that I despise. Instead, I found somebody who ran a MIDI file of the song through {{% link synthesia /%}} and {{% link youtube-mannheim-steamroller-synthesia %}}posted its playback on YouTube{{% /link %}}. That, combined with a close listen of the actual track from their 1984 _Christmas_ album, allowed me to put together what I feel is a rather accurate representation of the essence of the song:
 
-{{% figure caption="Deck the halls with boughs of holly, Fa la la la la la la la la." class=fullwidth %}}
+{{% figure caption="Deck the halls with boughs of holly, Fa la la la la la la la la. ([LilyPond source](mannheim-1-source.ly))" class=fullwidth %}}
 {{% picture stem=mannheim-1 class=invertible %}}
 {{% /figure %}}
 
@@ -166,7 +168,7 @@ _The diatonic pattern repeats._ The pattern is actually not concerned with start
 
 What if we shifted our diatonic steps three positions to the right, wrapping the pieces that fall off the right edge onto the start of the pattern? We would end up with L--L--S--L--L--S--L. Or graphically:
 
-{{% figure caption="Construction of the F major scale with the diatonic sequence starting on the fifth scale degree." class=fullwidth %}}
+{{% figure caption="Construction of the F major scale with the diatonic sequence starting from its fifth step." class=fullwidth %}}
 
 ```goat
   Diatonic Step:        Large       Large    Small    Large       Large    Small    Large    
@@ -184,11 +186,11 @@ That's somehow substantially the same, except the E transformed into an E&flat;,
 
 So we have a scale that contains all the notes from the B&flat; major scale, but we're notating and using it as if it were an F major scale. Surely there must be a lofty and inaccessible term to describe this concept. And yup, there sure is: We have constructed a **mode** called **F Mixolydian.**
 
-Pulling back, there are seven positions where the diatonic step sequence could be aligned over a scale's root note, therefore there are seven modes: Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, and Locrian. The most common mode for music to use is Ionian, followed by Aeolian for sadder pieces. Mixolydian, it could be argued, is a distant third place compared to the popularity of those two.
+Pulling back, there are seven positions where the diatonic step sequence could be aligned over a scale's root note, therefore there are seven modes: Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, and Locrian. The most common mode for music to use is Ionian, followed by Aeolian for sadder pieces. Mixolydian, it could be argued, is a distant third place compared to the popularity of those other two.
 
 Occasionally you'll hear people parading around fun facts, for example that "Sweet Home Alabama" by Lynyrd Skynyrd uses the Mixolydian mode. That may be true (or it may not be) but it is not _prominently_ Mixolydian. To be prominent, there should be a distinct and obvious use of the &flat;7. The chorus of "Single Ladies (Put a Ring on It)" by Beyonc&eacute;, _that_ is a Mixolydian section with an obvious &flat;7. {{% margin-note %}}I don't really enjoy "Single Ladies" either. Hm. I guess I'm learning something about myself on this journey.{{% /margin-note %}}
 
-Mannheim Steamroller's "Deck the Halls" is a Mixolydian song with a hit-you-over-the-head &flat;7 in the melody. It also spends a whole lot of its time in the &flat;VII (E&flat; major) chord, rooted firmly on this same characteristic note.
+Mannheim Steamroller's "Deck the Halls" is a Mixolydian song with a hit-you-over-the-head &flat;7 in the melody. It also spends a whole lot of its time on the &flat;VII (E&flat; major) chord, rooted firmly at this same characteristic note.
 
 ## Hurry up and wait
 
@@ -221,7 +223,7 @@ Mannheim Steamroller, assuming it had lyrics:
 
 Mannheim Steamroller's version uses a 22-beat line, whereas the traditional song accomplishes the same thing in only 16 beats. The most noticable effect of this, aside from the song seeming to take a really long time to get the lines out, is that lyrical phrases no longer start and end on a measure divider. And it keeps going:
 
-{{% figure caption="'Tis the season to be jolly, Fa la la la la la la la la." class=fullwidth %}}
+{{% figure caption="'Tis the season to be jolly, Fa la la la la la la la la. ([LilyPond source](mannheim-2-source.ly))" class=fullwidth %}}
 {{% picture stem=mannheim-2 class=invertible %}}
 {{% /figure %}}
 
@@ -246,9 +248,78 @@ Second line:
 ```
 {{% /figure %}}
 
+That is just excessive. It really feels like the song keeps missing its bus transfers and is just standing around waiting for the next one to come around. It continually sets up the expectation that the next batch of lyrics is going to come, and then it smashes the expectation by just... not doing it. There isn't even anything interesting in the spaces added here; it's just waiting for the sake of waiting.
 
+This makes it extrordinarily difficult to memorize the song. Each line is a special case. You have to pay attention; you have to count. {{% margin-note %}}This is _"Deck the Halls,"_ for chrissakes! I'm not counting jack squat!{{% /margin-note %}} Here's a fun excercise, assuming you haven't committed the entire song to memory: Play the Mannheim Steamroller version of this song, and sing the words along with it. Sing confidently, like you really mean it. See how many times you start singing a line in the wrong place. See how _unneccesarily hard_ they made this.
 
-|1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1    |2    |3    |4    |1
+## The back half
+
+Continuing on to line three:
+
+{{% figure caption="Don we now our gay apparel, Fa la la la la la la la la. ([LilyPond source](mannheim-3-source.ly))" class=fullwidth %}}
+{{% picture stem=mannheim-3 class=invertible %}}
+{{% /figure %}}
+
+Structurally, I can't find much to fault here. Aside from its insistance on adding an empty measure at the end of the line, this faithfully adheres to the rhythm of the original. It's almost refreshing, in a way.
+
+Of considerable interest is the fact that this portion of the verse contains several E naturals---it is _not_ in Mixolydian during those times. Much like this portion of the original song, this version also contains a brief foray into C _Ionian_, where the E natural note and the G / B<sup>o</sup> chords are more welcome than they would be in F. What's interesting, and what I'm currently at a loss to explain, is why the B&flat; in the third measure remains as a B&flat; rather than being raised to B natural along with everything else, but as best I can tell that's what it's actually doing.
+
+We've come too far to give up now:
+
+{{% figure caption="Troll the ancient Yuletide carol, Fa la la la la la la la la. ([LilyPond source](mannheim-4-source.ly))" class=fullwidth %}}
+{{% picture stem=mannheim-4 class=invertible %}}
+{{% /figure %}}
+
+Phew, I was getting worried there for a minute that things were getting normal.
+
+{{% figure caption="Brick chart of the last line of the Mannheim Steamroller verse." class=fullwidth %}}
+
+```goat
++-----------------------+-----------------------------------------+-----+-----------------------+-----------------------------------------------
+| Troll the ancient     | Yuletide carol,                         | (r) | Fa la la la la la     | la la la.                     (continues) --->
++-----------------------+-----------------------+-----------------+-----+-----------------------+-----------+-----------------------+-----------
+|   <-- 1 measure -->   |                       |                       |                       |   (2/4)   |                       |
+|                       |                       |                       |                       |           |                       |
+```
+{{% /figure %}}
+
+As before, this is yet a third unique line pattern consisting of effectively 20 beats of melody followed by 22 beats of a sustained F, held while waiting for the underlying chords to meander their way back to some semblance of resolution. At least it had the decency to avoid any more E's or E&flat;'s.
+
+So let's stack some bricks and see how decked-out this hall ended up:
+
+{{% figure caption="Brick chart of the complete Mannheim Steamroller verse." class=fullwidth %}}
+
+```goat
++-----------------------+-----------------------------------+-----------------------+-----------------------------------------+-----+
+| Deck the halls with   | boughs of holly,                  | Fa la la la la la     | la la la,                               | (r) |
++-----------------------+-----------------------------------+-----------+-----------+-----------------------+-----------------+-----+-----------------------+
+| 'Tis the season       | to be jolly,                                  | (rest)    | Fa la la la la la     | la la la,                                     |
++-----------------------+-----------------------+-----------------------+-----------+-----------+-----------+-----------+-----------------------------------+
+| Don we now our        | gay apparel,          | Fa la la la la la     | la la la,             | (rest)                |
++-----------------------+-----------------------+-----------------+-----+-----------------------+-----------------------+--------------------------------------
+| Troll the ancient     | Yuletide carol,                         | (r) | Fa la la la la la     | la la la.                                    (continues) --->
++-----------------------+-----------------------------------------+-----+-----------------------+--------------------------------------------------------------
+```
+{{% /figure %}}
+
+The structure of this song is objectively weird. Every line is different from every other line. Self-similar phrases start and end at different places, and there is no way to intuit when a future event is going to occur based on what came previously. You just have to _learn_ each of these pieces individually. {{% margin-note %}}I honestly don't know how the band plays this song live; they must've just memorized the bejesus out of it.{{% /margin-note %}}
+
+The chord progression is no easier. Just as the melody components begin and end in unexpected places, the chord changes similarly follow no easily predictable pattern:
+
+{{% figure caption="Brick chart of the chords accompanying the Mannheim Steamroller verse. To conserve space, the final _IV_ and _I_ chords, each occupying two complete 4/4 measures, have been compressed." class=fullwidth %}}
+
+```goat
++-------------------+-------------------+-------------------+-------------------+-------------------+---------+
+| I    -    -    -  | I    -    -    -  | bVII -    -    -  | bVII -    IV   -  | IV   -    -    -  | IV   V  |
++-------------------+-------------------+-------------------+-------------------+-------------------+---------+-------------------+
+| I    -    -    -  | I    -    -    -  | I    -    -    -  | I    -    -    -  | bVII -    -    -  | bVII -  | IV   -    -    -  |
++-------------------+-------------------+-------------------+-------------------+-------------------+---------+-------------------+
+| V    -    -    -  | I    -    -    -  | I    -    II   -  | V  IV(o)  V    -  | V    -    -    -  |
++-------------------+-------------------+-------------------+-------------------+---------+---------+---------+-------------------+---- - - - -+---- - - - -+
+| I    -    -    -  | I    -    -    -  | I    -    -    -  | IV   -    V    -  | V    -  | bVII -    -    -  | bVII -    -    -  | IV         | I          |
++-------------------+-------------------+-------------------+-------------------+---------+-------------------+-------------------+---- - - - -+---- - - - -+
+```
+{{% /figure %}}
 
 - art criticism is mostly BS
     - in this context, 2 requirements: do i like it aesthetically; does it accurately convey the song
