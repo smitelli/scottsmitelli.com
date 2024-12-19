@@ -4,7 +4,7 @@ description = "TODO."
 date = 2024-12-11
 +++
 
-"**Deck the Halls**" is a Christmas carol whose lyrics, penned in the late 1800s, describe traditions and celebrations of the Yule---not Christmas!---holiday. The music is perhaps centuries older, repurposed from a Welsh song called "Nos Galan" and associated with New Year's Day gift-giving. The combined music and lyrics have been covered by innumerable artists who have each added their own flair to the performance, but the essential spirit of the song is always the same:
+"**Deck the Halls**" is a Christmas carol whose lyrics, penned in the late 1800s, describe traditions and celebrations of the Yule---not Christmas!---holiday. The music is perhaps centuries older, repurposed from a Welsh song called "Nos Galan" and associated with New Year's gift-giving (the English translation of the title literally means "New Year's Eve"). The combined music and lyrics have been covered by innumerable artists who have each added their own flair to the performance, but the essential spirit of the song is always the same:
 
 {{% figure caption="\"Deck the Hall [sic] With Boughs of Holly\" as printed in The Pennsylvania School Journal, vol. xxvi (1877, {{% link wiki-deck-the-hall-1877 %}}Wikipedia{{% /link %}}). This version lacks the third set of \"fa la las\" and their distinct melody." %}}
 {{% picture stem=deck-the-hall-1877 class=invertible %}}
@@ -14,9 +14,9 @@ The original song is a straightforward jaunt in "common" (4/4) time in the key o
 
 **Mannheim Steamroller** is an American music ensemble (whose name is a riff on the {{% link mannheim-school-musical-innovations %}}Mannheim Roller{{% /link %}}){{% margin-note side %}}This is the sort of wordplay that Niles Crane might sneer towards Frasier, eliciting from the studio audience a laughter that comes entirely from the actor's delivery as opposed to understanding why any of those words form a joke.{{% /margin-note %}} originally formed by songwriter Chip Davis and pianist Jackson Berkey. You might already be familiar with Davis' prior work without even realizing it: In the 1970s he co-wrote the song "Convoy" by C.W. McCall, for which he won SESAC's "Country Music Writer of the Year" award in 1976. In fact, a surprising number of musicians on Mannheim Steamroller's 1984 Christmas album---aptly named _Christmas_---also played on _Black Bear Road_, the album that "Convoy" headlined.
 
-The first track on _Christmas_ is titled "Deck the Halls" and, as one might surmise, is yet another rendition of the well-known carol. It is an instrumental piece with prominent synthesizer, french horn, and strings. As best I can determine, the intention of the song is to reimagine the song---which, remember, is _centuries old_---by marrying classical music techniques with cutting-edge-at-the-time popular music production choices. The result is basically what you would expect: "Deck the Halls" on a bunch of 80s synthesizers.
+The first track on _Christmas_ is titled "Deck the Halls" and, as one might surmise, is yet another rendition of the well-known carol. It is an instrumental piece with prominent synthesizer, french horn, and strings. As best I can determine, the intention of the song is to reimagine the song---which, remember, is _centuries old_---by marrying classical music techniques with cutting-edge-at-the-time popular music production choices. The result is basically what you would expect: "Deck the Halls" on a bunch of synthesizers.
 
-The song may have originally found its U.S. audience due to its many appearance on conservative talk radio. Rush Limbaugh {{% link rush-limbaugh-mannheim-steamroller %}}played Mannheim Steamroller's Christmas music during his show{{% /link %}}{{% margin-note side %}}And now he's dead. Really makes you think.{{% /margin-note %}} as sort of an annual tradition, which does sort of line up with the profile of those who seem to genuinely like it. (And to those who genuinely like it, I feel I must ask: Could you name another Mannheim Steamroller song aside from "Deck the Halls" that you remember hearing? And liking?) {{% margin-note %}}(If you answered "Carol of the Bells," are you _sure_ it's the Mannheim Steamroller recording, and not Trans-Siberian Orchestra?){{% /margin-note %}} While at the other end of the spectrum, now there are kids growing up who enjoy the whole {{% small-caps %}}_aesthetic_{{% /small-caps %}} of the 1980s and unironically listen to this song precisely because of its retro production.
+The song may have originally found its U.S. audience due to its many appearance on conservative talk radio. Rush Limbaugh {{% link rush-limbaugh-mannheim-steamroller %}}played Mannheim Steamroller's Christmas music during his show{{% /link %}}{{% margin-note side %}}And now he's dead. Really makes you think.{{% /margin-note %}} as sort of an annual tradition, which does sort of line up with the age profile of those who seem to genuinely like it. (And to those who genuinely like it, I feel I must ask: Could you name another Mannheim Steamroller song aside from "Deck the Halls" that you remember hearing? And liking?) {{% margin-note %}}(If you answered "Carol of the Bells," are you _sure_ it's the Mannheim Steamroller recording, and not Trans-Siberian Orchestra?){{% /margin-note %}} While at the other end of the spectrum, now there are kids growing up who enjoy the whole {{% small-caps %}}_aesthetic_{{% /small-caps %}} of the 1980s and unironically listen to this song precisely because of its retro production.
 
 Instead of being thrown onto time's garbage heap along with the Dodge Rampage, Walter Mondale, and the Louisiana World's Fair, this song is somehow still being played. Every December, and sometimes even in late November, some grocery store or dentist office waiting room plays it. They'll play it again next year too, I'm sure of it. Against all odds, a synthesizer version of "Deck the Halls" has managed to permanently embed itself in our collective holiday consciousness.
 
@@ -26,9 +26,9 @@ I hate this song, and I'm going to tell you _exactly_ why.
 
 Almost all mainstream Western music is based around a **diatonic scale**, which is an ordered sequence of seven unique notes. The first note of the scale is the **key** note, and each successive note in a diatonic scale must maintain a specific distance from the one that came before. In our key of F major, these seven notes are F, G, A, B&flat;, C, D, E, and after this seventh note we arrive back at F in the next-higher octave. The five notes that were not listed---G&flat;, A&flat;, B, D&flat;, and E&flat;---are not in the key of F major and should typically be avoided.
 
-I say _avoided_ rather than a stronger word like _forbidden_ because there are occasionally uses for notes that are not in the key. Done properly and used in fleeting contexts, it's possible to use some of these notes to set up a sense of tension or anticipation of something that has not yet come, and many songs have used them very well. The traditional versions of "Deck the Halls" do not do any of that; it's essentially a simple folk song whose ability to be sung and remembered lies in its simplicity and steadfast adherence to musical expectations.
+I say _avoided_ rather than a stronger word like _forbidden_ because there are occasionally uses for notes that are not in the key. Done properly and used in fleeting contexts, it's possible to use some of these notes to set up a sense of tension or anticipation of something that has not yet come, and many songs have used them very well.{{% margin-note %}}Even the traditional arrangement of "Deck the Halls" uses an out-of-key note for a moment. Pop quiz: Are you able to point out where that happens?{{% /margin-note %}}
 
-One-note-at-a-time is boring, so let's invent **chords**. The simplest chord we might play consists of three notes, selected by starting at some position in the scale and including every alternating note encountered while ascending the scale. {{% margin-note %}}We don't want to play two notes that occur right next to each other in the scale, since they sound too similar and tend to clash.{{% /margin-note %}} Starting from F, our the notes of our first chord position---which we'll identify with a roman numeral _I_---are F, A, and C. We can keep going up the scale in a similar "every-other-note" fashion:
+One-note-at-a-time is boring, so let's invent **chords**. The simplest chord we might play consists of three notes, selected by starting at some position in the scale and including every alternating note encountered while ascending that scale. {{% margin-note %}}We don't want to play two notes that occur right next to each other in the scale, since they sound too similar and tend to clash.{{% /margin-note %}} Starting from F, our the notes of our first chord position---which we'll identify with a roman numeral _I_---are F, A, and C. We can keep going up the scale in a similar "every-other-note" fashion:
 
 - _II_ position: G, B&flat;, D
 - _III_ position: A, C, E
@@ -42,9 +42,9 @@ This feels straightforward enough, but there is some weirdness in what we have d
 
 The effect of this is that the chords sound different from each other, and not just because the notes are all getting higher. The varied distances between notes _within the chord_ produce a different audible effect. The pattern used by _I_, _VI_, and _V_ is said to be **major**, while _II_, _III_, and _VI_ are called **minor**. {{% margin-note %}}The names "major" and "minor" actually should more properly be called "large" and "small," describing the distance between the bottom and middle notes in the chord. In the original ancient Greek, that's probably what they actually meant.{{% /margin-note %}} The _VII_ chord, while having a middle note interval that conveys a minor feel, _also_ has a shorter top note interval. The word for that kind of chord is **diminished**.
 
-Pulling back to the context of the F major scale, the sequence of three-note chords available to us is F major, G minor, A minor, B&flat; major, C major, D minor, E diminished, and back to F major. These are the workhorse chords, and while it's certainly possible to add additional notes from the scale or even some of the discouraged notes from unrelated keys, you'll find that, most of the time, most popular and folk music doesn't. The traditional "Deck the Halls" certainly does not.
+Pulling back to the context of the F major scale, the sequence of three-note chords available to us is F major, G minor, A minor, B&flat; major, C major, D minor, E diminished, and back to F major. These are the workhorse chords, and while it's certainly possible to add additional notes from the scale or even some of the discouraged notes from unrelated keys, you'll find that, most of the time, most popular and folk music doesn't. {{% margin-note %}}Does the traditional "Deck the Halls" adhere strictly to this palette of chords? Are you _sure_ about that?{{% /margin-note %}}
 
-The roman numeral notation I introduced above can actually be extended to represent the chord qualities: capital letters for major, lowercase letters for minor, and the addition of "&flat;5" to indicate diminished. {{% margin-note %}}Some people use "dim" or "<sup>o</sup>" to indicate this kind of diminished chord, but there are cases where it has an ambiguous interpretation.{{% /margin-note %}} Using this notation, the sequence of chords is _I_, _ii_, _iii_, _IV_, _V_, _vi_, _vii_<sup>&flat;5</sup>. Using this kind of shorthand can really help distill music down to its bare essence. Instead of having to explicitly list out the notes (e.g.) B&flat;--D--F, one could just say "_IV_ chord" and, knowing the key the song is in, reconstruct the list of notes whenever needed. It certainly makes it easier to transpose songs into different keys.
+The roman numeral notation I introduced above can actually be extended to represent the chord qualities: capital letters for major, lowercase letters for minor, and the addition of "&flat;5" to indicate diminished. {{% margin-note %}}Some texts use "dim" or "<sup>o</sup>" to indicate this kind of diminished chord, but there are cases where it has an ambiguous interpretation.{{% /margin-note %}} Using this notation, the sequence of chords is _I_, _ii_, _iii_, _IV_, _V_, _vi_, _vii_<sup>&flat;5</sup>. Using this kind of shorthand can really help distill music down to its bare essence. Instead of having to explicitly list out the notes (e.g.) B&flat;--D--F, one could just say "_IV_ chord" and, knowing the key the song is in, reconstruct the list of notes whenever needed. It certainly makes it easier to transpose songs into different keys.
 
 ## Something to dance to
 
@@ -72,13 +72,13 @@ Throughout the song, the scale's key note of F is the anchor point that everythi
 
 The "Dm" (D minor) chord represents the _vi_, one of the most commonly-found "sad" chords in folk and popular music. "Deck the Halls" is not a sad song, nor does it even have moments of plaintive contemplation. When this chord appears, its primary function is to break up whatever comes before the _V_. Another rare chord in this particular song is the "B&flat;" (B&flat; major) or the _IV_. Its usage in this song could be described as "triumphant" and its unique quality seemingly only fits in with the climactic "fa la la" in the final line.
 
-This leave us with "G<sup>7</sup>" (G major seventh) which is a weird chord to find here. The notes that comprise this chord are G--**B**--D--F. Not B&flat;... **B natural**. This chord explicitly uses a note that does not belong in the F major scale, producing a chord that does not really belong there either. {{% margin-note %}}The roman numeral notation for this one would be _II_<sup>7</sup>.{{% /margin-note %}} This chord follows an earlier appearance of a B natural in the preceding measure. Why does this happen here? The simple answer is this: It happens because it does. Even the printed sheet music for "Nos Galan" has it doing this. It's simply part of the composition. It's nestled in the middle of a melodic turn that only occurs once briefly in each verse, and it does not overstay its welcome. You've probably heard it a hundred times without really noticing it was there.
+This leave us with "G<sup>7</sup>" (G major seventh) which is a weird chord to find here. The notes that comprise this chord are G--**B**--D--F. Not B&flat;... **B natural**. This chord explicitly uses a note that does not belong in the F major scale, producing a chord that does not really belong there either. {{% margin-note %}}The roman numeral notation for this one would be _II_<sup>7</sup>.{{% /margin-note %}} This chord follows an earlier appearance of a B natural in the preceding measure, a sort of a hint that this was coming. Why does this happen here? The one sentence explanation is that---for just a moment---the chord progression switched to the _V_ with such immense force that it jostled the entire song out of the key of F and into the key of C, permitting notes and chords from that scale to be used. The key of C major has a B natural, and a G<sup>7</sup> chord is not out of place in the context of that scale. But the far simpler answer is this: It happens because it does. It's simply part of the composition. It's nestled in the middle of a melodic turn that only occurs once briefly in each verse, and it does not overstay its welcome. You've probably heard it a hundred times without really noticing it was there.
 
 That's an important thing to keep in mind: It doesn't matter if an unexpected note or out-of-place chord finds its way into a piece of music so long as it works in the context where it appears. Put another way, the "safe" notes of the diatonic scale and the chords that can be built from them all fit together beautifully, but sometimes a pinch of _je ne sais quoi_ can work wonders.
 
 ## Another brick in the hall
 
-Repetition is the key to memory. As a consequence of repetition being the key to memory, folk and traditional songs tend to follow predictable patterns. The lines each tend to have identical or substantially similar melodic and rhythmic content, and even the rhyming nature of the lines could arguably be viewed as a memory aid. {{% margin-note %}}I'm sure somebody out there has had an exchange similar to this during a performance: "What's the next line... I can't remember! Something that rhymes with 'holly.' Oh! 'Jolly.' Tis the season, yeah, I got it now."{{% /margin-note %}} The music printed earlier was specifically aligned so that each line started and ended on a self-similar piece of music. This can be drawn even more explicitly:
+Repetition is the key to memory. As a consequence of repetition being the key to memory, folk and traditional songs tend to follow predictable patterns. The lines each tend to have identical or substantially similar melodic and rhythmic content, {{% margin-note %}}I'm sure somebody out there has had an exchange similar to this during a performance: "What's the next line... I can't remember! Something that rhymes with 'holly.' Oh! 'Jolly.' Tis the season, yeah, I got it now."{{% /margin-note %}} and even the rhyming nature of the lines could arguably be viewed as a memory aid. The music printed earlier was specifically aligned so that each line started and ended on a self-similar piece of music. This can be drawn even more explicitly:
 
 {{% figure caption="Brick chart of the traditional \"Deck the Halls\" lyrics." class=fullwidth %}}
 
@@ -95,7 +95,7 @@ Repetition is the key to memory. As a consequence of repetition being the key to
 ```
 {{% /figure %}}
 
-Read horizontally, these are the lyrics. Vertically, each cell shows a sequence of words with a similar syllable pattern and---in certain columns---rhyming elements. Similar cells can be swapped without really breaking the rhythmic flow of the song, although the meaning of the words would get jumbled.
+Read horizontally, these are the lyrics. Vertically, each cell shows a sequence of words with a similar syllable pattern, a common melody, and---in certain columns---rhyming elements. Similar cells can be swapped without really breaking the rhythmic flow of the song, although the meaning of the words would obviously get jumbled.
 
 This works for the chord changes as well:
 
@@ -136,7 +136,69 @@ So, a couple of things. Pitchwise, this is substantially the same as the traditi
 
 E&flat; has nothing to do with the key of F major, as evidenced by the fact that it requires an explicit flat symbol right on the staff. It is the flattened seventh of the scale, and is not used in any of the typical chords found in F major. And speaking of chords, did anybody notice the E&flat; major chord in the middle of the line? That would be an &flat;VII chord in this key; what the _actual hell_ is that doing there?
 
-Setting _that_ aside, this line also stretches certain parts of measures but not others. Compared with the original structure of the song:
+## Careful, he's in one of his modes again
+
+Make no mistake, the notes we hear are the notes that were played, and the names given to them in this analysis are accurate. No amount of hand-waving is going to change how it sounds and how it makes a discriminating listener feel while listening.
+
+But let's invent a justification for what is being done here.
+
+Earlier we spoke about the diatonic scale and the fact that it prescribes specific distances the notes must have from one another, but we didn't go much deeper than that. The diatonic scale's distances are specified by using a sequence of large and small steps. A small step is the shortest distance that can be found between two notes on the instrument (on a piano, a white key to its adjacent black key; on a guitar, a fret directly next to another). A large step is exactly two small steps. The pattern, abbreviating "S" for small and "L" for large, is L--L--S--L--L--L--S. If you follow this pattern on a piano keyboard starting from C, you'll notice that it avoids every black key on the instrument. C is the only note that does this; starting from any other point will eventually involve a black key.
+
+The song is in F major, whose scale begins and ends on an F note. Following the diatonic scale pattern gives us:
+
+{{% figure caption="Construction of the F major scale using the standard diatonic sequence." class=fullwidth %}}
+
+```goat
+  Diatonic Step:        Large       Large    Small    Large       Large       Large    Small
+                    +-----------+-----------+-----+-----------+-----------+-----------+-----+
+                    |           |           |     |           |           |           |     |
+                 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+Available Notes: |  F  |  Gb |  G  |  Ab |  A  |  Bb |  B  |  C  |  Db |  D  |  Eb |  E  |  F  |
+                 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+    
+    Scale Notes:    F           G           A     Bb          C           D           E     F
+```
+{{% /figure %}}
+
+Nothing wrong with that. The scale begins at F and ends at the F one octave higher, and the diatonic pattern repeats the same way for the entire range of human hearing.
+
+_The diatonic pattern repeats._ The pattern is actually not concerned with starting or ending on any specific pitch. Its primary goal is to ensure that the two small steps are as far apart from each other as possible, maximizing the number of large steps between the small ones. It's only due to historical conventions that it starts with this particular large step. Does it have to?
+
+What if we shifted our diatonic steps three positions to the right, wrapping the pieces that fall off the right edge onto the start of the pattern? We would end up with L--L--S--L--L--S--L. Or graphically:
+
+{{% figure caption="Construction of the F major scale with the diatonic sequence starting on the fifth scale degree." class=fullwidth %}}
+
+```goat
+  Diatonic Step:        Large       Large    Small    Large       Large    Small    Large    
+                    +-----------+-----------+-----+-----------+-----------+-----+-----------+
+                    |           |           |     |           |           |     |           |
+                 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+Available Notes: |  F  |  Gb |  G  |  Ab |  A  |  Bb |  B  |  C  |  Db |  D  |  Eb |  E  |  F  |
+                 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+    
+    Scale Notes:    F           G           A     Bb          C           D     Eb          F
+```
+{{% /figure %}}
+
+That's somehow substantially the same, except the E transformed into an E&flat;, which would be called the flattened seventh (&flat;7) scale degree when named using F major terminology. It doesn't really feel like this should be allowed to be called F major anymore. Just going by the notes we ended up with, we produced the members the B&flat; major scale---which makes sense, because the conventional "starting point" of the diatonic step sequence moved to B&flat; during our little experiment here.
+
+So we have a scale that contains all the notes from the B&flat; major scale, but we're notating and using it as if it were an F major scale. Surely there must be a lofty and inaccessible term to describe this concept. And yup, there sure is: We have constructed a **mode** called **F Mixolydian.**
+
+Pulling back, there are seven positions where the diatonic step sequence could be aligned over a scale's root note, therefore there are seven modes: Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, and Locrian. The most common mode for music to use is Ionian, followed by Aeolian for sadder pieces. Mixolydian, it could be argued, is a distant third place compared to the popularity of those two.
+
+Occasionally you'll hear people parading around fun facts, for example that "Sweet Home Alabama" by Lynyrd Skynyrd uses the Mixolydian mode. That may be true (or it may not be) but it is not _prominently_ Mixolydian. To be prominent, there should be a distinct and obvious use of the &flat;7. The chorus of "Single Ladies (Put a Ring on It)" by Beyonc&eacute;, _that_ is a Mixolydian section with an obvious &flat;7. {{% margin-note %}}I don't really enjoy "Single Ladies" either. Hm. I guess I'm learning something about myself on this journey.{{% /margin-note %}}
+
+Mannheim Steamroller's "Deck the Halls" is a Mixolydian song with a hit-you-over-the-head &flat;7 in the melody. It also spends a whole lot of its time in the &flat;VII (E&flat; major) chord, rooted firmly on this same characteristic note.
+
+## Hurry up and wait
+
+Setting _that_ aside, let's take another look at the first line of the melody:
+
+{{% figure caption="Deck the halls with boughs of holly, Fa la la la la la la la la. Again." class=fullwidth %}}
+{{% picture stem=mannheim-1 class=invertible %}}
+{{% /figure %}}
+
+From a standpoint of rhythm and overall timing, this line stretches certain phrases but not others. Compared with the original structure of the song:
 
 {{% figure caption="Brick chart comparing line 1 of the traditional and Mannheim Steamroller versions. The box marked (r) is a one-beat rest." class=fullwidth %}}
 
