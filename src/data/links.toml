@@ -305,6 +305,10 @@ text = 'Lora'
 href = 'https://web.archive.org/web/20090220060456/http://www.m-audio.com/products/en_us/StudiophileBX5a.html'
 text = 'M-Audio Studiophile BX5a - 70 Watt Bi-Amplified Studio Reference Monitors'
 
+[mannheim-school-musical-innovations]
+href = 'https://en.wikipedia.org/wiki/Mannheim_school#Musical_innovations'
+text = 'Mannheim school - Musical innovations'
+
 [markdown-extended-syntax]
 href = 'https://www.markdownguide.org/extended-syntax/'
 text = 'Markdown Extended Syntax'
@@ -413,6 +417,10 @@ text = 'RFC 6474'
 href = 'https://fonts.google.com/specimen/Ruda'
 text = 'Ruda'
 
+[rush-limbaugh-mannheim-steamroller]
+href = 'https://www.rushlimbaugh.com/daily/2018/12/13/my-first-memory-of-mannheim-steamroller/'
+text = 'The Rush Limbaugh Show - My First Memory of Mannheim Steamroller'
+
 [salt-source]
 href = 'https://github.com/smitelli/salt'
 text = 'smitelli/salt'
@@ -464,6 +472,10 @@ text = 'STIHL Chain Saw Safety Manual'
 [stow]
 href = 'https://www.gnu.org/software/stow/'
 text = 'GNU Stow'
+
+[synthesia]
+href = 'https://synthesiagame.com/'
+text = 'Synthesia'
 
 [cplusplus-strstr]
 href = 'https://cplusplus.com/reference/cstring/strstr/'
@@ -580,6 +592,10 @@ text = 'Chef Aid: The South Park Album'
 href = 'https://en.wikipedia.org/wiki/Chef_%28South_Park%29'
 text = 'Chef (South Park)'
 
+[wiki-chinese-democracy]
+href = 'https://en.wikipedia.org/wiki/Chinese_Democracy'
+text = 'Chinese Democracy'
+
 [wiki-chinese-room]
 href = 'https://en.wikipedia.org/wiki/Chinese_room'
 text = 'Chinese room'
@@ -595,6 +611,10 @@ text = 'List of countries and dependencies by population'
 [wiki-day-the-earth-stood-stupid]
 href = 'https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Stupid'
 text = 'The Day the Earth Stood Stupid'
+
+[wiki-deck-the-hall-1877]
+href = 'https://commons.wikimedia.org/wiki/File:Deck_the_hall.png'
+text = 'File:Deck the hall.png'
 
 [wiki-digital-millennium-copyright-act]
 href = 'https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act'
@@ -647,6 +667,10 @@ text = 'Off-by-one error'
 [wiki-ray-casting]
 href = 'https://en.wikipedia.org/wiki/Ray_casting'
 text = 'Ray Casting'
+
+[wiki-random-access-memories]
+href = 'https://en.wikipedia.org/wiki/Random_Access_Memories'
+text = 'Random Access Memories'
 
 [wiki-ricky-kasso]
 href = 'https://en.wikipedia.org/wiki/Ricky_Kasso'
@@ -764,6 +788,10 @@ text = 'Excelent grass cutting'
 [youtube-judge-judy-intro-2004]
 href = 'https://www.youtube.com/watch?v=5xrqgwzkJ6Y'
 text = 'Judge Judy Intro 2004-2008'
+
+[youtube-mannheim-steamroller-synthesia]
+href = 'https://www.youtube.com/watch?v=6Yw84GhGWfY'
+text = 'Deck the Halls - Mannheim Steamroller - Transcription Synthesia'
 
 [youtube-user-retnirpregnif]
 href = 'https://www.youtube.com/@retnirpregnif'
