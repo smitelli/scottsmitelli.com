@@ -3,6 +3,7 @@ title = "Tangentially, we can fix your raycaster."
 description = "A detailed look at a few different sources of visual distortion that commonly occur when developing a raycaster. Covers fish eye distortion, projection plane angle distortion, and outlines a technique to disentangle the rendered wall height from the screen's aspect ratio."
 subheading = 'Raycasters are a nifty way to approximate a 3D scene, but care must be taken to avoid introducing distortions that can spoil the effect.'
 date = 2024-09-13
+lastmod = 2025-01-16
 +++
 
 So you've written a {{% link wiki-ray-casting %}}raycaster{{% /link %}}. You've sorted out the issue where right and left were mirrored, it no longer crashes randomly due to integer overflows when you get too close to certain walls, and it reliably exceeds mid-single-digit frame rates. Congratulations! I bet you feel a real sense of accomplishment in getting this far.
@@ -189,7 +190,9 @@ The rays are evenly spread out, so it makes natural sense to divide this plane i
 {{% picture stem=projection-error class=invertible %}}
 {{% /figure %}}
 
-In the above image, the plane is divided up into evenly sized cells with unfilled circles at their centers. As each ray passes through the plane, a solid dot is placed along the ray at the location where it passes through the plane. Notice anything wrong with the circles and dots?
+In the above image, the plane is divided up into evenly sized cells with unfilled circles at their centers. As each ray passes through the plane, a solid dot is placed along the ray at the location where it passes through the plane. Notice anything wrong with the circles and dots? Even though the end rays pass through their intended circles perfectly, the inner rays do not. What's more, the error between the circles and dots varies considerably depending on the position along the projection plane.
+
+Of course, your raycaster undoubtedly draws hundreds---if not thousands---of rays on the screen. This image only shows six, but the relative error seen on any single ray in this image would be comparable to the error found in any scene using this kind of ray spacing. If you imagine a projection plane with hundreds of cells, it's quite apparent that these dots would end up in completely wrong cells.
 
 In short, we can't use linear spacing for pixels on the projection plane or screen (both rectangular systems) while simultaneously using linear spacing for the angular distance between the rays (a polar system). One has to be modified to accommodate the other. And since it would be pretty hard to adjust the spacing of the pixel columns built into your screen, the only thing we can reasonably do is adjust the spacing between the rays. But how are we going to even begin doing that?
 
