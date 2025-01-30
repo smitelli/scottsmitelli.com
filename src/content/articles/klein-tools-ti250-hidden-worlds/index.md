@@ -10,9 +10,9 @@ There comes a time in every hobbyist's life when they find themselves in need of
 Klein Tools is a manufacturer of hand tools for professional electricians, and they've been in that business for over a century and a half. Are they the best at it? Ehh, depends who you ask. Are they a real brand with a reputation to uphold? They sure are, especially compared to competitors like "Happlignly" (which was an honest-to-God result at the time of this writing). Klein isn't _really_ known for software engineering or hardware design, but I decided to give them a chance and see what it was all about.
 
 {{% box %}}
-**Update (May 2023):** After this article was initially published, the user {{% link hn-user-mfincham /%}} posted a {{% link hn-comment-uni-trend %}}comment{{% /link %}} on Hacker News stating that the camera looks like a rebranded version of a product made by **Uni-Trend (Uni-T)**. After looking a bit myself, I am convinced that the Klein Tools TI250 is essentially a Uni-T UTi120P in a different case.
+**Update (May 2023):** After this article was initially published, the user {{% link hn-user-mfincham /%}} posted a {{% link hn-comment-uni-trend %}}comment{{% /link %}} on Hacker News stating that the camera looks like a rebranded version of a product made by **Uni-Trend (Uni-T)**. After looking a bit myself, I am convinced that the Klein Tools TI250 is essentially a Uni-T UTi120P in a different case, possibly with minor firmware changes.
 
-{{% link uni-trend-uti120p %}}Uni-T's website{{% /link %}} offers "PC Software" for this camera which reads the exact metadata I was trying to reverse-engineer here, and this explains why such data is embedded in the file to begin with.
+{{% link uni-trend-uti120p %}}Uni-T's website{{% /link %}} offers "PC Software" for the UTi120P which purports to read the exact metadata I was trying to reverse-engineer here, and this likely explains why such data is embedded in the file to begin with. _However,_ the files I tested were all misidentified as coming from a camera with a model number "WB-300" and this misidentification caused them to display improperly.
 {{% /box %}}
 
 The TI250 can be had for $299, and boasts a few features I was specifically looking for. It's a true thermal imager, which means it presents a two-dimensional picture of the temperature at every point in its field of view. Compare it to an image taken by a regular photographic camera:
@@ -261,9 +261,7 @@ Offset | Size    | Description
 
 (All offsets in this table are relative to the start of the data area.)
 
-{{% box %}}
-**Update (May 2023):** The Uni-Trend "PC Software" (described earlier) displays a field that identifies the model of camera that captured the image. I suspect the unknown constant "3" is used for this purpose.
-{{% /box %}}
+{{% box %}}**Update (May 2023):** The Uni-Trend "PC Software" (described earlier) displays a field that identifies the model of camera that captured the image. I suspect the unknown constant "3" is used for this purpose.{{% /box %}}
 
 This data encodes, in a machine readable format, all of the information that is normally shown in text/icon overlays on the screen. Like the rest of the BMP format, all multibyte values are stored in little-endian order with the least significant bytes written first.
 
@@ -297,9 +295,7 @@ Offset  | Size          | Description
 
 This is probably meant for some sort of analysis software, possibly to provide the necessary reference information to rescale and normalize images once they have been taken. I'm not aware of any official or unofficial software that supports doing this for the TI250, but hopefully this information will be of use to anybody who wants to explore that space.
 
-{{% box %}}
-**Update (May 2023):** There _is_ software that reads this metadata: It's called the "PC Software" from {{% link uni-trend-uti120p %}}Uni-T's website{{% /link %}}. This software is capable of reading this metadata and using it to perform analysis on images captured by the UTi120P as well as the TI250.
-{{% /box %}}
+{{% box %}}**Update (May 2023):** There _is_ software that reads this kind of metadata: It's called the "PC Software" from {{% link uni-trend-uti120p %}}Uni-T's website{{% /link %}}. This software is capable of reading metadata and using it to perform analysis on images captured by the UTi120P, but during my testing I have had almost no success in getting it to properly handle images from the TI250.{{% /box %}}
 
 ## Borrow my tools
 
