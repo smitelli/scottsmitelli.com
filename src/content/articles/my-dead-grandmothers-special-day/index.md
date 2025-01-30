@@ -2,8 +2,12 @@
 title = "This is [my dead grandmother]'s special day!"
 description = "Everybody has their own unique way of processing and dealing with grief. There's not really any right or wrong way to do it. Except for Google Calendar---they are absolutely doing it wrong."
 date = 2024-09-30
-lastmod = 2024-10-03
+lastmod = 2025-01-30
 +++
+
+{{% box %}}
+**Update (January 2025):** A reader reached out to inform me that Google recently revamped the graphics and placeholder text in their Calendar product, which either directly or indirectly fixed the condition that this article describes. Still, this issue existed for long enough and produced a screenshot that was absurd enough to warrant preserving here.
+{{% /box %}}
 
 When you get right down to it, there is really only one thing that we can all predict with absolute certainty: We are all going to die someday. Each and every person you have ever met will either outlive you _or_ be outlived by you.{{% margin-note side %}}Barring some freak accident or staggering coincidence where you die simultaneously.{{% /margin-note %}} I lead with this wholly dour introduction to really drive home how difficult it can be sometimes to voluntarily think about such things even though they are _absolutely going to happen to you, me, and everybody._
 
@@ -45,7 +49,7 @@ I mean, I _guess_ I can sorta understand how a product could grow and evolve int
 {{% picture stem=calendar-event alt="Her special day, indeed." %}}
 {{% /figure %}}
 
-I guess the road to unintentionally awful product voice is paved with good intentions.
+I guess the road to inadvertently awful product voice is paved with good intentions.
 
 ## Life is messy
 
