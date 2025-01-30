@@ -143,6 +143,10 @@ text = 'smitelli/cosmodoc'
 href = 'https://github.com/smitelli/cosmore'
 text = 'smitelli/cosmore'
 
+[cracked-all-glory-to-the-hypnotoad]
+href = 'https://www.cracked.com/article_35041_all-glory-to-the-hypnotoad-an-oral-history-of-futuramas-mind-altering-amphibian.html'
+text = "All Glory To The Hypnotoad: An Oral History of Futurama's Mind-Altering Amphibian"
+
 [darrell-stark]
 href = 'https://darrellmstark.squarespace.com/'
 text = 'Darrell M. Stark'
@@ -170,6 +174,10 @@ text = 'EasyMoblog'
 [engadget-quicktime-7-4-update-a-nono]
 href = 'https://www.engadget.com/2008-01-23-after-effects-7-users-quicktime-7-4-update-a-nono.html'
 text = 'After Effects 7 users: QuickTime 7.4 update a nono'
+
+[facebook-noisemachines-ben-burtt-millennium-falcon]
+href = 'https://www.facebook.com/noisemachines.studio/videos/ben-burtt-explains-how-he-created-the-sound-of-the-millennium-falcons-hyperdrive/875847656097612/'
+text = "Ben Burtt Explains How He Created the Sound of the Millennium Falcon's Hyperdrive Malfunction"
 
 [fileformat-bmp]
 href = 'https://docs.fileformat.com/image/bmp/'
@@ -234,6 +242,14 @@ text = 'Hugo Shortcodes - figure'
 [ibm-watson]
 href = 'https://www.ibm.com/watson'
 text = 'IBM Watson'
+
+[imdb-danik-thomas]
+href = 'https://www.imdb.com/name/nm1127704/'
+text = 'Danik Thomas - IMDb'
+
+[imdb-paul-calder]
+href = 'https://www.imdb.com/name/nm0129484/'
+text = 'Paul D. Calder - IMDb'
 
 [imdb-scott-smitelli]
 href = 'https://www.imdb.com/name/nm2736773/'
@@ -320,6 +336,10 @@ text = 'MathJax'
 [meta-ai]
 href = 'https://www.meta.ai/'
 text = 'Meta AI'
+
+[metal-archives-danik-thomas]
+href = 'https://www.metal-archives.com/artists/Danik_Thomas/547134'
+text = 'Danik Thomas - Encyclopaedia Metallum: The Metal Archives'
 
 [mistral-ai]
 href = 'https://mistral.ai/'
