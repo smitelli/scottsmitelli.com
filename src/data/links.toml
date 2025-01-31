@@ -19,6 +19,10 @@ text = 'smitelli on npm'
 href = 'https://stackoverflow.com/users/1713313/smitelli'
 text = 'smitelli on Stack Overflow'
 
+[acurazine-remote-start-closed-garage-dangerous]
+href = 'https://acurazine.com/forums/3g-rdx-2019-454/remote-start-closed-garage-dangerous-975696/'
+text = 'Remote start in closed garage: Dangerous?'
+
 [adobe-audition]
 href = 'https://www.adobe.com/products/audition.html'
 text = 'Adobe Audition'
@@ -26,6 +30,10 @@ text = 'Adobe Audition'
 [alibaba-cloud]
 href = 'https://www.alibabacloud.com/en'
 text = 'Alibaba Cloud'
+
+[amazon-dash-replenishment]
+href = 'https://developer.amazon.com/en-US/alexa/dash-services'
+text = 'Amazon Dash Replenishment'
 
 [angelo-dinardi]
 href = 'https://angelo.dinardi.name/'
@@ -75,6 +83,10 @@ text = 'Patents - Audible Magic'
 href = 'https://web.archive.org/web/20170817034120/http://www.audiocourses.com/2012/02/10/mono-compatibility-and-phase-cancellation/'
 text = 'Mono Compatibility and Phase Cancellation'
 
+[bbc-amazon-stops-selling-dash-buttons]
+href = 'https://www.bbc.com/news/technology-47416440'
+text = 'Amazon stops selling Dash buttons'
+
 [beautifulsoup]
 href = 'https://www.crummy.com/software/BeautifulSoup/'
 text = 'Beautiful Soup'
@@ -82,6 +94,10 @@ text = 'Beautiful Soup'
 [bloomberg-anguilla-domain-name]
 href = 'https://www.bloomberg.com/news/articles/2023-08-31/ai-startups-create-digital-demand-for-anguilla-s-website-domain-name'
 text = 'Bloomberg - The Tropical Island With the Hot Domain Name'
+
+[businessinsider-amazon-gutting-alexa]
+href = 'https://www.businessinsider.com/amazon-alexa-job-layoffs-rise-and-fall-2022-11'
+text = "Amazon is gutting its voice assistant, Alexa. Employees describe a division in crisis and huge losses on 'a wasted opportunity.'"
 
 [ca-street-view-timelapse]
 href = 'https://www.youtube.com/watch?v=b2d-VAAyB9c'
@@ -147,6 +163,10 @@ text = 'smitelli/cosmore'
 href = 'https://www.cracked.com/article_35041_all-glory-to-the-hypnotoad-an-oral-history-of-futuramas-mind-altering-amphibian.html'
 text = "All Glory To The Hypnotoad: An Oral History of Futurama's Mind-Altering Amphibian"
 
+[cync-discontinued-devices]
+href = 'https://cyncsupport.gelighting.com/s/article/end-of-support?language=en_US'
+text = 'End of Support: Discontinued Cync Devices'
+
 [darrell-stark]
 href = 'https://darrellmstark.squarespace.com/'
 text = 'Darrell M. Stark'
@@ -211,6 +231,10 @@ text = 'Google Contacts'
 href = 'https://deepmind.google/'
 text = 'Google DeepMind'
 
+[google-nest-protect-alarm]
+href = 'https://store.google.com/product/nest_protect_2nd_gen?hl=en-US'
+text = 'Nest Protect smoke and CO alarm'
+
 [google-street-view]
 href = 'https://www.google.com/streetview/'
 text = 'Google Street View'
@@ -242,6 +266,10 @@ text = 'Hugo Shortcodes - figure'
 [ibm-watson]
 href = 'https://www.ibm.com/watson'
 text = 'IBM Watson'
+
+[imdb-2001-space-odyssey-pod-bay-doors-quote]
+href = 'https://www.imdb.com/title/tt0062622/quotes/?item=qt0396921'
+text = 'Open the pod bay doors, HAL'
 
 [imdb-danik-thomas]
 href = 'https://www.imdb.com/name/nm1127704/'
@@ -286,6 +314,10 @@ text = 'Population-adjusted national rankings in the Olympics'
 [keepass]
 href = 'https://keepass.info/'
 text = 'KeePass Password Safe'
+
+[koble-smart-home-without-internet]
+href = 'https://koble.sg/can-your-smart-home-still-function-without-the-internet/'
+text = 'Can Your Smart Home Still Function Without the Internet?'
 
 [lalal-ai]
 href = 'https://www.lalal.ai/'
@@ -333,6 +365,10 @@ text = 'Markdown Extended Syntax'
 href = 'https://www.mathjax.org/'
 text = 'MathJax'
 
+[medium-failing-forward-amazon-fire-phone]
+href = 'https://medium.com/@lotus.lin/failing-forward-amazon-fire-phone-f88c98c08156'
+text = "Fire Phone: The Rise and Fall of Amazon's Smartphone Dream"
+
 [meta-ai]
 href = 'https://www.meta.ai/'
 text = 'Meta AI'
@@ -348,6 +384,10 @@ text = 'Mistral AI'
 [ms-translator-api]
 href = 'https://www.microsoft.com/en-us/translator/business/translator-api/'
 text = 'Microsoft Translator Text API'
+
+[newyorker-horror-amazons-new-dash-button]
+href = 'https://www.newyorker.com/culture/culture-desk/the-horror-of-amazons-new-dash-button'
+text = "The Horror of Amazon's New Dash Button"
 
 [newyorker-horse-ebooks-is-human-after-all]
 href = 'https://www.newyorker.com/tech/annals-of-technology/horse-ebooks-is-human-after-all'
@@ -408,6 +448,10 @@ text = 'Project Gutenberg'
 [psychologytoday-shaun-morgan]
 href = 'https://www.psychologytoday.com/us/blog/brick-by-brick/202304/how-shaun-morgan-empties-his-jar'
 text = 'Psychology Today - How Shaun Morgan Empties His Jar'
+
+[reddit-alexa-shittier]
+href = 'https://www.reddit.com/r/amazonecho/comments/1hhjvea/anyone_elses_alexa_continuing_to_get_shittier_and/'
+text = "Anyone else's Alexa continuing to get shittier and shittier?"
 
 [revenews-youtube-audiblemagic]
 href = 'https://web.archive.org/web/20170825000156/http://revenews.com/search-engine-marketing/goog-to-outsource-youtube-filtering-to-audiblemagic/'
@@ -477,6 +521,10 @@ text = 'smitelli/scottsmitelli.com'
 href = 'https://www.sdcard.org/developers/sd-standard-overview/speed-class/'
 text = 'Speed Class'
 
+[silverberg-google-big-brother-is-always-listening]
+href = 'https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=1248&context=hastings_business_law_journal'
+text = 'Justin Silverberg, Google, I Mean Big Brother, is Always Listening'
+
 [sort-of-face-source]
 href = 'https://github.com/smitelli/sort_of_face'
 text = 'smitelli/sort_of_face'
@@ -507,9 +555,17 @@ href = 'https://t.co/o5DFjS0SDq'
 [tco-after]
 href = 'https://scottsmitelli.com/'
 
+[thebuild-web-scale]
+href = 'https://thebuild.com/blog/2010/10/27/things-i-do-not-understand-web-scale/'
+text = 'Things I Do Not Understand: "Web-Scale."'
+
 [theregister-warner-music-removes-youtube-videos]
 href = 'https://www.theregister.com/2008/12/22/warner_music_removes_youtube_videos/'
 text = 'Warner Music pulls plug on YouTube deal'
+
+[time-amazon-unveiled-future-of-shopping]
+href = 'https://time.com/3766581/amazon-dash-button-ordering-april-fool/'
+text = "Amazon Basically Just Unveiled the Future of Shopping and It's Awesome"
 
 [translationparty]
 href = 'https://www.translationparty.com/'
@@ -563,6 +619,10 @@ text = '@smitelli'
 [uni-trend-uti120p]
 href = 'https://thermal.uni-trend.com/product/uti120p/'
 text = 'UTi120P - UNI-T Thermal Imaging'
+
+[verge-echo-show-crap]
+href = 'https://www.theverge.com/23944889/set-up-echo-show-without-amazon-ads-how-to'
+text = 'How to set up an Echo Show to show you the least amount of crap'
 
 [wayback-machine]
 href = 'https://web.archive.org/'
@@ -619,6 +679,10 @@ text = 'Chinese Democracy'
 [wiki-chinese-room]
 href = 'https://en.wikipedia.org/wiki/Chinese_room'
 text = 'Chinese room'
+
+[wiki-clapper]
+href = 'https://en.wikipedia.org/wiki/The_Clapper'
+text = 'The Clapper'
 
 [wiki-compact-disc-digital-audio]
 href = 'https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio'
@@ -760,6 +824,10 @@ text = 'Wizard (software)'
 href = 'https://en.wikipedia.org/wiki/Wolfenstein_3D'
 text = 'Wolfenstein 3D'
 
+[wiki-x10]
+href = 'https://en.wikipedia.org/wiki/X10_(industry_standard)'
+text = 'X10 (industry standard)'
+
 [wikidata]
 href = 'https://www.wikidata.org/'
 text = 'Wikidata'
@@ -775,6 +843,10 @@ text = 'Windowbox'
 [windowbox-source]
 href = 'https://github.com/smitelli/windowbox'
 text = 'smitelli/windowbox'
+
+[wired-secret-origins-amazon-alexa]
+href = 'https://www.wired.com/story/how-amazon-made-alexa-smarter/'
+text = "The Secret Origins of Amazon's Alexa"
 
 [wireshark]
 href = 'https://www.wireshark.org/'
