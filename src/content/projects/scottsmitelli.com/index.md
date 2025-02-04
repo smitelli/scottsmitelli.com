@@ -13,7 +13,7 @@ key = 'Home Page'
 value = '{{% link scottsmitelli-com /%}}'
 +++
 
-**ScottSmitelli.com** is a website, and it just so happens to be the website that you are looking at right now. Its purpose, content, and design has gone through several iterations over the years.
+**ScottSmitelli.com** is the personal website of **[Scott Smitelli]({{% relref about %}})**, and it just so happens to be the website that you are looking at right now. Its purpose, content, and design has gone through several iterations over the years.
 
 {{% figure %}}
 {{% picture stem=screenshot alt="Why do you need a screenshot of this website? Why did I make one?" %}}
@@ -21,7 +21,7 @@ value = '{{% link scottsmitelli-com /%}}'
 
 ## The Good Old Days
 
-This site was originally launched in November 2008 as a showcase for my freelance film and audio work in New York City. It was kept separate from my then-personal website at **Smitelli.com**, which was a basket of experimental software and a {{% link wordpress /%}} blog that was all hosted from my apartment's cable internet connection. Smitelli.com was itself an offshoot of an even older self-hosted website called **Vipersniper** which happened so long ago that the name feels weird to type now.
+This site was originally launched in November 2008 as a showcase for my freelance film and audio work in New York City. It was kept separate from my then-personal website at **Smitelli.com**, which was a basket of experimental software and a {{% link wordpress /%}} blog that was all hosted from my apartment's cable internet connection. Smitelli.com was itself an offshoot of an even older self-hosted website called **Vipersniper**{{% margin-note side %}}This name was first used in 1998 while trying to register an email account on Hotmail. It must have been subconsciously influenced by {{% link imdb-blazing-saddles-vipers-snipers %}}this quote from _Blazing Saddles_ (1974){{% /link %}}, but it was not a deliberate reference at the time.{{% /margin-note %}} which happened so long ago that the name feels weird to type now.
 
 In December 2012, in conjunction with development of the **[Docroute]({{% relref docroute %}})** CMS, ScottSmitelli.com was reimagined as a more traditional article-and-project based blog and portfolio.{{% margin-note %}}This fundamental redesign reflected my professional shift away from the film industry into software engineering roles.{{% /margin-note %}} The more presentable content from my personal site was migrated over at the same time. Smitelli.com was finally retired and I stopped hosting websites from my home, although its domain still exists for redirects and email hosting.
 
@@ -41,7 +41,7 @@ It is my sincere hope that the current iteration of this site provides a fitting
 
 ## Site Colophon
 
-The main body font is {{% link lora-font /%}} and the monospace code blocks use {{% link fira-mono-font /%}}. Navigation and other incidental text uses {{% link ruda-font /%}}. All content management and static file generation is handled by Hugo, and is hosted by an {{% link nginx /%}} server running on {{% link debian /%}}. My web host is {{% link linode /%}} using TLS certificates provided by {{% link letsencrypt /%}}. For the most part, I don't use any content delivery networks or proxies; this is my server talking directly to your device.
+The main body font is {{% link lora-font /%}} and the monospace code blocks use {{% link fira-mono-font /%}}. Navigation and other incidental text uses {{% link ruda-font /%}}. {{% margin-note %}}Each article on the site ends with an uppercase Greek letter omega, which is a flourish I took from a 1990s print magazine called  _Electronics Now_.{{% /margin-note %}} All content management and static file generation is handled by Hugo, and is hosted by an {{% link nginx /%}} server running on {{% link debian /%}}. My web host is {{% link linode /%}} using TLS certificates provided by {{% link letsencrypt /%}}. For the most part, I don't use any content delivery networks or proxies; this is my server talking directly to your device.
 
 This site contains no third-party tracking or analytics scripts, nor does it serve any ads. On typical pages, all the data required to present the content comes directly from this server. The most common exception to this is {{% link mathjax /%}}{{% margin-note %}}I tried briefly to self-host MathJax, but it was _frustratingly_ difficult to get it half-working using Hugo and seemingly impossible to make it work fully.{{% /margin-note %}} for math typesetting, which is served by JSDelivr on pages where it is actively used.
 

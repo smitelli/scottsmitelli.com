@@ -271,6 +271,10 @@ text = 'IBM Watson'
 href = 'https://www.imdb.com/title/tt0062622/quotes/?item=qt0396921'
 text = 'Open the pod bay doors, HAL'
 
+[imdb-blazing-saddles-vipers-snipers]
+href = 'https://www.imdb.com/title/tt0071230/quotes/?item=qt0371680'
+text = 'I want [...] vipers, snipers [...]'
+
 [imdb-danik-thomas]
 href = 'https://www.imdb.com/name/nm1127704/'
 text = 'Danik Thomas - IMDb'
