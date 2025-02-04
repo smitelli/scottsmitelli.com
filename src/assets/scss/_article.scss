@@ -125,7 +125,7 @@ article {
     }
 
     &.long-form > p:last-of-type::after {
-        float: right;
+        padding-left: 0.35em;
         content: ' \3a9';
     }
 
