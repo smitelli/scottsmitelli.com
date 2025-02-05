@@ -25,7 +25,7 @@ This site was originally launched in November 2008 as a showcase for my freelanc
 
 In December 2012, in conjunction with development of the **[Docroute]({{% relref docroute %}})** CMS, ScottSmitelli.com was reimagined as a more traditional article-and-project based blog and portfolio.{{% margin-note %}}This fundamental redesign reflected my professional shift away from the film industry into software engineering roles.{{% /margin-note %}} The more presentable content from my personal site was migrated over at the same time. Smitelli.com was finally retired and I stopped hosting websites from my home, although its domain still exists for redirects and email hosting.
 
-Docroute wasn't a bad system per se; it never caused me any direct problems and it weathered a few traffic spikes happily. However it was somewhat painful to actually write content for, and every time I wanted to add/change something I felt like my muscle memory had completely atrophied. This high degree of friction---whether real or perceived---dissuaded me from adding much content into Docroute, and the [Archives page]({{% relref archives %}}) shows just how infrequent the updates were from 2013 to 2024.
+Docroute wasn't a bad system per se; it never caused me any direct problems and it weathered a few traffic spikes happily. However it was somewhat painful to actually write content for, and every time I wanted to add/change something I felt like my muscle memory had completely atrophied. This high degree of friction---whether real or perceived---dissuaded me from adding much content into Docroute, and the [Archives page]({{% relref archives %}}) shows just how infrequent the updates were from 2013 through 2023.
 
 ## Then It Was Now, and Then I Don't Know What Happened
 

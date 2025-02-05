@@ -166,7 +166,7 @@ _The diatonic pattern repeats._ The pattern is actually not concerned with start
 
 What if we shifted our diatonic steps three positions to the right, wrapping the pieces that fall off the right edge onto the start of the pattern? We would end up with L--L--S--L--L--S--L. Or graphically:
 
-{{% figure caption="Construction of the F major scale with the diatonic sequence starting from its fifth step. Note how the small circle has shifted away from F and over to B&flat;" class=fullwidth %}}
+{{% figure caption="Construction of the F major scale with the diatonic sequence starting from its fifth step. Note how the small circle has shifted away from F and over to B&flat;." class=fullwidth %}}
 
 ```goat
   Diatonic Step:        Large       Large    Small    Large       Large    Small    Large    
