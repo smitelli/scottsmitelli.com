@@ -3,11 +3,16 @@ title = "The Fake Fixation"
 description = "Twenty years ago, it was not difficult to find songs that used the word \"fake\" somewhere in the lyrics. This is not nearly as prevalent in music today, nor was it all that common before that era. This article explores the phenomenon to try to see if there's really something to it."
 date = 2024-11-15
 
-# NOTE: The bulk of the HTML character references in this document are to work
-# around instances of double quotes not converting to "6-quotes" and "9-quotes"
-# correctly. The non-breaking spaces prevent line breaks before "/" inside runs
-# of paragraph-formatted lyrics. Developed against Hugo v0.121.0; maybe a future
-# release will be better (or oh so much worse) at this.
+[[infoBox]]
+key = 'Listen Along'
+value = 'All of the songs in this article have been collected into a {{% link spotify-fake-fixation %}}public playlist on Spotify{{% /link %}}. Play it on shuffle and enjoy the ride.'
+
+__NOTE = '''
+The bulk of the HTML character references in this document are to work around
+instances of double quotes not converting to "6-quotes" and "9-quotes"
+correctly. The non-breaking spaces prevent line breaks before "/" inside runs of
+paragraph-formatted lyrics. Developed against Hugo v0.121.0; maybe a future
+release will be better (or oh so much worse) at this.'''
 +++
 
 {{% epigraph %}}

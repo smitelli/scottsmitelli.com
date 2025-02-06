@@ -533,6 +533,10 @@ text = 'Justin Silverberg, Google, I Mean Big Brother, is Always Listening'
 href = 'https://github.com/smitelli/sort_of_face'
 text = 'smitelli/sort_of_face'
 
+[spotify-fake-fixation]
+href = 'https://open.spotify.com/playlist/6sGFwYRBPwVTrPAvKptjQj?si=gNjSK3fYRsevE96LQHN7wA'
+text = 'Spotify - The Fake Fixation'
+
 [stackoverflow]
 href = 'https://stackoverflow.com/'
 text = 'Stack Overflow'
