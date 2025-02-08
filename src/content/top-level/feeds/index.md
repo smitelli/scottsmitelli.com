@@ -9,4 +9,4 @@ excludeFromRss = true
 weight = 900
 +++
 
-This site provides a few different RSS feeds. The top-level feed (the first listed in the list below) contains all of the published posts and pages. Separately, each section has its own separate feed.
+This site provides a few different RSS feeds. The top-level feed (the first listed in the list below) contains all of the published posts and pages. Separately, each section has its own dedicated feed.

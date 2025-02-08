@@ -119,7 +119,7 @@
                     {{- safeHTML " &bull; " }}<a href='{{ relref . "feeds" }}'>RSS</a>
                     {{- with .File }}
                         {{- $git_url := urls.JoinPath (index site.Data.links "scottsmitelli-com-content-dir").href (path.Clean .Path) }}
-                        {{- safeHTML " &bull; " }}<a href="{{ $git_url }}">Page source code</a>
+                        {{- safeHTML " &bull; " }}<a href="{{ $git_url }}">Page source</a>
                     {{ end }}
                 </p>
             </footer>
