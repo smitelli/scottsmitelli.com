@@ -1,0 +1,25 @@
+{{ define "pageContent" }}
+    <section>
+        {{ partial "page-content-header.html" . }}
+
+        {{ .Content }}
+
+        <ul>
+            {{ with site.Home }}
+                <li>
+                    <a href='{{ (.OutputFormats.Get "rss").RelPermalink }}'>
+                        <strong>All content on {{ site.Title }}</strong>
+                    </a>
+                </li>
+            {{ end }}
+
+            {{ range site.Sections.ByTitle }}
+                <li>
+                    <a href='{{ (.OutputFormats.Get "rss").RelPermalink }}'>
+                        Content in the <strong>{{ .Title }}</strong> category
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </section>
+{{ end }}

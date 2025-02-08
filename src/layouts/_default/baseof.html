@@ -114,10 +114,12 @@
             <footer>
                 <p>
                     &copy; {{ site.Params.copyrightStartYear }}&ndash;{{ time.Now.Year }} <a href='{{ relref . "about" }}' rel="author">{{ site.Title | markdownify }}</a>
-                    <br><a href='{{ relref . "projects/scottsmitelli.com/index" }}'>About this site</a>
+                    <br>
+                    <a href='{{ relref . "projects/scottsmitelli.com/index" }}'>About this site</a>
+                    {{- safeHTML " &bull; " }}<a href='{{ relref . "feeds" }}'>RSS</a>
                     {{- with .File }}
                         {{- $git_url := urls.JoinPath (index site.Data.links "scottsmitelli-com-content-dir").href (path.Clean .Path) }}
-                        {{- " / " }}<a href="{{ $git_url }}">Page source code</a>
+                        {{- safeHTML " &bull; " }}<a href="{{ $git_url }}">Page source code</a>
                     {{ end }}
                 </p>
             </footer>
