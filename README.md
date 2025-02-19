@@ -95,3 +95,7 @@ These values will need to be doubled or tripled depending on the device pixel ra
     - Fullwidth: 630px--1400px
     - Main: 347px--770px
     - Side: 208px--462px
+
+## Known Issues
+
+- The rendered `<meta>` descriptions, if they happen to contain shortcode calls, are emitted as unrendered source like `{{% ... %}}`. This is because of a missing `markdownify` call in Hugo's built-in schema/opengraph/twitter_cards templates. I don't want to have to maintain a separate fork of all of those.

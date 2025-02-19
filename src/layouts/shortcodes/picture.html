@@ -44,7 +44,7 @@
         {{- "" }}<img
             {{- safeHTMLAttr " " }}src="{{ .RelPermalink }}" loading="{{ $loading }}"
             {{- safeHTMLAttr " " }}width="{{ .Width }}" height="{{ .Height }}"
-            {{- with $alt }} alt="{{ . }}"{{ else }}{{ errorf "img should have an alt: %s" $.Position }}{{ end }}
+            {{- with $alt }} alt="{{ . | markdownify }}"{{ else }}{{ errorf "img should have an alt: %s" $.Position }}{{ end }}
             {{- with $class }} class="{{ . }}"{{ end }}>
     {{- end }}
 {{- "" }}</picture>{{ "" -}}
