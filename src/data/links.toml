@@ -7,6 +7,10 @@ dead = true
 href = 'https://github.com/smitelli'
 text = 'smitelli on GitHub'
 
+[about-google-voice]
+href = 'tel:1-909-764-8354'
+text = '909-SMITELI (764-8354)'
+
 [about-linkedin]
 href = 'https://www.linkedin.com/in/smitelli'
 text = 'Scott Smitelli on LinkedIn'

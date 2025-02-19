@@ -1,6 +1,6 @@
 +++
 title = 'twanslationparty'
-description = "Working in conjunction with [twitstash]({{% relref twitstash %}}), twanslationparty corrupts the English text in one Twitter account's timeline and posts the result to another account."
+description = "Working in conjunction with {{% internal-link \"projects/twitstash\" /%}}, twanslationparty corrupts the English text in one Twitter account's timeline and posts the result to another account."
 date = 2009-04-02
 fuzzyDates = 'ym'
 
@@ -13,7 +13,7 @@ key = 'Was Once Active At'
 value = '{{% link twitter-engrishsmitelli /%}}'
 +++
 
-After I wrote **[twitstash]({{% relref twitstash %}})**, one of the first ideas I had was to build a Twitter bot to convert every tweet I sent into broken English (or "{{% link wiki-engrish /%}}") and repost it. The bot eventually grew into an abstract framework to run tweets through any pair of intermediate languages, with a predefined number of "back-and-forth" cycles (similar to the way the site {{% link translationparty /%}} works) and post the output to another account. This framework was packaged into what is now called **twanslationparty**.{{% margin-note feature %}}{{% picture stem=profile-pic alt="Anime Scott" %}}The profile picture is a drawing of my face in an anime style, done by my good friend {{% link darrell-stark /%}}. Be sure to leave him an email with _SOUP SOUP!_ as the subject line and no additional content.{{% /margin-note %}}
+After I wrote **{{% internal-link twitstash /%}}**, one of the first ideas I had was to build a Twitter bot to convert every tweet I sent into broken English (or "{{% link wiki-engrish /%}}") and repost it. The bot eventually grew into an abstract framework to run tweets through any pair of intermediate languages, with a predefined number of "back-and-forth" cycles (similar to the way the site {{% link translationparty /%}} works) and post the output to another account. This framework was packaged into what is now called **twanslationparty**.{{% margin-note feature %}}{{% picture stem=profile-pic alt="Anime Scott" %}}The profile picture is a drawing of my face in an anime style, done by my good friend {{% link darrell-stark /%}}. Be sure to send him an email with _SOUP SOUP!_ as the subject line and no additional content.{{% /margin-note %}}
 
 twanslationparty is a PHP script, invoked by the system cron immediately after a twitstash run has completed. The database schema is simple, maintaining a one-to-one mapping of source tweet ID and destination tweet ID. If a new tweet is found in the source table that does not have a corresponding entry in the destination table, the tweet is considered "new" and processing proceeds. If any tweets become marked `deleted` in the source table, twanslationparty deletes the corresponding corrupted tweet from the destination account.
 

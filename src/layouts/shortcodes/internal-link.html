@@ -1,0 +1,32 @@
+{{/*
+    Renders a link to another page on the site. The key name is the file path
+    (aka slug) to the target page.
+
+    To insert this link, put {{% link keyname /%}} in the content page.
+
+    The shortcode call accepts inner text; if present this will override the
+    title from the target page's front matter.
+
+    Positional parameters:
+        0: The name of the page slug to construct a link to.
+        1 (optional): If present, this text is appended to the link's href
+        attribute with a `#` character -- this permits linking to a specific
+        heading or page element.
+*/}}
+
+{{- $id := .Get 0 }}
+{{- $anchor := .Get 1}}
+{{- $target := page.GetPage $id }}
+
+{{- if not $target }}
+    {{- /* This case happens e.g. when the slug has a dot in it */}}
+    {{- $target = page.GetPage (printf "%s/index" $id) }}
+{{- end }}
+
+{{- with $target }}
+    {{- $text := $.Inner | default .Title }}
+
+    {{- "" }}<a href="{{ .RelPermalink }}{{ with $anchor}}#{{ . }}{{ end }}">{{ $text | markdownify }}</a>
+{{- else }}
+    {{- errorf "Internal link %s not defined: %s" $id .Position }}
+{{- end -}}

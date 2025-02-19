@@ -12,7 +12,7 @@ key = 'Read It Here'
 value = '{{% link cosmodoc /%}}'
 +++
 
-**Cosmodoc**, described as "the semi-complete teardown of _Cosmo's Cosmic Adventure_," is a documentation website that describes in full detail every aspect of the workings of that game. It was written in conjunction with the **[Cosmore]({{% relref cosmore %}})** project, a reimplementation of the game using the DOS development tools that the original creators used in 1992.
+**Cosmodoc**, described as "the semi-complete teardown of _Cosmo's Cosmic Adventure_," is a documentation website that describes in full detail every aspect of the workings of that game. It was written in conjunction with the **{{% internal-link cosmore /%}}** project, a reimplementation of the game using the DOS development tools that the original creators used in 1992.
 
 {{% figure caption="{{% link cosmodoc-keyboard-functions-ps2 %}}Cosmodoc, Keyboard Functions page, PS/2 section{{% /link %}}" %}}
 {{% picture stem=screenshot alt="Cosmodoc, Keyboard Functions page, PS/2 section" %}}
@@ -26,4 +26,4 @@ Cosmodoc describes not just the game, but also the PC hardware that the game is 
 
 The original desire was to completely finish the site before releasing it, and to do so before March 2022 to coincide with the 30th anniversary of the original game's release. As time went on I realized that was an over-ambitious goal that I had no chance of reaching in time, so I instead released it in an incomplete state on December 13, 2021. Since then I have been occasionally adding and revising the content. As of this update,{{% margin-note side %}}July 2024{{% /margin-note %}} the incomplete sections of Cosmodoc all involve either the player's movement or the animation functions for each actor. The player movement code alone is nearly 700 lines of twisty `if` statements, and there are 70+ different actor types whose behavior still needs to be documented.
 
-Cosmodoc is a Hugo website, developed quite similarly to [the one you're reading now]({{% relref "scottsmitelli.com/index" %}}). It is in many ways the technical and spiritual inspiration for this site.
+Cosmodoc is a Hugo website, developed quite similarly to {{% internal-link scottsmitelli.com %}}the one you're reading now{{% /internal-link %}}. It is in many ways the technical and spiritual inspiration for this site.

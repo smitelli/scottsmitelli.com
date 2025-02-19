@@ -15,7 +15,7 @@ value = 'Rhymes with "hawk shout."'
 
 **Docroute** is an experimental content management system with a focus on serving "mostly static" pages. It's designed for situations where a full database-driven CMS is overkill, but where a statically-built site would be inconvenient to update. Its original use case was basically "FTP a new content file to this $5/month shared web host" and see the site update itself automatically.
 
-{{% figure caption="An older version of [ScottSmitelli.com]({{% relref \"projects/scottsmitelli.com/index\" %}}) being served by Docroute" %}}
+{{% figure caption="An older version of {{% internal-link scottsmitelli.com /%}} being served by Docroute" %}}
 {{% picture stem=screenshot alt="An older version of ScottSmitelli.com being served by Docroute" %}}
 {{% /figure %}}
 
@@ -27,4 +27,4 @@ Since the pages are served dynamically, the outer page template is capable of re
 
 As a relatively small PHP application, Docroute is quite fast at serving content and isn't terribly complicated to manage. Developing and maintaining this project taught me that it's actually much harder to _design_ a CMS than it is to _build_ one.
 
-If I had to do it all over again,{{% margin-note %}}I did do it all over again. [This site switched to Hugo in 2024]({{% relref "scottsmitelli.com/index" %}}) and Docroute is no longer being maintained.{{% /margin-note %}} however, I would choose {{% link hugo /%}} for this task. Many of the ideas I was aiming for in Docroute were achieved more cleanly in Hugo, and the overall opinions and sensibilities of the two projects are really quite close. It also helps to have configuration management in place on this server, which makes it trivially simple to trigger a Hugo build whenever the content in the source Git repo changes.
+If I had to do it all over again,{{% margin-note %}}I did do it all over again. {{% internal-link scottsmitelli.com %}}This site switched to Hugo in 2024{{% /internal-link %}} and Docroute is no longer being maintained.{{% /margin-note %}} however, I would choose {{% link hugo /%}} for this task. Many of the ideas I was aiming for in Docroute were achieved more cleanly in Hugo, and the overall opinions and sensibilities of the two projects are really quite close. It also helps to have configuration management in place on this server, which makes it trivially simple to trigger a Hugo build whenever the content in the source Git repo changes.

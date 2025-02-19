@@ -32,4 +32,4 @@ Starting in December 2019, and for about eleven months after, I compared every i
 
 On October 26, 2020, I located the last translation error: a misread keyboard scancode in a debug feature that I don't think anybody else even knew about. The games were now identical. I spent some time cleaning up a few more variable names and comment blocks, squashed my miserable Git history, and opened the repository to the public on November 7, 2020.
 
-I'm not done with it just yet. The goal is to eventually write a complete technical manuscript about all aspects of the game's workings, similar to Fabien Sanglard's _{{% link gebb-wolf3d %}}Wolfenstein 3D{{% /link %}}_ and *{{% link gebb-doom %}}Doom{{% /link %}} Game Engine Black Book*s. This ongoing effort is called **[Cosmodoc]({{% relref cosmodoc %}})**.
+I'm not done with it just yet. The goal is to eventually write a complete technical manuscript about all aspects of the game's workings, similar to Fabien Sanglard's _{{% link gebb-wolf3d %}}Wolfenstein 3D{{% /link %}}_ and *{{% link gebb-doom %}}Doom{{% /link %}} Game Engine Black Book*s. This ongoing effort is called **{{% internal-link cosmodoc /%}}**.

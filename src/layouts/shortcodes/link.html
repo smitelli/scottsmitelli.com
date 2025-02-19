@@ -29,7 +29,7 @@
         {{- $text = replace (.href | strings.TrimRight "/") "/" "&zwj;/" }}
     {{- end }}
 
-    {{- "" }}<a href="{{ .href }}" rel="external" {{ if .dead }}class="dead"{{ end }} data-link-id="{{ $id }}">{{ $text | markdownify }}</a>
+    {{- "" }}<a href="{{ safeURL .href }}" rel="external" {{ if .dead }}class="dead"{{ end }} data-link-id="{{ $id }}">{{ $text | markdownify }}</a>
 {{- else }}
     {{- errorf "Link %s not defined: %s" $id .Position }}
 {{- end -}}

@@ -14,7 +14,7 @@
                 {{ with (index site.Data.links $k) }}
                     {{ $trimmedHref := .href | strings.TrimRight "/" }}
                     {{ $text := (.text | markdownify) | default $trimmedHref }}
-                    <li><a href="{{ .href }}" id="{{ $k }}" {{ if .dead }}class="dead"{{ end }} rel="external">{{ $text }}</a></li>
+                    <li><a href="{{ safeURL .href }}" id="{{ $k }}" {{ if .dead }}class="dead"{{ end }} rel="external">{{ $text }}</a></li>
                 {{ end }}
             {{ end }}
         </ul>

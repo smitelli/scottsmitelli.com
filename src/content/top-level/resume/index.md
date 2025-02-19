@@ -12,7 +12,7 @@ excludeFromRss = true
 weight = 20
 +++
 
-{{% box %}}This page is also available for download in <a href="scott-smitelli.pdf" rel="alternate" type="application/pdf">PDF format</a>.{{% /box %}}
+{{% box %}}This document is also available for download in <a href="scott-smitelli.pdf" rel="alternate" type="application/pdf">PDF format</a>. For a list of film and video projects I have worked on, see the {{% internal-link credits /%}} page.{{% /box %}}
 
 # Scott Smitelli &bull; scott@smitelli.com
 

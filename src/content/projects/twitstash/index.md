@@ -1,6 +1,6 @@
 +++
 title = 'twitstash'
-description = "twitstash is a cron script that archives a Twitter user's timeline into a MySQL database for search, data mining, or as a foundation for [twanslationparty]({{% relref twanslationparty %}}) bots."
+description = "twitstash is a cron script that archives a Twitter user's timeline into a MySQL database for search, data mining, or as a foundation for {{% internal-link \"projects/twanslationparty\" /%}} bots."
 date = 2009-04-01
 fuzzyDates = 'ym'
 
@@ -15,4 +15,4 @@ At its core, twitstash is a PHP script that is run several times an hour via the
 
 Along with tweet text and metadata, twitstash also stores geolocation data (when available) and the expanded values of all shortened URLs. This allows for reconstructing URLs like {{% link tco-before /%}} back into {{% link tco-after /%}} without performing any subsequent HTTP requests or relying on the continuance of Twitter's URL shortener.
 
-The twitstash database was used heavily by a sibling project, **[twanslationparty]({{% relref twanslationparty %}})**. In May of 2023, Twitter revoked the OAuth credentials I had been using for all of my projects without notice or explanation. This revocation broke twitstash, which was the push I needed to finally stop posting content to Twitter entirely. I no longer run twitstash on any accounts, but I keep a local SQL dump of the data to remember the 21,861 tweets I amassed over almost sixteen years.
+The twitstash database was used heavily by a sibling project, **{{% internal-link twanslationparty /%}}**. In May of 2023, Twitter revoked the OAuth credentials I had been using for all of my projects without notice or explanation. This revocation broke twitstash, which was the push I needed to finally stop posting content to Twitter entirely. I no longer run twitstash on any accounts, but I keep a local SQL dump of the data to remember the 21,861 tweets I amassed over almost sixteen years.
