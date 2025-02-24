@@ -832,6 +832,10 @@ text = 'Walk the Dinosaur'
 href = 'https://en.wikipedia.org/wiki/Wizard_(software)'
 text = 'Wizard (software)'
 
+[wiki-whose-line-season-21]
+href = 'https://en.wikipedia.org/wiki/List_of_Whose_Line_Is_It_Anyway%3F_(American_TV_series)_episodes#Season_21_(2024)'
+text = 'List of Whose Line Is It Anyway? (American TV series) episodes, Season 21'
+
 [wiki-wolfenstein-3d]
 href = 'https://en.wikipedia.org/wiki/Wolfenstein_3D'
 text = 'Wolfenstein 3D'
@@ -896,6 +900,10 @@ text = 'Judge Judy Intro 2004-2008'
 [youtube-mannheim-steamroller-synthesia]
 href = 'https://www.youtube.com/watch?v=6Yw84GhGWfY'
 text = 'Deck the Halls - Mannheim Steamroller - Transcription Synthesia'
+
+[youtube-mr-show-acting-is-easy]
+href = 'https://www.youtube.com/watch?v=8O6smlN62qI'
+text = 'Mr. Show - Acting is Easy'
 
 [youtube-user-retnirpregnif]
 href = 'https://www.youtube.com/@retnirpregnif'
