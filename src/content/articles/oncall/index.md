@@ -20,6 +20,7 @@ date = 2025-02-26
     - wide range of responsibilities
         - resuscitate the anchors
         - fix the tire pressure in the weather beast
+        - also, you cover every news broadcast all day
 - what is a pager?
     - gather round kids, let me tell you about the good old days
     - hospital workers and building supervisors
@@ -43,7 +44,9 @@ date = 2025-02-26
     - need computer and internet. it's unpleasant to carry, unwise to keep in vehicle in some areas
     - maybe just stay home
     - fires at miserable times. movie night, dinner, sleep
+        - wakes up significant other
         - it's dark, you're still asleep, you're alone. is this really the right headspace to be fixing stuff
+        - can't go back to sleep due to light
     - after a while just the weight of "maybe" really interferes with life
     - i actually started hating my phone (maybe a good thing). that notification gave me PTSD
     - sometimes the issue can't be fixed
@@ -55,9 +58,10 @@ date = 2025-02-26
     - nobody has ever adequately described the reason for it
 - alternatives
     - is this actually important?
-        - maybe just don't freakin' do it
+        - maybe just don't freakin' do it. ever try redlining a contract? it's a negotiation!
         - passive customers have a surprising tolerance; goodwill seems to be a myth
         - do you actually have contracts or SLAs?
+        - if you're not on-call, you're not doing anything important!
         - find your impostor syndrome. if this was important, why would they trust me with it?
     - multiple teams, follow the sun
         - what about weekends and holidays? maybe don't do it
@@ -72,3 +76,4 @@ date = 2025-02-26
     - people are different. they are in different walks of life with different responsibilities
     - when i asked if this is important, i bet you answered from the company's perspective. i'm asking you now -- is this important _to you?_
     - 5,000 weeks if you're lucky
+    - just shy of 2k, meant what i said. i have been paged enough
