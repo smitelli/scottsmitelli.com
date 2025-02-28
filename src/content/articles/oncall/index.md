@@ -38,6 +38,7 @@ date = 2025-02-26
         - oh, i was only on call like twice over the last quarter, and i never got paged. tee hee.
         - how very good for you. i was on-call every other week for most of a summer and was sometimes paged a dozen times daily.
         - runbook quality can really make or break it
+        - sometimes they make an effort to fix the issue, but more often than not this is just internalized tech debt that has to be absorbed somewhere, so it goes to you.
         - it always seems to be the systems running on the thinnest margins that break. which is approximately everything.
 - it blows
     - can't travel, drink, unplug. can't cut the grass because it takes too long to put the mower away.
@@ -50,6 +51,7 @@ date = 2025-02-26
     - after a while just the weight of "maybe" really interferes with life
     - i actually started hating my phone (maybe a good thing). that notification gave me PTSD
     - sometimes the issue can't be fixed
+        - the more the org farms out to third parties, the more bizzare and unpredictable (and unfixable) the problems become
         - hurricane sandy is bearing down and the fuel pumps at 33 whitehall flooded
         - us-east-1 fails
 - we need to talk about kafka
