@@ -712,6 +712,10 @@ text = 'Compact Disc Digital Audio'
 href = 'https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population'
 text = 'List of countries and dependencies by population'
 
+[wiki-crop-milk]
+href = 'https://en.wikipedia.org/wiki/Crop_milk'
+text = 'Crop milk'
+
 [wiki-day-the-earth-stood-stupid]
 href = 'https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Stupid'
 text = 'The Day the Earth Stood Stupid'
