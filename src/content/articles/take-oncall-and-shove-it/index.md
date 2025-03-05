@@ -1,7 +1,7 @@
 +++
 title = 'Take This On-Call Rotation and Shove It'
 description = 'TODO'
-date = 2025-03-04
+date = 2025-03-05
 +++
 
 The familiar blue and gold intro graphic fills the screen every evening at six o'clock on the dot. The jabbing staccato string music conjures up vague secondhand memories of what a teletype machine might have sounded like. A high angle view of the studio floor with the large Lexan-clad desk in the middle, then a cross dissolve to a two shot of the anchors for this newscast. The music fades, each anchor introduces themselves, then they jump right into the top story. It's been this way for as long as anybody can remember. They've never failed to get this show on the air.
@@ -38,7 +38,7 @@ There is, of course, another option that the station has never seriously enterta
 > To hook up with Mix you gotta call that number\
 > Then sit by the phone and wonder\
 > Will he call? If you're fine I might\
-> If you're a duck... good night
+> If you're a duck, good night
 > <footer>Sir Mix-A-Lot, &ldquo;Beepers&rdquo;</footer>
 
 There was a time---not that long ago, really---where people couldn't contact you if they didn't know where you were. Telephones were literally screwed into walls in people's houses. Portable two way radios existed, but they were a massive pain to carry around and operate. If somebody wished to contact you, they would not call _you_ specifically but rather _your house_, where you may or may not be at the moment. If you're not there, maybe they'd try to call your favorite bar, or another place where they know you spend time. If they couldn't find you, frequently they'd give up. People used to be more chill in that way.
@@ -63,8 +63,42 @@ The systems described so far have one thing in common: The person initiating the
 >
 > **Donny:** What's during league play?
 >
-> **Walter:** Life does not stop and start at your convenience, you miserable piece'a shit.
+> **Walter:** Life does not stop and start at your convenience, you miserable piece of shit.
 > <footer><em>The Big Lebowski</em> (1998)</footer>
+
+Like a disheartening number of things in the tech industry, there are no real standards around what **on-call** responsibilities look like. Each organization is free to set things up in whichever way suits their tastes, and the resulting practices can vary widely as a result. In order to ground this article in something concrete, I will describe an on-call arrangement that I have found to be typical for US companies whose business model is "have a website or phone app, and either put ads all over it or convince the users to enter their credit card information somewhere." The attitude of these companies is that the product must work at all times, otherwise it results in failure to show an ad or failure to collect a payment. Both of these negatively affect revenue.
+
+A popular taxonomy these days is the **SEV** system, which (again, no standards) might mean "**sev**erity," "**s**ite **ev**ent," "**s**ignificant **ev**ent" "**s**erious **ev**ent," or anything else you might care to make up that matches the pattern. SEVs are further divided into numbered classes depending on their importance to the business; a SEV1 means that the business is currently failing to be a business because it is unable to perform its core function and/or collect its revenue. The lesser SEV3 might represent degraded performance on some non-critical portion of the application. {{% margin-note %}}An example of a SEV3 might be that users can still change their profile pictures, but those changes are not showing up promptly in the app due to some kind of processing delay. This will _probably_ not impact the quarterly financial statement in the slightest.{{% /margin-note %}}
+
+Below the SEV system, there is a bubbling churn of things that are subtly broken, or are well on the way to someday being broken, but are fine for the time being. A good example of this would be a disk that is 95% full. In its current state, nothing is actually wrong. But once it finally becomes 100% full and cannot accept any more data, something else in the system is going to react poorly and this can likely cascade into some kind of SEV. Most systems in most places have monitoring in place for this kind of thing, and it is common for an on-call engineer to receive pages due to things like high disk usage that need to be investigated specifically to avoid a SEV in the future. Practically all pages of this nature are generated and sent through automated means---no sane human is going to click through system after system looking for ones with uncharacteristically high disk usage.
+
+The on-call engineer is a person selected out of a **rotation** of all the members of a given team. Their **shift** is usually one week of 24-hour support, or 168 solid hours.{{% margin-note side %}}&plusmn;1 depending on how daylight saving time shakes out.{{% /margin-note %}} This engineer does not need to stay awake for seven straight days; the idea is that they're supposed to work normal hours and go about their outside lives as usual, but be able to begin handling an issue quickly after receiving a page. The "quickly" part is formally defined as **time to acknowledge**, and durations from 10 to 30 minutes seem fairly typical.
+
+If a page is not acknowledged by the on-call engineer, usually there is a system of **escalation** that begins. The implementation of this can vary greatly from one team to the next:
+
+- If there is only a single on-call engineer, the page may escalate to them again. This re-raises the original alert in case it was somehow missed the first time.
+- In a "primary/secondary" type of arrangement, there are actually two people on-call at any given moment. All pages go to the primary, and only unacknowledged pages make their way to the secondary. If the secondary doesn't respond either, the page may escalate in the manner of one of these other bullet points.
+- In a "hunt group" configuration, an unacknowledged page is sent to every other member of the team in turn, none of whom are officially on-call at the moment, in the hopes that one of them is free to acknowledge and handle the issue.
+
+In each of the setups described above, the team's manager may or may not be part of the escalation chain. If they are, it adds a whole new layer to the on-call calculus: Nobody wants their unacknowledged pages to end up notifying their manager.
+
+Oncall shifts occur one week out of every _N_ weeks, where _N_ is the number of people on the team. {{% margin-note %}}For primary/secondary arrangements, the shift frequency is _two_ weeks out of _N_, even though one of those weeks will ideally see no on-call load. Still, the secondary must remain available during that time.{{% /margin-note %}} If there are fifteen people on a team, each person will barely need to cover one shift per quarter. On a team of two, each person is on-call _every other week._ This is one of the most significant causes of variability, and it can change suddenly as team members go on vacation, take personal leave, or part ways with the team.
+
+Sometimes life interferes with on-call scheduling, and in those times usually a team will have a mechanism for trading partial or complete shifts between themselves. If the active on-call engineer needs a few uninterrupted hours to attend a family function or something, they can find a different person on the team to cover the responsiblity for that time. At some future date, the favor can be repaid when the other person needs somebody to cover for them.
+
+As far as what the on-call engineer needs to do during the time between acknowledging a page and resolving the issue, this is another area of huge variance. Sometimes they'll need to log into some web UI and click one button. Sometimes they'll spend ten straight hours trying to resuscitate a completely inaccessible product. A single person may experience this much variance from one week to another just by luck of the draw.
+
+This is by no means a job requirement that is specific to the tech industry. Doctors and surgeons can be on-call. The building superintendent for an apartment complex can be on-call. The guy who fixes air conditioners can be on-call. The difference is that the people in those industries get paid for it.
+
+## Wait, you guys are getting paid?
+
+> When the quittin' whistle blows and the dust settles down\
+> There ain't no trophies or cheerin' crowds\
+> You'll face yourself at the end of the day\
+> And be damn proud of whatever you've made
+> <footer>Aaron Tippin, &ldquo;Workin&rsquo; Man&rsquo;s Ph.D&rdquo;</footer>
+
+
 
 ---
 
@@ -81,13 +115,8 @@ The systems described so far have one thing in common: The person initiating the
 
 ---
 
-- what is a pager?
-    - now it's all automated check-failing and graph-evaluating
 - on-call in US-based big tech
-    - expected to be around to respond in X minutes, 10-30 seems common
-    - usually one week out of N, N=team size
-    - sometimes there's escalation -- somebody turns their phone off to see Oppenheimer
-        - don't let it get to your boss
+    - somebody turns their phone off to see Oppenheimer
     - not paid. they figure your salary is high enough to justify it
     - frequently no formal consideration for off-hours work. you get comp time? do you also have sprint load reduced?
     - they don't even give you a phone
