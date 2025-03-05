@@ -764,6 +764,10 @@ text = 'Help:Wikitext'
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
 
+[wiki-kenneth-parcell]
+href = 'https://en.wikipedia.org/wiki/Kenneth_Parcell'
+text = 'Kenneth Parcell'
+
 [wiki-mr-ouch]
 href = 'https://en.wikipedia.org/wiki/Mr._Ouch'
 text = 'Mr. Ouch'
