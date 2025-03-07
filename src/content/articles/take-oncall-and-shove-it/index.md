@@ -1,7 +1,7 @@
 +++
 title = 'Take This On-Call Rotation and Shove It'
 description = 'TODO'
-date = 2025-03-05
+date = 2025-03-06
 +++
 
 The familiar blue and gold intro graphic fills the screen every evening at six o'clock on the dot. The jabbing staccato string music conjures up vague secondhand memories of what a teletype machine might have sounded like. A high angle view of the studio floor with the large Lexan-clad desk in the middle, then a cross dissolve to a two shot of the anchors for this newscast. The music fades, each anchor introduces themselves, then they jump right into the top story. It's been this way for as long as anybody can remember. They've never failed to get this show on the air.
@@ -68,11 +68,11 @@ The systems described so far have one thing in common: The person initiating the
 
 Like a disheartening number of things in the tech industry, there are no real standards around what **on-call** responsibilities look like. Each organization is free to set things up in whichever way suits their tastes, and the resulting practices can vary widely as a result. In order to ground this article in something concrete, I will describe an on-call arrangement that I have found to be typical for US companies whose business model is "have a website or phone app, and either put ads all over it or convince the users to enter their credit card information somewhere." The attitude of these companies is that the product must work at all times, otherwise it results in failure to show an ad or failure to collect a payment. Both of these negatively affect revenue.
 
-A popular taxonomy these days is the **SEV** system, which (again, no standards) might mean "**sev**erity," "**s**ite **ev**ent," "**s**ignificant **ev**ent" "**s**erious **ev**ent," or anything else you might care to make up that matches the pattern. SEVs are further divided into numbered classes depending on their importance to the business; a SEV1 means that the business is currently failing to be a business because it is unable to perform its core function and/or collect its revenue. The lesser SEV3 might represent degraded performance on some non-critical portion of the application. {{% margin-note %}}An example of a SEV3 might be that users can still change their profile pictures, but those changes are not showing up promptly in the app due to some kind of processing delay. This will _probably_ not impact the quarterly financial statement in the slightest.{{% /margin-note %}}
+A popular taxonomy these days is the **SEV** system, which (again, no standards) might mean "**sev**erity," "**s**ite **ev**ent," "**s**ignificant **ev**ent" "**s**erious **ev**ent," or anything else you might care to make up that matches the pattern. SEVs are further divided into numbered classes depending on their importance to the business; a SEV 1 means that the business is currently failing to be a business because it is unable to perform its core function and/or collect its revenue. The lesser SEV 3 might represent degraded performance on some non-critical portion of the application. {{% margin-note %}}An example of a SEV 3 might be that users can still change their profile pictures, but those changes are not showing up promptly in the app due to some kind of processing delay. This will _probably_ not impact the quarterly financial statement in the slightest.{{% /margin-note %}}
 
 Below the SEV system, there is a bubbling churn of things that are subtly broken, or are well on the way to someday being broken, but are fine for the time being. A good example of this would be a disk that is 95% full. In its current state, nothing is actually wrong. But once it finally becomes 100% full and cannot accept any more data, something else in the system is going to react poorly and this can likely cascade into some kind of SEV. Most systems in most places have monitoring in place for this kind of thing, and it is common for an on-call engineer to receive pages due to things like high disk usage that need to be investigated specifically to avoid a SEV in the future. Practically all pages of this nature are generated and sent through automated means---no sane human is going to click through system after system looking for ones with uncharacteristically high disk usage.
 
-The on-call engineer is a person selected out of a **rotation** of all the members of a given team. Their **shift** is usually one week of 24-hour support, or 168 solid hours.{{% margin-note side %}}&plusmn;1 depending on how daylight saving time shakes out.{{% /margin-note %}} This engineer does not need to stay awake for seven straight days; the idea is that they're supposed to work normal hours and go about their outside lives as usual, but be able to begin handling an issue quickly after receiving a page. The "quickly" part is formally defined as **time to acknowledge**, and durations from 10 to 30 minutes seem fairly typical.
+The on-call engineer is a person selected out of a **rotation** of all the members of a given team. Their **shift** is usually one week of 24-hour support, or 168 solid hours.{{% margin-note side %}}&plusmn;1 hour depending on how daylight saving time shakes out.{{% /margin-note %}} This engineer does not need to stay awake for seven straight days; the idea is that they're supposed to work normal hours and go about their outside lives as usual, but be able to begin handling an issue quickly after receiving a page. The "quickly" part is formally defined as **time to acknowledge**, and durations from 10 to 30 minutes seem fairly typical.
 
 If a page is not acknowledged by the on-call engineer, usually there is a system of **escalation** that begins. The implementation of this can vary greatly from one team to the next:
 
@@ -88,7 +88,7 @@ Sometimes life interferes with on-call scheduling, and in those times usually a 
 
 As far as what the on-call engineer needs to do during the time between acknowledging a page and resolving the issue, this is another area of huge variance. Sometimes they'll need to log into some web UI and click one button. Sometimes they'll spend ten straight hours trying to resuscitate a completely inaccessible product. A single person may experience this much variance from one week to another just by luck of the draw.
 
-This is by no means a job requirement that is specific to the tech industry. Doctors and surgeons can be on-call. The building superintendent for an apartment complex can be on-call. The guy who fixes air conditioners can be on-call. The difference is that the people in those industries get paid for it.
+This is by no means a job requirement that is specific to the tech industry. Doctors and surgeons can be on-call. The building superintendent for an apartment complex can be on-call. The guy who fixes air conditioners can be on-call. The difference is that the people in those industries are fairly compensated for it.
 
 ## Wait, you guys are getting paid?
 
@@ -98,7 +98,23 @@ This is by no means a job requirement that is specific to the tech industry. Doc
 > And be damn proud of whatever you've made
 > <footer>Aaron Tippin, &ldquo;Workin&rsquo; Man&rsquo;s Ph.D&rdquo;</footer>
 
+There are ways at looking at employee wages in the US that are elegantly simple. A person is hired at a rate of $_X_/hour, they work for _Y_ hours in a week, and the total income is the product of those two numbers. There is a minimum wage at the federal and possibly state level that sets the minimum legal amount for $_X_. The employee should work a maximum of 40 hours in that week, otherwise they enter an **overtime** situation where their hourly $_X_ becomes $_X_ and a half. Those highfalutin white collar workers are basically the same, except their weeks are fixed at 40 hours so their wage stays the same week after week. That's how it works, right?
 
+This is the system laid out in the **{{% link wiki-fair-labor-standards-act /%}}** (FLSA). This is the law that underpins concepts like minimum wage, overtime, the 40-hour work week, and the notion that child labor probably isn't such a good thing to do. It also defines a set of **exemptions** to the act, thus creating the concept of an **exempt employee**. If you are a US-based tech worker in a full-time position, I'm going to take a stab in the dark and assume that you are almost certainly classified as an exempt employee. This means that _the FLSA effectively does not exist for you._ You are not guaranteed overtime, and you could conceivably work so many hours over the course of a week that your effective hourly pay ends up less than minimum wage.
+
+The FLSA is designed with repetitive and predictable work in mind: Somebody who works on an assembly line, or who moves boxes around in a warehouse, drivers and couriers, et cetera. Workers in these jobs have a tendency to produce a similar and predictable amount of work in any given hour. Drop in on them during any hour of any workday and observe roughly the same level of productivity that you would find from them at a different time.
+
+Employees who are exempt from the FLSA tend to have variability in their day. The original thinking was that this would apply to executives and highly-skilled professionals who performed such varied tasks throughout the day that some hours were markedly more valuable than others. These sensibilities changed and eventually morphed into "white collar people who are paid a lot." The current regulations specifically list {{% link dol-17e-overtime-computer %}}computer-related occupations{{% /link %}} in their list of exemptions. And it makes sense! Think of hours where you have pounded out hundreds of lines of code, then compare it to hours where you sat in a conference room staring at a blinking text insertion cursor instead of paying attention to the presenter.
+
+All this is to say, there is nothing in the rules of this country that can protect these exempt employees from working more than 40 hours in a week. There is no requirement that overtime be paid to them. If the work requires more than 40 hours in a week, oh well, sucks to be you. {{% margin-note %}}This means that technically you could work fewer than 40 hours by applying the same logic, assuming you get all your necessary work done. Try that someday; let me know how it works out for you.{{% /margin-note %}}
+
+So. With that bit of background out of the way, it's clear that there is no legal or regulatory requirement for an employer to pay anything for performing on-call duties. Based on my own experiences and informal polling of others in the same industry, the prevailing attitude is that on-call is part of the job and "baked in" with the total compensation. Again, this depends on the specific part of the industry, but many on-call shifts receive no additional compensation or consideration for carrying the pager. There is also usually nothing paid for actually responding to a page that occurs during that time.
+
+Most places won't even give you a phone or subsidize your mobile carrier bill. It's just assumed that you'll happily install PagerDuty or Opsgenie or some other hateful app that violates the sanctity of your personal device, right there on the home screen next to Okta Verify.{{% margin-note side %}}A brief aside: fuck Okta Verify.{{% /margin-note %}}
+
+And again, there is definitely variability in this area. Some places do pay a modest honorarium for each on-call shift worked. Some will provide payment or "unofficial" compensatory time to balance out a page handled outside of typical business hours.{{% margin-note side %}}And if your employer does this, a small question for you: Do they _also_ reduce the amount of sprint story points they expect you to work through?{{% /margin-note %}} I have heard legends of organizations where the teams are staffed adequately and the systems simply don't page. Can you imagine a magical place where a person is only on-call for like two weeks over the course of the last quarter, and who never got paged? I, who once spent an entire summer being on-call every other week while sometimes fielding a dozen pages in the span of a single day, cannot.
+
+Perhaps the biggest source of variability comes from a team's willingness to improve the situation as opposed to simply accepting that things are the way they're meant to be. Some teams view a page as a signal that something needs to be immediately fixed to prevent that specific thing from ever happening again. Other teams view it as something that just happens, a natural consequence of supporting a product. It is the manifestation of technical debt that has been boiling for years, looking for a pressure relief valve to escape through, and it just happened to find its release through your pager. Oddly enough, the teams that are most willing to actually prevent pages from recurring are also the most likely to actually write and maintain their on-call runbooks. Sometimes the runbook is the only friend an on-call engineer has.
 
 ---
 
@@ -116,17 +132,10 @@ This is by no means a job requirement that is specific to the tech industry. Doc
 ---
 
 - on-call in US-based big tech
-    - somebody turns their phone off to see Oppenheimer
-    - not paid. they figure your salary is high enough to justify it
-    - frequently no formal consideration for off-hours work. you get comp time? do you also have sprint load reduced?
-    - they don't even give you a phone
     - varies considerably
-        - oh, i was only on call like twice over the last quarter, and i never got paged. tee hee.
-        - how very good for you. i was on-call every other week for most of a summer and was sometimes paged a dozen times daily.
-        - runbook quality can really make or break it
-        - sometimes they make an effort to fix the issue, but more often than not this is just internalized tech debt that has to be absorbed somewhere, so it goes to you.
         - it always seems to be the systems running on the thinnest margins that break. which is approximately everything.
 - it blows
+    - somebody turns their phone off to see Oppenheimer
     - can't travel, drink, unplug. can't cut the grass because it takes too long to put the mower away.
     - need computer and internet. it's unpleasant to carry, unwise to keep in vehicle in some areas
     - maybe just stay home

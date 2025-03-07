@@ -195,6 +195,10 @@ text = 'Discord'
 href = 'https://github.com/smitelli/docroute'
 text = 'smitelli/docroute'
 
+[dol-17e-overtime-computer]
+href = 'https://www.dol.gov/agencies/whd/fact-sheets/17e-overtime-computer'
+text = 'Fact Sheet #17E: Exemption for Employees in Computer-Related Occupations Under the Fair Labor Standards Act (FLSA)'
+
 [easymoblog]
 href = 'https://web.archive.org/web/20060512045931/http://www.easymoblog.org/'
 text = 'EasyMoblog'
@@ -743,6 +747,10 @@ text = 'Endianness'
 [wiki-engrish]
 href = 'https://en.wikipedia.org/wiki/Engrish'
 text = 'Engrish'
+
+[wiki-fair-labor-standards-act]
+href = 'https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act_of_1938'
+text = 'Fair Labor Standards Act of 1938'
 
 [wiki-futurama]
 href = 'https://en.wikipedia.org/wiki/Futurama'
