@@ -92,11 +92,11 @@ This is by no means a job requirement that is specific to the tech industry. Doc
 
 ## Wait, you guys are getting paid?
 
-> When the quittin' whistle blows and the dust settles down\
-> There ain't no trophies or cheerin' crowds\
-> You'll face yourself at the end of the day\
-> And be damn proud of whatever you've made
-> <footer>Aaron Tippin, &ldquo;Workin&rsquo; Man&rsquo;s Ph.D&rdquo;</footer>
+> Work work work, day after day\
+> Fifty hour week, forty hour pay\
+> No time to get over all this overtime\
+> Yeah I'm always runnin', but I'm always runnin' behind
+> <footer>Tracy Lawrence, &ldquo;Runnin&rsquo; Behind&rdquo;</footer>
 
 There are ways at looking at employee wages in the US that are elegantly simple. A person is hired at a rate of $_X_/hour, they work for _Y_ hours in a week, and the total income is the product of those two numbers. There is a minimum wage at the federal and possibly state level that sets the minimum legal amount for $_X_. The employee should work a maximum of 40 hours in that week, otherwise they enter an **overtime** situation where their hourly $_X_ becomes $_X_ and a half. Those highfalutin white collar workers are basically the same, except their weeks are fixed at 40 hours so their wage stays the same week after week. That's how it works, right?
 
@@ -128,6 +128,11 @@ Perhaps the biggest source of variability comes from a team's willingness to imp
 >
 > **Milhouse:** I was watching. I saw the whole thing. First it started falling over, then it fell over.
 > <footer><em>The Simpsons</em>, &ldquo;Homer&rsquo;s Enemy&rdquo; (Season 8 Episode 23)</footer>
+
+---
+
+> **Jesse:** We make poison for people who don't care. We probably have the most unpicky customers in the world.
+> <footer><em>Breaking Bad</em>, &ldquo;Fly&rdquo; (Season 3 Episode 10)</footer>
 
 ---
 
