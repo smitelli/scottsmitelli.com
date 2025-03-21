@@ -116,9 +116,9 @@ Most places won't even give you a phone or subsidize your mobile carrier bill. I
 
 And again, there is definitely variability in this area. Some places do pay a modest honorarium for each on-call shift worked. Some will provide payment or "unofficial" compensatory time to balance out a page handled outside of typical business hours.{{% margin-note side %}}And if your employer does this, a small question for you: Do they _also_ reduce the amount of sprint story points they expect you to work through?{{% /margin-note %}} I have heard legends of organizations where the teams are staffed adequately and the systems simply don't page. Can you imagine a magical place where a person is only on-call for like two weeks over the course of the last quarter, and who never got paged? I, who once spent an entire summer being on-call every other week while occasionally fielding a dozen pages in the span of a single day, cannot.
 
-Perhaps the biggest source of variability comes from a team's willingness to improve the situation as opposed to simply accepting that things are the way they're meant to be. Some teams view a page as a signal that something needs to be immediately fixed to prevent that specific thing from ever happening again. Other teams view it as something that just happens as a natural consequence of supporitng a product, like a smoke detector battery chirp that everybody has learned to tune out over the course of many months. It is the manifestation of technical debt that has been boiling for years, looking for a pressure relief valve to escape through, and it just happened to find its release through your pager. Oddly enough, the teams that are most willing to actually prevent pages from recurring are also the most likely to actually write and maintain their on-call runbooks. Sometimes the runbook is the only friend an on-call engineer has.
+Perhaps the biggest source of variability comes from a team's willingness to improve the situation as opposed to simply accepting that things are the way they're meant to be. Some teams view a page as a signal that something needs to be immediately fixed to prevent that specific thing from ever happening again. Other teams view it as something that just happens as a natural consequence of supporitng a product, like a smoke detector battery chirp that everybody has learned to tune out over the course of several years. It is the manifestation of technical debt that has been boiling for years, looking for a pressure relief valve to escape through, and it just happened to find its release through your pager. Oddly enough, the teams that are most willing to actually prevent pages from recurring are also the most likely to actually write and maintain their on-call runbooks. Sometimes the runbook is the only friend an on-call engineer has.
 
-## TODO
+## Everything is catching, yes, everything is catching on fire
 
 > **Bart:** Milhouse, how could you let this happen? You were supposed to be the night watchman!
 >
@@ -133,25 +133,33 @@ It turns out that there are many things in life that are technically compatible 
 
 This tends to happen eventually, even at organizations where the expected on-call load is near zero. It's not possible to live life completely normally while staying prepared to handle any page at any time.
 
-And, of course, when a page does come, it manages to find the most inopportune times to do so. I've been paged during nice dinners, in the middle of live entertainment, and at times that rightly should've been devoted to time with family members and friends.
+And, of course, when a page does come, it manages to find the most inopportune times to do so. I've been paged during nice dinners, in the middle of live entertainment, and at times that rightly should've been devoted to time with family members and friends. Not to mention that alert sound, and the notification box on the phone's lock screen. My phone became a source of resentment and negative emotions to the point where I basically had to disable most other sounds and notifications because my heart jumped every time one popped up. I won't go as far as to say it gave me PTSD, but it sure gave me a fair number of the _symptoms_ of PTSD.
 
-Also sleep. So many pages during overnight hours.
+Also, it regularly ruined my sleep. So many pages during overnight hours.
 
-Here's what happens when a page occurs in the middle of the night: First, if you happen to have a significant other, it invariably wakes them up before it wakes you. You get out of bed. It's dark. It's cold. You open your work laptop. Even at its lowest brightness, the 16-inch Liquid Retina XDR display is blindingly bright. Log into your email and Slack, open some dashboards, open Okta Verify on your phone,{{% margin-note side %}}Fuck Okta Verify.{{% /margin-note %}} and you've basically done everything you usually do at 9 a.m. on a regular workday. Six hours before you're supposed to be here, you're here.
+Here's what happens when a page occurs in the middle of the night: First, if you happen to have a significant other, it invariably wakes them up before it wakes you. You get out of bed. It's dark. It's cold. You open your work laptop. Even at its lowest brightness, the 16-inch Liquid Retina XDR display is blindingly bright. Log into your email and Slack, open some dashboards, open Okta Verify on your phone,{{% margin-note side %}}Fuck Okta Verify.{{% /margin-note %}} and you've basically done everything you usually do at 9 a.m. on a regular workday. Six hours before you're supposed to be here, you're here. Still half asleep---no sense having any caffeine if the intention is to try to get back to sleep after this is over---this is really not the right kind of headspace to be in while poking at unfamiliar code on production systems. And since it's the middle of the night, nobody else is here to help diagnose or double-check anything. There would be a kind of disheartening loneliness here, if you had the mental acuity to notice it. Maybe you'll manually page somebody else to come and help. Or maybe you can't bear the thought of being the one responsible for pushing this on-call pain onto them.
 
+Eventually the problem gets solved one way or another. You close the laptop and try to quietly return to bed. Your significant other (if present) is awoken again by this. You end up lying there for a while, unable to go to sleep due to the mental exertion, the blue light from the screen, and a bit of adrenaline.
 
+Hey, you know what this sounds like? Anxiety! On-call basically causes anxiety. And if you're a person who _already has_ anxiety due to some other preexisting reason, congratulations! Now you have extra anxiety. And for what? Because some Kafka broker stopped running?
+
+## We need to talk about Kafka
+
+> I thought that since Kafka was a system optimized for writing, using a writer's name would make sense. I had taken a lot of lit classes in college and liked Franz Kafka. Plus the name sounded cool for an open source project.
+> <footer>Jay Kreps, <em>Kafka: The Definitive Guide</em>, Second Edition</footer>
+
+Jay Kreps worked on the technology that would eventually become **{{% link apache-kafka /%}}** while he was working at LinkedIn. Very broadly, Kafka can be thought of as a message queue that accepts data from one side and sends it out to one or many interested parties on the other side. Unlike a typical queue it also persists this stream of messages on disk so that processing can be deferred, batched, or even repeated at some future date. At scale, it may be tasked with handling such an immense quantity of data that the operation of the system becomes a major pain in the ass.
+
+Part of this operational difficulty is caused by the fact that Kafka runs on multiple discrete computers that must constantly cooperate with each other to behave as a single larger system.{{% margin-note side %}}Much like the Borg in _Star Trek_. But Google already {{% link wiki-borg-cluster-manager %}}took that name{{% /link %}}.{{% /margin-note %}} If any of the members of the cluster of computers becomed disconnected or degraded, the performance and stability of the entire group is impacted. If an organization runs Kafka in production, there is a very good chance it is routinely paging somebody due to low disk space, communication issues, or other inscrutable demons. 
+
+The sheer quantity of data that Kafka wants to write to its disks, as alluded to in the Kreps quote above, is what gives it its name. Apache Kafka writes a lot, just like author Franz Kafka did. Surely there is no reason to think any further about this.
+
+Franz Kafka created literary worlds in which unbearably absurd things happen for seemingly no reason and people are expected to simply endure them as if nothing out of the ordinary is going on. His environments only _partially_ make sense, producing bureaucracies that defy any attempt at comprehension. The protagonists in his stories feel alienated and isolated. A queasy undercurrent of anxiousness and sometimes outright horror runs through his whole oeuvre. The author was likely neurotic, he destroyed approximately 90% of everything he ever wrote, then he died well ahead of when he probably should have. In this regard, Apache Kafka shares some similarities.
+
+_That_ is how you justify the project's name. Saying "I took some literature classes in college and I thought I remembered liking them, I guess" is just intellectually lazy.
 
 ---
 
-- on-call in US-based big tech
-    - varies considerably
-        - it always seems to be the systems running on the thinnest margins that break. which is approximately everything.
-- it blows
-    - fires at miserable times. movie night, dinner, sleep
-        - it's dark, you're still asleep, you're alone. is this really the right headspace to be fixing stuff
-        - can't go back to sleep due to light
-        - people have anxiety
-    - i actually started hating my phone (maybe a good thing). that notification gave me PTSD
 - we need to talk about kafka
     - named in hilariously unintentional irony (insane worlds, destroyed 90% of writes, died leaving substantial work unfinished)
     - everybody wants it, nobody wants to run it, ends up falling to us
