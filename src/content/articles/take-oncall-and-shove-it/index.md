@@ -1,7 +1,7 @@
 +++
 title = 'Take This On-Call Rotation and Shove It'
 description = 'TODO'
-date = 2025-03-06
+date = 2025-03-20
 +++
 
 The familiar blue and gold intro graphic fills the screen every evening at six o'clock on the dot. The jabbing staccato string music conjures up vague secondhand memories of what a teletype machine might have sounded like. A high angle view of the studio floor with the large Lexan-clad desk in the middle, then a cross dissolve to a two shot of the anchors for this newscast. The music fades, each anchor introduces themselves, then they jump right into the top story. It's been this way for as long as anybody can remember. They've never failed to get this show on the air.
@@ -82,11 +82,13 @@ If a page is not acknowledged by the on-call engineer, usually there is a system
 
 In each of the setups described above, the team's manager may or may not be part of the escalation chain. If they are, it adds a whole new layer to the on-call calculus: Nobody wants their unacknowledged pages to end up notifying their manager.
 
-Oncall shifts occur one week out of every _N_ weeks, where _N_ is the number of people on the team. {{% margin-note %}}For primary/secondary arrangements, the shift frequency is _two_ weeks out of _N_, even though one of those weeks will ideally see no on-call load. Still, the secondary must remain available during that time.{{% /margin-note %}} If there are fifteen people on a team, each person will barely need to cover one shift per quarter. On a team of two, each person is on-call _every other week._ This is one of the most significant causes of variability, and it can change suddenly as team members go on vacation, take personal leave, or part ways with the team.
+On-call shifts occur one week out of every _N_ weeks, where _N_ is the number of people on the team. {{% margin-note %}}For primary/secondary arrangements, the shift frequency is _two_ weeks out of _N_, even though one of those weeks will ideally see few or zero pages. Still, the secondary must remain available during that time.{{% /margin-note %}} If there are fifteen people on a team, each person will barely need to cover one shift per quarter. On a team of two, each person is on-call _every other week._ This is one of the most significant causes of variability, and it can change suddenly as team members go on vacation, take personal leave, or part ways with the team.
 
 Sometimes life interferes with on-call scheduling, and in those times usually a team will have a mechanism for trading partial or complete shifts between themselves. If the active on-call engineer needs a few uninterrupted hours to attend a family function or something, they can find a different person on the team to cover the responsiblity for that time. At some future date, the favor can be repaid when the other person needs somebody to cover for them.
 
-As far as what the on-call engineer needs to do during the time between acknowledging a page and resolving the issue, this is another area of huge variance. Sometimes they'll need to log into some web UI and click one button. Sometimes they'll spend ten straight hours trying to resuscitate a completely inaccessible product. A single person may experience this much variance from one week to another just by luck of the draw.
+When an engineer receives a page and needs to do unplanned work in response to it, that work is called on-call **load**. Each organization has an expected amount of on-call load for each shift. Or rather, they're _supposed_ to, but it's not surprising to find places that have never given the policy any serious thought. If an excessive number of issues occur and the load exceeds the expected amount for the shift, it becomes on-call **pain**.{{% margin-note side %}}{{% link pagerduty-definitions %}}True fact.{{% /link %}} Why would I make that up?{{% /margin-note %}}
+
+As far as what the on-call engineer needs to do during periods of on-call load, the time between acknowledging a page and resolving the issue, this is another area of huge variance. Sometimes they'll need to log into some web UI and click one button. Sometimes they'll spend ten straight hours trying to resuscitate a completely inaccessible product. A single person may experience this much variance from one week to another just by luck of the draw.
 
 This is by no means a job requirement that is specific to the tech industry. Doctors and surgeons can be on-call. The building superintendent for an apartment complex can be on-call. The guy who fixes air conditioners can be on-call. The difference is that the people in those industries are fairly compensated for it.
 
@@ -100,7 +102,7 @@ This is by no means a job requirement that is specific to the tech industry. Doc
 
 There are ways at looking at employee wages in the US that are elegantly simple. A person is hired at a rate of $_X_/hour, they work for _Y_ hours in a week, and the total income is the product of those two numbers. There is a minimum wage at the federal and possibly state level that sets the minimum legal amount for $_X_. The employee should work a maximum of 40 hours in that week, otherwise they enter an **overtime** situation where their hourly $_X_ becomes $_X_ and a half. Those highfalutin white collar workers are basically the same, except their weeks are fixed at 40 hours so their wage stays the same week after week. That's how it works, right?
 
-This is the system laid out in the **{{% link wiki-fair-labor-standards-act /%}}** (FLSA). This is the law that underpins concepts like minimum wage, overtime, the 40-hour work week, and the notion that child labor probably isn't such a good thing to do. It also defines a set of **exemptions** to the act, thus creating the concept of an **exempt employee**. If you are a US-based tech worker in a full-time position, I'm going to take a stab in the dark and assume that you are almost certainly classified as an exempt employee. This means that _the FLSA effectively does not exist for you._ You are not guaranteed overtime, and you could conceivably work so many hours over the course of a week that your effective hourly pay ends up less than minimum wage.
+This is the system laid out in the **{{% link wiki-fair-labor-standards-act /%}}** (FLSA) and its many amendments. This is the law that underpins concepts like minimum wage, overtime, the 40-hour work week, and the notion that child labor probably isn't such a good thing to do. It also defines a set of **exemptions** to the rules, thus creating the concept of an **exempt employee**. If you are a US-based tech worker in a full-time position, I'm going to take a stab in the dark and assume that you are almost certainly classified as an exempt employee. This means that _the FLSA effectively does not exist for you._ You are not guaranteed overtime, and you could conceivably work so many hours over the course of a week that your effective hourly pay ends up less than minimum wage. {{% margin-note %}}I actually don't know if you could get away with hiring child labor by classifying them as exempt employees. I would guess not, or somebody out there would be doing it right now.{{% /margin-note %}}
 
 The FLSA is designed with repetitive and predictable work in mind: Somebody who works on an assembly line, or who moves boxes around in a warehouse, drivers and couriers, et cetera. Workers in these jobs have a tendency to produce a similar and predictable amount of work in any given hour. Drop in on them during any hour of any workday and observe roughly the same level of productivity that you would find from them at a different time.
 
@@ -110,29 +112,34 @@ All this is to say, there is nothing in the rules of this country that can prote
 
 So. With that bit of background out of the way, it's clear that there is no legal or regulatory requirement for an employer to pay anything for performing on-call duties. Based on my own experiences and informal polling of others in the same industry, the prevailing attitude is that on-call is part of the job and "baked in" with the total compensation. Again, this depends on the specific part of the industry, but many on-call shifts receive no additional compensation or consideration for carrying the pager. There is also usually nothing paid for actually responding to a page that occurs during that time.
 
-Most places won't even give you a phone or subsidize your mobile carrier bill. It's just assumed that you'll happily install PagerDuty or Opsgenie or some other hateful app that violates the sanctity of your personal device, right there on the home screen next to Okta Verify.{{% margin-note side %}}A brief aside: fuck Okta Verify.{{% /margin-note %}}
+Most places won't even give you a phone or subsidize your mobile carrier bill. It's just assumed that you'll happily install PagerDuty or Opsgenie or some other hateful app that violates the sanctity of your personal device, right there on the home screen next to Okta Verify.{{% margin-note side %}}A brief aside: Fuck Okta Verify.{{% /margin-note %}}
 
-And again, there is definitely variability in this area. Some places do pay a modest honorarium for each on-call shift worked. Some will provide payment or "unofficial" compensatory time to balance out a page handled outside of typical business hours.{{% margin-note side %}}And if your employer does this, a small question for you: Do they _also_ reduce the amount of sprint story points they expect you to work through?{{% /margin-note %}} I have heard legends of organizations where the teams are staffed adequately and the systems simply don't page. Can you imagine a magical place where a person is only on-call for like two weeks over the course of the last quarter, and who never got paged? I, who once spent an entire summer being on-call every other week while sometimes fielding a dozen pages in the span of a single day, cannot.
+And again, there is definitely variability in this area. Some places do pay a modest honorarium for each on-call shift worked. Some will provide payment or "unofficial" compensatory time to balance out a page handled outside of typical business hours.{{% margin-note side %}}And if your employer does this, a small question for you: Do they _also_ reduce the amount of sprint story points they expect you to work through?{{% /margin-note %}} I have heard legends of organizations where the teams are staffed adequately and the systems simply don't page. Can you imagine a magical place where a person is only on-call for like two weeks over the course of the last quarter, and who never got paged? I, who once spent an entire summer being on-call every other week while occasionally fielding a dozen pages in the span of a single day, cannot.
 
-Perhaps the biggest source of variability comes from a team's willingness to improve the situation as opposed to simply accepting that things are the way they're meant to be. Some teams view a page as a signal that something needs to be immediately fixed to prevent that specific thing from ever happening again. Other teams view it as something that just happens, a natural consequence of supporting a product. It is the manifestation of technical debt that has been boiling for years, looking for a pressure relief valve to escape through, and it just happened to find its release through your pager. Oddly enough, the teams that are most willing to actually prevent pages from recurring are also the most likely to actually write and maintain their on-call runbooks. Sometimes the runbook is the only friend an on-call engineer has.
+Perhaps the biggest source of variability comes from a team's willingness to improve the situation as opposed to simply accepting that things are the way they're meant to be. Some teams view a page as a signal that something needs to be immediately fixed to prevent that specific thing from ever happening again. Other teams view it as something that just happens as a natural consequence of supporitng a product, like a smoke detector battery chirp that everybody has learned to tune out over the course of many months. It is the manifestation of technical debt that has been boiling for years, looking for a pressure relief valve to escape through, and it just happened to find its release through your pager. Oddly enough, the teams that are most willing to actually prevent pages from recurring are also the most likely to actually write and maintain their on-call runbooks. Sometimes the runbook is the only friend an on-call engineer has.
 
----
-
-> I'm getting pages outta New Jersey from Courtney B\
-> Telling me about a party up in NYC
-> <footer>Nelly feat. City Spud, &ldquo;Ride wit Me&rdquo;</footer>
-
----
+## TODO
 
 > **Bart:** Milhouse, how could you let this happen? You were supposed to be the night watchman!
 >
 > **Milhouse:** I was watching. I saw the whole thing. First it started falling over, then it fell over.
 > <footer><em>The Simpsons</em>, &ldquo;Homer&rsquo;s Enemy&rdquo; (Season 8 Episode 23)</footer>
 
----
+A page can conceivably come at any time, day or night. The on-call engineer usually needs to receive the alert and begin working on the issue within a span of minutes, which means that this person must have a suitable work computer and sufficient internet connectivity available within that time commitment. Unless they take their bulky work laptop with them, {{% margin-note %}}By the way, not everybody lives in a perfectly harmonious area. There are plenty of places where computer bags get stolen from parked cars. Carrying this stuff around is a _genuine risk_ for some people.{{% /margin-note %}} it's not possible to travel anywhere that takes more than a few minutes to return from. They need always remain cognizant of their phone's signal quality and the availability of nearby Wi-Fi networks.
 
-> **Jesse:** We make poison for people who don't care. We probably have the most unpicky customers in the world.
-> <footer><em>Breaking Bad</em>, &ldquo;Fly&rdquo; (Season 3 Episode 10)</footer>
+Even certain household tasks---cutting the grass for example---require special attention. If a page comes in during that time, they'll most likely need to put the mower away to some degree {{% margin-note %}}In some areas, an unattended mower might get swiped. In others, it could lead to an HOA fine.{{% /margin-note %}} before going inside to clean up enough to do knowledge work. It's mentally taxing to jump from domestic labor to problem-solving knowledge work, and it's equally difficult to go back when the issue is finally resolved.
+
+It turns out that there are many things in life that are technically compatible with an on-call shift, but which require such delicate planning and consideration that it sometimes ends up being easier to just not bother doing any of that stuff during an on-call week. No significant travel or long walks/drives, no excessive drinking or partying, no ability to simply unplug and decompress. Even if a page never actually comes, there is always the _potential_ for a page to come. Maybe the primary on-call turned off his phone without telling anybody so he could attend a screening of _Oppenhemier_.{{% margin-note side %}}Actually happened.{{% /margin-note %}} Maybe there's time to quickly run to the grocery store and back, but it might be cutting it close. Maybe it's better to just stay home. Park in front of the TV and run out the clock. But don't watch anything too engrossing; getting paged right during the good part really sucks.
+
+This tends to happen eventually, even at organizations where the expected on-call load is near zero. It's not possible to live life completely normally while staying prepared to handle any page at any time.
+
+And, of course, when a page does come, it manages to find the most inopportune times to do so. I've been paged during nice dinners, in the middle of live entertainment, and at times that rightly should've been devoted to time with family members and friends.
+
+Also sleep. So many pages during overnight hours.
+
+Here's what happens when a page occurs in the middle of the night: First, if you happen to have a significant other, it invariably wakes them up before it wakes you. You get out of bed. It's dark. It's cold. You open your work laptop. Even at its lowest brightness, the 16-inch Liquid Retina XDR display is blindingly bright. Log into your email and Slack, open some dashboards, open Okta Verify on your phone,{{% margin-note side %}}Fuck Okta Verify.{{% /margin-note %}} and you've basically done everything you usually do at 9 a.m. on a regular workday. Six hours before you're supposed to be here, you're here.
+
+
 
 ---
 
@@ -140,20 +147,11 @@ Perhaps the biggest source of variability comes from a team's willingness to imp
     - varies considerably
         - it always seems to be the systems running on the thinnest margins that break. which is approximately everything.
 - it blows
-    - somebody turns their phone off to see Oppenheimer
-    - can't travel, drink, unplug. can't cut the grass because it takes too long to put the mower away.
-    - need computer and internet. it's unpleasant to carry, unwise to keep in vehicle in some areas
-    - maybe just stay home
     - fires at miserable times. movie night, dinner, sleep
-        - wakes up significant other
         - it's dark, you're still asleep, you're alone. is this really the right headspace to be fixing stuff
         - can't go back to sleep due to light
-    - after a while just the weight of "maybe" really interferes with life
+        - people have anxiety
     - i actually started hating my phone (maybe a good thing). that notification gave me PTSD
-    - sometimes the issue can't be fixed
-        - the more the org farms out to third parties, the more bizarre and unpredictable (and unfixable) the problems become
-        - hurricane sandy is bearing down and the fuel pumps at 33 whitehall flooded
-        - us-east-1 fails
 - we need to talk about kafka
     - named in hilariously unintentional irony (insane worlds, destroyed 90% of writes, died leaving substantial work unfinished)
     - everybody wants it, nobody wants to run it, ends up falling to us
@@ -165,6 +163,10 @@ Perhaps the biggest source of variability comes from a team's willingness to imp
         - do you actually have contracts or SLAs?
         - if you're not on-call, you're not doing anything important!
         - find your impostor syndrome. if this was important, why would they trust me with it?
+        - sometimes the issue can't be fixed
+            - the more the org farms out to third parties, the more bizarre and unpredictable (and unfixable) the problems become
+            - hurricane sandy is bearing down and the fuel pumps at 33 whitehall flooded
+            - us-east-1 fails
     - multiple teams, follow the sun
         - what about weekends and holidays? maybe don't do it
     - make it voluntary. nobody will want to do it. so entice them to want to do it.
@@ -179,3 +181,14 @@ Perhaps the biggest source of variability comes from a team's willingness to imp
     - when i asked if this is important, i bet you answered from the company's perspective. i'm asking you now -- is this important _to you?_
     - 5,000 weeks if you're lucky
     - just shy of 2k, meant what i said. i have been paged enough
+
+---
+
+> I'm getting pages outta New Jersey from Courtney B\
+> Telling me about a party up in NYC
+> <footer>Nelly feat. City Spud, &ldquo;Ride wit Me&rdquo;</footer>
+
+---
+
+> **Jesse:** Look, I like making cherry product, but let's keep it real, alright? We make poison for people who don't care. We probably have the most unpicky customers in the world.
+> <footer><em>Breaking Bad</em>, &ldquo;Fly&rdquo; (Season 3 Episode 10)</footer>

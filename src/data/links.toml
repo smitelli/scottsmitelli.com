@@ -445,6 +445,10 @@ text = 'OpenAI'
 href = 'https://www.charlessoft.com/'
 text = 'Pacifist'
 
+[pagerduty-definitions]
+href = 'https://reviews.pagerduty.com/definitions/'
+text = 'Definitions - PagerDuty Operational Reviews Documentation'
+
 [pal-4-percent-speedup]
 href = 'https://web.archive.org/web/20240525134227/http://www.michaeldvd.com.au/articles/PALSpeedUp/PALSpeedUp.asp'
 text = "PAL's 4% Speedup"
