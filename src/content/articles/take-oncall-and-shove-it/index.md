@@ -118,12 +118,13 @@ And again, there is definitely variability in this area. Some places do pay a mo
 
 Perhaps the biggest source of variability comes from a team's willingness to improve the situation as opposed to simply accepting that things are the way they're meant to be. Some teams view a page as a signal that something needs to be immediately fixed to prevent that specific thing from ever happening again. Other teams view it as something that just happens as a natural consequence of supporitng a product, like a smoke detector battery chirp that everybody has learned to tune out over the course of several years. It is the manifestation of technical debt that has been boiling for years, looking for a pressure relief valve to escape through, and it just happened to find its release through your pager. Oddly enough, the teams that are most willing to actually prevent pages from recurring are also the most likely to actually write and maintain their on-call runbooks. Sometimes the runbook is the only friend an on-call engineer has.
 
-## Everything is catching, yes, everything is catching on fire
+## 168 long, cold, lonely hours
 
-> **Bart:** Milhouse, how could you let this happen? You were supposed to be the night watchman!
->
-> **Milhouse:** I was watching. I saw the whole thing. First it started falling over, then it fell over.
-> <footer><em>The Simpsons</em>, &ldquo;Homer&rsquo;s Enemy&rdquo; (Season 8 Episode 23)</footer>
+> All I wanna do all day is spend it in bed\
+> But that's bad for the body and even worse for my head\
+> So I'll try and find a place where no one will ask me a thing\
+> It'll help me to forget and help me to sing
+> <footer>Reel Big Fish, &ldquo;Drunk Again&rdquo;</footer>
 
 A page can conceivably come at any time, day or night. The on-call engineer usually needs to receive the alert and begin working on the issue within a span of minutes, which means that this person must have a suitable work computer and sufficient internet connectivity available within that time commitment. Unless they take their bulky work laptop with them, {{% margin-note %}}By the way, not everybody lives in a perfectly harmonious area. There are plenty of places where computer bags get stolen from parked cars. Carrying this stuff around is a _genuine risk_ for some people.{{% /margin-note %}} it's not possible to travel anywhere that takes more than a few minutes to return from. They need always remain cognizant of their phone's signal quality and the availability of nearby Wi-Fi networks.
 
@@ -154,14 +155,13 @@ Part of this operational difficulty is caused by the fact that Kafka runs on mul
 
 The sheer quantity of data that Kafka wants to write to its disks, as alluded to in the Kreps quote above, is what gives it its name. Apache Kafka writes a lot, just like author Franz Kafka did. Surely there is no reason to think any further about this.
 
-Franz Kafka created literary worlds in which unbearably absurd things happen for seemingly no reason and people are expected to simply endure them as if nothing out of the ordinary is going on. His environments only _partially_ make sense, producing bureaucracies that defy any attempt at comprehension. The protagonists in his stories feel alienated and isolated. A queasy undercurrent of anxiousness and sometimes outright horror runs through his whole oeuvre. The author was likely neurotic, he destroyed approximately 90% of everything he ever wrote, then he died well ahead of when he probably should have. In this regard, Apache Kafka shares some similarities.
+Franz Kafka created literary worlds in which unbearably absurd things happen for seemingly no reason and people are expected to simply endure them as if nothing out of the ordinary is going on. His environments only _partially_ make sense, producing bureaucracies that defy any attempt at comprehension. The protagonists in his stories feel alienated and isolated. A queasy undercurrent of anxiousness and sometimes outright horror runs through his whole oeuvre. The author was likely neurotic, he destroyed approximately 90% of everything he ever wrote, then he died well ahead of when he probably should have---leaving several substantial works unfinished. In this regard, Apache Kafka shares some similarities.
 
 _That_ is how you justify the project's name. Saying "I took some literature classes in college and I thought I remembered liking them, I guess" is just intellectually lazy.
 
 ---
 
 - we need to talk about kafka
-    - named in hilariously unintentional irony (insane worlds, destroyed 90% of writes, died leaving substantial work unfinished)
     - everybody wants it, nobody wants to run it, ends up falling to us
     - nobody has ever adequately described the reason for it
 - alternatives
@@ -200,3 +200,29 @@ _That_ is how you justify the project's name. Saying "I took some literature cla
 
 > **Jesse:** Look, I like making cherry product, but let's keep it real, alright? We make poison for people who don't care. We probably have the most unpicky customers in the world.
 > <footer><em>Breaking Bad</em>, &ldquo;Fly&rdquo; (Season 3 Episode 10)</footer>
+
+---
+
+> **Bart:** Milhouse, how could you let this happen? You were supposed to be the night watchman!
+>
+> **Milhouse:** I was watching. I saw the whole thing. First it started falling over, then it fell over.
+> <footer><em>The Simpsons</em>, &ldquo;Homer&rsquo;s Enemy&rdquo; (Season 8 Episode 23)</footer>
+
+
+
+Well there never were any good old days
+Looking back, I'm still amazed
+That everything went wrong in every way
+There were no good old days
+RBF the joke's on me
+
+I know, you feel like a whore
+Working for a dream that isn't even yours
+Pleasing everybody but yourself
+Would you rather be, somewhere else with someone else?
+RBF SAY GOODBYE
+
+From the moment of my birth to the instant of my death
+There are patterns I must follow just as I must breathe each breath
+Like a rat in a maze the path before me lies
+And the pattern never alters until the rat dies
