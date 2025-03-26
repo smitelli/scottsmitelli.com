@@ -16,9 +16,15 @@ weight = 20
 
 # Scott Smitelli &bull; scott@smitelli.com
 
-Senior backend and DevOps engineer with over ten years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Likes tinkering with the interesting aspects of technology while automating the more tedious bits.
+Senior backend and cloud engineer with fifteen years of experience. Enjoys interpreted languages such as Python and environments where infrastructure is code. Likes tinkering with the interesting aspects of technology while automating the more tedious bits.
 
 ## Experience
+
+### GoDental.ai &bull; Software Engineer <span class="date-range">Jun 2024--present</span>
+
+Productionized a suite of Python data collection and ETL scripts into AWS Lambda with persistent storage in RDS and S3. Optimized RDS deployment to reduce costs and minimize latency in the data ingestion pipeline. Migrated the company's entire DNS zone into a managed CDK stack. Implemented layout improvements and sorting/filtering capabilities in the customer-facing React web application.
+
+- _Technologies:_ AWS (CDK/CloudFormation, Lambda, API Gateway, Cognito, CloudFront, Route 53, Amplify, RDS, S3, SQS), Python, Gemini API, PostgreSQL, Docker, React, Material UI, Git
 
 ### Nextdoor &bull; Software Engineer<!-- 4 -->, Cloud <span class="date-range">Jan 2022--Aug 2023</span>
 
@@ -40,19 +46,15 @@ As the first full-time employee, built out all of the infrastructure and web-fac
 
 ### Maker Studios _(formerly Blip Networks)_ &bull; Senior Engineer <span class="date-range">Sep 2013--Jun 2015</span>
 
-Built and maintained backend software for ingesting, transcoding, and serving web video; served as a systems engineer when necessary. Implemented API servers---some handling 1,800 requests/second at peak, reporting scripts, and translation tools to assist with the acquisition by Maker Studios. Migrated applications from physical data centers to virtual machine hosts and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
-
-- _Technologies:_ Python, JavaScript/Node.js, Express, Puppet, AWS EC2, Linux (CentOS/Ubuntu), Apache, nginx, Varnish, MySQL, MongoDB, Elasticsearch, MogileFS, Git, Bash, FFmpeg, Nagios, Logstash, StatsD
+Built and maintained software for ingesting, transcoding, and serving web video; served as a systems engineer. Implemented API servers---some handling 1,800 requests/second, reporting scripts, and translation tools during the acquisition by Maker Studios. Migrated applications from bare-metal to hypervisors and AWS. Assisted with the teardown of a monolithic Perl application and replacement with loosely-coupled microservices, all managed using Puppet.
 
 ### Thomson Reuters &bull; Web Developer <span class="date-range">Jan 2013--Sep 2013</span>
 
-Received control of a prototype of Reuters Next, a complete rewrite of the Reuters.com news platform with re-imagined UX interactions and backend services. Implemented additional features, practiced test-driven development, and productionized the site for deployment on AWS. Navigated the knowledge transfer period between the outside agency that built the prototype and an offshore engineering and QA team.
-
-- _Technologies:_ Python, JavaScript, HTML, SASS/SCSS, Tornado, Backbone.js, jQuery, AWS EC2, nginx, MongoDB, Redis, Git, Adobe Photoshop, Jira
+Took ownership of the Reuters Next, a prototype of the Reuters.com news platform with re-imagined UX and a modern backend. Implemented features, practiced test-driven development, and productionized the site for deployment on AWS. Navigated the knowledge transfer between the prototyping agency and an offshore engineering and QA team.
 
 ### Worldnow &bull; Senior Interactive Development Manager <span class="date-range">Nov 2011--Jan 2013</span>
 
-Built customized frontend features for a content management platform used by dozens of television news stations across North America. Advised client services managers about the feasibility and scheduling of such requests. Assisted with a global conversion of all site templates to responsive web design. Created libraries to simplify the implementation of common customizations.
+Built custom frontend features for a content management platform used by dozens of television news stations across North America. Advised client services managers on the feasibility and scheduling of such requests. Assisted with a global conversion of all web templates to responsive design. Created libraries to simplify shared customizations.
 
 ### Abrams Media &bull; Lead Developer <span class="date-range">Jan 2010--Nov 2011</span>
 
@@ -69,8 +71,8 @@ Recorded, edited, and/or mixed audio on six independent feature films and over 4
 ## Interests
 
 - _Retrocomputing:_ ANSI C and 16-bit x86 assembly language under MS-DOS.
-- _Technical Writing and Drawing:_ Articles and sketches with insights on audio, technology, and the peculiarities of the Internet.
-- _Pop Music Mashups:_ The vocals of one song over the instrumentals of another, leading to some truly incongruous combinations.
+- _Technical Writing and Drawing:_ Articles and sketches on technology, audio, and the peculiarities of the Internet.
+- _Music Mashups:_ The vocals of one song over the instrumentals of another, leading to truly incongruous combinations.
 - _Photography:_ Long-exposure night shots and time-lapse video sequences, shot digitally.
 - _Electronics and Wiring:_ Can crimp a pretty mean Ethernet cable.
 

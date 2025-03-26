@@ -55,6 +55,11 @@ article .date-range {
         margin-top: 0;
     }
 
+    article h3, article p, article ul {
+        margin-top: 0.9rem;
+        margin-bottom: 0.9rem;
+    }
+
     article ul {
         padding-left: 0.8rem;
     }
