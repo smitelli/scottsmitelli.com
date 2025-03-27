@@ -47,6 +47,10 @@ text = 'Angelo DiNardi'
 href = 'https://www.anthropic.com/'
 text = 'Anthropic'
 
+[apache-kafka]
+href = 'https://kafka.apache.org/'
+text = 'Apache Kafka'
+
 [apple-faq-itunes-store-movie-rental]
 href = 'https://web.archive.org/web/20080406121746/https://docs.info.apple.com/article.html?artnum=307257'
 text = 'iTunes Store Movie Rental FAQ'
@@ -86,6 +90,10 @@ text = 'Patents - Audible Magic'
 [audiocourses-mono-compatibility-and-phase-cancellation]
 href = 'https://web.archive.org/web/20170817034120/http://www.audiocourses.com/2012/02/10/mono-compatibility-and-phase-cancellation/'
 text = 'Mono Compatibility and Phase Cancellation'
+
+[aws-2017-outage]
+href = 'https://aws.amazon.com/message/41926/'
+text = 'Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region'
 
 [bastard-operator-from-hell]
 href = 'https://web.archive.org/web/20151205062358/http://bofh.ntk.net/BOFH/index.php'
@@ -179,6 +187,10 @@ text = 'End of Support: Discontinued Cync Devices'
 href = 'https://darrellmstark.squarespace.com/'
 text = 'Darrell M. Stark'
 
+[datacenterknowledge-after-sandy]
+href = 'https://www.datacenterknowledge.com/security-and-risk-management/after-sandy-datagram-recovers-from-apocalyptic-flood'
+text = "After Sandy: Datagram Recovers From 'Apocalyptic' Flood"
+
 [debian]
 href = 'https://www.debian.org/'
 text = 'Debian'
@@ -194,6 +206,10 @@ text = 'Discord'
 [docroute-source]
 href = 'https://github.com/smitelli/docroute'
 text = 'smitelli/docroute'
+
+[dol-17e-overtime-computer]
+href = 'https://www.dol.gov/agencies/whd/fact-sheets/17e-overtime-computer'
+text = 'Fact Sheet #17E: Exemption for Employees in Computer-Related Occupations Under the Fair Labor Standards Act (FLSA)'
 
 [easymoblog]
 href = 'https://web.archive.org/web/20060512045931/http://www.easymoblog.org/'
@@ -441,6 +457,10 @@ text = 'OpenAI'
 href = 'https://www.charlessoft.com/'
 text = 'Pacifist'
 
+[pagerduty-definitions]
+href = 'https://reviews.pagerduty.com/definitions/'
+text = 'Definitions - PagerDuty Operational Reviews Documentation'
+
 [pal-4-percent-speedup]
 href = 'https://web.archive.org/web/20240525134227/http://www.michaeldvd.com.au/articles/PALSpeedUp/PALSpeedUp.asp'
 text = "PAL's 4% Speedup"
@@ -676,9 +696,17 @@ text = 'Bender Should Not Be Allowed on TV'
 href = 'https://en.wikipedia.org/wiki/Blame_Canada'
 text = 'Blame Canada'
 
+[wiki-borg-cluster-manager]
+href = 'https://en.wikipedia.org/wiki/Borg_(cluster_manager)'
+text = 'Borg (cluster manager)'
+
 [wiki-brownian-motion]
 href = 'https://en.wikipedia.org/wiki/Brownian_motion'
 text = 'Brownian motion'
+
+[wiki-bystander-effect]
+href = 'https://en.wikipedia.org/wiki/Bystander_effect'
+text = 'Bystander effect'
 
 [wiki-chef-aid]
 href = 'https://en.wikipedia.org/wiki/Chef_Aid'
@@ -712,6 +740,10 @@ text = 'Compact Disc Digital Audio'
 href = 'https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population'
 text = 'List of countries and dependencies by population'
 
+[wiki-crab-mentality]
+href = 'https://en.wikipedia.org/wiki/Crab_mentality'
+text = 'Crab mentality'
+
 [wiki-crop-milk]
 href = 'https://en.wikipedia.org/wiki/Crop_milk'
 text = 'Crop milk'
@@ -744,6 +776,10 @@ text = 'Endianness'
 href = 'https://en.wikipedia.org/wiki/Engrish'
 text = 'Engrish'
 
+[wiki-fair-labor-standards-act]
+href = 'https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act_of_1938'
+text = 'Fair Labor Standards Act of 1938'
+
 [wiki-futurama]
 href = 'https://en.wikipedia.org/wiki/Futurama'
 text = 'Futurama'
@@ -760,9 +796,17 @@ text = 'Help:Infobox'
 href = 'https://en.wikipedia.org/wiki/Help:Wikitext'
 text = 'Help:Wikitext'
 
+[wiki-high-availability-nines]
+href = 'https://en.wikipedia.org/wiki/High_availability#%22Nines%22'
+text = '"Nines"'
+
 [wiki-hypnotoad]
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
+
+[wiki-kenneth-parcell]
+href = 'https://en.wikipedia.org/wiki/Kenneth_Parcell'
+text = 'Kenneth Parcell'
 
 [wiki-mr-ouch]
 href = 'https://en.wikipedia.org/wiki/Mr._Ouch'
