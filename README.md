@@ -45,7 +45,7 @@ hugo gen chromastyles --style=onedark > assets/scss/syntax.scss
 
 ## Image Conversion
 
-```console
+```bash
 # Lossy
 ffmpeg -i IN.png -codec:v libaom-av1 -still-picture:v 1 OUT.avif
 
@@ -60,7 +60,7 @@ ffmpeg -i IN.png -codec:v libaom-av1 -crf:v 0 -still-picture:v 1 OUT-LOSSLESS.av
 
 All of the audio examples used on this site (ideally) begin as WAV files. These are hosted to clients that need/care about them, but smaller derivatives are built in MP3 and FLAC. These three file formats were found to have the ideal balance of browser support, audio quality, and file size as of 2024.
 
-```console
+```bash
 # Use joint_stereo 0 in specific cases where the channels are not correlated
 ffmpeg -i IN.wav -codec:a libmp3lame -b:a 128k -joint_stereo:a 1 OUT.mp3
 
@@ -68,6 +68,16 @@ ffmpeg -i IN.wav -codec:a flac -compression_level:a 12 OUT.flac
 ```
 
 ## Editing Tips
+
+Actually try to remember to use Hugo's archetypes feature:
+
+```bash
+hugo new content articles/hello-title
+
+hugo new content projects/hello-title
+```
+
+Other reminders, in no particular order:
 
 - If you forget how to do something, do what the Demo page did.
 - Don't use Markdown links; use `links.toml` to centralize them.
