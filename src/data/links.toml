@@ -231,6 +231,10 @@ text = 'BMP - Image File Format'
 href = 'https://fonts.google.com/specimen/Fira+Mono'
 text = 'Fira Mono'
 
+[frontega-chicken-panini]
+href = 'https://tsdr.uspto.gov/#caseNumber=78310743&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch'
+text = 'USPTO Trademark Search - FRONTEGA CHICKEN PANINI'
+
 [gebb-doom]
 href = 'https://fabiensanglard.net/gebbdoom/'
 text = 'Game Engine Black Book: Doom'
