@@ -1,7 +1,7 @@
 +++
 title = 'Et tu, Panera?'
 description = 'TODO'
-date = 2025-05-08
+date = 2025-05-09
 +++
 
 {{% epigraph %}}
@@ -71,7 +71,7 @@ Similar to the previous sheet, this one is summarily dismissed and the candy coo
 
 From this point, the ordering process is fairly uneventful. It shows a summary of the order, prompts for dine-in or take-out, asks me to pick up a pager and enter its number, and it provides me the option of entering my phone number for text updates about the status of the food's preparation. Perhaps if it auto-filled the number entry box with the phone number I used to sign into MyPanera, I'd be more inclined to use that feature. But no, yet another missed opportunity to make this convenient for the user.
 
-## On Micro-Indignities
+## On micro-indignities
 
 Without knowing anything about the team structure or engineering culture that produced this software, I have a hunch that a Gerald Weinberg quote would describe the circumstances fairly well: _"Things are the way they are because they got that way."_
 
@@ -81,4 +81,35 @@ By examining other paths through the kiosk software flow, it becomes apparent th
 
 The problem is the blind, unilateral application of that same shot-in-the-dark logic to loyal customers who already know the menu and _whose entire order history can be retrieved and analyzed._ It would not be terribly difficult, from a software complexity standpoint, to add a conditional check that says "hey this person has ordered from us before, let's skip showing them this junk." And it would not be an insurmountable feat of engineering to go above and beyond to "hey this person orders something with chicken every time, let's show them every chicken dish we have." With all the machine learning and LLM noise being crammed into every facet of daily life, it's franlky incredible how offensively dumb these interactions are.
 
-And it is not simply that they are dumb. They are also unavoidable---_inevitable._ Sure as the sun rises in the east, the kiosk at Panera is going to ask me an identical dumb question that it should already know the answer to and it is going to waste a tiny sliver of my time. Over and over. At least until the software is rewritten to make it equally awful in some new way. Or until Panera goes bankrupt and gets hollowed out by some private equity firm. Or until I need an atherectomy from all the mac and cheese and my arteries get hollowed out by some cardiologist.
+And it is not simply that they are dumb. They are also unavoidable---_inevitable._ Sure as the sun rises in the east, the kiosk at Panera is going to ask me an identical dumb question that it should already know the answer to and it is going to waste a tiny sliver of my time. Over and over. At least until the software is rewritten to make it equally awful in some new way. Or until Panera goes bankrupt and gets hollowed out by some private equity firm. Or until my arteries, clogged up from all that mac and cheese, get hollowed out by some cardiologist.
+
+---
+
+- On Souls
+    - christian school talls me i have a soul
+    - i had to learn that around the time my great grandmother died
+    - things do not -- but why do we call them soulless?
+    - things do have a soul, which is the sum of the design and implementation choices of its creators
+    - everybody who designed and built the model T is dead. but their work lives on
+- On Permanence
+    - does a car in a field exist even though it's not fit for purpose and unseen?
+    - does a story on a page folded into a book exist?
+    - does a programmer's intent trapped in electrical charge in an IC exist?
+    - even this article only exists on a few personal storage areas, possibly the internet archive and an LLM, and your browser's cache. stop engaging with it, it goes away.
+    - how about the ways these things make you feel? that can be carried away and last long
+- On Responsibility
+    - if you had a friend who interrupted you with irrelevant self-promotion, who refused to learn your tastes or honor your requests to shut the hell up, you might justifiably push them out of a moving car.
+    - this person is a source of negative emotions
+    - everything hates us
+        - self checkout
+        - website popovers
+        - marketing nonsense in push notifications
+    - these things are a source of negative emotions
+    - i can leave my cart in the aisle and annoy perhaps a dozen people before the manager removes me
+    - with a few mouse strokes, a team can annoy hundreds of millions all at once and nobody in authority stops them
+    - watch people
+        - using kiosks and getting frustrated
+        - enduring gas pumps that blast ads
+        - entering info on an automotive touch screen that changes right before they make a selection
+        - people who don't know the software training new hires how to use the software
+    - nobody knows how many of these annoyances equal one punch in the stomach, and how many of those in turn equal one complete emotional breakdown. but we are all figuring that out empirically every day.
