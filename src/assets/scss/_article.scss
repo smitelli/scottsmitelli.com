@@ -170,12 +170,18 @@ article {
         text-align: right;
     }
 
+    li {
+        ol, ul {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
     small {
         font-size: 0.8em;
     }
 
     table {
-
         th, td {
             padding: 0 0.5em;
             font-size: 0.85em;
