@@ -170,12 +170,18 @@ article {
         text-align: right;
     }
 
+    li {
+        ol, ul {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
     small {
         font-size: 0.8em;
     }
 
     table {
-
         th, td {
             padding: 0 0.5em;
             font-size: 0.85em;
@@ -231,7 +237,7 @@ article {
 
     .small-caps {
         font-size: 1.25em;
-        line-height: 1.19;
+        line-height: 1.231;
         @include small-caps;
     }
 }

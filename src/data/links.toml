@@ -179,6 +179,10 @@ text = 'smitelli/cosmore'
 href = 'https://www.cracked.com/article_35041_all-glory-to-the-hypnotoad-an-oral-history-of-futuramas-mind-altering-amphibian.html'
 text = "All Glory To The Hypnotoad: An Oral History of Futurama's Mind-Altering Amphibian"
 
+[crankysec-store-fwd]
+href = 'https://store.crankysec.com/products/fwd'
+text = 'FWD! - CrankySec Store'
+
 [cync-discontinued-devices]
 href = 'https://cyncsupport.gelighting.com/s/article/end-of-support?language=en_US'
 text = 'End of Support: Discontinued Cync Devices'
@@ -231,6 +235,10 @@ text = 'BMP - Image File Format'
 href = 'https://fonts.google.com/specimen/Fira+Mono'
 text = 'Fira Mono'
 
+[frontega-chicken-panini]
+href = 'https://tsdr.uspto.gov/#caseNumber=78310743&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch'
+text = 'USPTO Trademark Search - FRONTEGA CHICKEN PANINI'
+
 [gebb-doom]
 href = 'https://fabiensanglard.net/gebbdoom/'
 text = 'Game Engine Black Book: Doom'
@@ -270,6 +278,10 @@ text = 'Making money on YouTube with Content ID'
 [googleblog-state-of-our-video-id-tools]
 href = 'https://googleblog.blogspot.com/2007/06/state-of-our-video-id-tools.html'
 text = 'The state of our video ID tools'
+
+[hn-comment-microsoft-macs]
+href = 'https://news.ycombinator.com/item?id=35267176'
+text = '"A hilarious example of this is seeing Microsoft use Macs..."'
 
 [hn-comment-uni-trend]
 href = 'https://news.ycombinator.com/item?id=31601578'
@@ -351,6 +363,10 @@ text = 'We Have Food at Home'
 href = 'https://koble.sg/can-your-smart-home-still-function-without-the-internet/'
 text = 'Can Your Smart Home Still Function Without the Internet?'
 
+[krebsonsecurity-panerabread-com]
+href = 'https://krebsonsecurity.com/2018/04/panerabread-com-leaks-millions-of-customer-records/'
+text = 'Panerabread.com Leaks Millions of Customer Records - Krebs on Security'
+
 [lalal-ai]
 href = 'https://www.lalal.ai/'
 text = 'Lalal.ai'
@@ -380,6 +396,14 @@ text = 'Linode'
 [lora-font]
 href = 'https://fonts.google.com/specimen/Lora'
 text = 'Lora'
+
+[ludic-powerbi-is-a-human-rights-violation]
+href = 'https://ludic.mataroa.blog/blog/powerbi-is-a-human-rights-violation/'
+text = 'PowerBI Is A Human Rights Violation - Ludicity'
+
+[ludic-your-organization-probably-doesnt-want-to-improve-things]
+href = 'https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/'
+text = "Your Organization Probably Doesn't Want To Improve Things - Ludicity"
 
 [m-audio-bx5a]
 href = 'https://web.archive.org/web/20090220060456/http://www.m-audio.com/products/en_us/StudiophileBX5a.html'
@@ -416,6 +440,10 @@ text = 'Mistral AI'
 [ms-translator-api]
 href = 'https://www.microsoft.com/en-us/translator/business/translator-api/'
 text = 'Microsoft Translator Text API'
+
+[never-forgive-them]
+href = 'https://www.wheresyoured.at/never-forgive-them/'
+text = 'Never Forgive Them'
 
 [newyorker-horror-amazons-new-dash-button]
 href = 'https://www.newyorker.com/culture/culture-desk/the-horror-of-amazons-new-dash-button'
@@ -952,6 +980,10 @@ text = 'Excelent grass cutting'
 [youtube-judge-judy-intro-2004]
 href = 'https://www.youtube.com/watch?v=5xrqgwzkJ6Y'
 text = 'Judge Judy Intro 2004-2008'
+
+[youtube-kars4kids-jingle]
+href = 'https://www.youtube.com/watch?v=ybJ6fS7ruuo'
+text = 'Kars4kids Jingle'
 
 [youtube-mannheim-steamroller-synthesia]
 href = 'https://www.youtube.com/watch?v=6Yw84GhGWfY'
