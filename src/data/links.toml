@@ -135,6 +135,10 @@ text = 'CommonMark Spec'
 href = 'https://sourceforge.net/projects/comoblog/'
 text = 'CoMoblog'
 
+[copy-v86-windows-1]
+href = 'https://copy.sh/v86/?profile=windows1'
+text = 'Windows 1.01 - v86'
+
 [cosmodoc]
 href = 'https://cosmodoc.org/'
 text = 'Cosmodoc'
@@ -219,6 +223,10 @@ text = 'Fact Sheet #17E: Exemption for Employees in Computer-Related Occupations
 href = 'https://web.archive.org/web/20060512045931/http://www.easymoblog.org/'
 text = 'EasyMoblog'
 
+[eevee-rise-of-whatever]
+href = 'https://eev.ee/blog/2025/07/03/the-rise-of-whatever/'
+text = 'The rise of Whatever'
+
 [engadget-quicktime-7-4-update-a-nono]
 href = 'https://www.engadget.com/2008-01-23-after-effects-7-users-quicktime-7-4-update-a-nono.html'
 text = 'After Effects 7 users: QuickTime 7.4 update a nono'
@@ -230,6 +238,10 @@ text = "Ben Burtt Explains How He Created the Sound of the Millennium Falcon's H
 [fileformat-bmp]
 href = 'https://docs.fileformat.com/image/bmp/'
 text = 'BMP - Image File Format'
+
+[fileformat-punctuation-dash]
+href = 'https://www.fileformat.info/info/unicode/category/Pd/list.htm'
+text = "Unicode Characters in the 'Punctuation, Dash' Category"
 
 [fira-mono-font]
 href = 'https://fonts.google.com/specimen/Fira+Mono'
@@ -278,6 +290,10 @@ text = 'Making money on YouTube with Content ID'
 [googleblog-state-of-our-video-id-tools]
 href = 'https://googleblog.blogspot.com/2007/06/state-of-our-video-id-tools.html'
 text = 'The state of our video ID tools'
+
+[hn-commend-em-dash]
+href = 'https://news.ycombinator.com/item?id=44141834'
+text = "If you're using AI to write all those em-dashes, please add a disclaimer..."
 
 [hn-comment-microsoft-macs]
 href = 'https://news.ycombinator.com/item?id=35267176'
@@ -342,6 +358,10 @@ text = 'Is That Company Real?'
 [isthatcompanyreal-source]
 href = 'https://github.com/smitelli/isthatcompanyreal.com'
 text = 'smitelli/isthatcompanyreal.com'
+
+[jakubmarian-hyphen-minus-en-dash-and-em-dash]
+href = 'https://jakubmarian.com/hyphen-minus-en-dash-and-em-dash-difference-and-usage-in-english/'
+text = 'Hyphen, minus, en-dash, and em-dash: difference and usage in English'
 
 [jim-young]
 href = 'https://web.archive.org/web/20170319212321/http://www.youngandablemusic.com/jyh.html'
@@ -631,6 +651,10 @@ text = 'Things I Do Not Understand: "Web-Scale."'
 href = 'https://www.theregister.com/2008/12/22/warner_music_removes_youtube_videos/'
 text = 'Warner Music pulls plug on YouTube deal'
 
+[theverge-is-this-shopped]
+href = 'https://www.theverge.com/2012/10/12/3489356/is-this-shopped-truth-lies-and-art-before-and-after-photoshop'
+text = 'Is this shopped? Truth, lies, and art before and after Photoshop'
+
 [time-amazon-unveiled-future-of-shopping]
 href = 'https://time.com/3766581/amazon-dash-button-ordering-april-fool/'
 text = "Amazon Basically Just Unveiled the Future of Shopping and It's Awesome"
@@ -760,6 +784,10 @@ text = 'Chinese room'
 href = 'https://en.wikipedia.org/wiki/The_Clapper'
 text = 'The Clapper'
 
+[wiki-code-page-437]
+href = 'https://en.wikipedia.org/wiki/Code_page_437'
+text = 'Code page 437'
+
 [wiki-compact-disc-digital-audio]
 href = 'https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio'
 text = 'Compact Disc Digital Audio'
@@ -828,6 +856,10 @@ text = 'Help:Wikitext'
 href = 'https://en.wikipedia.org/wiki/High_availability#%22Nines%22'
 text = '"Nines"'
 
+[wiki-hyphens-and-dashes]
+href = 'https://en.wikipedia.org/wiki/Wikipedia:Hyphens_and_dashes'
+text = 'Wikipedia:Hyphens and dashes'
+
 [wiki-hypnotoad]
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
@@ -876,6 +908,10 @@ text = 'South Park'
 href = 'https://en.wikipedia.org/wiki/List_of_South_Park_characters#Ned_Gerblanski'
 text = 'Ned Gerblanski'
 
+[wiki-style-dashes]
+href = 'https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Dashes'
+text = 'Wikipedia:Manual of Style - Dashes'
+
 [wiki-summer-girls]
 href = 'https://en.wikipedia.org/wiki/Summer_Girls'
 text = 'Summer Girls'
@@ -911,6 +947,10 @@ text = 'vCard'
 [wiki-walk-the-dinosaur]
 href = 'https://en.wikipedia.org/wiki/Walk_the_Dinosaur'
 text = 'Walk the Dinosaur'
+
+[wiki-windows-1252]
+href = 'https://en.wikipedia.org/wiki/Windows-1252'
+text = 'Windows-1252'
 
 [wiki-wizard-software]
 href = 'https://en.wikipedia.org/wiki/Wizard_(software)'
@@ -965,6 +1005,10 @@ text = 'xAI'
 href = 'https://www.youtube.com/'
 text = 'YouTube'
 
+[youtube-and-so-it-goes]
+href = 'https://www.youtube.com/watch?v=u8C1w6bPSTM'
+text = 'And So It Goes'
+
 [youtube-chainsaw-hedge-trimming]
 href = 'https://www.youtube.com/watch?v=gO9M90fdZDA'
 text = 'chainsaw hedge trimming hootenanny'
@@ -972,6 +1016,10 @@ text = 'chainsaw hedge trimming hootenanny'
 [youtube-coca-cola-summer-skateboarding]
 href = 'https://www.youtube.com/watch?v=XwT7F0RICWc'
 text = 'Coca Cola (2004) Television Commercial - Summer Skateboarding'
+
+[youtube-diner-wink]
+href = 'https://www.youtube.com/watch?v=8Inf1Yz_fgk'
+text = "'Diner Wink' Full Sketch - I Think You Should Leave Season 2"
 
 [youtube-excelent-grass-cutting]
 href = 'https://www.youtube.com/watch?v=H8SsTBZCL_M'
@@ -992,6 +1040,10 @@ text = 'Deck the Halls - Mannheim Steamroller - Transcription Synthesia'
 [youtube-mr-show-acting-is-easy]
 href = 'https://www.youtube.com/watch?v=8O6smlN62qI'
 text = 'Mr. Show - Acting is Easy'
+
+[youtube-particular-individual]
+href = 'https://www.youtube.com/watch?v=WD8aZV-Y8bE'
+text = 'Idiocracy - "This particular individual is unscannable"'
 
 [youtube-user-retnirpregnif]
 href = 'https://www.youtube.com/@retnirpregnif'

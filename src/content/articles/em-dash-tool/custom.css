@@ -1,0 +1,20 @@
+:not(.epigraph) > blockquote {
+    border-left: 0.25em solid var(--mid-fg-color);
+    padding-left: 0.5em;
+}
+
+.emoji-hell li {
+    margin-left: -0.5em;
+    padding-left: 0.5em;
+}
+
+.emoji-hell.first li:nth-child(1) { list-style: '\1f4e3' }
+.emoji-hell.first li:nth-child(2) { list-style: '\1f4a3' }
+.emoji-hell.first li:nth-child(3) { list-style: '\1f63b' }
+.emoji-hell.first li:nth-child(4) { list-style: '4\fe0f\20e3' }
+
+.emoji-hell.second li:nth-child(1) { list-style: '\1f3af' }
+.emoji-hell.second li:nth-child(2) { list-style: '\1f448' }
+.emoji-hell.second li:nth-child(3) { list-style: '\1f4a5' }
+.emoji-hell.second li:nth-child(4) { list-style: '\1f92f' }
+.emoji-hell.second li:nth-child(5) { list-style: '\1f525' }
