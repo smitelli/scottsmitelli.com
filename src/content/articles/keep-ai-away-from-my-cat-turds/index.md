@@ -1,7 +1,7 @@
 +++
 title = 'Keep Your AI Away From My Cat Turds'
 description = 'TODO The description goes here.'
-date = 2025-07-18
+date = 2025-07-23
 +++
 
 "Wh--- what did you say?"
@@ -42,13 +42,19 @@ I don't want _your_ cat turds. Why did I say it like that? I don't want _anybody
 
 _...right?_
 
-"Completely changed the way I work," he repeats mechanically, sliding his bag on the empty seat to his left. I catch my gaze following its movement. How many does he have in there? "I used to spend so much of my day on the cat turds, psyching myself up, trying strategies that didn't work, all the cleanup. That's all changed now. I can never go back to the old way."
+"Completely changed the way I work," he repeats mechanically, sliding his bag on the empty seat to his left. I catch my gaze following its movement. How many does he have in there? "I used to spend so much of my day on the cat turds, psyching myself up, trying strategies that didn't work, all the cleanup when I was finished. That's all changed now. I can never go back to the old way."
 
-"I just... I mean..." My brain has started working again, at least a little, and has generated so many questions that I'm having difficulty selecting which one to ask. "How long have you been eating cat turds?" That's a fine question for this moment, I suppose.
+"I just... I mean..." My brain has started working again, at least a little, and has generated so many questions that I'm having difficulty selecting which one to ask first. "How long have you been eating cat turds?" A fine question for this moment, I suppose.
 
 "What do you mean? I've always been eating cat turds. Since I was a kid in school, on through college, in all my jobs... They keep giving me cat turds and I keep having to eat them, otherwise it starts to pile up and then things really get messy." His face turns slightly more serious as he reads my expression, and he tilts his head inquisitively. "You eat cat turds too, yeah?" I choose not to answer that question. He continues regardless. "Sure. We all do. We have to."
 
 ---
+
+_We all do._
+
+Those words have been repeating in my head with the consistency of a marching band cadence. _We all do._
+
+"Walk sign is on to cross Pawk Avenue. Walk sign is on to cross Pawk Avenue." I hear this prerecorded voice, clearly belonging to the most annoyed DOT Traffic Signals employee available at the time of this crosswalk's construction, at least twice per workday.
 
 ---
 
