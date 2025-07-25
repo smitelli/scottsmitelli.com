@@ -609,6 +609,10 @@ text = 'Speed Class'
 href = 'https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=1248&context=hastings_business_law_journal'
 text = 'Justin Silverberg, Google, I Mean Big Brother, is Always Listening'
 
+[slashfilm-cloverfield-shaky-camera]
+href = 'https://www.slashfilm.com/1279866/cloverfield-shaky-camera-style-resulted-warnings-posted-outside-movie-theaters/'
+text = "Cloverfield's Shaky Camera Style Resulted In Warnings Posted Outside Movie Theaters"
+
 [sort-of-face-source]
 href = 'https://github.com/smitelli/sort_of_face'
 text = 'smitelli/sort_of_face'
@@ -739,6 +743,10 @@ text = '2024 Summer Olympics - Participating National Olympic Committees'
 [wiki-acoustic-fingerprint]
 href = 'https://en.wikipedia.org/wiki/Acoustic_fingerprint'
 text = 'Acoustic fingerprint'
+
+[wiki-animism]
+href = 'https://en.wikipedia.org/wiki/Animism'
+text = 'Animism'
 
 [wiki-bender-should-not-be-allowed-on-tv]
 href = 'https://en.wikipedia.org/wiki/Bender_Should_Not_Be_Allowed_on_TV'

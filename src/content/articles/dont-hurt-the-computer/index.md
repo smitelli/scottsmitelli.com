@@ -1,10 +1,22 @@
 +++
 title = "Don't Hurt the Computer"
 description = 'TODO The description goes here.'
-date = 2025-06-05
+date = 2025-07-24
 +++
 
-To the best of my recollection, I did my first bit of home electrical work when I was about eleven years old. My great uncle had just moved into a newly-constructed house a few neighborhoods away from my childhood home, and he enlisted my help to remove a wall switch and relace it with a timer to automatically control his front porch light.
+Approximately half a lifetime ago, when I was in film school, we had a series of guest instructors come in and talk about their particular part of the trade. There was the writer/director who worked on _Saturday Night Live_ during the Julia Louis-Dreyfus years, the boom operator who asked---more than once---if any of us could hook him up with a chill weed dealer,{{% margin-note side %}}His reason for asking was more eyebrow-raising than the ask itself: Apparently his previous connection had recently died---of _old age._{{% /margin-note %}} and the thoroughly--body-pierced grip who proudly proclaimed that he almost never watched any of the movies he worked on.
+
+One instructor, however, gave a piece of advice that stuck. He was (and still is, according to IMDb) a camera operator who had worked on at least two somewhat widely-known and roundly-hated feature films. His advice was this: Whenever hand-holding a film or video camera, stop and imagine that there is a tiny movie theater nestled deep inside it. A whole little room full of living, breathing people right there in your hands. If you shake the camera around too much, you'll make this tiny audience sick.
+
+On its face, the idea is absurd. Everybody I've ever recounted this to has said it sounded crazy. But there is a kernel of practical wisdom here: Hand-held camera work can inject a scene with energy, but it's extremely easy to overdo it and end up making {{% link slashfilm-cloverfield-shaky-camera %}}_Cloverfield_{{% /link %}}. It's one thing to tell somebody not to shake the camera excessively. Going as far to suggest that the camera---or some essential thing inside it---could be annoyed or harmed in some way is the kind of thing that... well, let's just say it divides people.
+
+Me, though, I think about that almost every time I pick up a camera or swipe my phone into video recording mode. I used to picture the little auditorium, the itty-bitty seats, the teeny-tiny little people filling them all up.{{% margin-note side %}}For whatever reason, my films always play to a sold-out imaginary crowd. That's probably something to unpack at some later date.{{% /margin-note %}} I don't even have to visualize them anymore; I know they're in there. I try very hard to give them a nice ride.
+
+I don't really know the exact term to describe this. It's not anthropomorphism, and it's not personification. Maybe it's closer to {{% link wiki-animism %}}animism{{% /link %}}. Or maybe it just a smidge of good old-fashioned psychosis. I may not know its name, but I know the feeling very well.
+
+It's always been there. It was there long before I ever picked up a camera.
+
+## TODO
 
 ---
 
