@@ -1,7 +1,7 @@
 +++
 title = 'Keep Your AI Away From My Cat Turds'
 description = 'TODO The description goes here.'
-date = 2025-07-23
+date = 2025-07-31
 +++
 
 "Wh--- what did you say?"
@@ -46,7 +46,7 @@ _...right?_
 
 "I just... I mean..." My brain has started working again, at least a little, and has generated so many questions that I'm having difficulty selecting which one to ask first. "How long have you been eating cat turds?" A fine question for this moment, I suppose.
 
-"What do you mean? I've always been eating cat turds. Since I was a kid in school, on through college, in all my jobs... They keep giving me cat turds and I keep having to eat them, otherwise it starts to pile up and then things really get messy." His face turns slightly more serious as he reads my expression, and he tilts his head inquisitively. "You eat cat turds too, yeah?" I choose not to answer that question. He continues regardless. "Sure. We all do. We have to."
+"What do you mean? I've always been eating cat turds. Since I was a kid in school, on through college, in all my jobs... They keep giving me cat turds and I keep having to eat them, otherwise it starts to pile up and then things really get messy." His face turns slightly more serious as he reads my expression, and he tilts his head inquisitively. "You eat cat turds too, yeah?" I choose not to answer that question. He continues anyway. "Sure. We all do. We have to, ya know?"
 
 ---
 
@@ -54,7 +54,37 @@ _We all do._
 
 Those words have been repeating in my head with the consistency of a marching band cadence. _We all do._
 
-"Walk sign is on to cross Pawk Avenue. Walk sign is on to cross Pawk Avenue." I hear this prerecorded voice, clearly belonging to the most annoyed DOT Traffic Signals employee available at the time of this crosswalk's construction, at least twice per workday.
+"Walk sign is on to cross Pawk Avenue. Walk sign is on to cross Pawk Avenue." I've heard this prerecorded voice, clearly belonging to the most disinterested DOT Traffic Signals employee available at the time of this crosswalk's construction, at least twice per workday for the last year and a half. It stirs up a half-remembered dream of a career spent shoveling dirt into a hole---something that feels more like the idea of "honest work" than what I get paid to do every day. I bet nobody on the construction crew spent an entire day fighting around with brittle, poorly designed automation tooling like I just did.
+
+I'm quickly (but unintentionally) refilling my conscious mind with the task I had abandoned when Jim invited me out to drinks. Normally I'd be irritated to spend more of my waking life thinking about this stuff, but after what I witnessed earlier I welcome _any_ distraction at all.
+
+"Okay. So, usually I have a string. This is the value inside a mapping type, within a list of simiar mappings." I'm narrating to myself silently, imagining little bits of JSON syntax stamped on squares that are kind of stacked on top of each other like playing cards. "But since the schema change, sometimes the value is another mapping type that wraps the string I want..." I'm imagining another square to the right of the existing one. This one is yellow, and it never occurs to me to question why that is.
+
+"But because this is actually YAML, and the value is templated, both the string form and the mapping form need to be escaped and indented in a way that works in both cases." I'm chewing on the problem in pretty much the same mindset I had during work, only now I'm walking through midtown instead of staring at a computer screen. "I could just keep the value as JSON and insert it verbatim... but DevExp owns that part and I don't want to have to fight to get that change merged."
+
+"Piece of shit." I speak that one out loud without really intending to. I snap back into awareness of my surroundings and look around. Nobody was near enough to hear it. They probably wouldn't have cared if they could.
+
+It occurs to me that, whenever anybody asks me what I do for a living and I wave my hand and say "Computers," this is what I'm trying to avoid needing to have to explain. None of these words mean anything to most people. If one were to take the time to carefully define them all and how they fit together semantically, they describe concepts so abstract and detached from any kind of tangible experience that you'd hit a second wall trying to explain it.
+
+"Oh, but wait, we have the `nindent` function. I could just count up the indentation level of the outer list and... Ah, shit, I forgot this template is transcluded in more than one place and the nesting levels would be different." I briefly try to think of which chucklefuck I could blame this design on, but truth be told I rubber-stamped enough questionable pull requests in my time here that a fair amount of this situation is my own damn fault.
+
+Huh. I really do wonder what I would sound like trying to explain this to a layperson. I suppose if I was very excited about it, I might come across like an excited kid going on and on about all the different Pok&eacute;mon he knows about. But without that spark of passion, I would probably sound like a raving lunatic. These aren't real words. I'm not describing a real concept. I'm imagining little floating boxes, becoming physically irritated at the yellow one, and _none of it is real._
+
+And I'm definitely not feeling the passion on this one. This code runs deep inside a CI pipeline that I have no hope of ever running directly on the computer I'm using. So I write the code, push it to CI, wait for a bunch of stuff I'm not interested in to finish running, then get to watch my change fail to work for either the stupidest typo that I never should've made in the first place, or some error that is so novel that even the search engines assume I had some other _much more popular_ error instead. It feels like I am performing surgery using a scalpel held by a boardwalk arcade claw machine, complete with the constant squawking of project management seagulls.
+
+And even if I could concisely explain all of that to my imaginary interlocutor, there's the even higher-level question: _Why?_ Why did we even make this change? It's a question I never asked, partly because I learned a long time ago that asking questions just makes trouble. Just nod and shut up. Put a +1 on a questionable PR to get it out of here. Recover enough stamina to face down the next nightmare that comes our way. "Sounds great, thanks." Thumbs-up. Grit my teeth through to the next direct deposit, convince myself it's not so bad. Do it over and over, until some ill-defined end condition is met. I'll know it when I see it. I hope.
+
+I catch myself at the tail end of a sigh. I fake like I'm yawning to stretch out for a moment.
+
+There's this real sense that I don't... I don't want to solve this problem. There is no intellectual reward at the end of it. It's not interesting. This isn't a problem that needs to be solved, because it's not something that ever should've happened. This is just a bunch of contrived nonsense that I _must_ solve because the situation dictates it. It doesn't matter if the solution is good or elegant. it doesn't matter if it barely works. It doesn't matter if it causes another problem that I stub my toe on in three weeks. It just... is.
+
+I stop in my tracks. These kinds of problems are _my cat turds._
+
+Unlike Jim, I can't just cram a fistful of breath mints into my face and make it go away.
+
+---
+
+The "down" escalator into the train station is out of service, and an orange plastic barricade blocks it at both ends. I walk down two flights of stairs with about a half-dozen other commuters. Having concluded that the template problem isn't worth thinking about, I'm back on the cat turds. I understand what Jim was talking about now. This has been happening for almost my entire life, even going back to my days in school.
 
 ---
 
