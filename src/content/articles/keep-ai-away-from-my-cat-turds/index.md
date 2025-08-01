@@ -86,6 +86,12 @@ Unlike Jim, I can't just cram a fistful of breath mints into my face and make it
 
 The "down" escalator into the train station is out of service, and an orange plastic barricade blocks it at both ends. I walk down two flights of stairs with about a half-dozen other commuters. Having concluded that the template problem isn't worth thinking about, I'm back on the cat turds. I understand what Jim was talking about now. This has been happening for almost my entire life, even going back to my days in school.
 
+All of the homework assignments that my teachers copied out of textbooks and then graded via pre-printed answer sheets: Cat turds. College admission essays where I profused a longing desire to attend the distinguished universities that my parents and guidance councilor told me I should act like I want: Cat turds. Probably hundreds of cover letters by now, perhaps read by tens of internal recruiters and hiring managers: Cat turds.
+
+The notion that it was a good idea to manipulate YAML with the Go `text/template` package. CI workflows that take 75 minutes to reach the part of the process that fails. Tools and interfaces that auto-update and completely redesign themselves for no justifiable reason, removing or breaking features that were being relied on. Massively over-complicated software that tries to be everything to everybody, but in reality ends up being a gigantic lumbering pile of failure and frustration. _Cat turds._
+
+
+
 ---
 
 I arrive at home and shut the door behind me. Sunset was over an hour ago and it's nearly pitch black in the hallway. I fumble around for the light switch, kick my shoes off next to the doorway, and hang my bag on its hook in the coat closet. Something grabs my attention, just above eye level, slightly overhanging the edge of the top shelf. I slide it out of its resting place and carry it into the kitchen. I sit down at the table and inspect it.
@@ -98,11 +104,7 @@ Come to think of it, I can't remember the last time I smelled anything.
 
 ---
 
-- homework, college admission essays, cover letters
-- the go templating language
 - all the engineers who say no to my product decisions
-- the app UI that changes for no reason
-- the massively complicated everything-to-everyone software
 - why don't they make the AWS docs self-filtering
 - i worked hard to get over this; i suffered
     - people who haven't suffered don't deserve it
