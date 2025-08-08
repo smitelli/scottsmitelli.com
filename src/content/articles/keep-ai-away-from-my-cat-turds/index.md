@@ -1,7 +1,7 @@
 +++
 title = 'Keep Your AI Away From My Cat Turds'
 description = 'TODO The description goes here.'
-date = 2025-07-31
+date = 2025-08-07
 +++
 
 "Wh--- what did you say?"
@@ -66,7 +66,7 @@ I'm quickly (but unintentionally) refilling my conscious mind with the task I ha
 
 It occurs to me that, whenever anybody asks me what I do for a living and I wave my hand and say "Computers," this is what I'm trying to avoid needing to have to explain. None of these words mean anything to most people. If one were to take the time to carefully define them all and how they fit together semantically, they describe concepts so abstract and detached from any kind of tangible experience that you'd hit a second wall trying to explain it.
 
-"Oh, but wait, we have the `nindent` function. I could just count up the indentation level of the outer list and... Ah, shit, I forgot this template is transcluded in more than one place and the nesting levels would be different." I briefly try to think of which chucklefuck I could blame this design on, but truth be told I rubber-stamped enough questionable pull requests in my time here that a fair amount of this situation is my own damn fault.
+"Oh, but wait, we have the `nindent` function. I could just count up the indentation level of the outer list and... Ah, hell, I forgot this template is transcluded in more than one place and the nesting levels would be different." I briefly try to think of which chucklefuck I could blame this design on, but truth be told I rubber-stamped enough questionable pull requests in my time here that a fair amount of this situation is my own damn fault.
 
 Huh. I really do wonder what I would sound like trying to explain this to a layperson. I suppose if I was very excited about it, I might come across like an excited kid going on and on about all the different Pok&eacute;mon he knows about. But without that spark of passion, I would probably sound like a raving lunatic. These aren't real words. I'm not describing a real concept. I'm imagining little floating boxes, becoming physically irritated at the yellow one, and _none of it is real._
 
@@ -88,9 +88,27 @@ The "down" escalator into the train station is out of service, and an orange pla
 
 All of the homework assignments that my teachers copied out of textbooks and then graded via pre-printed answer sheets: Cat turds. College admission essays where I profused a longing desire to attend the distinguished universities that my parents and guidance councilor told me I should act like I want: Cat turds. Probably hundreds of cover letters by now, perhaps read by tens of internal recruiters and hiring managers: Cat turds.
 
-The notion that it was a good idea to manipulate YAML with the Go `text/template` package. CI workflows that take 75 minutes to reach the part of the process that fails. Tools and interfaces that auto-update and completely redesign themselves for no justifiable reason, removing or breaking features that were being relied on. Massively over-complicated software that tries to be everything to everybody, but in reality ends up being a gigantic lumbering pile of failure and frustration. _Cat turds._
+The notion that it was a good idea to manipulate YAML with the Go `text/template` package. CI workflows that take 75 minutes to reach the one step in the entire process that fails. Tools and interfaces that auto-update and completely redesign themselves for no justifiable reason, removing or breaking features that were being relied on. Massively over-complicated software that tries to be everything to everybody, but in reality ends up being a gigantic lumbering pile of failure and frustration. _Cat turds._
 
+I used to love this stuff. I still do. Except... I don't. Not lately, anyway. A long time ago, this was unquestionably what I wanted to do with my life. I would stay up late, pushing back by bedtime for a few more minutes of hacking away on some project. Then I'd get up early the following day excited to jump back into it. I don't even remember what I was building, but I know it basically no utility or market potential. The point of doing the project was to actually _do the project_---to press through problems, to learn new things, and to end the day with more skills and experience than I started with.
 
+At one point, I had the 7-bit ASCII table memorized. Just the decimal codes; I didn't really understand the usefulness of the hexadecimal representations, and it never occurred to me that the hex values would work much better in mnemonics. I don't know why I took the time to learn that. I never really used that knowledge in any day-to-day work, and it began to fade from my mind as soon as I found some other pointless esoterica to wallpaper over it.
+
+Look at me now, having to Google how to read a text file line-by-line in Python despite having done it hundreds of times at this point. The knowledge is up there somewhere, I'm sure of it. I just can't always think of the idiom in the moment. Just a little hint to jog my old brain, that's all I need.
+
+I often wonder what Younger Self would think of me now, failing to remember a two-line snippet of code that you'd find in the first ten pages of any beginner's guide to the language. He'd probably sneer and say I need to devote more time to studying. But I'm an adult with things to do; I can't spend all my time just memorizing things just in case I might need the information someday. Oh, and by the way: Younger Self, if you were such a hotshot, why did it take you _fifteen years_ to wrap your head around regular expressions? What's that? Because they were _hard?_ So you spent all your time memorizing easy and pointless things rather than tackling anything that was actually challenging? And then building up a whole air of self-superiority based on the number of discrete facts you could rattle off, rather than their actual _utility?_
+
+No wonder I grew up to be kind of an asshole.
+
+I mean, I didn't _try_ to be an asshole. It's just that I tended to compare myself to others based on the sheer quantity of "stuff" we knew. Some people memorize engine displacements, others carry in their noggins enough digits of pi to measure the entire universe down to the width of a hydrogen atom. I had command-line switched that I never used for anything, HTML character entity names for languages I couldn't write, and settings deep inside the Windows 98 Device Manager that I only modified so that I could brag about having been in there in the first place.
+
+Everybody else who didn't know those little pieces of nothing? They were the lessers. They didn't put in the time to grind for this knowledge. They had never climbed Mount AltaVista, nor had they knelt in the church of the _MSDN Library for Visual Studio_ on a scratched-up pair of CD-R's. I knew things they did not, therefore I thought I was higher-and-mightier than them. I and I alone _suffered_ for this knowledge. This manifested itself in one of two ways: In the first case, I would butt my way into situations where my involvement wasn't needed or appreciated, thinking I could "save" the others from the suffering I once had to contend with. More often than not, though, I would simply mock them---usually inside my own head, but frequently to their face on mailing lists and message boards. There were times when I truly felt that people did not deserve to rise anywhere near where I perceived my own level to be if I had not judged them to have put in the requisite work. I feel bad for the people who worked on the teams where Younger Self was the lead engineer.
+
+I now realize that everything I lorded over other people---all the things I gatekept without consciously understanding that was what I was doing---I didn't need to do that. It really didn't help anything. For some number of people out there, _I_ was the problem. I could've been more open-minded, I could've said "let's find out together," I could've let other people have all the fun once in a while. I could have minded my own damn business and saved everybody the hassle.
+
+I'll never be able to track down every person I ever did that to and apologize. And why did I even build that fiefdom and guard it so jealously? Why was I so insecure? Why did I have to always be right and have a ready justification for why everybody else was wrong?
+
+It was just me, alone in my tiny sandbox, surrounded by my towering assemblage of cat turds.
 
 ---
 
@@ -106,9 +124,6 @@ Come to think of it, I can't remember the last time I smelled anything.
 
 - all the engineers who say no to my product decisions
 - why don't they make the AWS docs self-filtering
-- i worked hard to get over this; i suffered
-    - people who haven't suffered don't deserve it
-    - or, only i can be the one who saves them from the suffering
 - it makes sense that people would look to anything to make this easier
 - why are we eating cat turds
 - shit-eating grin
