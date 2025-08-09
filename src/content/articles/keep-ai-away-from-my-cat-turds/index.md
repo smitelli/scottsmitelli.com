@@ -122,6 +122,7 @@ Come to think of it, I can't remember the last time I smelled anything.
 
 ---
 
+- i learned code 39
 - all the engineers who say no to my product decisions
 - why don't they make the AWS docs self-filtering
 - it makes sense that people would look to anything to make this easier
