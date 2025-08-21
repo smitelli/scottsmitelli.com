@@ -75,7 +75,9 @@ Another handy use of the em dash is to indicate text that either trails off or i
 
 > She wants to---no, she's going to walk up to the seventeenth floor and say it.
 
-> "The last time I asked if we could play LCD Soundsystem---" "LCD Soundsystem sucks, bro!"
+> "The last time I asked if we could play LCD Soundsystem---"
+>
+> "LCD Soundsystem sucks, bro!"
 
 ### Hyphen
 
