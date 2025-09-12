@@ -1,7 +1,7 @@
 +++
-title = 'Keep Your AI Away From My Cat Turds'
-description = 'TODO The description goes here.'
-date = 2025-08-21
+title = 'Altoids by the Fistful'
+description = '"In evolution, a maladaptation is a trait that is (or has become) more harmful than helpful, in contrast with an adaptation, which is more helpful than harmful."I went to Wikipedia to look that up, not a large language model.'
+date = 2025-09-11
 +++
 
 "Wh--- what did you say?"
