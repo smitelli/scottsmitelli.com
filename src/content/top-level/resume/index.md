@@ -20,7 +20,11 @@ Senior backend and cloud engineer with fifteen years of experience. Enjoys inter
 
 ## Experience
 
-### GoDental.ai &bull; Software Engineer <span class="date-range">Jun 2024--present</span>
+### \[Startup] &bull; Senior Platform Engineer <span class="date-range">Apr 2025--present</span>
+
+\[Sometimes a person needs to keep their personal writing an arm's length away from their professional life.]
+
+### GoDental.ai &bull; Software Engineer <span class="date-range">Jun 2024--Jul 2025</span>
 
 Productionized a suite of Python data collection and ETL scripts into AWS Lambda with persistent storage in RDS and S3. Optimized RDS deployment to reduce costs and minimize latency in the data ingestion pipeline. Migrated the company's entire DNS zone into a managed CDK stack. Implemented layout improvements and sorting/filtering capabilities in the customer-facing React web application.
 
