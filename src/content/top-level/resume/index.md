@@ -20,7 +20,7 @@ Senior backend and cloud engineer with fifteen years of experience. Enjoys inter
 
 ## Experience
 
-### \[Startup] &bull; Senior Platform Engineer <span class="date-range">Apr 2025--present</span>
+### \[Startup] &bull; Senior Platform Engineer<!-- 5 --> <span class="date-range">Apr 2025--present</span>
 
 \[Sometimes a person needs to keep their personal writing an arm's length away from their professional life.]
 
@@ -32,11 +32,11 @@ Productionized a suite of Python data collection and ETL scripts into AWS Lambda
 
 ### Nextdoor &bull; Software Engineer<!-- 4 -->, Cloud <span class="date-range">Jan 2022--Aug 2023</span>
 
-Prepared the Nextdoor.com web application for migration from AWS ECS to Kubernetes by developing Helm charts, Istio configurations, and Argo Rollouts deployment specifications. Migrated a number of associated microservices, some unmaintained, to Kubernetes in tandem. Supported the operation of ten separate EKS clusters comprised of thousands of EC2 instances, collectively hosting tens of thousands of pods during typical daily traffic peaks. Led other engineering teams in their adoption of the new environments by conducting architectural reviews, writing documentation and hosting twice-weekly office hours.
+Prepared the Nextdoor.com web application for migration from AWS ECS to Kubernetes by developing Helm charts, Istio configurations, and Argo Rollouts deployment specifications. Migrated a number of associated microservices, some unmaintained, to Kubernetes in tandem. Supported the operation of ten separate EKS clusters comprised of thousands of EC2 instances, collectively hosting tens of thousands of pods at peak. Led other engineering teams in their adoption of the new environments by conducting architectural reviews, writing documentation and hosting twice-weekly office hours.
 
-- _Technologies:_ Kubernetes, Helm, Argo Project (Argo CD, Rollouts), AWS (CDK/CloudFormation, EKS, ECS, EC2, Lambda, CloudFront), Python, Docker, Bash, Go, Lua, Istio/Envoy, Prometheus, Grafana, Linux (Amazon Bottlerocket), nginx, NetApp Spot, Git/GitHub Actions, CircleCI
+- _Technologies:_ Kubernetes, Helm, Argo Project (CD, Rollouts), AWS (CDK/CloudFormation, EKS, ECS, EC2, Lambda, CloudFront), Python, Docker, Bash, Go, Lua, Istio/Envoy, Prometheus, Grafana, Linux (Amazon Bottlerocket), nginx, NetApp Spot, Git/GitHub Actions, CircleCI
 
-### Shutterstock &bull; DevOps Engineer<!-- III --> <span class="date-range">Nov 2020--Jan 2022</span>
+### Shutterstock &bull; DevOps Engineer<!-- 3 --> <span class="date-range">Nov 2020--Jan 2022</span>
 
 Migrated the Amper Music infrastructure into Shutterstock's network after Amper was acquired, including relocating live resources between AWS regions, converting legacy CloudFormation templates into Terraform, moving source control, and recreating CI/CD workflows to match Shutterstock conventions. Facilitated the integration of Amper API endpoints into Shutterstock products and contributed to the user-facing API documentation. Supported the Data Engineering team by maintaining services and data stores used by AI/ML model training processes.
 
@@ -45,8 +45,6 @@ Migrated the Amper Music infrastructure into Shutterstock's network after Amper 
 ### Amper Music &bull; Web Systems Architect <span class="date-range">May 2015--Nov 2020</span>
 
 As the first full-time employee, built out all of the infrastructure and web-facing software to launch an AI music generation platform which has since created tens of millions of minutes of music. Designed and implemented API servers for both internal and external use, managed all aspects of DevOps on AWS, and designed the overall architecture of the company's web applications and services. Responsible for the deployment, reliability, and performance of over a dozen discrete services and a musical instrument library of almost one terabyte.
-
-- _Technologies:_ Python, Flask, Salt, AWS CloudFormation, AWS (EC2, S3, CloudFront, RDS, ElastiCache), Linux (Debian), nginx, uWSGI, MySQL, Redis, RabbitMQ, cloud-init, Packer, Vagrant, Hugo, Jenkins, Git, Bash, FFmpeg, JSON:API, Jira, Cloudflare, G Suite
 
 ### Maker Studios _(formerly Blip Networks)_ &bull; Senior Engineer <span class="date-range">Sep 2013--Jun 2015</span>
 
@@ -62,7 +60,7 @@ Built custom frontend features for a content management platform used by dozens 
 
 ### Abrams Media &bull; Lead Developer <span class="date-range">Jan 2010--Nov 2011</span>
 
-As the first full-time engineering hire at a rapidly-growing media company, managed a fleet of WordPress servers which handled 35--40 million pageviews per month and maintained all office IT. Developed ancillary applications, including a job search board, photo gallery, bulk emailer, traffic analyzer, and management scripts. Supervised a team of three engineers.
+Managed servers which handled 35--40 million page views per month and maintained all office IT. Built applications and internal tools: a job search board, photo gallery, bulk emailer, and traffic analyzer. Supervised a team of three engineers.
 
 ### Wall Street Webcasting &bull; Streaming Media Encoder <span class="date-range">Sep 2009--Jan 2010</span>
 
