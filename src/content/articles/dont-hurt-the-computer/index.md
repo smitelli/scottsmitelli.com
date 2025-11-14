@@ -1,7 +1,7 @@
 +++
 title = "Don't Hurt the Computer"
 description = 'TODO The description goes here.'
-date = 2025-07-24
+date = 2025-11-13
 +++
 
 Approximately half a lifetime ago, when I was in film school, we had a series of guest instructors come in and talk about their particular part of the trade. There was the writer/director who worked on _Saturday Night Live_ during the Julia Louis-Dreyfus years, the boom operator who asked---more than once---if any of us could hook him up with a chill weed dealer,{{% margin-note side %}}His reason for asking was more eyebrow-raising than the ask itself: Apparently his previous connection had recently died---of _old age._{{% /margin-note %}} and the thoroughly--body-pierced grip who proudly proclaimed that he almost never watched any of the movies he worked on.
