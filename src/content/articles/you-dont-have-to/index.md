@@ -56,7 +56,7 @@ In place of all that, I started spending much more time in smaller private commu
 
 I was all set to leave that part of my life behind me. Then it followed me to work.
 
-## If a clod be washed away by the sea, Europe is the less
+## If a clod be washed away by the sea
 
 There are lots of different jobs out there, and a fair number of them are done on computers. As a matter of fact, when people ask me what I do for a living, I sometimes simply wave my hand and say "Computers" in a kind of no-you-really-don't-want-to-know-what-Kubernetes-is kind of way. I suspect most office workers hava a similar aspect of their job that they don't like to dredge up during polite conversation.
 
@@ -86,29 +86,47 @@ Except... the ship is still taking on water. Sooner or later every deck---includ
 
 And what happens to us in that metaphor? Just chillin', clinging to flotsam, slowly freezing to death in the North Atlantic.
 
-## TODO
+## yolo;dr
 
 Let me be crystal clear: Not everybody wants to write software in paragraph form.
 
-In fact, there are arguments to be made that the techniques that are emerging today are a totally distinct discipline from traditional software engineering. Perhaps the two could coexist if we could simply agree to stay the hell out of each other's lanes.
+In fact, I might propose the possibility that the techniques emerging today are a totally distinct discipline from traditional software engineering. Perhaps the two could coexist if we could simply agree to stay the hell out of each other's lanes.
 
 But let's be real, that's not how this seems to be going.
 
-At multiple points in my life, I've had the opportunity to debate my peers over the following question: Is software engineering an art, or a science? The science argument is bolstered by the fact that a fair number of people who work in the industry seem utterly incapable of appreciating artistic works in any capacity, let alone creating any of it. On the other side, they've had the phrase "code is poetry" emblazoned on the footer of the WordPress.org site {{% margin-note %}}And to date, the only form of poetry for which MITRE has assigned multiple CVEs.{{% /margin-note %}} for nearly a quarter century. I've long believed---and still believe---that software has to be both. Look at a cable-stayed bridge, or a Rube Goldberg machine, or some of the stupid shit the contestants on _The Great British Baking Show_ have been asked to make over the past couple of seasons, and tell me that these didn't require the unique touch of an artist _and_ an engineer. Software is not so different from these things.
+At multiple points in my life, I've had the opportunity to debate my peers over the following question: Is software engineering an art, or a science? The science argument is bolstered by the fact that a fair number of people who work in the industry seem utterly incapable of appreciating artistic works in any capacity, let alone creating any of it. On the other side, they've had the phrase "code is poetry" emblazoned on the footer of the WordPress.org site {{% margin-note %}}And to date, the only form of poetry for which MITRE has assigned multiple CVEs.{{% /margin-note %}} for nearly a quarter century. I've long believed---and still believe---that software has to be both. Look at a cable-stayed bridge, or a Tim Hunkin sculpture, or some of the stupid shit the contestants on _The Great British Baking Show_ have been asked to make over the past couple of seasons, and tell me that these didn't require the unique touch of an artist _and_ an engineer. In the right light, software is not so different from these things.
 
-Engineers work in specifications and requirements. The end product needs to behave a certain way, adhere to certain external constraints, meet relevant regulatory criteria, not kill anybody, that type of thing. Artists work in the ambiguous undefined spaces that permeate all the little in-between areas of the work that aren't otherwise spelled out in black and white on the ticket.
+Engineers work in specifications and requirements. The end product needs to behave a certain way, adhere to certain external constraints, meet relevant regulatory criteria, not kill anybody,{{% margin-note side %}}Unless the requirements say it should.{{% /margin-note %}} that type of thing. Artists work in the ambiguous undefined spaces that permeate all the little in-between areas of the work. Somebody has to make the countless tiny decisions that aren't otherwise spelled out in black and white on the ticket. The sum total of all these little decisions becomes something that looks and feels a bit like taste, even style. The choices being made here are influenced by a working lifetime of personal experiences. Perhaps one could go as far as suggesting that it involves a certain intuition to do it well.
+
+There are thousands of ways to express the same idea. Are some expressions of a particular idea better than others? Arguably!
+
+"But wait," I hear you cry. "Once the product ships, nobody sees the code anyway! Who cares how it looks?" Take a long, hard look around you. Look at your phone. Look at one of the two dozen other web pages you have open. Look at the app launcher on your smart TV. Look at the {{% internal-link et-tu-panera %}}ordering kiosks at Panera{{% /internal-link %}}. Look at every major data broker who negligently breached your personal information and offered a $200 credit monitoring voucher{{% margin-note side %}}You never bothered to redeem that, did you?{{% /margin-note %}} as restitution. Look at every hateful airline website or clunky automotive touchscreen or inkjet printer driver and tell me with a straight face that code quality doesn't matter---that whatever makes these products so _miserable_ to interact with day in and day out could not _in any way_ be improved by exercising more care in the expression of the underlying code.
+
+Look around you. You don't believe that this could be true?
+
+When I hear people say "I ship code that I don't read," what I hear in my head is "I really do not care about what the end-user of this product experiences, I do not care about whichever poor soul needs to maintain this thing after I've gotten bored with paying attention to it, I do not care about anybody on my team who has to support the ongoing operation of it, and frankly I didn't even care about making it in the first place. I just wanted to be done for the sake of being done." It is a vulgar display of apathy, a willful dereliction of sound engineering practices, and quite frankly it makes the person sound like an insufferable asshat. To wield something so limitlessly powerful as software without so much as the slightest reverence for the craft is simply offensive. Truly. I am viscerally disgusted by what I am watching transpire in this space.
+
+"Aha! I've got you now," you bellow, in a different style of voice for some reason. "This is gatekeeping! You are trying to protect your little clubhouse from outsiders with viewpoints that differ from yours!" Guilty as charged; I am indeed gatekeeping. I'm gatekeeping in the same way all those pesky government officials gatekeep when they tell us we're not allowed to work toward achieving nuclear fission in the shed. Turns out we all live in a society, and the actions of one person have the capacity to directly and indirectly affect countless others. If there's an activity that has a high likelihood of causing preventable injury or tying up first responders unnecessarily, those activities tend to get restricted in some way.
+
+Software runs the world. It can make (or lose) untold sums of money. It can decide who gets a favorable mortgage rate or a critical job interview. It can surveil us. It can bombard us with advertisements targeted at personality traits we're not even aware we're revealing. It can cause accidental (or deliberate) death. More commonly, it can really frustrate, annoy, inconvenience, and subtly chip away at the mental well-being of vast swaths of the inhabitants of this planet we all share. Stop treating it like it's anything less.
+
+## TODO
+
+Not everybody is okay with the idea of becoming dependent on an outside party to do their work.
+
+Tools. That's the word that everybody likes to volley around. These things are tools, the same kind of thing as what I get from Home Depot when I rent a wallpaper steamer. Same as what companies get when they pay Adobe for a Photoshop subscription. Gotta spend money to make money, as the saying goes. "LLM coding agents are tools---nothing more---so just pay for a license seat and use it like you would any other tool."
+
+You ever get the feeling that something is different about the AI case, but you can't quite put your finger on it? You ever say a word like 'couch' out loud too many times, and the word momentarily loses its meaning? {{% margin-note %}}There's a term for that phenomenon, by the way: semantic satiation.{{% /margin-note %}} Did we all collectively forget precisely what a tool even is?
 
 ---
 
-- engineering is building to the spec; art is filling the gaps
-    - there are thousands of ways to write, and your unique voice is but one
-    - taste, intuition
-- even mechanically renaming things trains you to name them right in the first place
-- you can view AI boosters as being apathetic in their field
-    - disrespectful to the user/team/future maintainers
-- nobody cares about how the code looks
-    - but they sure damn feel it at Panera, or operating an automotive touchscreen
-- isn't this gatekeeping
-    - yes, but not in the boys' club sense
-    - more in the "don't do nuclear fission in your shed" sense
-    - don't cause preventable injury and tie up first responders
+- not everybody wants to pay any money to do their job
+    - why would i start paying a third-party service to do my job for me
+    - company should just pay the service directly and not involve me
+    - none of these companies really have our best interests at heart
+    - what happens if they need to turn a profit and jack up prices
+        - sponsored thoughts
+    - a lot of "no way i'm going back" and hoo boy that's scary
+    - hope this thing runs out of money and everything goes back to normal
+    - when's the last time you bought a phone for reasons other than "my photos will fit" or "the battery works?"
+    - maybe LLMs just turn your brain into sludge
