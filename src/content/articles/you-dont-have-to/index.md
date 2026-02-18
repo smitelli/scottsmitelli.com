@@ -35,7 +35,7 @@ Recently that feeling of indignation has started becoming displaced by something
 
 We've got enough content to infinite-scroll for the rest of our waking lives. Yet so much of it is pointless, unnecessary, lacking substance, or actively harmful. It is above all _joyless_---like listening to a Breaking Rust album {{% margin-note %}}There has been plenty of commentary regarding the 100% AI-produced track "Walk My Walk," but there is some real gold in the Singles and EPs category of Breaking Rust's artist page on Spotify. In particular, a relatively recent cover of "Photograph" that answers the question "What if we got Ben E. King's backing band, put a Temu clone of Chris Stapleton's voice on top of it, and did an Ed Sheeran song that went for _eight and a half minutes?_" It is not pleasant and it does not need to exist.<br><br>If that's not to your taste, there's also an eleven minute version of Passenger's "Let Her Go" up there. (Everything okay with your EOS tokens, buddy? Just concerned is all.){{% /margin-note %}} and eating a sleeve of unsalted saltines---while somehow forgetting that it wasn't always this way.
 
-Look at LinkedIn for chrissakes. "A senior engineer was tasked with such-and-such," "The consultant billed for 60 hours," "Our backlog had grown to over a thousand tickets," "When I saw the 350,000 line pull request the junior engineer had opened," and on and on. These are not real things that have happened to living people. They are the result of somebody prompting a chat bot to "make me sound smart and insightful to a room full of people with bad brains" while conveying nothing novel or actionable. I have recently started referring to these "thought" "leadership" social media posts collectively as **AIslop's Fables**.
+Look at LinkedIn for chrissakes. "A senior engineer was tasked with such-and-such," "The consultant billed for 60 hours," "Our backlog had grown to over a thousand tickets," "When I saw the 350,000 line pull request the junior engineer had opened," and on and on. These are not real things that have happened to living people. They are the result of somebody prompting a chat bot to "make me sound smart and insightful to a room full of people who have long since turned their brains off" while conveying nothing novel or actionable. I have recently started referring to these "thought" "leadership" social media posts collectively as **AIslop's Fables**.
 
 If you'll indulge me, I'd like to take a brief tangent and try my hand at writing one of these ridiculous things myself:
 
@@ -110,7 +110,7 @@ When I hear people say "I ship code that I don't read," what I hear in my head i
 
 Software runs the world. It can make (or lose) untold sums of money. It can decide who gets a favorable mortgage rate or a critical job interview. It can surveil us. It can bombard us with advertisements targeted at personality traits we're not even aware we're revealing. It can cause accidental (or deliberate) death. More commonly, it can really frustrate, annoy, inconvenience, and subtly chip away at the mental well-being of vast swaths of the inhabitants of this planet we all share. Stop treating it like it's anything less.
 
-## TODO
+## I owe my soul to the company store
 
 Not everybody is okay with the idea of becoming dependent on an outside party to do their work.
 
@@ -118,15 +118,42 @@ _Tools._ That's the word that everybody likes to volley around. These things are
 
 You ever get the feeling that something is different about the AI case, but you can't quite put your finger on it? You ever say a word like 'couch' out loud too many times, and the sound momentarily loses its meaning? {{% margin-note %}}There's a term for the phenomenon, by the way: semantic satiation.{{% /margin-note %}} Did we all collectively forget precisely what a tool even is?
 
----
+Suppose there's a slotted-head screw somewhere in your environment that you wish to tighten. You could extend the index finger on your dominant hand, insert the free edge of your nail plate into the slot, and turn your wrist. Depending on the state of the screw, this will probably cause some amount of injury to your fingernail. The mental imagery of that certainly made me cringe a little.
 
-- not everybody wants to pay any money to do their job
-    - why would i start paying a third-party service to do my job for me
-    - company should just pay the service directly and not involve me
-    - none of these companies really have our best interests at heart
-    - what happens if they need to turn a profit and jack up prices
-        - sponsored thoughts
-    - a lot of "no way i'm going back" and hoo boy that's scary
-    - hope this thing runs out of money and everything goes back to normal
-    - when's the last time you bought a phone for reasons other than "my photos will fit" or "the battery works?"
-    - maybe LLMs just turn your brain into sludge
+A far more effective technique would be to find a slotted screwdriver, grasp it in your hand, and perform substantially the same motion to accomplish the task. Brains have the rather remarkable ability to treat handheld objects as an extension of the body without a whole lot of cognitive overhead. Both a fingernail and a screwdriver permit a being of free will to impart some change in their environment. These are pretty unambiguously tools.
+
+The elegant simplicity of the screwdriver makes it useful for more than just driving screws. One could---in a pinch---use a screwdriver to pry two pieces apart, or to shave a piece of wood or other malleable material down, or they could bring it down to the mess hall to finally shank Jimmy the Rat. Whatever a person might want to do with a hand-held object having a screwdriver's material properties, they are free to do it.
+
+Somewhere in another part of town, on the fourth floor of a three-star chain hotel, an ice machine hums dutifully in the elevator lobby. This is a self-contained appliance that draws utility power and water from the building and converts it into ice cubes.{{% margin-note side %}}Along with noise and waste heat.{{% /margin-note %}} That's all it does, all day every day, whether anyone is paying attention to it or not. Is the ice machine a tool? Is it being directly manipulated by a being of sapience to achieve a particular end result? Or is it simply a machine, just "there" in case somebody needs the convenience?
+
+Conceptually between these two objects, we have the power screwdriver. This is a handheld device that converts electrical power into torque{{% margin-note side %}}Along with noise and waste heat.{{% /margin-note %}} that turns a slotted bit. The operator manipulates this in a way that's not too different from the regular screwdriver, moving it around and positioning the bit in the screw head, but instead of doing the difficult work of twisting their wrist to move the screw, all they need to do is press a button to release stored energy and channel it into the act of turning it. {{% margin-note %}}They also need to know when to _release_ the button, a lesson that comes from years of stripped threads, cammed-out heads, and splintered wood.{{% /margin-note %}} This is a far more efficient way to drive screws. It allows more screws to be driven over a given span of time, and it conserves the operator's energy and really saves their wrist from long-term injury.
+
+Yet in removing the most laborious and time-consuming part of turning screws, the power screwdriver has lost some of the generality that the traditional screwdriver enjoyed. Its awkward form factor and stubby bit/chuck arrangement prevents it from being useful at prying or chiseling, and it's definitely not an effective way to deal with our pesky cellmate.
+
+In fact, the narrow specialization of the power screwdriver is part of the reason why traditional screwdrivers still exist. I would guess that almost every person with a power screwdriver in their garage also has _multiple_ regular screwdrivers too. They each have their time and their place. I would not use a power screwdriver to change a watch battery, and I would not use a regular screwdriver to mount a 65-inch TV to a pair of wall studs. Both of these things are in my toolbox; I see no difficulty calling both of them tools.
+
+So, what is generative AI? Is it a power screwdriver that removes sporadic moments of fleeting agony from a much larger home improvement project? Is it an ice machine loudly grinding unrequested ice cubes onto the tile floor at two o'clock in the morning? Or is it a stick of dynamite---light the fuse, plug your ears, and run the hell away from whatever happens next?
+
+It can be all of these things, it seems. I guess AI really does satisfy the definition of a tool.
+
+This unlocks a common refrain from the booster class: "A true craftsperson uses every tool at their disposal!" Which, if you think about it for ten seconds, is ridiculous on its face. Gotta dig some holes for fence posts? Okay! Bring along every shovel on the truck, the Ditch Witch, a box of ANFO and the Bagger 293. Have the people who parrot this kind of stuff ever built _anything_ in the physical world? A true craftsperson has one _real good_ compound miter saw that they use for basically every cut on the job. They'll use it until it breaks down, then they'll replace it with a newer model of substantially the same thing. {{% margin-note %}}You know why they stick with what they know? _Because they know it._ They've invested a lot of effort learning quirks, shortcuts, and building up muscle memory on it.{{% /margin-note %}} In what world is switching tools for the sake of switching tools a remotely smart use of time?
+
+But there's a deeper thing I wanted to touch on here. There's a random piece of advice that's been floating around my head for years: _Don't rent your livelihood._{{% margin-note side %}}I wish I knew where I picked this up from so I could properly attribute it to its source, but my research so far has turned up nothing.{{% /margin-note %}} That is to say, if there is a tool or system on which your entire professional success rests, do everything you can to ensure that it's not something you need to constantly pay other people to acquire. For example, if you own and operate a moving company, it would be wise to not need to rely on a rental company to provide a truck for you to use every day. Because if you do, you're effectively at the rental company's mercy. If they want to jack up their day rates, that hurts your bottom line. If you show up the morning before a big move and they already rented all their trucks out to other customers, tough luck.
+
+Obviously there is nuance to it. If you're a landscaping company and you only need the Ditch Witch some days, it's less risky and more fiscally responsible to rent that. If you can't get it, it's not like the business shuts down. I'm talking about the fundamental every day stuff here: the plumber's wrenches, the musician's guitars, the photographer's camera bodies.
+
+Paying for AI of any kind feels like something between outsourcing the work and renting a brain. Neither one is a particularly great feeling, at least to me. The outsourcing aspect is pretty clear-cut: If you are doing this as an employee, the company hired _you_ and everything you bring to the table---your judgement, your experience, your personality, etc. If you wouldn't have hired some dude off Fiverr in 2021 to do your job for you, what suddenly changed now? Even if the business paid for the license instead of you, does it really change the fact that _it ain't really you doing the work anymore?_ What do they even need you for, anyway?
+
+The rent-a-brain aspect is more acutely alarming. And I will be blunt here: It sure does seem like the prolonged use of LLMs can reliably turn a person's mind into mush. Perhaps there's a bit of a correlation/causation aspect, but I do not like what I see out there.
+
+Stop me if you've heard this one before: "After [however long] using AI coding assistants, there's no way I'm going back!" You know, I don't doubt that this is true. Because I'm not sure they _could_ go back. It reads like praise on the surface, but underneath it those same words betray a chilling dependence. "I gambled away my life savings, I can't stop now." "I'm now addicted to heroin, why would I give that up?" "I lost a piece of myself that I can't even remember ever having, adapt or get left behind! :rocket:" Do you actually want to be in this place you feel you can no longer escape from?
+
+If you do knowledge work, your brain is your livelihood. Don't rent your brain, especially from companies that don't have your best interests at heart. How much do these LLM tokens actually cost, once you factor in the amortized cost of training multiple models over all the content that has ever been exposed to the internet? What does it cost once the VC money needs to be paid back, or the debts come due, or the investor class gets spooked and somebody's share price dives? How much will you need to pay each month to rent your livelihood back from these companies once your brain has completely atrophied?
+
+We live in a _capitalist_ society. The line must go up at all costs. For a while this was easy in the technology space because computers kept getting bigger and faster. This one can play CDs! Now this one can run the hot new game! This one can (barely) stream online videos! You ever notice how that kinda petered out about a decade ago? Computers today feel pretty much like the computers did in the mid 2010s. We stopped seeing worthwhile advances in features that people were clamoring for. VR was a bit of a dud, cryptocurrency didn't meaningfully change much of anything, and the sole motivating factor for me buying my last three smartphones was "the battery in the new one works."
+
+I doubt anybody really wants to admit it, but tech is in a terrible slump. They desperately need something, anything, to inspire that line to go up. If AI can't do it, there aren't a whole lot of other things out there to be optimistic toward.
+
+What will you do when the frontier models start inserting "sponsored thoughts" into the work you tasked them with?
+
+---
