@@ -2,7 +2,7 @@
 title = "You don't have to if you don't want to."
 description = 'TODO The description goes here.'
 #subheading = 'The subheading goes here.'
-date = 2026-02-16
+date = 2026-02-19
 
 #[[infoBox]]
 #key = 'AI Disclosure :sparkles:'
@@ -106,7 +106,7 @@ Look around you. You don't believe that this could be true?
 
 When I hear people say "I ship code that I don't read," what I hear in my head is "I really do not care about what the end-user of this product experiences, I do not care about whichever poor soul needs to maintain this thing after I've gotten bored with paying attention to it, I do not care about anybody on my team who has to support the ongoing operation of it, and frankly I didn't even care about making it in the first place. I just wanted to be done for the sake of being done." It is a vulgar display of apathy, a willful dereliction of sound engineering practices, and quite frankly it makes the practitioner sound like an insufferable asshat. To wield something so limitlessly powerful as software without so much as the slightest reverence for the craft is simply offensive. Truly. I am viscerally disgusted by what I am watching transpire in this space.
 
-"Aha! I've got you now," you bellow, in a different style of voice for some reason. "This is gatekeeping! You are trying to protect your little clubhouse from outsiders with viewpoints that differ from yours!" Guilty as charged; I am indeed gatekeeping. I'm gatekeeping in the same way all those pesky government officials gatekeep when they tell us we're not allowed to work toward achieving nuclear fission in the shed. Turns out we all live in a society, and the actions of one person have the capacity to directly and indirectly affect countless others. If there's an activity that has a high likelihood of causing preventable injury or tying up first responders unnecessarily, those activities tend to get restricted in some way.
+"Aha! I've got you now," you bellow, in a different style of voice for some reason. "This is gatekeeping! You are trying to protect your little clubhouse from outsiders with viewpoints that differ from yours!" Guilty as charged; I am indeed gatekeeping. I'm gatekeeping in the same way all those pesky government officials gatekeep when they tell us we're not allowed to work toward achieving nuclear fission in the shed. Turns out we live in a society, and the actions of one person have the capacity to directly and indirectly affect countless others. If there's an activity that has a high likelihood of causing preventable injury or tying up first responders unnecessarily, those activities tend to get restricted in some way.
 
 Software runs the world. It can make (or lose) untold sums of money. It can decide who gets a favorable mortgage rate or a critical job interview. It can surveil us. It can bombard us with advertisements targeted at personality traits we're not even aware we're revealing. It can cause accidental (or deliberate) death. More commonly, it can really frustrate, annoy, inconvenience, and subtly chip away at the mental well-being of vast swaths of the inhabitants of this planet we all share. Stop treating it like it's anything less.
 
@@ -166,16 +166,27 @@ Each machine is packed with ventilation fans that generate sound pressure levels
 
 A six-inch Spicy Italian Sub from Subway contains sufficient caloric content to run a person's 20-watt brain for 24 hours.
 
-I don't feel that I'm qualified to speak on environmental concerns, as the world is a big complicated interconnected thing and I'm just a tiny flake on it. We harness sunlight and wind power, we burn stuff, we do some kinda mumbo-jumbo with atoms
+I'm probably not the one you should be turning to if you're looking to be preached at regarding environmental concerns. Global energy production and consumption is a whole big thing and frankly I'm probably better off moodwise knowing as little as I am practically able to. I will say that it is _probably_ a net negative that AI datacenters use as much power as we do, and it's _probably_ in everybody's best interest to get that power consumption to go down even if it results in a net decrease of throughput and latency.
+
+What I do feel qualified to comment on is the increase of **entropy** caused by running these systems. I mean this in more than the strict scientific sense of releasing heat into the environment. I'm also talking about the material that is generated as the stated goal of the whole process---the _generative_ part of GenAI. The text and computer code, the images, the videos---these are increasing the entropy of the internet, its social spaces, and our own finite attention. As much heat as they're venting into the air, at least that much "content" inundates our screens and headphones at the same time.
+
+Not everybody is okay with that.
+
+It may or may not surprise you, but I never got into the 3D printing hobby. Don't get me wrong, it's an impressive technology and an undeniable boon to tinkerers and professional prototypers alike. My position on it has always been rather pragmatic: I've got too much crap in my living spaces---more crap than I have places to put it or the ambition to organize it---so why on earth would I want to own a machine whose sole purpose was to _make more crap?_
+
+One doesn't need to take too many mental leaps to draw a parallel between generative AI and 3D printing. You want it, you can have it. It's pretty cheap, and it doesn't take anywhere near as long as trying to find somebody to make it for you using the old techniques. If it comes out deformed, throw it away and try again. Nobody put any substantial effort into making it, so it's not like you're hurting anybody's feelings. As soon as a new design leaves the machine and you take possession of it, you're holding the only instance of a brand new thing, a bespoke build just for you. That should make you feel like... something, right?
+
+"When you get something for free, it has no value." This line has been spoken---on more than one occasion---by Adam Levy, son of Judge Judy Sheindlin, on the reality court show _Tribunal Justice_.{{% margin-note side %}}The fact that he made this statement on a free TV show streaming through an app called Freevee is an irony not lost on me.{{% /margin-note %}} In the original context, he was referring to an animal that the defendant gave away for free which later had medical expenses that the plaintiff wanted to recover.
+
+TODO
+
+I will concede that it is frankly incredible that we have gotten so close to empirically testing the infinite monkey theorem. It is a miracle of human ingenuity that we can etch 100 billion transistors onto a piece of rock we dug out of the ground. The fact that we don't really understand how it works, yet it _does_ work, is astonishing. This stuff is capable of doing some genuinely cool stuff that might actually set us up for untold prosperity for generations to come. But if we're just going to use it to make another Stable Diffusion image of a smooth beige coffee shop or a commit message peppered with green checkbox emoji describing what the code "appears" to do{{% margin-note side %}}"This pull request appears to..." _Appears_ to? You wrote it, bro!{{% /margin-note %}}---all in the hopes that it will make us all a lot of money someday, somehow---just put that rock back where you found it.
+
+We live in a society with other people, and as much as it might be an annoyance sometimes, those other people deserve to enjoy a certain amount of respect.
 
 ---
 
-- not everybody is okay with the resource usage and externalities
-    - Rube Goldberg machine
-    - maybe focusing on power and water isn't ideal
-        - increasing entropy
-    - a 3D printer that makes crap all day
-    - the fact that we did it is a miracle, but if this is how we're using it, put the silicon back in the ground
-    - in order to truly serve you, these systems need to know more about you
-        - who the hell wants that?
-        - even if you do, the people in your email/contacts didn't consent
+- Rube Goldberg machine
+- in order to truly serve you, these systems need to know more about you
+    - who the hell wants that?
+    - even if you do, the people in your email/contacts didn't consent
