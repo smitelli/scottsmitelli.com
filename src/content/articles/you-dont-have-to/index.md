@@ -194,6 +194,20 @@ I bet that somewhere in your closet or dresser you've got a shirt that you don't
 
 Is anybody else tired of living in a world filled with abject crap?
 
+## TODO
+
+Toby made his first chair when he was twelve years old. It was made out of scraps he found behind the barn, some weathered 2x4s and the remnants of a card table. It was a boxy kind of thing, no armrests, and not a single curved surface anywhere on it. But the cuts were square, the pieces fit together good, and it felt like something that might last for a while. He never cared much about the finish, never sanded any of the surfaces, slathered it in Rust-Oleum Red and put it to work at the desk where he did his homework.
+
+He made another one a few weeks later, and gave that one to his granddad as a gift. Pretty much the same design, same color, although this one was a little taller to better suit his grandfather's height. Then he made another one for his friend to sit in when he came over to hang out.
+
+In the years since then, Toby's made more chairs than he can even recall. It may very well be over a thousand at this point. He's got a whole workshop with a few staff helping him out. And they've branched out into other stuff too---end tables and three-shelf bookcases, those kinds of things. Toby's shop has enjoyed a modest amount of regional attention and there's been plenty of orders to keep his crew busy.
+
+He was recently interviewed by a student for the middle school's newspaper. Toby loved talking about his work---evidenced by the joyful smile peeking through his bushy salt-and-pepper beard---and he loved inspiring kids to set ambitious goals in their own lives. When asked how he got to where he is, he replied simply: "Every day I come in here and pick up my tools, I have the opportunity to grant somebody in the world a nice place to sit." He actually had to say it twice; the student was not the fastest with a pen and pad.
+
+Across the shop, Lyle looked up just in time to catch Toby's quote. He had just finished clamping a long wooden dowel into the lathe and was now hunting around his cluttered bench top for his safety glasses. He bristled slightly at the words his boss was basically dictating to the kid. This is a wood shop; they make chairs. Ain't nothing lofty or aspirational about that.
+
+Lyle slipped the glasses over his eyes and flipped the switch on his lathe. The dowel came up to speed rapidly as the din of motor noise surrounded him like an old familiar friend. He picked up his favorite chisel and set to work. Back and forth along the length of the piece, sending swarf and chips of wood fluttering to the shop floor, he molded a raw piece of wood into one spindle. The chair being created here needs nine spindles in total, each with different lengths due to the curved shape of the back.
+
 ---
 
 - not everybody views shipping as their core value
