@@ -18,7 +18,7 @@ Also covers the info box feature which contains page dates/TOC/metadata.
 }
 
 label.mn-sn-indicator {
-    @media (max-width: $sm-breakpoint) {
+    @media screen and (max-width: $sm-breakpoint) {
         cursor: pointer;
         @include underline;
     }
