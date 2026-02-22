@@ -2,7 +2,7 @@
 title = "You don't have to if you don't want to."
 description = 'TODO The description goes here.'
 #subheading = 'The subheading goes here.'
-date = 2026-02-20
+date = 2026-02-21
 
 #[[infoBox]]
 #key = 'AI Disclosure :sparkles:'
@@ -186,7 +186,7 @@ We live in a society with other people, and as much as it might be an annoyance 
 
 "In order to truly serve you, these systems need to know all there is to know about you." It's like we somehow forgot how to view things through a lens of suspicion.
 
-Now, let me just nip this one in the bud: I'm going to fucking keelhaul the next person who calls me a Luddite for feeling this way. I'm not arguing that this technology should be unilaterally destroyed; I am arguing that we are collectively using it in the dumbest possible way, causing the most self-inflicted injury, and maximizing the amount of angst and suffering we'll all have to contend with. I am angry with it because it seems to be making everybody think and act like complete idiots.
+Now, let me just nip this one in the bud: I'm going to fucking keelhaul the next person who calls me a Luddite for feeling this way. I'm not arguing that this technology should be unilaterally destroyed; I am arguing that we are collectively using it in the dumbest possible way, causing the most self-inflicted injury, and maximizing the amount of angst and suffering we'll all have to contend with. I am angry at generative AI because it seems to be making everybody think and act like complete idiots.
 
 But if you wanna talk Luddites, here's something to chew on. The Luddites were textile workers who opposed the introduction of machinery that automated what had traditionally been the tedious process of hand-finishing cloth. They didn't enjoy the tedium _per se_; what they liked was the ability to earn a livable wage by _enduring_ that tedium. Part of their argument was, although the machines were touted as being able to do the same job quicker and cheaper, the end product was of inferior quality due to the lack of skilled attention given to the work. They might've said that quality was something worth paying a little more and waiting a little longer for. {{% margin-note %}}I happen to agree with that, but it doesn't mean I'm going to get all smashy about it.{{% /margin-note %}}
 
@@ -196,7 +196,7 @@ Is anybody else tired of living in a world filled with abject crap?
 
 ## TODO
 
-Toby made his first chair when he was twelve years old. It was made out of scraps he found behind the barn, some weathered 2x4s and the remnants of a card table. It was a boxy kind of thing, no armrests, and not a single curved surface anywhere on it. But the cuts were square, the pieces fit together good, and it felt like something that might last for a while. He never cared much about the finish, never sanded any of the surfaces, slathered it in Rust-Oleum Red and put it to work at the desk where he did his homework.
+Toby made his first chair when he was twelve years old. It was made out of scraps he found behind the barn, some weathered 2x4s and the remnants of a card table. It was a boxy kind of thing, no armrests, and not a single curved surface anywhere on it. But the cuts were square, the pieces fit together good, and it felt like something that might last for a while. He never cared much about the finish, never sanded any of the surfaces, slathered it in Rust-Oleum red and put it to work at the desk where he did his homework.
 
 He made another one a few weeks later, and gave that one to his granddad as a gift. Pretty much the same design, same color, although this one was a little taller to better suit his grandfather's height. Then he made another one for his friend to sit in when he came over to hang out.
 
@@ -204,37 +204,65 @@ In the years since then, Toby's made more chairs than he can even recall. It may
 
 He was recently interviewed by a student for the middle school's newspaper. Toby loved talking about his work---evidenced by the joyful smile peeking through his bushy salt-and-pepper beard---and he loved inspiring kids to set ambitious goals in their own lives. When asked how he got to where he is, he replied simply: "Every day I come in here and pick up my tools, I have the opportunity to grant somebody in the world a nice place to sit." He actually had to say it twice; the student was not the fastest with a pen and pad.
 
-Across the shop, Lyle looked up just in time to catch Toby's quote. He had just finished clamping a long wooden dowel into the lathe and was now hunting around his cluttered bench top for his safety glasses. He bristled slightly at the words his boss was basically dictating to the kid. This is a wood shop; they make chairs. Ain't nothing lofty or aspirational about that.
+Across the shop, Lyle looked up just in time to catch Toby's quote. He had just finished clamping a long wooden dowel into the lathe and was now hunting around his cluttered bench top for his safety glasses. He bristled slightly at the words his boss was essentially dictating to the kid. This is a wood shop; they make chairs. Ain't nothing lofty or aspirational about that.
 
-Lyle slipped the glasses over his eyes and flipped the switch on his lathe. The dowel came up to speed rapidly as the din of motor noise surrounded him like an old familiar friend. He picked up his favorite chisel and set to work. Back and forth along the length of the piece, sending swarf and chips of wood fluttering to the shop floor, he molded a raw piece of wood into one spindle. The chair being created here needs nine spindles in total, each with different lengths due to the curved shape of the back.
+Lyle slipped the glasses over his eyes and flipped the switch on his lathe. The dowel came up to speed rapidly as the din of motor noise surrounded him like an old familiar friend. He picked up his favorite chisel and set to work. Back and forth along the length of the piece, sending swarf and chips of wood fluttering to the shop floor, he molded a raw piece of wood into one spindle. He switched the machine off and lifted his glasses to rest above his forehead. The spinning blur of the workpiece slowed, then stopped, and he unclamped it. In its place, a brand new dowel from a small stack. The chair being created here needed nine spindles in total, but he wasn't counting them. It'd be done whenever the stack ran out.
+
+In the five or so years he'd worked here, Lyle never really had any lengthy or deep conversions with Toby. They had always been cordial enough---how's the family, have you ever been camping, can you believe our team bungled the playoff game---those types of conversations. But nothing much deeper than that. Lyle had always respected Toby and the way he chose to run the business, but he never really wanted to get too into the weeds talking about orders and suppliers and _vision_. That kind of stuff required way too much time talking on the phone for Lyle's taste. It was frankly better for everybody for everybody that Lyle stay back behind the lathe, churning out chair spindles, table legs, even the occasional baluster. He had tried his hand at making a baseball bat a few times throughout his life; the result was passable, never great.
+
+One of Toby's earliest realizations during the early days of the business was that, although he was skilled enough at every aspect of furniture making to do everything himself, he wasn't passionate about the work itself. He'd barely been in business for two months when he hired Beau to take over sanding and finishing---Toby's least favorite task of them all. Janice was hired to do shipping and receiving, another one of those jobs that he couldn't stand giving time to. Lyle was probably the fourth or fifth hire once production really started picking up. The lathe was his specialty; he never wanted anything more than that.
+
+Toby remained the idea guy. The designer of the various product lines, the head of sales, the one-man public relations department and the self-proclaimed visionary of the whole thing. He was always full of big ideas and big plans, and they all revolved around a world filled with handcrafted furniture with his name etched on the underside with a hot iron. Toby made furniture for people, goddammit.
+
+As far as Lyle was concerned, Toby was a bit of a pompous, self-aggrandizing windbag. His wood shop made chairs, not cancer cures. Still, it was a pretty good gig for this small town on the Appalachian side of the Rust Belt, and the work suited him. All he ever wanted in life was to gradually shape wood into axially symmetric curves and forms. It was the closest thing he ever had to feeling like he had a purpose on this earth. He never even cared for a minute about what all those finished pieces ended up in. He just loved using the lathe, and he was damn good at it. Lyle was born to be a woodturner, goddammit.
+
+Not everybody views shipping finished products as their core value.
+
+Here we come perhaps to the meat of why everybody seems to think everybody else is some kind of fool. People have certain core values---sometimes ones they're not yet even cognizant about---and these can seem utterly alien to others who don't share them. I'm starting to believe that a sizable chunk of the arguments about AI use (and probably a bunch of other things) boils down to people forming opinions and preferences from a set of values and principles that are incompatible with those held by the other party.
+
+Put simply, Toby values shipping things and providing value to the world, and Lyle doesn't. Lyle values deep expertise in a skill carried out with care and craft, and Toby doesn't. Any discussion that the two of them might have that brings these two sets of values into tension is going to end up in some kind of argument that neither one side will concede. And who would expect them to? These are the very foundations of their personalities.
+
+This, right here, is why everybody is fighting all the time. We're all trying to argue positions based on mismatched values. Not _wrong_ values. Mismatched.
+
+On the one side, you've got folks whose entire sense of self-worth and meaning is inexorably tied to the act of generating economic value. Economies being what they are, that economic value is enjoyed by one or more outside parties. In the other corner, you've got people who aren't primarily focused on creating anything of any appreciable value for others and who are motivated by some internal force. Perhaps these people would be more likely to be viewed as selfish or childish for putting their own interests first.
+
+Neither of these is _wrong_.{{% margin-note side %}}Although the former certainly fits into capitalism's mold a lot more easily.{{% /margin-note %}} They are simply _different_.
+
+When we visit sites like the LinkedIns or the Hackers News, we're stepping into environments that are already heavily and disproportionately skewed toward the "generate economic value" side. LinkedIn is for showing off that swole grindset hustle, and Hacker News is an echo chamber filled with people who deliberately inserted themselves into orbit around a tech startup accelerator.{{% margin-note side %}}Y Combinator{{% /margin-note %}}
+
+It's no wonder why a person in the "do what I like" camp might feel outnumbered in spaces like those. It's not surprising that voicing an opinion that runs counter to the broad themes of "generate economic value" would sow discord. It doesn't mean anybody is wrong per se, but it does mean that somebody needs to at least try to point to the reason why this keeps happening.
+
+Having said that, as a proud citizen of the "do what I like" tribe, I do feel qualified to point out exactly what bothers _me_ about the other side's talking points. Feel free to take it or leave it.
+
+You ever notice how the big selling point of AI tools is how much more productive it makes everybody? "Saves time," "Lets me do 10x what I did before," "I can work on five different things simultaneously," and so forth. I'm skeptical of the exact numbers---especially that 10x figure---but I'm broadly convinced that the use of AI is actually making some people faster at certain tasks.
+
+You know what I never hear in these discussions? "It makes me _happier_." "It gives me a sense of _fulfillment_ and _meaning_." "It has provided me with _higher income_ or a _shorter workday_." "I am finally _respected_." You'd think that if somebody attained these, that would get top billing over some olive-drab tripe about productivity... right? Or am I just supposed to take it as implied that productivity naturally and inevitably leads to all those other good things, and we all know this, so why should it need to be stated explicitly?
+
+I dunno, man. Sounds kinda like B.S. to me.
 
 ---
 
-- not everybody views shipping as their core value
-    - some people dream of giving the world a place to sit, so they make chairs
-    - others just like using the lathe -- knowledge, deep understanding, care and craft
-    - i could've felled this tree with a chainsaw, but i didn't -- and that's the point
-    - you ever notice how everybody talks about how this makes them more productive?
-        - never about being happier, or more fulfilled, or respected, or better paid, or a sense of meaning...
-    - it goes the other way too
-        - folks who spend their days installing oh-my-zsh plugins and reinstalling Linux
-    - wow, look at how many LoC this thing spat out! i thought we outgrew this
-    - so is the product important, or the code?
-        - code is a liability, something for the machine to do, something we don't value
-        - we don't even read it! throw it away and make something new if it doesn't work
-        - but the code is proprietary and secret, and must never leak
-        - the loud drumbeat is "build, build, build!" these structures
-            - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
-        - https://darioamodei.com/essay/machines-of-loving-grace
-            - he wants us to be a bunch of grad students in the shadow of a computer
-        - is it even copyrightable?
-    - "you are self-centered and not primarily focused on creating value for others"
-    - "the link between the generation of economic value and self-worth and meaning"
-    - sometimes the meaningless puzzles are important (now i gotta reevaluate blockchain)
-    - companies who prioritize shipping at all cost are going to grind you to dust
-        - when they say they value your professional growth -- do they?
-        - or do they just want to say a magic spell to make you luckier at LLM slot machines?
-    - distorted corporate memphis linkedin GIF
-    - i can beat Usain Bolt if i run the 100m in a car
-    - making ideas expensive helps filter out the bad ideas
-    - even mechanically renaming things trains you to name them right in the first place
+- i could've felled this tree with a chainsaw, but i didn't -- and that's the point
+- sometimes the meaningless puzzles are important (now i gotta reevaluate blockchain)
+- even mechanically renaming things trains you to name them right in the first place
+- i can beat Usain Bolt if i run the 100m in a car
+
+- it goes the other way too
+    - folks who spend their days installing oh-my-zsh plugins and reinstalling Linux
+- companies who prioritize shipping at all cost are going to grind you to dust
+    - when they say they value your professional growth -- do they?
+    - or do they just want to say a magic spell to make you luckier at LLM slot machines?
+
+- wow, look at how many LoC this thing spat out! i thought we outgrew this
+
+- so is the product important, or the code?
+    - code is a liability, something for the machine to do, something we don't value
+    - we don't even read it! throw it away and make something new if it doesn't work
+    - but the code is proprietary and secret, and must never leak
+    - the loud drumbeat is "build, build, build!" these structures
+        - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
+    - https://darioamodei.com/essay/machines-of-loving-grace
+        - he wants us to be a bunch of grad students in the shadow of a computer
+    - is it even copyrightable?
+- distorted corporate memphis linkedin GIF
+- making ideas expensive helps filter out the bad ideas
