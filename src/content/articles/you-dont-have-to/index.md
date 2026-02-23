@@ -2,7 +2,7 @@
 title = "You don't have to if you don't want to."
 description = 'TODO The description goes here.'
 #subheading = 'The subheading goes here.'
-date = 2026-02-22
+date = 2026-02-23
 
 #[[infoBox]]
 #key = 'AI Disclosure :sparkles:'
@@ -194,7 +194,7 @@ I bet that somewhere in your closet or dresser you've got a shirt that you don't
 
 Is anybody else tired of living in a world filled with abject crap?
 
-## TODO
+## Live, work, and play
 
 Toby made his first chair when he was twelve years old. It was built from scraps he found behind the barn, some weathered 2&times;4s and the remnants of a card table. It was a boxy kind of thing, no armrests, and not a single curved surface anywhere on it. But the cuts were square, the pieces fit together well, and it felt like something that might last for a while. He never cared much about the finish, never sanded any of the surfaces, he slathered it in Rust-Oleum red and put it into service at the desk where he did his homework.
 
@@ -204,7 +204,7 @@ In the years since then, Toby's made more chairs than he can even recall. It may
 
 He was recently interviewed by a student for the middle school's newspaper. Toby loved talking about his work---evidenced by the joyful smile peeking through his bushy salt-and-pepper beard---and he loved inspiring kids to set ambitious goals in their own lives. When asked how he got to where he is, he replied simply: "Every day that I come in here and pick up my tools, I have the opportunity to grant somebody in the world a nice place to sit." He actually had to say it twice; the student was not the fastest with a pen and pad.
 
-Across the shop, Lyle looked up just in time to catch Toby's quote. He had just finished clamping a long wooden dowel into his well-worn lathe and had been hunting around his cluttered bench top for his safety glasses. He bristled slightly at the words his boss was essentially dictating to the kid. This was a wood shop; they made chairs. Ain't nothing lofty or aspirational about that.
+Across the shop, Lyle looked up just in time to catch Toby's quote. He had just finished clamping a long wooden dowel into his well-worn lathe and had been hunting around his cluttered workbench for his safety glasses. He bristled slightly at the words his boss was essentially dictating to the kid. This was a wood shop; they made chairs. Ain't nothing lofty or aspirational about that.
 
 Lyle found what he was looking for, slipped the glasses over his eyes and flipped the switch on his lathe. The dowel came up to speed rapidly as the din of motor noise surrounded him like an old familiar friend. He picked up his favorite chisel and set to work. Back and forth along the length of the piece, sending swarf and chips of wood fluttering to the shop floor, he molded a raw piece of wood into one chair spindle in almost no time. He switched the machine off and lifted his glasses to rest above his forehead. The spinning blur of the workpiece slowed, then stopped, and he unclamped it. In its place, a brand new dowel from a small stack. The chair being created here called for nine spindles in total, but he wasn't counting them. It'd be done whenever the stack ran out.
 
@@ -257,29 +257,52 @@ I don't know if some people just flat-out don't understand where care and craft 
 
 You can perhaps see why I might respond poorly to losing the axe option.
 
-The act of solving meaningless puzzles can itself be meaningful to individuals who hold challenge or the accumulation of skills and knowledge as core personal values. That is how their reward systems are wired. Burning cycles on a challenging problem with limited to no broader practical utility is a noble pastime for them.{{% margin-note side %}}And I guess now I gotta reevaluate my moral objection to the proof-of-work consensus algorithms that the blockchain bros are always touting.{{% /margin-note %}} Even mindlessly repetitive work---for instance renaming a file or source code object then patching up all references to the old name to use the new name instead---can serve as an easy brain hack for a quick dopamine hit _and_ the act of cleaning up bad patterns reinforces the importance of starting with good ones in the future. Sometimes you get sent down a fruitful rabbit hole in the process, and that can pay dividends. {{% margin-note %}}That's what pushed me to sit down and properly learn AWK; one too many instances of needing to reformat some hideous data and clamoring for a fresh way of tackling it.{{% /margin-note %}}
+The act of solving meaningless puzzles can itself be meaningful to individuals who hold challenge or the accumulation of skills and knowledge as core personal values. That is how their reward systems are wired. Burning cycles on a challenging problem with limited to no broader practical utility is a noble pastime for them.{{% margin-note side %}}And I guess now I gotta reevaluate my moral objection to the proof-of-work consensus algorithms that the blockchain bros are always touting.{{% /margin-note %}} Even mindlessly repetitive work---for instance renaming a file or source code object then patching up all references to the old name to use the new name instead---can serve as an easy brain hack for a quick dopamine hit _and_ the act of cleaning up bad patterns reinforces the importance of starting with good ones in the future. Sometimes you get sent down a fruitful rabbit hole in the process, and that can pay dividends. {{% margin-note %}}That's what pushed me to sit down and properly learn AWK; I encountered one too many instances of needing to reformat some hideous data and clamored for a fresh way of tackling it. This can backfire, however: I'm sure you have encountered the type of person who seems to spend their entire waking life reinstalling different Linux distributions or endlessly tweaking their Oh My Zsh plugins to no specific end---not even as practice or meditative work. It takes a certain self-awareness and pragmatism to notice the point where pulling a given intellectual thread stops yielding anything useful and devolves into aimless fidgeting.{{% /margin-note %}}
 
 I travel through the world at speeds exceeding 30 mph all the time and nobody cares. Usain Bolt does it and he gets an Olympic gold medal. The difference is that I use a Toyota, and he uses his freakin' legs and feet. Are we suggesting he's wrong for choosing to do something challenging that runs afoul of what society views as maximally efficient?
 
-"But the company---" Shut up. Companies will say that they value velocity and new launches and shipping first at all costs because _of course they do_. That's basically the number one corporate value of every organization whether they admit to it or not. They'll say they value experimentation, but not as much as shipping. Or they'll claim to be really into investing in people and fostering growth, but not to the extent that it should let the schedule slip. Maybe they'll say something about embracing failure, unless it's a failure to get the app redesign in users' hands before the end of the fiscal quarter. Some places really, really mean it when they say "ship or GTFO," and those organizations have a tendency to grind employees into dust. But it sure seems like most places don't actually value velocity as much as they claim to, just like all the other corporate values on their Careers page.
+"But the company---" Shut up. Companies will say that they value velocity and new launches and shipping first at all costs because _of course they do_. That's basically the number one corporate value of every organization whether they admit to it or not. They'll say they value experimentation, but not as much as shipping. Or they'll claim to be really into investing in people and fostering growth, but not to the extent that it should let the schedule slip. Maybe they'll say something about embracing failure, unless it's a failure to get the app redesign in users' hands before the end of the fiscal quarter. Some places really, really mean it when they say "ship or GTFO," and those organizations have a tendency to grind employees into dust. But it sure seems like most places don't actually value velocity as much as they claim to, just like all the other corporate values that pad out their Careers page.
 
-In fact, we'd all probably be better off if things slowed down.
+"Wait a second, I need a pen." Janice seemed uncharacteristically frazzled. "Non-ST elevation... myocardial? Speak English!" She was not the type of person to lose her cool on the phone. "Oh my god."
+
+Lyle heard the news along with everyone else in the shop: Toby had had what they called a mini--heart attack and was being treated at the medical center in the city. He was awake and conversational with the nurses, but it could have been much worse under different circumstances. Janice continued her announcement, something about praying and taking time if you need it, but Lyle retreated inward. A flurry of thoughts ran through his mind.
+
+Toby always seemed to take care of himself. He was among the most physically fit people in the shop---built like a tank---probably capable of running a 10K, beating the living hell out of somebody, and eating a Tomahawk ribeye all before noon. Still, he was always worked up about something or other, the lines on his furrowed brow permanently etched like carved mahogany, and he never appeared to be completely at peace. As readily as the man laughed at life's trials and tribulations, the moment the laughter faded there was a palpable worry in his eyes. There was always so much to do, never any time to do it, and this little medical setback was probably the last thing he needed right now.
+
+For no reason that he was able to discern, Lyle remembered his garage at home. He briefly imagined a world in which he died unexpectedly and all the things his family would have to deal with while cleaning out his accumulated junk. He thought about the walls and shelves and piles of stuff he tossed into the attic and how his grieving relatives would have to make the choices that he could never bring himself to make in life---what to organize, what to donate, what to save, what to destroy. The idea of forcing the consequences of his own inaction on other people, people he loved, filled him with guilt.
+
+A second wave of guilt washed over him when he realized that he was now thinking of himself during the time when his friend needed--- Wait, was Toby even his friend? They'd worked basically shoulder to shoulder for close to six years... what were they in each other's view?
+
+He wasn't sure which of those thoughts finally did it, but the tears began to well up under his eyes as he returned to his workbench.
+
+## Skill issue
 
 ---
 
-- making ideas expensive helps filter out the bad ideas
-
-- it goes the other way too
-    - folks who spend their days installing oh-my-zsh plugins and reinstalling Linux
-
-- so is the product important, or the code?
-    - code is a liability, something for the machine to do, something we don't value
-    - we don't even read it! throw it away and make something new if it doesn't work
-    - but the code is proprietary and secret, and must never leak
-    - the loud drumbeat is "build, build, build!" these structures
-        - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
-    - https://darioamodei.com/essay/machines-of-loving-grace
-        - he wants us to be a bunch of grad students in the shadow of a computer
-    - is it even copyrightable?
-    - or do they just want to say a magic spell to make you luckier at LLM slot machines?
-- distorted corporate memphis linkedin GIF
+- if you don't get good results, you didn't use it right
+    - gotta pick the right model and version
+    - the right mode (thinking, reasoning)
+    - give it enough context, but not too much
+        - keep the important things far from the system prompt
+        - but also keep it far from the end of the context window
+    - pit multiple models against one another
+    - so is the product important, or the code?
+        - code is a liability, something for the machine to do, something we don't value
+        - we don't even read it! throw it away and make something new if it doesn't work
+        - but the code is proprietary and secret, and must never leak
+        - the loud drumbeat is "build, build, build!" these structures
+            - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
+        - https://darioamodei.com/essay/machines-of-loving-grace
+            - he wants us to be a bunch of grad students in the shadow of a computer
+        - is it even copyrightable?
+    - making ideas expensive helps filter out the bad ideas
+    - dumping $200 into a stupid parlay
+        - if you win you're a genius who knows exactly what they're doing
+        - if you lose, it's everybody else's fault
+    - at a certain point it starts seeming like these AI users really want to be managers
+        - and if that's the goal, just go into management
+        - it certainly pays better
+    - there's also the possibility that they're just straight-up lying
+        - it re-made the app from screenshots!
+        - it reverse-engineered the game!
+        - yeah, i watch South Park, i love Carmen, she's my favorite
