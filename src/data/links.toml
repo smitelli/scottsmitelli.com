@@ -103,6 +103,10 @@ text = 'Bastard Operator from Hell - Official Archive'
 href = 'https://www.bbc.com/news/technology-47416440'
 text = 'Amazon stops selling Dash buttons'
 
+[bbc-ai-resorts-to-blackmail]
+href = 'https://www.bbc.com/news/articles/cpqeng9d20go'
+text = 'AI system resorts to blackmail if told it will be removed'
+
 [beautifulsoup]
 href = 'https://www.crummy.com/software/BeautifulSoup/'
 text = 'Beautiful Soup'
@@ -445,6 +449,10 @@ text = 'MathJax'
 href = 'https://medium.com/@lotus.lin/failing-forward-amazon-fire-phone-f88c98c08156'
 text = "Fire Phone: The Rise and Fall of Amazon's Smartphone Dream"
 
+[medium-welcome-to-gas-town]
+href = 'https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04'
+text = 'Welcome to Gas Town'
+
 [meta-ai]
 href = 'https://www.meta.ai/'
 text = 'Meta AI'
@@ -646,6 +654,10 @@ href = 'https://scottsmitelli.com/'
 [thebuild-web-scale]
 href = 'https://thebuild.com/blog/2010/10/27/things-i-do-not-understand-web-scale/'
 text = 'Things I Do Not Understand: "Web-Scale."'
+
+[theregister-sergey-brin-threatening-ai]
+href = 'https://www.theregister.com/2025/05/28/google_brin_suggests_threatening_ai/'
+text = 'Google co-founder Sergey Brin suggests threatening AI for better results'
 
 [theregister-warner-music-removes-youtube-videos]
 href = 'https://www.theregister.com/2008/12/22/warner_music_removes_youtube_videos/'

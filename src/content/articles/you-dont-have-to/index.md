@@ -56,17 +56,17 @@ In place of all that, I started spending much more time in smaller private commu
 
 I was all set to leave that part of my life behind me. Then it followed me to work.
 
-## If a clod be washed away by the sea
+## If a clod be washed away by the C
 
 There are lots of different jobs out there, and a fair number of them are done on computers. As a matter of fact, when people ask me what I do for a living, I sometimes simply wave my hand and say "Computers" in a kind of no-you-really-don't-want-to-know-what-Kubernetes-is kind of way. I suspect most office workers have a similar aspect of their job that they don't like to dredge up during polite conversation.
 
-I'm a software engineer on paper, and that's the framing I'll use here because it's the one I know best. But I'm sure that those working in design, marketing, visual art, customer service, writing, all sorts of disciplines have felt it too. This ever-louder voice booming from on high to integrate LLMs and other generative AI tools into every conceivable point in your workstream. Maybe against your will. Probably against your own interests.
+I'm a software engineer on paper, and that's the framing I'll use here because it's the one I know best. But I'm sure that those working in design, marketing, visual art, customer service, writing, all sorts of disciplines have felt it too. This ever-louder voice booming from on high to integrate LLMs and other generative AI products into every conceivable point in your workstream. Maybe against your will. Probably against your own interests.
 
 In the software engineering world, at least until quite recently, we all wrote computer code. Some of us wore the title "Coder" like a badge of honor to describe the profession.{{% margin-note side %}}I never much cared for it.{{% /margin-note %}} We spent basically the entire 2010s loudly promoting "Everyone should learn to code!" as the cure for all of the ails of that era. And coders entered the profession in droves. With a _teeny-tiny_ bit of help from years and years of interests rates near zero, the industry flourished.
 
 There are a bunch of different types of computer code, and one way to visualize the different categories is to imagine them as the different decks on a ship. At the bottom, in the ship's sweltering boiler room, we have the **machine code**---the ones and zeros computers are real good at but humans are real bad at. Above that we have an **assembly language** layer, still cryptic as all hell but at least comprehensible to a skilled and attentive person who subsists entirely on coffee. Above that we have **systems languages** like C and Rust {{% margin-note %}}And maybe Go if you wanna get into fights with certain people.{{% /margin-note %}} that are a pretty good balance between raw control over the computer and ease of getting things done.
 
-One deck higher, we find ourselves among the **interpreted languages** like Python and JavaScipt which hide a whole bunch of underlying concepts away in the name of making the code easier to write and reason about. And yet above that, a whole ecosystem of **low-code** tools that boast a point-and-click interface to building the whole application on top of their hosted platform. These would be things like Framer and Squarespace. Heck, let's throw Excel and Power BI into that pile as well.
+One deck higher, we find ourselves among the **interpreted languages** like Python and JavaScipt which hide a whole bunch of underlying concepts away in the name of making the code easier to write and reason about. And yet above that, a whole ecosystem of **low-code** products that boast a point-and-click interface to building the whole application on top of their hosted platform. These would be things like Framer and Squarespace. Heck, let's throw Excel and Power BI into that pile as well.
 
 In this hierarchy, the upper level languages mechanically generate the code at the layer(s) beneath. If you are working in assembly code, a tool called an **assembler** translates it into machine code without you needing to think about it. If you write C or Rust, a **compiler** takes care of the assembly aspects of the program. Python and JavaScript are executed by **interpreters**, which were each written in a compiled language, and so on. Whichever layer you work in, your code ultimately needs to be translated all the way down to machine code for a computer to make any direct use of it.
 
@@ -218,6 +218,8 @@ Toby remained the idea guy. The designer of the various product lines, the head 
 
 As far as Lyle was concerned, Toby was a bit of a pompous, self-aggrandizing windbag. His wood shop made chairs, not cancer cures. Still, it was a pretty good gig for this small town on the Appalachian side of the Rust Belt, and the work suited him. All he ever wanted in life was to gradually shape wood into axially symmetric curves and forms. It was the closest thing he ever found to feeling like he had a purpose on this earth. He never even thought too hard about what all those finished pieces ended up going into. He just loved using the lathe, and he was a a true master at it. Lyle was born to be a woodturner, goddammit.
 
+---
+
 Not everybody views shipping products as a personal value.
 
 Here we come perhaps to the meat of why everybody seems to think everybody else is some kind of contemptible fool. People have certain core values---sometimes held subconsciously---and these can seem utterly alien to others who don't share them. I'm starting to believe that a sizable chunk of the arguments about AI use (and probably a bunch of other things) boils down to people forming opinions and preferences from a set of values and principles that are incompatible with those held by the other party.
@@ -236,7 +238,7 @@ It's no wonder why a person in the "do what I like" camp might feel outnumbered 
 
 Having said that, as a proud citizen of the "do what I like" tribe, I do feel qualified to point out exactly what bothers _me_ about the other side's talking points. Feel free to take it or leave it.
 
-You ever notice how the big selling point of AI tools is how much more productive it makes everybody? "Saves time," "Lets me do 10&times; what I did before," "I can work on five different things simultaneously," and so forth. I'm skeptical of the exact numbers---especially that 10&times; figure---but I'm broadly convinced that the use of AI is actually making some people faster at certain tasks. Sometimes in a moment of vulnerable transparency you'll hear things like "It makes me more tired than I used to be at the end of the day." Sign me up. /s
+You ever notice how the big selling point of AI is how much more productive it makes everybody? "Saves time," "Lets me do 10&times; what I did before," "I can work on five different things simultaneously," and so forth. I'm skeptical of the exact numbers---especially that 10&times; figure---but I'm broadly convinced that the use of AI is actually making some people faster at certain tasks. Sometimes in a moment of vulnerable transparency you'll hear things like "It makes me more tired than I used to be at the end of the day." Sign me up. /s
 
 You know what I never hear in these discussions? "It makes me _happier_." "It gives me a sense of _fulfillment_ and _meaning_." "It has provided me with _higher income_ or a _shorter workday_." "I am finally _respected_." You'd think that if somebody attained these, that would get top billing over some olive-drab tripe about productivity and KPIs... right? Or am I just supposed to take it as implied that productivity naturally and inevitably leads to all those other good things, and clearly we all know this, so why should it need to be stated explicitly?
 
@@ -251,7 +253,7 @@ If you're working on a software project and you find that the requirements call 
 
 The first option requires &approx;25 times the LoC as the second option. By the way some people are evaluating AI performance, the first option is 25 times more productive than the second. But if you ever find yourself in the position of needing to go back after the fact and change something on all the whoozits, you'd probably appreciate the original author a lot more if they kept things lean and mean with the shorter loop-based approach.
 
-"But wait!" Oh, great, _this_ guy again. "AI is a perfect tool to do all that rote correction for you! It shouldn't matter which way the code was structured because coding assistants can make the change just as easily either way." Sure, and you also wouldn't need to waste your time doing the laundry if you just threw your clothes out after each wear and had new ones drop-shipped from China.{{% margin-note side %}}Rob Rhinehart, the mastermind behind the Soylent meal replacement drink, reportedly did exactly this.{{% /margin-note %}} The two approaches are only equivalent to maintain if you are willing to ignore the massive Rube Goldberg machine of complexity that one side requires that the other side doesn't.
+"But wait!" Oh, great, _this_ guy again. "AI is a perfect tool to do all that rote correction for you! It shouldn't matter which way the code was structured because coding assistants can make the change just as easily either way." Sure, and if you want to wear clean clothes, you could either do the laundry or you could throw your wardrobe away after one wear and have fresh replacements drop-shipped from China.{{% margin-note side %}}Rob Rhinehart, the mastermind behind the Soylent meal replacement drink, reportedly did exactly this.{{% /margin-note %}} The two approaches are only equivalent to maintain if you are willing to ignore the massive Rube Goldberg machine of complexity that one side requires that the other side doesn't.
 
 I don't know if some people just flat-out don't understand where care and craft come from. I'm not even sure I can put into words exactly how strongly some of us feel their pull in all facets of our lives. It is kind of like being in a position of being asked by society to fell a metaphorical tree, being given the option of using a chainsaw or an axe, and sometimes deliberately choosing the axe despite it being more difficult and time-consuming in every measurable way. I could've cut through that trunk easily with the chainsaw, yet I chose to do it the harder way for a reason that was deeply important to me. And I _succeeded_ at it. The tree coming down was the part that was important to society, but the hard axe work was important to _me_. Any ol' schmuck could've bungled their way through a tree trunk using a chainsaw. I see no merit in taking the easier path. {{% margin-note %}}Just look at how long this article is, for God's sake. And you're just reading it---I made myself _write_ it!{{% /margin-note %}} The challenge of doing things the hard way has led me to some of my proudest achievements in life.
 
@@ -263,13 +265,15 @@ I travel through the world at speeds exceeding 30 mph all the time and nobody ca
 
 "But the company---" Shut up. Companies will say that they value velocity and new launches and shipping first at all costs because _of course they do_. That's basically the number one corporate value of every organization whether they admit to it or not. They'll say they value experimentation, but not as much as shipping. Or they'll claim to be really into investing in people and fostering growth, but not to the extent that it should let the schedule slip. Maybe they'll say something about embracing failure, unless it's a failure to get the app redesign in users' hands before the end of the fiscal quarter. Some places really, really mean it when they say "ship or GTFO," and those organizations have a tendency to grind employees into dust. But it sure seems like most places don't actually value velocity as much as they claim to, just like all the other corporate values that pad out their Careers page.
 
-"Wait a second, I need a pen." Janice seemed uncharacteristically frazzled. "Non-ST elevation... myocardial? Speak English!" She was not the type of person to lose her cool on the phone. "Oh my god."
+---
 
-Lyle heard the news along with everyone else in the shop: Toby had had what they called a mini--heart attack and was being treated at the medical center in the city. He was awake and conversational with the nurses, but it could have been much worse under different circumstances. Janice continued her announcement, something about praying and taking time if you need it, but Lyle retreated inward. A flurry of thoughts ran through his mind.
+"Wait a second, I need a pen." Janice hunted through her desk drawers, uncharacteristically frazzled. "Non-ST elevation... myocardial? Speak English!" She was not the type of person to lose her composure on the phone. "Oh my god."
 
-Toby always seemed to take care of himself. He was among the most physically fit people in the shop---built like a tank---probably capable of running a 10K, beating the living hell out of somebody, and eating a Tomahawk ribeye all before noon. Still, he was always worked up about something or other, the lines on his furrowed brow permanently etched like carved mahogany, and he never appeared to be completely at peace. As readily as the man laughed at life's trials and tribulations, the moment the laughter faded there was a palpable worry in his eyes. There was always so much to do, never any time to do it, and this little medical setback was probably the last thing he needed right now.
+Lyle heard the news along with everyone else in the shop: Toby had had what they called a mini--heart attack and was being treated at the medical center in the city. He was awake and conversational with the nurses, but it could have been much worse under different circumstances. Janice continued her announcement, something about prayers and taking time if you need it, but Lyle retreated inward. A flurry of thoughts ran through his mind.
 
-For no reason that he was able to discern, Lyle remembered his garage at home. He briefly imagined a world in which he died unexpectedly and all the things his family would have to deal with while cleaning out his accumulated junk. He thought about the walls and shelves and piles of stuff he tossed into the attic and how his grieving relatives would have to make the choices that he could never bring himself to make in life---what to organize, what to donate, what to save, what to destroy. The idea of forcing the consequences of his own inaction on other people, people he loved, filled him with guilt.
+Toby was the kind of guy who clearly looked like he took care of himself. He was among the most physically fit people in the shop---built like a tank---probably capable of running a 10K, beating the living hell out of somebody, and eating a tomahawk ribeye all before noon. Still, he was always worked up about something or other, the lines on his furrowed brow permanently etched like carved mahogany, and he never seemed to be completely at peace. As readily as the man laughed at life's trials and tribulations, the moment the laughter faded there was a palpable worry in his eyes. There was so much he needed to do, never any time to do it, and this little medical setback was probably the last thing he needed right now.
+
+For no reason that he was able to discern, Lyle remembered his garage at home. He briefly imagined a world in which he had died unexpectedly and how his family might handle dealing with all of his accumulated junk. He thought about the walls and shelves and piles of stuff he tossed into the attic or basement and how his grieving relatives would have to make all the decisions that he could never bring himself to make in life---what to organize, what to donate, what to save, what to destroy. The idea of forcing the consequences of his own inaction on other people, people he loved, filled him with guilt.
 
 A second wave of guilt washed over him when he realized that he was now thinking of himself during the time when his friend needed--- Wait, was Toby even his friend? They'd worked basically shoulder to shoulder for close to six years... what were they in each other's view?
 
@@ -277,32 +281,58 @@ He wasn't sure which of those thoughts finally did it, but the tears began to we
 
 ## Skill issue
 
+Kenny Rogers once sang, and I am paraphrasing here, "You got to know when to GPT 5.2 Codex, know when to Gemini 3.1 Pro, know when to Opus 4.6, and know when to DeepSeek V3." Knowing all the minute differences between all of these LLMs is the key to your success. If you don't pick the right one for the job, the game is over over before it even started!
+
+Sometimes it's better to prompt the model to `think hard about this` explicitly. But other times that irrelevant context messes it up more than if you had left it out. You might occasionally improve a model's output accuracy by {{% link theregister-sergey-brin-threatening-ai %}}threatening it{{% /link %}}. But don't threaten it so much that it turns around and tries to {{% link bbc-ai-resorts-to-blackmail %}}blackmail you{{% /link %}}.
+
+Sometimes you need "{{% link medium-welcome-to-gas-town %}}a source form for workflows, Formulas, in TOML format, which are 'cooked' into protomolecules and then instantiated into wisps or mols in the Beads database.{{% /link %}}" {{% margin-note %}}Something's "cooked" alright, and I suspect it's brains.{{% /margin-note %}} You're using a **reasoning model**, right? You gotta remember to give it enough context. No, more than that. But stay within your token budget. Keep the important stuff far away from the system prompt at the start of the context window. But also keep it far from the end. Run precisely the correct number of agents at all times. It's basically a thinking model, if you squint!
+
+Not everybody wants to keep up with the breakneck pace of industry press releases, social media anecdata, and superstitious horseshit.
+
+If you didn't get good results, or the techniques just didn't work for you, a common refrain is that you must've done something wrong. You didn't pick the right model or mode, didn't include the right shibboleths, something was wrong with the context, you didn't put your rally cap on the right way... It's gotta be _you_ that's the problem. Because it works great for everybody else!
+
+There exists a certain personality type for whom it is very, very important that they are right. But more than that, they need to be _seen_ as being right. Their conversations will tend to follow an arc of proclaiming that Thing A is better than Thing B, and laying out a very well crafted case for Thing A, and then waiting around for that setup to pay off by Thing A beating Thing B by some objective metric. When this person is right, this can be a very vindicating feeling for them. When they are wrong, they tend to suffer a kind of very specific amnesia about what they said or believed in the past.
+
+It is perhaps similar to the type of person who constructs a whole narrative around the stupid parlay they just bet $50 on. If all the legs hit and the bet pays off big, this person will claim that they knew exactly what they were doing and that their deep understanding of the game and their skill and genius-level intuition was what allowed them to see the outcome so clearly. When they lose, however, it's dismissed as somebody else's fault---the player choked, the official made a bad call, the field was slick, etc. For these people, betting and winning alone are not enough to bring a sense of satisfaction. They must be _seen_ placing that bet and winning. It is important for bystanders to see that they are Very Smart. {{% margin-note %}}The same kind of braggadocio might be seen in a pool player calling a complex shot before sinking it. But the pool player is respectable because it really is their skill that allows them to call a shot and then execute it.{{% /margin-note %}}
+
+Betting and _winning_ is hard to do---so a lot of folks simply go all-in on whatever seems to currently be in the process of winning at any given moment. I suspect that a fair chunk of the AI-boosting discourse online isn't being written by people expressing a sincerely-held belief or opinion about anything, but rather people who want something they can point back to when/if AI takes over the world so they can say, "Look, I knew it was going to happen and then it happened! I am Very Smart indeed!"
+
+Occasionally you'll get the person who claims that Claude or something was able to completely reimplement an entire piece of obscure software from nothing but three screenshots of its UI. This will come with fanciful claims like a full test suite or, my personal favorite, complete binary compatibility with the data file format that the original software produced. "May I see it?" the reply asks with an almost Superintendent Chalmers--like sincerity. "You just gotta try it yourself. Come up with an idea, just prompt something for yourself."
+
+You know what else people will do when they want to appear like they're smart? They'll _lie_. It's like we somehow forgot about the very first row of the Periodic Table of Human Social Behaviors.
+
+I was eleven years old and in elementary school when _South Park_ first aired. As far as I could tell, every kid in the class was watching it except for my sheltered ass. But I wanted to seem cool and part of the "in" group, which culminated in my contributing the following one-half of a conversation: "Yeah, I saw _South Park_ last night... Oh yeah, that was mad funny... Mm-hmm, I love Carmen too. She's probably my favorite." For the life of me I can't remember who I said that to, but I clearly remember saying it.
+
+Carl Sagan is quoted as saying "extraordinary claims require extraordinary evidence." I bet he never fabricated a story about watching a cartoon show to curry favor with a bunch of kids who were probably also lying about having seen it.
+
 ---
 
-- if you don't get good results, you didn't use it right
-    - gotta pick the right model and version
-    - the right mode (thinking, reasoning)
-    - give it enough context, but not too much
-        - keep the important things far from the system prompt
-        - but also keep it far from the end of the context window
-    - pit multiple models against one another
-    - so is the product important, or the code?
-        - code is a liability, something for the machine to do, something we don't value
-        - we don't even read it! throw it away and make something new if it doesn't work
-        - but the code is proprietary and secret, and must never leak
-        - the loud drumbeat is "build, build, build!" these structures
-            - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
-        - https://darioamodei.com/essay/machines-of-loving-grace
-            - he wants us to be a bunch of grad students in the shadow of a computer
-        - is it even copyrightable?
-    - making ideas expensive helps filter out the bad ideas
-    - dumping $200 into a stupid parlay
-        - if you win you're a genius who knows exactly what they're doing
-        - if you lose, it's everybody else's fault
-    - at a certain point it starts seeming like these AI users really want to be managers
-        - and if that's the goal, just go into management
-        - it certainly pays better
-    - there's also the possibility that they're just straight-up lying
-        - it re-made the app from screenshots!
-        - it reverse-engineered the game!
-        - yeah, i watch South Park, i love Carmen, she's my favorite
+- so is the product important, or the code?
+    - code is a liability, something for the machine to do, something we don't value
+    - we don't even read it! throw it away and make something new if it doesn't work
+    - but the code is proprietary and secret, and must never leak
+    - the loud drumbeat is "build, build, build!" these structures
+        - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
+    - https://darioamodei.com/essay/machines-of-loving-grace
+        - he wants us to be a bunch of grad students in the shadow of a computer
+    - is it even copyrightable?
+- making ideas expensive helps filter out the bad ideas
+
+- at a certain point it starts seeming like these AI users really want to be managers
+    - and if that's the goal, just go into management
+    - it certainly pays better
+
+- how many different implementations of a login flow do you think have been written?
+    - pretty much every one was bespoke even though they're all the same
+    - differences are superficial: username/email/magic link, password requirements, security questions, reset flow
+    - why does every company keep this stuff proprietary?
+    - why has no group of professionals agreed to standardize any of this?
+    - how do we ever expect to solve that problem with coding agents churning out even more bespoke implementations every day?
+    - coding agents are good at reproducing patterns they have seen before
+        - so why are you churning out another cookie-cutter whatever-the-hell with one?
+        - don't you yearn to be somebody more, doing something better?
+        - or do you really want [`from stackoverflow import quick_sort`](https://github.com/drathier/stack-overflow-import)?
+    - why does every login suck? causes anxiety
+        - oidc -> saml -> xmlrpc -> who knows
+        - why does google still redirect through youtube
+    - distorted corporate memphis linkedin GIF
