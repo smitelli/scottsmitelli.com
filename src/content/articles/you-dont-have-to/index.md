@@ -244,7 +244,7 @@ You know what I never hear in these discussions? "It makes me _happier_." "It gi
 
 I dunno, man. I don't think I see it.
 
-Another metric that I thought we as a species had outgrown are measurements that focus on **lines of code** (LoC). This is a measure of exactly what it sounds like---the number of lines of program code you can scroll through on the screen. We've been trying for decades to finally eradicate this profoundly stupid measure of programmer productivity, and now it's back. Hooray, LLMs can poop out more LoC than humans can. Work harder, not smarter, I guess.
+Another metric that I thought we as a species had outgrown are measurements that focus on **lines of code** (LoC). This is a measure of exactly what it sounds like---the number of lines of program code you can scroll through on the screen. We've been trying for decades to finally eradicate this profoundly stupid measure of engineering productivity, and now it's back. Hooray, LLMs can poop out more LoC than humans can. Work harder, not smarter, I guess.
 
 If you're working on a software project and you find that the requirements call for there to be 25 whoozits on the main page of the app, there are (broadly) two ways to achieve that:
 
@@ -291,7 +291,7 @@ Not everybody wants to keep up with the breakneck pace of industry press release
 
 If you didn't get good results, or the techniques just didn't work for you, a common refrain is that you must've done something wrong. You didn't pick the right model or mode, didn't include the right shibboleths, something was wrong with the context, you didn't put your rally cap on the right way... It's gotta be _you_ that's the problem. Because it works great for everybody else!
 
-There exists a certain personality type for whom it is very, very important that they are right. But more than that, they need to be _seen_ as being right. Their conversations will tend to follow an arc of proclaiming that Thing A is better than Thing B, and laying out a very well crafted case for Thing A, and then waiting around for that setup to pay off by Thing A beating Thing B by some objective metric. When this person is right, this can be a very vindicating feeling for them. When they are wrong, they tend to suffer a kind of very specific amnesia about what they said or believed in the past.
+There exists a certain personality type for whom it is very, very important that they are right. But more than that, they need to be _seen_ as being right. Their conversations will tend to follow an arc of proclaiming that Thing A is better than Thing B, and laying out a very well crafted case for Thing A, and then waiting around for that setup to pay off by Thing A beating Thing B by some objective metric. When this person is right, it can be a very vindicating feeling for them. When they are wrong, they'll tend to suffer a kind of very specific amnesia about what they said or believed in the past.
 
 It is perhaps similar to the type of person who constructs a whole narrative around the stupid parlay they just bet $50 on. If all the legs hit and the bet pays off big, this person will claim that they knew exactly what they were doing and that their deep understanding of the game and their skill and genius-level intuition was what allowed them to see the outcome so clearly. When they lose, however, it's dismissed as somebody else's fault---the player choked, the official made a bad call, the field was slick, etc. For these people, betting and winning alone are not enough to bring a sense of satisfaction. They must be _seen_ placing that bet and winning. It is important for bystanders to see that they are Very Smart. {{% margin-note %}}The same kind of braggadocio might be seen in a pool player calling a complex shot before sinking it. But the pool player is respectable because it really is their skill that allows them to call a shot and then execute it.{{% /margin-note %}}
 
@@ -301,38 +301,51 @@ Occasionally you'll get the person who claims that Claude or something was able 
 
 You know what else people will do when they want to appear like they're smart? They'll _lie_. It's like we somehow forgot about the very first row of the Periodic Table of Human Social Behaviors.
 
-I was eleven years old and in elementary school when _South Park_ first aired. As far as I could tell, every kid in the class was watching it except for my sheltered ass. But I wanted to seem cool and part of the "in" group, which culminated in my contributing the following one-half of a conversation: "Yeah, I saw _South Park_ last night... Oh yeah, that was mad funny... Mm-hmm, I love Carmen too. She's probably my favorite." For the life of me I can't remember who I said that to, but I clearly remember saying it.
+I was eleven years old and in elementary school when _South Park_ first aired. As far as I could tell, every kid in the class was watching it except for my sheltered ass. But I wanted to seem cool and part of the "in" group, which culminated in my contributing the following one-half of a conversation: "Yeah, I saw _South Park_ last night... Oh yeah, that was mad funny... Mm-hmm, I love Carmen too. She's probably my favorite." {{% margin-note %}}About two years later, having learned nothing from this experience, I had substantially the same conversation regarding Eminem.{{% /margin-note %}} For the life of me I can't remember who I said that to, but I clearly remember saying it.
 
 Carl Sagan is quoted as saying "extraordinary claims require extraordinary evidence." I bet he never fabricated a story about watching a cartoon show to curry favor with a bunch of kids who were probably also lying about having seen it.
+
+## Reimplementing the wheel
+
+Here's a question that I don't think anybody would be able to answer: How many different implementations of a login page do you suppose humanity has collectively written?
+
+Consider every website that ever made you register an account using a user name and a password. Some of them offer single sign-on with services like Google or Facebook, but they generally have some kind of password fallback for people who don't have or don't want to use the other services. Some will send two-factor codes via SMS,{{% margin-note side %}}And I hate that they do.{{% /margin-note %}} others send a "magic" sign-in link to an email inbox. Some integrate with biometric authentication devices, and others think that security questions and ridiculous password requirements are still really swell ideas. They'll all gladly send you a password reset email that expires in ten minutes and arrives in twelve.
+
+How many development teams sat down and, as one of the first tasks in the creation of a greenfield project, built yet another user registration and login/logout flow? How many of these login pages are essentially identical, built in isolated vacuums, and jealously guarded as priceless intellectual property by the organizations that commissioned them? Why is writing a login page such a universally shared experience that it has been immortalized in the lyrics to a Jonathan Coulton song? Who sits down first thing in the morning with a cup of coffee and says, "Oh boy, today I get to write a login page!"
+
+In other engineering disciplines, the kinds where you have to act like a credentialed adult at work, there are standards bodies that assemble volumes upon volumes of knowledge about the professionally accepted ways of doing things. If you wanna run a beam from here to there made out of such-and-such material, it can hold this much weight. This is the bolt to fasten it with, and here is the torque specification. Stay within the parameters and it's unlikely the structure will fall down. These standards are written by some of the most experienced and knowledgeable people on the topic, and deviating from them is a surefire way to build something that will eventually be described with the word 'boondoggle.'
+
+The computer industry actually does have standards bodies, if you can believe that. These tend to focus on hardware and networking layers, and thanks to these standards you can be reasonably sure that any gadget you might buy will successfully connect to your Wi-Fi network or your Bluetooth speaker. Thanks to things like the USB-C standards, we're starting to no longer need to worry about which charger came with which device anymore. Standards made that possible.
+
+Software, on the other hand, is a total free-for-all. Wanna write a login page? Only a fool would build one from scratch; better to find an existing open-source library that does the heavy lifting. You could head over to npm and browse through the 1,000+ projects that match the search term `login`. Or bop on over to PyPI and spend some time examining 10,000+ of them. Why has nobody developed one universal standard that covers everyone's use cases?
+
+A person doesn't need to go around on the corporate merry-go-round for long before encountering a certain type of engineer. This person tends to score closer to the "do what I like" end of the spectrum, which wouldn't be so bad if they weren't also a narcissistic man-child. This is the type of person for whom no existing solution is adequate, so only a custom build will adequately solve the needs of the business. It will be _grand_ and _complicated_ and it will stand the test of time and look good on their _r&eacute;sum&eacute;_. These are the kinds of people who fancy themselves as a Ken Thompson or a Rob Pike---creating something important and novel---when in reality they're just a regular engineer, good enough at what they do to make a not-as-good version of something that already exists. Management permits this work, at least in places where management doesn't know to question the intentions.
+
+AI assisted coding---and particularly **vibe coding**, where all development occurs via prompting and the underlying code is not reviewed at all---ticks a lot of these same boxes. If the person prompting the LLM needs a not-as-good bespoke copy of something that's been done a thousand times before, bam, there it is. Why do they need that? The question is not important. The prompter has now assumed the role of the manager who can't see if or how their subordinate might be distorting the facts of the project's implementation.
+
+If they wanna be a manager like that, they should just go into management. It almost certainly pays better.
+
+In his essay "Machines of Loving Grace," Anthropic CEO Dario Amodei lays out his ideas for the role humanity will play in an age of what he calls "powerful AI." {{% margin-note %}}He goes out of his way to _not_ call it "artificial general intelligence" because that would send an unwelcome Google Alert to the investors, or something.{{% /margin-note %}} He rejects the notion that these systems will be relegated to chewing through data looking for patterns, and instead proposes a future where the AI calls the shots and humans are akin to its graduate students. That's what he said; those were his actual words:
+
+> If our core hypothesis about AI progress is correct, then the right way to think of AI is not as a method of data analysis, but as a virtual biologist who performs all the tasks biologists do, including designing and running experiments in the real world (by controlling lab robots or simply telling humans which experiments to run &ndash; as a Principal Investigator would to their graduate students), inventing new biological methods or measurement techniques, and so on.
+> <footer>Dario Amodei, &ldquo;Machines of Loving Grace&rdquo;</footer>
+
+Ah yes, that most sought-after career, _graduate student_. Can't wait to spend my stipend on a pallet of Cup Noodles and a car with hand-crank windows.{{% margin-note side %}}I do unironically enjoy cars with window cranks as a nostalgia thing, but I also like having choice in the matter.{{% /margin-note %}} How can both of these visions of the future be true? How are humans supposed to orchestrate massive swarms of agentic AI to do all their bidding while simultaneously following the orders of the big boss AI as it demands that they stir some stuff in a flask? Which of these two camps is wrong? Who is the liar here?
+
+Personally, I don't know how to fix the software engineering profession because I can't even articulate exactly what's broken about it. But I think that this right here, this insistence on continually yelling "build, build, build!" while producing exactly the same thing that countless organizations have already built and then hoarded for seemingly no reason is a pretty important symptom.
+
+Code is the most valuable asset, but also a huge liability in terms of maintenance debt. The code is proprietary and secret and must never leak, except for when we blithely upload it to the hosted model du jour so that it can make more code that we don't read or value. Slap a copyright notice on every file, despite the fact that LLM output is probably not actually copyrightable. _Our_ product is superior to our competitors' because _we_ were the ones that vibe coded it. This industry is manifestly sick.
+
+If AI coding assistants can do a task well, it probably isn't a novel task. Why have we set things up in such a way that we need to expend so much time and energy doing the same thing over and over without contributing the fruits of those efforts back to the commons? Why does "paying it forward" seem like such a nonstarter to companies who got where they are on the backs of open-source developers who paid it forward in their own time? Why was `from stackoverflow import quick_sort` (TODO https://github.com/drathier/stack-overflow-import) a joke somebody made instead of a sincere attempt at improving development standards?
+
+Next time you find yourself in a coding interview being asked to solve some problem that somebody else already solved, pause to consider if part of what they're testing for is your ability to not let that bother you. They want to ensure that their potential hires don't yearn to be somebody more, doing something better, as those kinds of candidates tend to be flight risks.
+
+The loading spinner covering the greyed-out login form appears, disappears, reappears, and disappears again. Behind the scenes an OIDC grant gets handed off to the legacy SAML provider, which redirects through YouTube despite that acquisition happening 19 years ago, then via XML-RPC to a COBOL mainframe that is only spoken of in reverent whispers. At every layer of the stack, nobody knows what's going on.
 
 ---
 
 - so is the product important, or the code?
-    - code is a liability, something for the machine to do, something we don't value
     - we don't even read it! throw it away and make something new if it doesn't work
-    - but the code is proprietary and secret, and must never leak
-    - the loud drumbeat is "build, build, build!" these structures
-        - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
-    - https://darioamodei.com/essay/machines-of-loving-grace
-        - he wants us to be a bunch of grad students in the shadow of a computer
-    - is it even copyrightable?
+    - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
 - making ideas expensive helps filter out the bad ideas
-
-- at a certain point it starts seeming like these AI users really want to be managers
-    - and if that's the goal, just go into management
-    - it certainly pays better
-
-- how many different implementations of a login flow do you think have been written?
-    - pretty much every one was bespoke even though they're all the same
-    - differences are superficial: username/email/magic link, password requirements, security questions, reset flow
-    - why does every company keep this stuff proprietary?
-    - why has no group of professionals agreed to standardize any of this?
-    - how do we ever expect to solve that problem with coding agents churning out even more bespoke implementations every day?
-    - coding agents are good at reproducing patterns they have seen before
-        - so why are you churning out another cookie-cutter whatever-the-hell with one?
-        - don't you yearn to be somebody more, doing something better?
-        - or do you really want [`from stackoverflow import quick_sort`](https://github.com/drathier/stack-overflow-import)?
-    - why does every login suck? causes anxiety
-        - oidc -> saml -> xmlrpc -> who knows
-        - why does google still redirect through youtube
-    - distorted corporate memphis linkedin GIF
+- how do we ever expect to solve that problem with coding agents churning out even more bespoke implementations every day?
