@@ -2,7 +2,7 @@
 title = "You don't have to if you don't want to."
 description = 'TODO The description goes here.'
 #subheading = 'The subheading goes here.'
-date = 2026-02-24
+date = 2026-02-25
 
 #[[infoBox]]
 #key = 'AI Disclosure :sparkles:'
@@ -342,6 +342,30 @@ The next time you find yourself in a coding interview being asked to solve some 
 
 The loading spinner covering the greyed-out login form appears, disappears, reappears, and disappears again. Behind the scenes an OIDC grant is handed off to the legacy SAML provider, which redirects through YouTube despite that acquisition happening 19 years ago, then via XML-RPC to a COBOL program that is only spoken of in reverent whispers. At every layer of the stack, nobody knows what's going on.
 
+## TODO
+
+"Adapt or get left behind."
+
+As much as movies and other narrative works might make it seem otherwise, a person's life doesn't have very many major pivotal decisions that permanently alter the trajectory of their future. What it does have is a constant stream of hundreds of tiny decisions made over the course of each day that move them closer or further from their goals. These decisions are not permanent, they are often trivially correctable, and they are generally insignificant when examined in isolation.
+
+Choosing to embrace or reject AI on any given day is not an irreversible decision. You can easily ignore AI for a long time until something forces your hand, cram real hard for a few days, and come out better than the median engineer. I know this about you, because you had the attention span to get this far into the article. Our choices about AI today are not a "last helicopter out of Saigon" situation. Don't listen to people who want you to do something you're not ready to do yet. There are still engineers out there who value craft over shipping.
+
+If it's not painfully obvious from everything I've written here, I do not use AI coding assistants. For a while I steadfastly refused to use any LLM at all, but I softened my stance recently. I had the realization that, for most of my career, I was perfectly okay with typing a search query into Google, clicking the first Stack Overflow result, and copy/pasting a few lines of code from the highest-voted answer to the question. I would still take the time to try to understand the way the code worked, fix it to match my own style and program flow, and it was indeed faster than trying to find the information in the documentation.
+
+That's not so different from typing the same query into ChatGPT and copy/pasting a few lines of code from its response. It takes about the same amount of time and effort for me, it doesn't appear to make me any lazier or stupider, and once I realized that I've started preferring ChatGPT to Google/StackOverflow for certain classes of problem. I suppose I'm causing a certain degree of harm to StackOverflow by no longer giving them the traffic---and that harm is probably multiplied by the fact that I'm sure ChatGPT was trained to produce that response by scraping StackOverflow answers _en masse_---but I would be more sympathetic if the site's moderators and power users hadn't spent 15 years making me feel unwelcome by closing questions that I had asked in good faith.
+
+If your only use of AI today is "Google Search but it works," I certainly am in no position to criticize.
+
+You're allowed to change your mind someday, too. If the AI landscape changes, if your personal circumstances change, if you manage to find a balance that feels right to you, there is no shame in saying "I thought that then, and I think something else now." That's a measure of personal growth, and it's a foreign concept to some. If you're not embarrassed by something you did in the past, you're not growing.
+
+It's demoralizing to spend all day in spaces with people who are ostensibly peers, listening to them proclaim that they fundamentally don't value the thing we have devoted our professional lives to. It's basically impossible to feel a sense of psychological safety when higher-ups seem to all be eyeing ways to devalue the skills of their subordinates. It's hard to plan for the future when the entire trajectory of that future is in the hands of some yahoos who view their fellow humans with contempt by default.
+
+Perhaps this is indeed a fundamental shift in labor akin to the industrial revolution. The labor pool will upskill, reskill, reinvent... eventually. That's not much solace when you're 40 years old, 40% of the way through your working years, facing the existential threat of having entire sectors of the workforce vanish. What are we supposed to do _right now_, get ready to spend 10,000 hours as an electrician's apprentice?
+
+I, for one, am no longer willing to listen to those who wish to tell me that my values are flawed or my way of being is wrong. I don't think you should either. So, you hereby have my permission to keep doing what you're doing (or not doing).
+
+I will caution, however, that not every peer, manager, or employer understands and agrees with this. So you might eventually find yourself having to make a choice or two here, and that can feel consequential and scary. I won't tell you what to do, aside from this one thing: Don't doubt yourself.
+
 ---
 
 - lyle thought abouth lathes all the time; didn't like to cook or eat
@@ -351,35 +375,18 @@ The loading spinner covering the greyed-out login form appears, disappears, reap
     - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
 - making ideas expensive helps filter out the bad ideas
 - how do we ever expect to solve that problem with coding agents churning out even more bespoke implementations every day?
-- adapt or get left behind, huh?
-    - life is not defined by monumental choices, rather a series of constant tiny ones
-    - oh, you're so cynical
-    - the greek cynics
-        - self-sufficiency
-        - deliberately choosing a hard life
-    - what are you gonna do when you're 40, 10,000 hours as an electrician's apprentice?
-    - Rube Goldberg machine
-    - really demoralizing to work on a team where management wants you gone
-        - so do your peers, sometimes seems
-    - i sat out of the systemd debate and i'm happier for it
-    - if this is the direction the bus is heading in, i'm getting off
-    - there are good engineers out there who value craft over shipping
-    - you have permission to view the world this way and act accordingly
-        - to feel confident in your choice, you must understand that this is what you're doing
-        - you must also realize that not every peer/manager/employer feels the same way
-            - this mismatch can be a source of frustration
-            - it is arguably better to leave these frustrating things behind
-            - don't try to make yourself into something that you are not
-    - there is nothing wrong with that
-    - if the world can't see that, the world's gonna lose a whole lot of skill
-    - i'm no longer willing to listen to people who tell me my values are flawed or my way of being is wrong
-    - i choose to believe the world will come crawling back to it
-    - it's also possible that we'll grow and change and become okay with it somehow
-        - the trajectory of life is not a handful of consequential decisions
-        - it is the sum of hundreds of minuscule choices made every day
-        - you can change your mind and admit you were wrong
-        - i've put embarrassing stuff online
-        - if you're not embarrassed you're not growing
-    - but what the fuck do i know
+- oh, you're so cynical
+- the greek cynics
+    - self-sufficiency
+    - deliberately choosing a hard life
+- if this is the direction the bus is heading in, i'm getting off
+    - to feel confident in your choice, you must understand that this is what you're doing
+    - this mismatch can be a source of frustration
+    - it is arguably better to leave these frustrating things behind
+    - don't try to make yourself into something that you are not
+- there is nothing wrong with that
+- if the world can't see that, the world's gonna lose a whole lot of skill
+- i choose to believe the world will come crawling back to it
+- but what the fuck do i know
 - thanks to everybody whose ideas i wove into this
     - at least i acknowledge, unlike an LLM
