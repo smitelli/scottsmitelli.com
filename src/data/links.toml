@@ -577,6 +577,10 @@ text = 'Psychology Today - How Shaun Morgan Empties His Jar'
 href = 'https://pypi.org/search/?q=login'
 text = 'login - Search results - PyPI'
 
+[quoteinvestigator-insanity]
+href = 'https://quoteinvestigator.com/2017/03/23/same/'
+text = 'Quote Origin: Insanity Is Doing the Same Thing Over and Over Again and Expecting Different Results'
+
 [reddit-alexa-shittier]
 href = 'https://www.reddit.com/r/amazonecho/comments/1hhjvea/anyone_elses_alexa_continuing_to_get_shittier_and/'
 text = "Anyone else's Alexa continuing to get shittier and shittier?"
