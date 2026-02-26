@@ -79,6 +79,10 @@ dead = true
 href = 'https://getsupport.apple.com/'
 text = 'Apple Support'
 
+[apxml-glm-5]
+href = 'https://apxml.com/models/glm-5'
+text = 'GLM-5: Specifications and GPU VRAM Requirements'
+
 [audiblemagic]
 href = 'https://www.audiblemagic.com/'
 text = 'Audible Magic'
@@ -952,6 +956,10 @@ text = 'Infinite monkey theorem'
 href = 'https://en.wikipedia.org/wiki/Kenneth_Parcell'
 text = 'Kenneth Parcell'
 
+[wiki-marissa-mayer]
+href = 'https://en.wikipedia.org/wiki/Marissa_Mayer'
+text = 'Marissa Mayer'
+
 [wiki-monkey-selfie-copyright-dispute]
 href = 'https://en.wikipedia.org/wiki/Monkey_selfie_copyright_dispute'
 text = 'Monkey selfie copyright dispute'
@@ -1124,6 +1132,10 @@ text = 'Code Monkey'
 [youtube-diner-wink]
 href = 'https://www.youtube.com/watch?v=8Inf1Yz_fgk'
 text = "'Diner Wink' Full Sketch - I Think You Should Leave Season 2"
+
+[youtube-dgx-b200-startup]
+href = 'https://www.youtube.com/watch?v=7BtNBv9JK6c'
+text = 'DGX B200 Startup'
 
 [youtube-excelent-grass-cutting]
 href = 'https://www.youtube.com/watch?v=H8SsTBZCL_M'
