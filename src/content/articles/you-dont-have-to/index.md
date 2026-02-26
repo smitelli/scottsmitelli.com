@@ -2,11 +2,11 @@
 title = "You don't have to if you don't want to."
 description = 'TODO The description goes here.'
 #subheading = 'The subheading goes here.'
-date = 2026-02-25
+date = 2026-02-26
 
-#[[infoBox]]
-#key = 'AI Disclosure :sparkles:'
-#value = 'Ideally this is not needed.'
+[[infoBox]]
+key = 'AI Disclosure :sparkles:'
+value = 'I allowed ChatGPT to generate the heading text for the "Keep the axe in the toolbox" section.'
 +++
 
 I'm sure you're wondering why I called you all here today. Well, to be honest, I didn't actually call for _all_ of you; some of you probably shouldn't be here. You folks might want to quietly find your way to the exits right here and right now.
@@ -364,34 +364,18 @@ Perhaps I should open my mind to the next intermediate step, which I suppose wou
 
 You're allowed to change your mind in the future. If the AI landscape changes, if your personal circumstances change, if you manage to find a balance that feels right to you, there is no shame in saying "I thought that then, and I think something else now." That's a measure of personal growth, which seems to be a foreign concept to some people. If you're not embarrassed by something you did in the past, you're not growing.
 
+The day may come when I look back on this article and feel a deep embarrassment for the person I used to be. I don't know that I'll ever want to point back here months or years from now to say "Aha! I was right! I am Very Smart for thinking and saying that!" Perhaps some of this was overly critical or even cynical,{{% margin-note side %}}More than that, I'm pretty sure a lot of this stuff is _actual_ Cynicism---the ancient Greek philosophy.{{% /margin-note %}} but that's how I see it. I primarily wrote this to make sense of my own thoughts, and to try to figure out how a person like me might navigate what seems to be some seemingly rough waters ahead.
 
+Would it be nice if all this stuff shrank back to a reasonable scale, didn't suck all the oxygen out of every conversation, didn't send shock waves through global economies, and wasn't rife with grifters and assholes? Certainly. It seems a real shame to paper over all forms of human expression with something that is decidedly not human and isn't even fun to consume or engage with. Will we get to that place in a gently, orderly fashion? Hell if I know. It'd sure be nice if we could.
 
-I, for one, am no longer willing to listen to those who wish to tell me that my values are flawed or my way of being is wrong. I don't think you should either. So, you hereby have my permission to keep doing what you're doing (or not doing).
+The one thing I know is that I'm no longer willing to listen to those who want to tell me that my values are flawed or my way of being is wrong. I don't think you should either, if that is the way you feel. So, you hereby have my permission to keep doing what you're doing (or not doing). I will caution, however, that not every peer, manager, or employer understands and agrees with this. So you might eventually find yourself having to make a decision or two, and that can feel consequential and scary. I won't tell you what to do, aside from this one thing: Don't doubt yourself.
 
-I will caution, however, that not every peer, manager, or employer understands and agrees with this. So you might eventually find yourself having to make a choice or two here, and that can feel consequential and scary. I won't tell you what to do, aside from this one thing: Don't doubt yourself.
+## Keep the axe in the toolbox
+
+{{% picture stem=conclusion alt="lol" %}}
+
+Yeah, I think I'll stick with my own voice, at least for the time being.
 
 ---
 
-- lyle thought abouth lathes all the time; didn't like to cook or eat
-    - lyle would teach the world about his craft if somebody asked
-- so is the product important, or the code?
-    - we don't even read it! throw it away and make something new if it doesn't work
-    - one loose wire nut or sloppy nail piercing insulation gets you a structure fire
-- making ideas expensive helps filter out the bad ideas
-- how do we ever expect to solve that problem with coding agents churning out even more bespoke implementations every day?
-- .
-- oh, you're so cynical
-    - the greek cynics
-    - self-sufficiency
-    - deliberately choosing a hard life
-- if this is the direction the bus is heading in, i'm getting off
-    - to feel confident in your choice, you must understand that this is what you're doing
-    - this mismatch can be a source of frustration
-    - it is arguably better to leave these frustrating things behind
-    - don't try to make yourself into something that you are not
-- there is nothing wrong with that
-- if the world can't see that, the world's gonna lose a whole lot of skill
-- i choose to believe the world will come crawling back to it
-- but what the fuck do i know
-- thanks to everybody whose ideas i wove into this
-    - at least i acknowledge, unlike an LLM
+I did want to take a moment to thank everybody who talked with me as I was compiling my thoughts on these topics. I won't list every name because I'm sure I'll omit somebody and offend them, so instead I'll omit and offend everybody all at once. But just know that I'm genuinely grateful to each and every one of you for sharing your insights, and I hope I took from those conversations what you hoped I would.
