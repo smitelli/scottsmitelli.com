@@ -49,6 +49,7 @@ article, section {
 
         a.heading-link {
             visibility: hidden;
+            white-space: nowrap;
 
             @media (pointer: coarse), (any-hover: none) {
                 visibility: visible;
