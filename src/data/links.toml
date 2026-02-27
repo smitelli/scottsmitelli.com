@@ -517,10 +517,6 @@ text = 'NTP Pool Project'
 href = 'https://www.ntp.org/documentation/4.2.8-series/warp/#ntp-timescale-and-data-formats'
 text = 'How NTP Works - NTP Timescale and Data Formats'
 
-[nvidia-data-center-design-sound]
-href = 'https://docs.nvidia.com/dgx-superpod/design-guides/dgx-superpod-data-center-design-h100/latest/sound.html'
-text = 'NVIDIA DGX SuperPOD: Data Center Design - Sound Mitigation'
-
 [nvidia-dgx-b200]
 href = 'https://www.nvidia.com/en-us/data-center/dgx-b200/'
 text = 'NVIDIA DGX B200'
