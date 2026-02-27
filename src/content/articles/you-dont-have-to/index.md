@@ -1,6 +1,6 @@
 +++
 title = "You don't have to if you don't want to."
-description = "\"In the year 5555, your arms are hangin' limp at your sides. Your legs got nothin' to do, some machine doin' that for you.\" Zager and Evans sang these words in 1969. Now, thirty-five centuries ahead of schedule, it's never been easier to tell the world \"I didn't care about this and I don't care about you.\""
+description = "\"In the year 5555, your arms are hangin' limp at your sides. Your legs got nothing to do, some machine doin' that for you.\" Zager and Evans sang these words in 1969. Now, thirty-five centuries ahead of schedule, it's never been easier to tell the world \"I didn't care about this and I don't care about you.\""
 date = 2026-02-27
 
 [[infoBox]]
@@ -357,7 +357,7 @@ Choosing to embrace or reject AI at any given moment is not an irreversible deci
 
 If it's not painfully obvious from everything I've written here, I do not use AI coding assistants. For a while I steadfastly refused to use any LLM at all, but I have softened my stance since then. I had the realization that, for most of my career, I was perfectly okay with typing a search query into Google, clicking the first Stack Overflow result, and copy/pasting a few lines of code from the highest-voted answer to the question. I would still take the time to try to understand how that code worked, fix it to match my own style and program flow, and felt no shame in having done any of that. It was indeed faster than trying to find the information in the source documentation.
 
-That's not so different from typing the same query into ChatGPT and copy/pasting a few lines of code from its response. It takes about the same amount of time and effort, it doesn't appear to make me any lazier or dumber, and since I never 100% trusted anything I read on StackOverflow I was well suited to scrutinize the model's possibly-hallucinated answers in the same way. Once I warmed up to doing this, I started preferring ChatGPT to Google/StackOverflow for certain kinds of queries. I suppose I'm causing a kind of harm to StackOverflow by no longer giving them the traffic---and that harm is augmented by the fact that ChatGPT was trained to produce its responses by scraping StackOverflow answers _en masse_---but I would be more sympathetic to the site's plight if their moderators and power users hadn't spent 15 years making me feel unwelcome for daring to ask bad questions in good faith.
+That's not so different from typing the same query into ChatGPT and copy/pasting a few lines of code from its response. It takes about the same amount of time and effort, it doesn't appear to make me any lazier or dumber, and since I never 100% trusted anything I read on Stac kOverflow I was well suited to scrutinize the model's possibly-hallucinated answers in the same way. Once I warmed up to doing this, I started preferring ChatGPT to Google/Stack Overflow for certain kinds of queries. I suppose I'm causing a kind of harm to Stack Overflow by no longer giving them the traffic---and that harm is augmented by the fact that ChatGPT was trained to produce its responses by scraping Stack Overflow answers _en masse_---but I would be more sympathetic to the site's plight if their moderators and power users hadn't spent 15 years making me feel unwelcome for daring to ask bad questions in good faith.
 
 If your only use of AI today is "Google Search but it works," I certainly am in no position to criticize.
 
@@ -377,7 +377,9 @@ The one thing I know is that I'm no longer willing to listen to those who want t
 
 ## Keep the axe in the toolbox
 
-{{% picture stem=conclusion alt="lol" %}}
+{{% figure caption="As an experiment, I asked ChatGPT to finish this article. It produced 716 words, including six instances of the word 'drift[ing]', which it evidently thought was important to include despite the word appearing nowhere outside of this sentence. The text it produced wasn't exactly _bad_, but it did feel extremely unsatisfying. ([source](conclusion-original.txt))" %}}
+{{% picture stem=conclusion %}}
+{{% /figure %}}
 
 Yeah, I think I'll stick with my own voice, at least for the time being.
 
