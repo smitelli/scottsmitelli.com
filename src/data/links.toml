@@ -79,6 +79,10 @@ dead = true
 href = 'https://getsupport.apple.com/'
 text = 'Apple Support'
 
+[apxml-glm-5]
+href = 'https://apxml.com/models/glm-5'
+text = 'GLM-5: Specifications and GPU VRAM Requirements'
+
 [audiblemagic]
 href = 'https://www.audiblemagic.com/'
 text = 'Audible Magic'
@@ -103,6 +107,10 @@ text = 'Bastard Operator from Hell - Official Archive'
 href = 'https://www.bbc.com/news/technology-47416440'
 text = 'Amazon stops selling Dash buttons'
 
+[bbc-ai-resorts-to-blackmail]
+href = 'https://www.bbc.com/news/articles/cpqeng9d20go'
+text = 'AI system resorts to blackmail if told it will be removed'
+
 [beautifulsoup]
 href = 'https://www.crummy.com/software/BeautifulSoup/'
 text = 'Beautiful Soup'
@@ -110,6 +118,10 @@ text = 'Beautiful Soup'
 [bloomberg-anguilla-domain-name]
 href = 'https://www.bloomberg.com/news/articles/2023-08-31/ai-startups-create-digital-demand-for-anguilla-s-website-domain-name'
 text = 'Bloomberg - The Tropical Island With the Hot Domain Name'
+
+[boston-walk-my-walk-blanco-brown]
+href = 'https://www.boston.com/culture/entertainment/2025/11/30/ai-country-hit-walk-my-walk-built-on-blanco-browns-sound-sparks-questions-of-attribution-ethics/'
+text = "AI country hit 'Walk My Walk' built on Blanco Brown's sound sparks questions of attribution, ethics"
 
 [businessinsider-amazon-gutting-alexa]
 href = 'https://www.businessinsider.com/amazon-alexa-job-layoffs-rise-and-fall-2022-11'
@@ -191,6 +203,10 @@ text = 'FWD! - CrankySec Store'
 href = 'https://cyncsupport.gelighting.com/s/article/end-of-support?language=en_US'
 text = 'End of Support: Discontinued Cync Devices'
 
+[darioamodei-machines-of-loving-grace]
+href = 'https://darioamodei.com/essay/machines-of-loving-grace'
+text = 'Machines of Loving Grace'
+
 [darrell-stark]
 href = 'https://darrellmstark.squarespace.com/'
 text = 'Darrell M. Stark'
@@ -250,6 +266,10 @@ text = 'Fira Mono'
 [frontega-chicken-panini]
 href = 'https://tsdr.uspto.gov/#caseNumber=78310743&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch'
 text = 'USPTO Trademark Search - FRONTEGA CHICKEN PANINI'
+
+[futurism-chatgpt-mental-health]
+href = 'https://futurism.com/openai-investor-chatgpt-mental-health'
+text = 'A Prominent OpenAI Investor Appears to Be Suffering a ChatGPT-Related Mental Health Crisis, His Peers Say'
 
 [gebb-doom]
 href = 'https://fabiensanglard.net/gebbdoom/'
@@ -445,6 +465,10 @@ text = 'MathJax'
 href = 'https://medium.com/@lotus.lin/failing-forward-amazon-fire-phone-f88c98c08156'
 text = "Fire Phone: The Rise and Fall of Amazon's Smartphone Dream"
 
+[medium-welcome-to-gas-town]
+href = 'https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04'
+text = 'Welcome to Gas Town'
+
 [meta-ai]
 href = 'https://www.meta.ai/'
 text = 'Meta AI'
@@ -481,6 +505,10 @@ text = 'nginx'
 href = 'https://github.com/isaacs/node-lru-cache'
 text = 'isaacs/lru-cache'
 
+[npm-search-login]
+href = 'https://www.npmjs.com/search?q=login'
+text = 'login - npm search'
+
 [ntp-pool-project]
 href = 'https://www.ntppool.org/en/'
 text = 'NTP Pool Project'
@@ -488,6 +516,18 @@ text = 'NTP Pool Project'
 [ntp-timescale-and-data-formats]
 href = 'https://www.ntp.org/documentation/4.2.8-series/warp/#ntp-timescale-and-data-formats'
 text = 'How NTP Works - NTP Timescale and Data Formats'
+
+[nvidia-dgx-b200]
+href = 'https://www.nvidia.com/en-us/data-center/dgx-b200/'
+text = 'NVIDIA DGX B200'
+
+[nvidia-dgx-superpod-best-practices]
+href = 'https://docs.nvidia.com/https:/docs.nvidia.com/nvidia-dgx-superpod-data-center-best-practices-with-dgx-b200.pdf'
+text = 'Data Center Best Practices with DGX B200'
+
+[nvidia-dgx-superpod-sound]
+href = 'https://docs.nvidia.com/dgx-superpod/design-guides/dgx-superpod-data-center-design-h100/latest/sound.html'
+text = 'NVIDIA DGX SuperPOD: Data Center Design Featuring NVIDIA DGX H100 Systems - Sound Mitigation'
 
 [nytimes-jeopardy-watson]
 href = 'https://www.nytimes.com/2011/02/17/science/17jeopardy-watson.html'
@@ -533,6 +573,14 @@ text = 'Project Gutenberg'
 href = 'https://www.psychologytoday.com/us/blog/brick-by-brick/202304/how-shaun-morgan-empties-his-jar'
 text = 'Psychology Today - How Shaun Morgan Empties His Jar'
 
+[pypi-search-login]
+href = 'https://pypi.org/search/?q=login'
+text = 'login - Search results - PyPI'
+
+[quoteinvestigator-insanity]
+href = 'https://quoteinvestigator.com/2017/03/23/same/'
+text = 'Quote Origin: Insanity Is Doing the Same Thing Over and Over Again and Expecting Different Results'
+
 [reddit-alexa-shittier]
 href = 'https://www.reddit.com/r/amazonecho/comments/1hhjvea/anyone_elses_alexa_continuing_to_get_shittier_and/'
 text = "Anyone else's Alexa continuing to get shittier and shittier?"
@@ -560,6 +608,10 @@ text = 'RFC 4330, SNTP Client Operations'
 [rfc6474]
 href = 'https://www.rfc-editor.org/rfc/rfc6474.html'
 text = 'RFC 6474'
+
+[robrhinehart-how-i-gave-up-alternating-current]
+href = 'https://web.archive.org/web/20151211222101/http://robrhinehart.com/?p=1331'
+text = 'How I Gave Up Alternating Current | Mostly Harmless'
 
 [ruda-font]
 href = 'https://fonts.google.com/specimen/Ruda'
@@ -605,6 +657,14 @@ text = 'smitelli/scottsmitelli.com'
 href = 'https://www.sdcard.org/developers/sd-standard-overview/speed-class/'
 text = 'Speed Class'
 
+[sibo-bagger-293]
+href = 'https://www.sibo.eu/en/bagger-293/'
+text = 'Bagger 293'
+
+[siddhantkhare-ai-fatigue]
+href = 'https://siddhantkhare.com/writing/ai-fatigue-is-real'
+text = 'AI fatigue is real and nobody talks about it'
+
 [silverberg-google-big-brother-is-always-listening]
 href = 'https://repository.uclawsf.edu/cgi/viewcontent.cgi?article=1248&context=hastings_business_law_journal'
 text = 'Justin Silverberg, Google, I Mean Big Brother, is Always Listening'
@@ -613,13 +673,29 @@ text = 'Justin Silverberg, Google, I Mean Big Brother, is Always Listening'
 href = 'https://github.com/smitelli/sort_of_face'
 text = 'smitelli/sort_of_face'
 
+[spotify-breaking-rust-let-her-go]
+href = 'https://open.spotify.com/track/7Cp309HTD2Rw2eGEcKuovL'
+text = 'Breaking Rust - Let Her Go'
+
+[spotify-breaking-rust-photograph]
+href = 'https://open.spotify.com/track/7M3ZNzRA5xCn0yO4r5ntjh'
+text = 'Breaking Rust - Photograph'
+
 [spotify-fake-fixation]
 href = 'https://open.spotify.com/playlist/6sGFwYRBPwVTrPAvKptjQj?si=gNjSK3fYRsevE96LQHN7wA'
 text = 'Spotify - The Fake Fixation'
 
+[stack-overflow-import-source]
+href = 'https://github.com/drathier/stack-overflow-import'
+text = 'drathier/stack-overflow-import'
+
 [stackoverflow]
 href = 'https://stackoverflow.com/'
 text = 'Stack Overflow'
+
+[stanford-llms-non-english-speakers]
+href = 'https://news.stanford.edu/stories/2025/05/digital-divide-ai-llms-exclusion-non-english-speakers-research'
+text = 'How AI is leaving non-English speakers behind'
 
 [stihl-chainsaw-safety-manual]
 href = 'https://www.stihlusa.com/WebContent/CMSFileLibrary/InstructionManuals/Chainsaw-Safety-Manual_1.pdf'
@@ -637,15 +713,27 @@ text = 'Synthesia'
 href = 'https://cplusplus.com/reference/cstring/strstr/'
 text = 'strstr()'
 
+[subway-nutrition]
+href = 'https://www.subway.com/en-us/-/media/northamerica/usa/nutrition/nutritiondocuments/2026/us_nutrition_en_1-2026.pdf'
+text = 'Subway U.S. Nutrition Information'
+
 [tco-before]
 href = 'https://t.co/o5DFjS0SDq'
 
 [tco-after]
 href = 'https://scottsmitelli.com/'
 
+[technologyreview-large-language-models-amazing-but-nobody-knows-why]
+href = 'https://www.technologyreview.com/2024/03/04/1089403/large-language-models-amazing-but-nobody-knows-why/'
+text = 'Large language models can do jaw-dropping things. But nobody knows exactly why.'
+
 [thebuild-web-scale]
 href = 'https://thebuild.com/blog/2010/10/27/things-i-do-not-understand-web-scale/'
 text = 'Things I Do Not Understand: "Web-Scale."'
+
+[theregister-sergey-brin-threatening-ai]
+href = 'https://www.theregister.com/2025/05/28/google_brin_suggests_threatening_ai/'
+text = 'Google co-founder Sergey Brin suggests threatening AI for better results'
 
 [theregister-warner-music-removes-youtube-videos]
 href = 'https://www.theregister.com/2008/12/22/warner_music_removes_youtube_videos/'
@@ -654,6 +742,10 @@ text = 'Warner Music pulls plug on YouTube deal'
 [theverge-is-this-shopped]
 href = 'https://www.theverge.com/2012/10/12/3489356/is-this-shopped-truth-lies-and-art-before-and-after-photoshop'
 text = 'Is this shopped? Truth, lies, and art before and after Photoshop'
+
+[tim-hunkin]
+href = 'https://www.timhunkin.com/'
+text = 'tim hunkin home page'
 
 [time-amazon-unveiled-future-of-shopping]
 href = 'https://time.com/3766581/amazon-dash-button-ordering-april-fool/'
@@ -864,9 +956,21 @@ text = 'Wikipedia:Hyphens and dashes'
 href = 'https://en.wikipedia.org/wiki/List_of_Futurama_characters#Hypnotoad'
 text = 'Hypnotoad'
 
+[wiki-infinite-monkey-theorem]
+href = 'https://en.wikipedia.org/wiki/Infinite_monkey_theorem'
+text = 'Infinite monkey theorem'
+
 [wiki-kenneth-parcell]
 href = 'https://en.wikipedia.org/wiki/Kenneth_Parcell'
 text = 'Kenneth Parcell'
+
+[wiki-marissa-mayer]
+href = 'https://en.wikipedia.org/wiki/Marissa_Mayer'
+text = 'Marissa Mayer'
+
+[wiki-monkey-selfie-copyright-dispute]
+href = 'https://en.wikipedia.org/wiki/Monkey_selfie_copyright_dispute'
+text = 'Monkey selfie copyright dispute'
 
 [wiki-mr-ouch]
 href = 'https://en.wikipedia.org/wiki/Mr._Ouch'
@@ -879,6 +983,10 @@ text = 'Off-by-one error'
 [wiki-ray-casting]
 href = 'https://en.wikipedia.org/wiki/Ray_casting'
 text = 'Ray Casting'
+
+[wiki-rally-cap]
+href = 'https://en.wikipedia.org/wiki/Rally_cap'
+text = 'Rally cap'
 
 [wiki-random-access-memories]
 href = 'https://en.wikipedia.org/wiki/Random_Access_Memories'
@@ -895,6 +1003,10 @@ text = 'Rule of three'
 [wiki-segals-law]
 href = 'https://en.wikipedia.org/wiki/Segal%27s_law'
 text = "Segal's Law"
+
+[wiki-semantic-satiation]
+href = 'https://en.wikipedia.org/wiki/Semantic_satiation'
+text = 'Semantic satiation'
 
 [wiki-simulacrum]
 href = 'https://en.wikipedia.org/wiki/Simulacrum'
@@ -1001,6 +1113,10 @@ text = 'WordPress'
 href = 'https://twitter.ai/'
 text = 'xAI'
 
+[xkcd-standards]
+href = 'https://xkcd.com/927/'
+text = 'xkcd: Standards'
+
 [youtube]
 href = 'https://www.youtube.com/'
 text = 'YouTube'
@@ -1017,9 +1133,17 @@ text = 'chainsaw hedge trimming hootenanny'
 href = 'https://www.youtube.com/watch?v=XwT7F0RICWc'
 text = 'Coca Cola (2004) Television Commercial - Summer Skateboarding'
 
+[youtube-code-monkey]
+href = 'https://www.youtube.com/watch?v=AEBld6I_AKs'
+text = 'Code Monkey'
+
 [youtube-diner-wink]
 href = 'https://www.youtube.com/watch?v=8Inf1Yz_fgk'
 text = "'Diner Wink' Full Sketch - I Think You Should Leave Season 2"
+
+[youtube-dgx-b200-startup]
+href = 'https://www.youtube.com/watch?v=7BtNBv9JK6c'
+text = 'DGX B200 Startup'
 
 [youtube-excelent-grass-cutting]
 href = 'https://www.youtube.com/watch?v=H8SsTBZCL_M'
@@ -1037,6 +1161,14 @@ text = 'Kars4kids Jingle'
 href = 'https://www.youtube.com/watch?v=6Yw84GhGWfY'
 text = 'Deck the Halls - Mannheim Steamroller - Transcription Synthesia'
 
+[youtube-baby-dont-forget-my-number]
+href = 'https://www.youtube.com/watch?v=vQhcLCd2MCg'
+text = "Milli Vanilli - Baby Don't Forget My Number (Official Video)"
+
+[youtube-girl-you-know-its-true]
+href = 'https://www.youtube.com/watch?v=IJk66tLOTL4'
+text = "Milli Vanilli - Girl You Know It's True (Official Video)"
+
 [youtube-mr-show-acting-is-easy]
 href = 'https://www.youtube.com/watch?v=8O6smlN62qI'
 text = 'Mr. Show - Acting is Easy'
@@ -1044,6 +1176,10 @@ text = 'Mr. Show - Acting is Easy'
 [youtube-particular-individual]
 href = 'https://www.youtube.com/watch?v=WD8aZV-Y8bE'
 text = 'Idiocracy - "This particular individual is unscannable"'
+
+[youtube-steamed-hams]
+href = 'https://www.youtube.com/watch?v=4jXEuIHY9ic'
+text = 'Steamed Hams'
 
 [youtube-user-retnirpregnif]
 href = 'https://www.youtube.com/@retnirpregnif'

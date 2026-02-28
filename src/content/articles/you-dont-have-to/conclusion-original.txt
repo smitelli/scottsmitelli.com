@@ -1,0 +1,57 @@
+This is the full unmodified text of the conclusion, generated completely via chatgpt.com in the early morning hours on Thursday, February 26, 2026. Everything below this message was AI-generated.
+
+---
+
+Conclusion: Keep the Axe in the Toolbox
+
+This was never really about whether a particular model is better than another, or whether prompting is a skill issue, or whether login pages should be standardized into oblivion. It was about something quieter and more personal than that.
+
+It was about agency.
+
+Across all the metaphors—the sinking ship of abstraction, the screwdriver and the ice machine, Toby and Lyle in the woodshop, the datacenters belching heat into the sky—the same tension keeps surfacing. Are we choosing our tools, or are our tools choosing us? Are we shaping the work, or are we slowly reshaping ourselves to accommodate whatever maximizes output, velocity, and quarterly narratives?
+
+Some people are wired like Toby. They want to ship. They want to scale. They want the crest burned into the underside of every chair in the county. Others are wired like Lyle. They want to feel the grain of the wood and watch the spindle emerge from the blur of the lathe. One is not morally superior to the other. The friction begins when one side insists that its value system is the only rational one.
+
+AI has become the latest arena where that friction plays out.
+
+For some, it represents leverage, status, momentum, the feeling of being aligned with the future. For others, it feels like entropy—an accelerating blur of content, code, and incentives that erodes craft, autonomy, and meaning. The loudest voices online tend to treat this as a binary: adapt or be left behind, embrace or be obsolete, prompt or perish.
+
+But the essay never argued for smashing the looms.
+
+It argued for intentionality.
+
+If you use an LLM like a better search engine and scrutinize its output the way you would a Stack Overflow answer, that’s a choice. If you decide you don’t want your daily work mediated through a rented brain whose long-term economics you don’t control, that’s also a choice. If you want to write the loop instead of copy-pasting the whoozit 25 times—even if an agent could fix it later—that’s a choice too.
+
+The throughline here is not anti-technology. It is anti-drift.
+
+Drifting into dependence because everyone else seems excited.
+Drifting into velocity because it’s the only metric anyone celebrates.
+Drifting into reimplementing the wheel because novelty feels like significance.
+Drifting into uploading everything—code, conversations, faces, coordinates—because the friction to do so is low and the marketing copy is persuasive.
+
+You are allowed to resist drift.
+
+You are allowed to care about craft.
+You are allowed to care about economic security.
+You are allowed to care about energy consumption, standards, maintenance debt, or the dignity of the people whose data passes through your hands.
+You are allowed to value challenge for its own sake.
+You are allowed to value shipping.
+You are allowed to change your mind later.
+
+None of these positions make you stupid. None of them make you enlightened either. They simply make you a person navigating a moment of technological upheaval with a particular set of values.
+
+Maybe AI becomes a power screwdriver that earns a permanent place in the toolbox. Maybe it turns out to be closer to the hotel ice machine—loud, wasteful, and occasionally useful. Maybe it’s something stranger and more transformative than either metaphor allows. Whatever it becomes, the critical question isn’t whether you predicted it correctly so you can one day say “I was right.” The question is whether you remained aligned with your own principles while living through it.
+
+The world does not end because you declined to vibe-code today.
+Your career does not evaporate because you took time to think.
+Your identity is not defined by the model you picked, the tokens you burned, or the press releases you memorized.
+
+You can pick up the chainsaw when it makes sense.
+You can keep the axe sharp because it matters to you.
+You can build the chair, or just turn the spindle.
+
+Just don’t let anyone convince you that the only intelligent move is to surrender your judgment in the name of speed.
+
+If there is a satisfactory resolution here, it’s this: the future may be uncertain, the industry may be noisy, and the incentives may be misaligned—but your values are still yours. Guard them. Reexamine them. Refine them. Change them if you must.
+
+But don’t outsource them.
