@@ -30,7 +30,7 @@ body.kind-404 {
             height: auto;
         }
 
-        p img {
+        p img:not([src*="count_hitter"]) {
             height: 5rem;
             width: auto;
             vertical-align: middle;
