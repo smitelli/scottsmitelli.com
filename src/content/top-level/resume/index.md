@@ -1,7 +1,7 @@
 +++
 url = 'resume'
 title = 'Résumé'
-description = 'Current résumé for Scott Smitelli, a backend and DevOps engineer.'
+description = 'Current résumé for Scott Smitelli, a backend and DevOps/platform engineer.'
 articleColumns = 'one'
 articleForm = 'short'
 skipTitle = true
@@ -20,7 +20,7 @@ Senior backend and cloud engineer with fifteen years of experience. Enjoys inter
 
 ## Experience
 
-### \[Acquired Startup] &bull; Staff Platform Engineer<!-- 5 --> <span class="date-range">Apr 2025--present</span>
+### \[Startup, a BigCo company] &bull; Staff Platform Engineer<!-- 5 --> <span class="date-range">Apr 2025--present</span>
 
 \[Sometimes a person needs to keep their personal writing an arm's length away from their professional life.]
 
