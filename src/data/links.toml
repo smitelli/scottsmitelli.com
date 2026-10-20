@@ -561,6 +561,14 @@ text = 'LinkedIn Confirms Account Passwords Hacked'
 href = 'https://www.peelified.com/Futurama-Forum-1/Topic-750-0-Hypnotoads_sound_effect.html'
 text = "Hypnotoad's sound effect?"
 
+[phil-pod-cast-8]
+href = 'https://phils-web-site.net/pod-cast/8/'
+text = "Phil's Web Site Pod Cast - 008: scottsmitelli.com with smitelli (Scott Smitelli)"
+
+[phils-web-site]
+href = 'https://phils-web-site.net/'
+text = 'phils web site'
+
 [plunk-sr-71-right-now]
 href = 'https://plunkreviews.wordpress.com/2021/04/21/song-review-sr-71-right-now/'
 text = 'Song review: SR-71 - Right Now'
