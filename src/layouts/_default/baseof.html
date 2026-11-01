@@ -119,14 +119,14 @@
                     {{- safeHTML " &bull; " }}<a href='{{ relref . "feeds" }}'>RSS</a>
                     {{- with .File }}
                         {{- $git_url := urls.JoinPath (index site.Data.links "scottsmitelli-com-content-dir").href (path.Clean .Path) }}
-                        {{- safeHTML " &bull; " }}<a href="{{ $git_url }}">Page source</a>
+                        {{- safeHTML " &bull; " }}<a href="{{ $git_url }}" rel="external">Page source</a>
                     {{ end }}
                 </p>
                 {{- if eq .Section "articles" }}
                     <p>
-                        Part of the <a href="https://akols.com/">Epesooj webring</a><br>
-                        <a href="https://akols.com/previous?id=scottsmitelli">&laquo; Previous site</a>
-                        {{- safeHTML " &bull; " }}<a href="https://akols.com/next?id=scottsmitelli">Next site &raquo;</a>
+                        Part of the <a href="https://akols.com/" rel="external">Epesooj webring</a><br>
+                        <a href="https://akols.com/previous?id=scottsmitelli" rel="external">&laquo; Previous site</a>
+                        {{- safeHTML " &bull; " }}<a href="https://akols.com/next?id=scottsmitelli" rel="external">Next site &raquo;</a>
                     </p>
                 {{- end }}
             </footer>
