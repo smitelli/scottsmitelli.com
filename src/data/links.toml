@@ -79,6 +79,10 @@ dead = true
 href = 'https://getsupport.apple.com/'
 text = 'Apple Support'
 
+[appledev-linker-nondeterminism]
+href = 'https://developer.apple.com/forums/thread/805609'
+text = 'Linker nondeterminism (ld_new) involving branch islands | Apple Developer Forums'
+
 [apxml-glm-5]
 href = 'https://apxml.com/models/glm-5'
 text = 'GLM-5: Specifications and GPU VRAM Requirements'
@@ -115,6 +119,10 @@ text = 'AI system resorts to blackmail if told it will be removed'
 href = 'https://www.crummy.com/software/BeautifulSoup/'
 text = 'Beautiful Soup'
 
+[benjoffe-fast-floordiv]
+href = 'https://www.benjoffe.com/fast-floordiv'
+text = 'Ben Joffe - A faster way to compute signed 64-bit floor division by constants'
+
 [bloomberg-anguilla-domain-name]
 href = 'https://www.bloomberg.com/news/articles/2023-08-31/ai-startups-create-digital-demand-for-anguilla-s-website-domain-name'
 text = 'Bloomberg - The Tropical Island With the Hot Domain Name'
@@ -131,6 +139,10 @@ text = "Amazon is gutting its voice assistant, Alexa. Employees describe a divis
 href = 'https://www.youtube.com/watch?v=b2d-VAAyB9c'
 text = 'Google Street View Time Lapse - 360 Degree Panorama - Pittsburgh, PA to San Mateo, CA'
 
+[calebleak-dog-game]
+href = 'https://www.calebleak.com/posts/dog-game/'
+text = 'I Taught My Dog to Vibe Code Games | Caleb Leak'
+
 [canon-zr200]
 href = 'https://web.archive.org/web/20090926084845/http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&fcategoryid=174&modelid=11004'
 text = 'Canon ZR200'
@@ -139,6 +151,10 @@ text = 'Canon ZR200'
 href = 'https://www.citynews.sg/2022/07/05/iconic-contemporary-christian-albums-p-o-ds-satellite/'
 text = "City News - P.O.D.'s Satellite"
 
+[cnbc-anthropic-ipo]
+href = 'https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html'
+text = 'Anthropic IPO takeaways: ANT debuts with $1.8 trillion market cap in landmark moment for AI'
+
 [commonmark-spec]
 href = 'https://spec.commonmark.org/current/'
 text = 'CommonMark Spec'
@@ -146,6 +162,10 @@ text = 'CommonMark Spec'
 [comoblog]
 href = 'https://sourceforge.net/projects/comoblog/'
 text = 'CoMoblog'
+
+[copy-fail]
+href = 'https://copy.fail/'
+text = 'Copy Fail - CVE-2026-31431'
 
 [copy-v86-windows-1]
 href = 'https://copy.sh/v86/?profile=windows1'
@@ -191,6 +211,10 @@ text = 'smitelli/cosmodoc'
 href = 'https://github.com/smitelli/cosmore'
 text = 'smitelli/cosmore'
 
+[cppreference-embed]
+href = 'https://en.cppreference.com/c/preprocessor/embed'
+text = 'Binary resource inclusion - cppreference.com'
+
 [cracked-all-glory-to-the-hypnotoad]
 href = 'https://www.cracked.com/article_35041_all-glory-to-the-hypnotoad-an-oral-history-of-futuramas-mind-altering-amphibian.html'
 text = "All Glory To The Hypnotoad: An Oral History of Futurama's Mind-Altering Amphibian"
@@ -198,6 +222,14 @@ text = "All Glory To The Hypnotoad: An Oral History of Futurama's Mind-Altering 
 [crankysec-store-fwd]
 href = 'https://store.crankysec.com/products/fwd'
 text = 'FWD! - CrankySec Store'
+
+[cve-kernel-ipv4]
+href = 'https://www.cve.org/CVERecord?id=CVE-2026-98432'
+text = 'ipv4: free inet_opt and ireq_opt after an RCU grace period'
+
+[cve-tls-handling-dos-flaw]
+href = 'https://nvd.nist.gov/vuln/detail/cve-2025-39682'
+text = 'Linux Kernel TLS Handling DoS Flaw'
 
 [cync-discontinued-devices]
 href = 'https://cyncsupport.gelighting.com/s/article/end-of-support?language=en_US'
@@ -271,6 +303,10 @@ text = 'USPTO Trademark Search - FRONTEGA CHICKEN PANINI'
 href = 'https://futurism.com/openai-investor-chatgpt-mental-health'
 text = 'A Prominent OpenAI Investor Appears to Be Suffering a ChatGPT-Related Mental Health Crisis, His Peers Say'
 
+[gcc-non-deterministic-dwarf-debug-info]
+href = 'https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124811'
+text = 'Non-deterministic DWARF debug info (.debug_info, .debug_loclists) when using precompiled headers'
+
 [gebb-doom]
 href = 'https://fabiensanglard.net/gebbdoom/'
 text = 'Game Engine Black Book: Doom'
@@ -279,13 +315,25 @@ text = 'Game Engine Black Book: Doom'
 href = 'https://fabiensanglard.net/gebbwolf3d/'
 text = 'Game Engine Black Book: Wolfenstein 3D'
 
+[gigatron]
+href = 'https://gigatronttl.eu/'
+text = 'Gigatron - TTL microcomputer'
+
 [gist-ti250tool]
 href = 'https://gist.github.com/smitelli/8b5602cea0be3830c6f80802b3c4ff5c'
 text = 'ti250tool.py'
 
+[imperialviolet-applebug]
+href = 'https://www.imperialviolet.org/2014/02/22/applebug.html'
+text = "ImperialViolet - Apple's SSL/TLS bug"
+
 [internetbestsecrets-google-calendar-event-images]
 href = 'http://www.internetbestsecrets.com/2019/09/google-calendar-event-images.html'
 text = 'Google Calendar event images'
+
+[godbolt]
+href = 'https://godbolt.org/'
+text = 'Compiler Explorer'
 
 [google-contacts]
 href = 'https://contacts.google.com/'
@@ -310,6 +358,10 @@ text = 'Making money on YouTube with Content ID'
 [googleblog-state-of-our-video-id-tools]
 href = 'https://googleblog.blogspot.com/2007/06/state-of-our-video-id-tools.html'
 text = 'The state of our video ID tools'
+
+[hexmhell-galileos-basilisk]
+href = 'https://hexmhell.writeas.com/galileos-basilisk'
+text = "Galileo's Basilisk - hex_m_hell"
 
 [hn-commend-em-dash]
 href = 'https://news.ycombinator.com/item?id=44141834'
@@ -395,6 +447,14 @@ text = 'Population-adjusted national rankings in the Olympics'
 href = 'https://keepass.info/'
 text = 'KeePass Password Safe'
 
+[kernel-org]
+href = 'https://kernel.org/'
+text = 'The Linux Kernel Archives'
+
+[kernel-docs-remove-assisted-by]
+href = 'https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/'
+text = 'Re: [PATCH] docs: remove Assisted-by references - Linus Torvalds'
+
 [knowyourmeme-we-have-food-at-home]
 href = 'https://knowyourmeme.com/memes/we-have-food-at-home'
 text = 'We Have Food at Home'
@@ -433,6 +493,14 @@ text = "Let's Encrypt"
 href = 'https://www.linode.com/'
 text = 'Linode'
 
+[llvm-nondeterminism-1]
+href = 'https://github.com/llvm/llvm-project/issues/62546'
+text = 'Non-deterministic metadata generated'
+
+[llvm-nondeterminism-2]
+href = 'https://github.com/llvm/llvm-project/issues/204883'
+text = '[WASM] Binaryen compiles are nondeterministic due to using machine pointers as keys in a DenseMap, probably in function WebAssemblyCFGStackify::fixCallUnwindMismatches'
+
 [lora-font]
 href = 'https://fonts.google.com/specimen/Lora'
 text = 'Lora'
@@ -444,6 +512,10 @@ text = 'PowerBI Is A Human Rights Violation - Ludicity'
 [ludic-your-organization-probably-doesnt-want-to-improve-things]
 href = 'https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/'
 text = "Your Organization Probably Doesn't Want To Improve Things - Ludicity"
+
+[lwn-python-tail-calls]
+href = 'https://lwn.net/Articles/1010905/'
+text = 'Python interpreter adds tail calls [LWN.net]'
 
 [m-audio-bx5a]
 href = 'https://web.archive.org/web/20090220060456/http://www.m-audio.com/products/en_us/StudiophileBX5a.html'
@@ -593,6 +665,10 @@ text = 'Quote Origin: Insanity Is Doing the Same Thing Over and Over Again and E
 href = 'https://www.reddit.com/r/amazonecho/comments/1hhjvea/anyone_elses_alexa_continuing_to_get_shittier_and/'
 text = "Anyone else's Alexa continuing to get shittier and shittier?"
 
+[reproducible-builds]
+href = 'https://reproducible-builds.org/'
+text = 'Reproducible Builds'
+
 [revenews-youtube-audiblemagic]
 href = 'https://web.archive.org/web/20170825000156/http://revenews.com/search-engine-marketing/goog-to-outsource-youtube-filtering-to-audiblemagic/'
 text = 'GOOG to Outsource YouTube Filtering to AudibleMagic'
@@ -701,6 +777,10 @@ text = 'drathier/stack-overflow-import'
 href = 'https://stackoverflow.com/'
 text = 'Stack Overflow'
 
+[stackoverflow-multiplication-by-a-strange-number]
+href = 'https://stackoverflow.com/questions/41183935/why-does-gcc-use-multiplication-by-a-strange-number-in-implementing-integer-divi'
+text = 'Why does GCC use multiplication by a strange number in implementing integer division?'
+
 [stanford-llms-non-english-speakers]
 href = 'https://news.stanford.edu/stories/2025/05/digital-divide-ai-llms-exclusion-non-english-speakers-research'
 text = 'How AI is leaving non-English speakers behind'
@@ -759,6 +839,10 @@ text = 'tim hunkin home page'
 href = 'https://time.com/3766581/amazon-dash-button-ordering-april-fool/'
 text = "Amazon Basically Just Unveiled the Future of Shopping and It's Awesome"
 
+[tiobe-index-python]
+href = 'https://www.tiobe.com/tiobe-index/python/'
+text = 'TIOBE Index - The Python Programming Language'
+
 [translationparty]
 href = 'https://www.translationparty.com/'
 text = 'TranslationParty'
@@ -815,6 +899,10 @@ text = 'UTi120P - UNI-T Thermal Imaging'
 [verge-echo-show-crap]
 href = 'https://www.theverge.com/23944889/set-up-echo-show-without-amazon-ads-how-to'
 text = 'How to set up an Echo Show to show you the least amount of crap'
+
+[vice-rokos-basilisk-elon-musk-grimes]
+href = 'https://www.vice.com/en/article/what-is-rokos-basilisk-elon-musk-grimes/'
+text = "Explaining Roko's Basilisk, the Thought Experiment That Brought Elon Musk and Grimes Together"
 
 [wayback-machine]
 href = 'https://web.archive.org/'
@@ -1004,6 +1092,10 @@ text = 'Random Access Memories'
 href = 'https://en.wikipedia.org/wiki/Ricky_Kasso'
 text = 'Ricky Kasso'
 
+[wiki-rokos-basilisk]
+href = 'https://en.wikipedia.org/wiki/Roko%27s_basilisk'
+text = "Roko's basilisk"
+
 [wiki-rule-of-three]
 href = 'https://en.wikipedia.org/wiki/Rule_of_three_(writing)'
 text = 'Rule of three'
@@ -1157,6 +1249,14 @@ text = 'DGX B200 Startup'
 href = 'https://www.youtube.com/watch?v=H8SsTBZCL_M'
 text = 'Excelent grass cutting'
 
+[youtube-falsehoods-programmers-believe-about-reality]
+href = 'https://www.youtube.com/watch?v=GBHGHrlRlKs'
+text = '"Falsehoods Programmers Believe About Reality" - Lilly Ryan (PyCon AU 2025)'
+
+[youtube-ive-seen-everything]
+href = 'https://www.youtube.com/watch?v=Cug6O1-wpMc'
+text = "I've Seen Everything"
+
 [youtube-judge-judy-intro-2004]
 href = 'https://www.youtube.com/watch?v=5xrqgwzkJ6Y'
 text = 'Judge Judy Intro 2004-2008'
@@ -1176,6 +1276,10 @@ text = "Milli Vanilli - Baby Don't Forget My Number (Official Video)"
 [youtube-girl-you-know-its-true]
 href = 'https://www.youtube.com/watch?v=IJk66tLOTL4'
 text = "Milli Vanilli - Girl You Know It's True (Official Video)"
+
+[youtube-lgtm]
+href = 'https://www.youtube.com/watch?v=3TNpOD6bov8'
+text = 'LGTM (Looks Good to Me) - Claude Opus 5.5 music video'
 
 [youtube-mr-show-acting-is-easy]
 href = 'https://www.youtube.com/watch?v=8O6smlN62qI'
