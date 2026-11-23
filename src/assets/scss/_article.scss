@@ -20,6 +20,10 @@ article, section {
         width: 100%;
     }
 
+    blockquote {
+        filter: contrast(40%);
+    }
+
     code {
         font-family: var(--mono-font);
     }
